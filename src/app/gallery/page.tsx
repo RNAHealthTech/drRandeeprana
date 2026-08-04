@@ -16,7 +16,7 @@ export default function GalleryPage() {
       id: 1,
       title: "Dr. Randeep Rana — Senior Consultant",
       category: "Doctor Profile",
-      image: "/images/dr-randeep-rana.png",
+      image: "/images/dr-randeep-rana.webp",
       description: "AIIMS-trained Consultant Gastroenterologist, Hepatologist & Pancreatologist in New Delhi.",
       icon: UserCheck,
     },

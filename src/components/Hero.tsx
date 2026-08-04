@@ -51,7 +51,7 @@ export default function Hero() {
       {/* Top Banner Hero Background Image with Dark Vignette Overlay (Exact Cleveland Clinic Style) */}
       <div className="relative min-h-[460px] sm:min-h-[500px] bg-slate-900 flex items-center justify-center overflow-hidden">
         <img
-          src="/images/dr-randeep-rana-v2.png"
+          src="/images/dr-randeep-rana.webp"
           alt="Dr. Randeep Rana - Cleveland Clinic Healthcare Banner"
           className="w-full h-full object-cover object-top absolute inset-0 opacity-65 transform scale-105"
           loading="eager"
