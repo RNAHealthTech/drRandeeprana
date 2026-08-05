@@ -3,6 +3,7 @@ import { Playfair_Display, Plus_Jakarta_Sans } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingWidgets from "@/components/FloatingWidgets";
+import CustomCursor from "@/components/CustomCursor";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -26,10 +27,10 @@ export const metadata: Metadata = {
   keywords: [
     "Gastroenterologist Delhi",
     "Hepatologist New Delhi",
-    "Pancreatologist",
+    "Pancreatologist Delhi",
     "Advanced Endoscopy Specialist",
-    "EUS ERCP Expert",
-    "Liver Disease Treatment",
+    "EUS ERCP Expert Delhi",
+    "Liver Disease Treatment Delhi",
     "Pancreatitis Treatment Delhi",
     "Best Gastroenterologist Saket",
     "Fatty Liver Treatment Delhi",
@@ -38,6 +39,11 @@ export const metadata: Metadata = {
     "Colonoscopy Delhi",
     "Gastroenterology Consultation Delhi",
     "YourGutDoc",
+    "Best gastroenterologist near Saket Delhi",
+    "EUS-guided cystogastrostomy Delhi",
+    "chronic pancreatitis treatment New Delhi",
+    "variceal bleeding specialist Delhi",
+    "NAFLD management Delhi",
   ],
   authors: [{ name: "Dr. Randeep Rana" }],
   openGraph: {
@@ -96,6 +102,7 @@ const jsonLd = {
   sameAs: [
     "https://twitter.com/randeeprana90",
     "https://instagram.com/rana_randeep_yourgutdoc",
+    "https://facebook.com/RandeepRanaYourgutdoc",
   ],
 };
 
@@ -113,6 +120,9 @@ export default function RootLayout({
         />
       </head>
       <body className="font-sans bg-white text-slate-800 antialiased selection:bg-[#0A6EBB]/20 selection:text-[#0A6EBB] min-h-screen flex flex-col">
+        {/* Custom Modern Mouse Cursor Follower */}
+        <CustomCursor />
+
         {/* Persistent Sticky Navbar on ALL pages */}
         <Navbar />
 
