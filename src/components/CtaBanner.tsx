@@ -29,7 +29,7 @@ export default function CtaBanner() {
             href="/contact"
             className="bg-[#6CB29D] hover:bg-[#5BA897] text-white font-extrabold text-xs sm:text-sm uppercase tracking-wider rounded-full py-3.5 pl-8 pr-3 transition-all duration-200 shadow-xl flex items-center justify-center gap-4 group w-full sm:w-auto"
           >
-            <span>Book a Private Consultation</span>
+            <span>Book Appointment</span>
             <div className="w-8 h-8 rounded-full bg-white/20 text-white flex items-center justify-center">
               <SquarePen className="w-4 h-4" />
             </div>

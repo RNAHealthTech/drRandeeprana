@@ -3,6 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { Phone, Mail, MapPin, Award, ShieldCheck, ArrowUp } from "lucide-react";
+import Logo from "@/components/Logo";
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -15,18 +16,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-[#002C47]">
           {/* Brand Info Column */}
           <div className="lg:col-span-4 space-y-4">
-            <Link href="/" className="flex items-center space-x-3">
-              <div className="h-10 w-10 rounded-full bg-[#6CB29D] flex items-center justify-center text-white font-serif font-extrabold text-xl shadow-md">
-                RR
-              </div>
-              <div>
-                <span className="text-xl font-serif font-bold text-white tracking-tight">
-                  Dr. Randeep Rana
-                </span>
-                <span className="block text-xs font-sans font-semibold text-[#6CB29D] tracking-widest uppercase">
-                  MD, DM (AIIMS) • Gastroenterologist
-                </span>
-              </div>
+            <Link href="/" aria-label="Dr. Randeep Rana Home">
+              <Logo variant="dark" />
             </Link>
 
             <p className="text-xs text-slate-400 font-light leading-relaxed">
@@ -107,7 +98,15 @@ export default function Footer() {
         {/* Bottom Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400 font-light">
           <div>
-            &copy; {new Date().getFullYear()} Dr. Randeep Rana. All Rights Reserved. Designed for Medical Excellence.
+            &copy; {new Date().getFullYear()} Dr. Randeep Rana. All Rights Reserved. | Website by{" "}
+            <a
+              href="https://rnahealthtech.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#6CB29D] font-semibold hover:underline"
+            >
+              RNA HealthTech
+            </a>
           </div>
           <div className="flex items-center space-x-6">
             <Link href="/privacy" className="hover:text-[#6CB29D]">Privacy Policy</Link>

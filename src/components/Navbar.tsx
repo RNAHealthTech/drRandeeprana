@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Phone, Calendar, Menu, X, SquarePen, MapPin } from "lucide-react";
+import Logo from "@/components/Logo";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -66,19 +67,9 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
-            {/* Cleveland Clinic Emblem & Brand */}
-            <Link href="/" className="flex items-center space-x-3 group shrink-0">
-              <div className="h-10 w-10 rounded-sm bg-[#00843D] text-white flex items-center justify-center font-serif font-extrabold text-xl shadow-sm group-hover:bg-[#006EB6] transition-colors">
-                RR
-              </div>
-              <div className="flex flex-col">
-                <span className="text-xl sm:text-2xl font-serif font-bold tracking-tight text-[#1C2936] group-hover:text-[#0078BF] transition-colors">
-                  Dr. Randeep Rana
-                </span>
-                <span className="text-[10px] font-sans font-extrabold text-[#00843D] tracking-widest uppercase">
-                  DM Gastroenterology (AIIMS New Delhi)
-                </span>
-              </div>
+            {/* Cleveland Clinic Emblem & Brand Logo */}
+            <Link href="/" aria-label="Dr. Randeep Rana Home">
+              <Logo variant="light" />
             </Link>
 
             {/* Nav Links */}
@@ -115,7 +106,7 @@ export default function Navbar() {
                 href="/contact"
                 className="bg-[#6CB29D] hover:bg-[#5BA897] text-white font-extrabold text-[11px] uppercase tracking-wider rounded-full py-2.5 pl-5 pr-2 transition-all duration-200 shadow-md shadow-[#6CB29D]/20 flex items-center gap-3 group"
               >
-                <span>Book a Private Consultation</span>
+                <span>Book Appointment</span>
                 <div className="w-7 h-7 rounded-full bg-white/20 text-white flex items-center justify-center group-hover:bg-white/30 transition-colors">
                   <SquarePen className="w-3.5 h-3.5" />
                 </div>
@@ -179,7 +170,7 @@ export default function Navbar() {
                   className="w-full py-3 rounded-full text-center font-bold text-white bg-[#6CB29D] shadow-md flex items-center justify-center gap-2"
                 >
                   <Calendar className="w-4 h-4" />
-                  <span>Book a Private Consultation</span>
+                  <span>Book Appointment</span>
                 </Link>
               </div>
             </div>
