@@ -91,7 +91,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-slate-200 text-base sm:text-lg font-light leading-relaxed"
             >
-              Senior Consultant Gastroenterologist, Hepatologist & Pancreatologist at Max Smart Saket and Assistant Professor at GIPMER & MAMC, New Delhi.
+              Consultant Gastroenterologist, Hepatologist & Pancreatologist at Max Smart Saket and Assistant Professor at GIPMER & MAMC, New Delhi.
             </motion.p>
 
           </div>

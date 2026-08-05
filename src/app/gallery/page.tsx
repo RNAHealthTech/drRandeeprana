@@ -14,7 +14,7 @@ export default function GalleryPage() {
   const galleryItems = [
     {
       id: 1,
-      title: "Dr. Randeep Rana — Senior Consultant",
+      title: "Dr. Randeep Rana — Consultant Gastroenterologist",
       category: "Doctor Profile",
       image: "/images/dr-randeep-rana.webp",
       description: "AIIMS-trained Consultant Gastroenterologist, Hepatologist & Pancreatologist in New Delhi.",
