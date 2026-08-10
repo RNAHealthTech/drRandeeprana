@@ -618,6 +618,84 @@ export default function AboutPage() {
             </h2>
           </div>
 
+          {/* Authentic Conference & Award Photos Gallery */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="relative rounded-2xl overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900">
+              <img
+                src="/images/poster-award-best-oral-clinical-science.jpg"
+                alt="Best Oral Poster Awardee in Clinical Science"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
+              <div className="absolute bottom-3 left-3 right-3 text-white">
+                <span className="px-2.5 py-0.5 rounded-full bg-[#6CB29D] text-[9px] font-extrabold uppercase tracking-widest text-white mb-1 inline-block">
+                  Best Oral Award
+                </span>
+                <div className="text-xs font-serif font-bold">Clinical Science Awardee</div>
+              </div>
+            </div>
+
+            <div className="relative rounded-2xl overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900">
+              <img
+                src="/images/ddw-2024-poster-presentation.jpg"
+                alt="DDW 2024 Washington D.C. Poster"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
+              <div className="absolute bottom-3 left-3 right-3 text-white">
+                <span className="px-2.5 py-0.5 rounded-full bg-[#002C47] text-[9px] font-extrabold uppercase tracking-widest text-[#6CB29D] mb-1 inline-block border border-[#6CB29D]/40">
+                  DDW 2024 • USA
+                </span>
+                <div className="text-xs font-serif font-bold">Washington D.C. Poster Presentation</div>
+              </div>
+            </div>
+
+            <div className="relative rounded-2xl overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900">
+              <img
+                src="/images/apdw-2025-singapore-poster.jpg"
+                alt="APDW 2025 Singapore Poster"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
+              <div className="absolute bottom-3 left-3 right-3 text-white">
+                <span className="px-2.5 py-0.5 rounded-full bg-[#002C47] text-[9px] font-extrabold uppercase tracking-widest text-[#6CB29D] mb-1 inline-block border border-[#6CB29D]/40">
+                  APDW 2025 • Singapore
+                </span>
+                <div className="text-xs font-serif font-bold">EUS Pseudoaneurysm VAPT-EASE Study</div>
+              </div>
+            </div>
+
+            <div className="relative rounded-2xl overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900">
+              <img
+                src="/images/gbpgcon-chairperson-delegate.jpg"
+                alt="GBPGCON Session Chairperson"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
+              <div className="absolute bottom-3 left-3 right-3 text-white">
+                <span className="px-2.5 py-0.5 rounded-full bg-[#001D30] text-[9px] font-extrabold uppercase tracking-widest text-white mb-1 inline-block border border-white/20">
+                  GBPGCON
+                </span>
+                <div className="text-xs font-serif font-bold">Session Chairperson & Delegate</div>
+              </div>
+            </div>
+
+            <div className="relative rounded-2xl overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900 md:col-span-2 lg:col-span-2">
+              <img
+                src="/images/easl-hepatology-congress-hall.jpg"
+                alt="EASL Home of Hepatology Congress"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
+              <div className="absolute bottom-3 left-3 right-3 text-white">
+                <span className="px-2.5 py-0.5 rounded-full bg-[#002C47] text-[9px] font-extrabold uppercase tracking-widest text-[#6CB29D] mb-1 inline-block border border-[#6CB29D]/40">
+                  EASL Congress
+                </span>
+                <div className="text-xs font-serif font-bold">European Association for the Study of the Liver (EASL)</div>
+              </div>
+            </div>
+          </div>
+
           {/* International */}
           <div className="space-y-4">
             <h3 className="text-xl font-serif font-bold text-[#002C47] flex items-center gap-2">

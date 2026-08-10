@@ -84,41 +84,120 @@ export default function MediaPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* APDW 2025 */}
-            <div className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-3xl p-8 shadow-sm space-y-4 hover:border-[#6CB29D]/50 transition-colors">
-              <div className="h-12 w-12 rounded-full bg-[#002C47] text-[#6CB29D] flex items-center justify-center font-bold">
-                <Globe className="w-6 h-6" />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* DDW 2024 Washington D.C. */}
+            <div className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-3xl overflow-hidden shadow-sm space-y-0 hover:border-[#6CB29D]/50 transition-all group flex flex-col justify-between">
+              <div className="relative h-56 overflow-hidden bg-slate-900">
+                <img
+                  src="/images/ddw-2024-poster-presentation.jpg"
+                  alt="DDW 2024 Washington D.C. Poster Presentation"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/80 via-transparent to-transparent opacity-60" />
+                <span className="absolute top-4 left-4 text-[10px] font-bold text-white bg-[#002C47]/90 px-3 py-1 rounded-full uppercase tracking-widest border border-white/20">
+                  DDW 2024 • Washington D.C.
+                </span>
               </div>
-              <span className="text-[11px] font-bold text-[#6CB29D] uppercase tracking-widest">APDW 2025 • Singapore</span>
-              <h3 className="text-xl font-serif font-bold text-[#002C47]">Poster of Distinction & Young Clinician Investigator</h3>
-              <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed">
-                Selected for the prestigious JGHFoundation Young Clinician Investigator Program at Asian Pacific Digestive Week 2025 in Singapore. Received Poster of Distinction honors for cirrhosis research.
-              </p>
+              <div className="p-6 space-y-3 flex-1 flex flex-col justify-between">
+                <div>
+                  <h3 className="text-xl font-serif font-bold text-[#002C47]">Digestive Disease Week 2024 Presentation</h3>
+                  <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed mt-2">
+                    Presented groundbreaking research on Microbiome & Mycobiome Metagenomics in Chronic Pancreatitis tissue at DDW 2024 in Washington, D.C.
+                  </p>
+                </div>
+              </div>
             </div>
 
-            {/* ISGCON 2025 */}
-            <div className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-3xl p-8 shadow-sm space-y-4 hover:border-[#6CB29D]/50 transition-colors">
-              <div className="h-12 w-12 rounded-full bg-[#6CB29D] text-white flex items-center justify-center font-bold">
-                <Users className="w-6 h-6" />
+            {/* APDW 2025 Singapore */}
+            <div className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-3xl overflow-hidden shadow-sm space-y-0 hover:border-[#6CB29D]/50 transition-all group flex flex-col justify-between">
+              <div className="relative h-56 overflow-hidden bg-slate-900">
+                <img
+                  src="/images/apdw-2025-singapore-poster.jpg"
+                  alt="APDW 2025 Singapore Poster Presentation"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/80 via-transparent to-transparent opacity-60" />
+                <span className="absolute top-4 left-4 text-[10px] font-bold text-[#6CB29D] bg-[#002C47]/90 px-3 py-1 rounded-full uppercase tracking-widest border border-[#6CB29D]/40">
+                  APDW 2025 • Singapore
+                </span>
               </div>
-              <span className="text-[11px] font-bold text-[#002C47] uppercase tracking-widest">ISGCON 2025 • India</span>
-              <h3 className="text-xl font-serif font-bold text-[#002C47]">Scientific Program Contributor</h3>
-              <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed">
-                Contributed to the 66th Annual Conference of the Indian Society of Gastroenterology with an expert session on "Risk, Recognition, and Management" of upper GI disorders.
-              </p>
+              <div className="p-6 space-y-3 flex-1 flex flex-col justify-between">
+                <div>
+                  <h3 className="text-xl font-serif font-bold text-[#002C47]">Poster of Distinction & Clinical Study</h3>
+                  <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed mt-2">
+                    Featured research on EUS-Guided Thrombin & Coil combination for Visceral Arterial Pseudoaneurysm (VAPT-EASE Study) at Asian Pacific Digestive Week 2025 Singapore.
+                  </p>
+                </div>
+              </div>
             </div>
 
-            {/* WCOG 2026 */}
-            <div className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-3xl p-8 shadow-sm space-y-4 hover:border-[#6CB29D]/50 transition-colors">
-              <div className="h-12 w-12 rounded-full bg-[#001D30] text-white flex items-center justify-center font-bold">
-                <Award className="w-6 h-6 text-[#6CB29D]" />
+            {/* Poster Award - Clinical Science */}
+            <div className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-3xl overflow-hidden shadow-sm space-y-0 hover:border-[#6CB29D]/50 transition-all group flex flex-col justify-between">
+              <div className="relative h-56 overflow-hidden bg-slate-900">
+                <img
+                  src="/images/poster-award-best-oral-clinical-science.jpg"
+                  alt="Best Oral Poster Awardee in Clinical Science"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/80 via-transparent to-transparent opacity-60" />
+                <span className="absolute top-4 left-4 text-[10px] font-bold text-white bg-[#6CB29D] px-3 py-1 rounded-full uppercase tracking-widest shadow-sm">
+                  Best Oral Award • Clinical Science
+                </span>
               </div>
-              <span className="text-[11px] font-bold text-[#6CB29D] uppercase tracking-widest">WCOG 2026 • World Congress</span>
-              <h3 className="text-xl font-serif font-bold text-[#002C47]">Organizing Committee Leadership</h3>
-              <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed">
-                Invited to serve on the Organizing Committee for the upcoming World Congress of Gastroenterology (WCOG 2026) in India, reflecting recognition in the global GI community.
-              </p>
+              <div className="p-6 space-y-3 flex-1 flex flex-col justify-between">
+                <div>
+                  <h3 className="text-xl font-serif font-bold text-[#002C47]">International Poster Awardee</h3>
+                  <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed mt-2">
+                    Honored with the Best Oral Award in Clinical Science for landmark Randomized Controlled Trial on statin therapy in decompensated cirrhosis.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* GBPGCON Session Chairperson */}
+            <div className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-3xl overflow-hidden shadow-sm space-y-0 hover:border-[#6CB29D]/50 transition-all group flex flex-col justify-between">
+              <div className="relative h-56 overflow-hidden bg-slate-900">
+                <img
+                  src="/images/gbpgcon-chairperson-delegate.jpg"
+                  alt="GBPGCON Session Chairperson"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/80 via-transparent to-transparent opacity-60" />
+                <span className="absolute top-4 left-4 text-[10px] font-bold text-white bg-[#001D30]/90 px-3 py-1 rounded-full uppercase tracking-widest border border-white/20">
+                  GBPGCON • New Delhi
+                </span>
+              </div>
+              <div className="p-6 space-y-3 flex-1 flex flex-col justify-between">
+                <div>
+                  <h3 className="text-xl font-serif font-bold text-[#002C47]">Session Chairperson & Academic Lead</h3>
+                  <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed mt-2">
+                    Presiding as Chairperson and Delegate at GBPGCON, guiding expert discussions on clinical gastroenterology & therapeutic endoscopy.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* EASL Hepatology Congress Hall */}
+            <div className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-3xl overflow-hidden shadow-sm space-y-0 hover:border-[#6CB29D]/50 transition-all group flex flex-col justify-between md:col-span-2 lg:col-span-2">
+              <div className="relative h-56 sm:h-64 overflow-hidden bg-slate-900">
+                <img
+                  src="/images/easl-hepatology-congress-hall.jpg"
+                  alt="EASL Home of Hepatology Congress Hall"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/80 via-transparent to-transparent opacity-60" />
+                <span className="absolute top-4 left-4 text-[10px] font-bold text-white bg-[#002C47]/90 px-3 py-1 rounded-full uppercase tracking-widest border border-[#6CB29D]/40">
+                  EASL Congress • Home of Hepatology
+                </span>
+              </div>
+              <div className="p-6 space-y-3 flex-1 flex flex-col justify-between">
+                <div>
+                  <h3 className="text-xl font-serif font-bold text-[#002C47]">European Association for the Study of the Liver (EASL)</h3>
+                  <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed mt-2">
+                    Active active member and clinical presenter at EASL congresses, participating in global clinical trial dialogues and advanced hepatology protocols.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -2,12 +2,12 @@ import React from "react";
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import CtaBanner from "@/components/CtaBanner";
-import { Camera, Sparkles, Building2, Stethoscope, Activity, UserCheck } from "lucide-react";
+import { Camera, Sparkles, Building2, Stethoscope, Activity, UserCheck, Globe, Trophy, Award, FileText } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Clinical Photo Gallery | Dr. Randeep Rana — Max Smart Saket & GIPMER",
   description:
-    "Explore high-resolution realistic facility photos of Dr. Randeep Rana's gastroenterology practice, advanced endoscopy suites, FibroScan liver clinic, and patient care facilities in New Delhi.",
+    "Explore high-resolution realistic facility photos of Dr. Randeep Rana's gastroenterology practice, advanced endoscopy suites, international poster presentations, DDW Washington, APDW Singapore, and award ceremonies.",
 };
 
 export default function GalleryPage() {
@@ -22,22 +22,54 @@ export default function GalleryPage() {
     },
     {
       id: 2,
-      title: "Best Oral Award Presentation — EASL Conference",
-      category: "Academic Excellence",
-      image: "/images/dr-randeep-rana-award.jpg",
-      description: "Dr. Randeep Rana receiving Best Oral Presentation Award for clinical science at EASL Congress.",
-      icon: Sparkles,
+      title: "Best Oral Clinical Science Awardee",
+      category: "International Recognition",
+      image: "/images/poster-award-best-oral-clinical-science.jpg",
+      description: "Dr. Randeep Rana recognized as Best Oral Awardee in Clinical Science for groundbreaking RCT research on cirrhosis survival.",
+      icon: Trophy,
     },
     {
       id: 3,
-      title: "National Conference Speaker — GBPGCON",
-      category: "Keynote & Speaker",
-      image: "/images/dr-randeep-rana-speaker.jpg",
-      description: "Dr. Randeep Rana presenting clinical insights on stage at GBPGCON annual gastroenterology conference.",
-      icon: Building2,
+      title: "DDW 2024 Poster Presentation — Washington D.C.",
+      category: "International Research",
+      image: "/images/ddw-2024-poster-presentation.jpg",
+      description: "Presenting Microbiome & Mycobiome Metagenomics research in chronic pancreatitis at Digestive Disease Week (DDW 2024) in Washington D.C.",
+      icon: Globe,
     },
     {
       id: 4,
+      title: "APDW 2025 Singapore — EUS Intervention Study",
+      category: "Poster of Distinction",
+      image: "/images/apdw-2025-singapore-poster.jpg",
+      description: "Displaying landmark research on EUS-guided thrombin and coil combination for Visceral Arterial Pseudoaneurysm (VAPT-EASE Study) at APDW Singapore.",
+      icon: FileText,
+    },
+    {
+      id: 5,
+      title: "Session Chairperson — GBPGCON Conference",
+      category: "Academic Leadership",
+      image: "/images/gbpgcon-chairperson-delegate.jpg",
+      description: "Dr. Randeep Rana presiding as Session Chairperson & Delegate at GBPGCON annual gastroenterology conference.",
+      icon: Building2,
+    },
+    {
+      id: 6,
+      title: "EASL Hepatology Congress — International Venue",
+      category: "Global Forum",
+      image: "/images/easl-hepatology-congress-hall.jpg",
+      description: "Representing AIIMS New Delhi and Max Healthcare at the European Association for the Study of the Liver (EASL) Congress Hall.",
+      icon: Award,
+    },
+    {
+      id: 7,
+      title: "National Conference Keynote Speaker — GBPGCON",
+      category: "Keynote & Speaker",
+      image: "/images/dr-randeep-rana-speaker.jpg",
+      description: "Dr. Randeep Rana presenting clinical insights on stage at GBPGCON gastroenterology symposium.",
+      icon: Sparkles,
+    },
+    {
+      id: 8,
       title: "Interventional Gastroenterologist — Max Healthcare",
       category: "Clinical Practice",
       image: "/images/dr-randeep-rana-scrubs-front.jpg",
@@ -45,7 +77,7 @@ export default function GalleryPage() {
       icon: Stethoscope,
     },
     {
-      id: 5,
+      id: 9,
       title: "Advanced Interventional Endoscopy Stance",
       category: "Specialized Procedures",
       image: "/images/dr-randeep-rana-scrubs-side.jpg",
@@ -53,7 +85,7 @@ export default function GalleryPage() {
       icon: Activity,
     },
     {
-      id: 6,
+      id: 10,
       title: "Advanced Endoscopy Procedure Suite",
       category: "Interventional Suite",
       image: "/images/endoscopy-suite.png",
