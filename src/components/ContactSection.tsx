@@ -55,7 +55,7 @@ export default function ContactSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="lg:col-span-7 bg-white p-8 sm:p-10 rounded-3xl border border-[#DDE6ED] shadow-sm"
+            className="lg:col-span-7 bg-white p-5 sm:p-10 rounded-3xl border border-[#DDE6ED] shadow-sm"
           >
             <div className="flex items-center space-x-3 mb-6">
               <div className="h-10 w-10 rounded-full bg-[#EBF5F2] text-[#6CB29D] flex items-center justify-center font-bold">
@@ -198,7 +198,7 @@ export default function ContactSection() {
             className="lg:col-span-5 space-y-6"
           >
             {/* Hospital Contact Info Card */}
-            <div className="bg-[#002C47] text-white p-8 rounded-3xl shadow-xl space-y-6">
+            <div className="bg-[#002C47] text-white p-6 sm:p-8 rounded-3xl shadow-xl space-y-6">
               <h3 className="text-xl font-serif font-bold border-b border-[#001D30] pb-4 text-white">
                 Clinical Location & OPD Timings
               </h3>

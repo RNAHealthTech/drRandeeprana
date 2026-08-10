@@ -82,7 +82,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="text-3xl sm:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight leading-[1.15]"
+              className="text-2xl sm:text-4xl lg:text-6xl font-serif font-bold text-white tracking-tight leading-[1.15]"
             >
               We&apos;re here when you need us &mdash; for every care in digestive health.
             </motion.h1>
@@ -92,10 +92,34 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-slate-200 text-base sm:text-lg font-light leading-relaxed max-w-2xl mx-auto lg:mx-0"
+              className="text-slate-200 text-xs sm:text-base lg:text-lg font-light leading-relaxed max-w-2xl mx-auto lg:mx-0"
             >
               Consultant Gastroenterologist, Hepatologist &amp; Pancreatologist at Max Smart Saket and Assistant Professor at GIPMER &amp; MAMC, New Delhi.
             </motion.p>
+
+            {/* Hero Responsive Action Buttons */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 sm:gap-4 pt-2"
+            >
+              <Link
+                href="/contact"
+                className="w-full sm:w-auto px-6 py-3.5 rounded-full bg-[#00843D] hover:bg-[#006EB6] text-white font-bold text-xs sm:text-sm uppercase tracking-wider transition-all duration-300 shadow-lg shadow-[#00843D]/30 flex items-center justify-center gap-2 group"
+              >
+                <Calendar className="w-4 h-4" />
+                <span>Book OPD Appointment</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </Link>
+              <a
+                href="tel:+919501569493"
+                className="w-full sm:w-auto px-6 py-3.5 rounded-full bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold text-xs sm:text-sm uppercase tracking-wider transition-all duration-300 backdrop-blur-md flex items-center justify-center gap-2"
+              >
+                <PhoneCall className="w-4 h-4 text-[#6CB29D]" />
+                <span>Call +91 95015 69493</span>
+              </a>
+            </motion.div>
 
           </div>
         </div>

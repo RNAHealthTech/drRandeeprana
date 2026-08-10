@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 import { MessageCircle, Phone, Calendar } from "lucide-react";
 
 export default function FloatingWidgets() {
@@ -36,13 +37,13 @@ export default function FloatingWidgets() {
             <Phone className="w-4 h-4 text-[#6CB29D]" />
             <span>Call Now</span>
           </a>
-          <a
-            href="#contact"
+          <Link
+            href="/contact"
             className="py-3 px-4 rounded-full font-bold text-xs text-white bg-[#6CB29D] shadow-md flex items-center justify-center gap-2 uppercase tracking-wider"
           >
             <Calendar className="w-4 h-4" />
             <span>Book Visit</span>
-          </a>
+          </Link>
         </div>
       </div>
     </>

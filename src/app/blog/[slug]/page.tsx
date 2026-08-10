@@ -53,9 +53,9 @@ export default async function BlogPostDetailPage({ params }: Props) {
           </Link>
 
           {/* Author Card */}
-          <div className="p-6 rounded-3xl bg-[#002C47] text-white flex items-center justify-between shadow-lg">
-            <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 rounded-full bg-[#6CB29D] text-white font-serif font-extrabold flex items-center justify-center text-lg shadow-md">
+          <div className="p-5 sm:p-6 rounded-3xl bg-[#002C47] text-white flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-lg">
+            <div className="flex items-center space-x-3 sm:space-x-4">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[#6CB29D] text-white font-serif font-extrabold flex items-center justify-center text-sm sm:text-lg shadow-md shrink-0">
                 DR
               </div>
               <div>

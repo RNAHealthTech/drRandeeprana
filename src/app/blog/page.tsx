@@ -205,7 +205,7 @@ export default function BlogPage() {
             {blogPosts.map((post) => (
               <article
                 key={post.slug}
-                className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-3xl p-8 shadow-sm hover:shadow-lg hover:border-[#6CB29D]/50 transition-all duration-300 flex flex-col justify-between group"
+                className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-3xl p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-[#6CB29D]/50 transition-all duration-300 flex flex-col justify-between group"
               >
                 <div>
                   <div className="flex items-center justify-between text-xs font-semibold text-slate-500 mb-4">

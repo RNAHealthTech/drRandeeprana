@@ -148,20 +148,20 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="lg:col-span-5 bg-white p-8 sm:p-10 rounded-3xl border border-[#DDE6ED] shadow-sm"
+            className="lg:col-span-5 bg-white p-6 sm:p-10 rounded-3xl border border-[#DDE6ED] shadow-sm"
           >
             <div className="flex items-center space-x-3 mb-8">
               <div className="h-10 w-10 rounded-full bg-[#EBF5F2] text-[#002C47] flex items-center justify-center">
                 <GraduationCap className="w-6 h-6" />
               </div>
-              <h3 className="text-2xl font-serif font-bold text-[#002C47]">Academic Timeline</h3>
+              <h3 className="text-xl sm:text-2xl font-serif font-bold text-[#002C47]">Academic Timeline</h3>
             </div>
 
-            <div className="relative border-l-2 border-[#DDE6ED] pl-6 ml-4 space-y-8">
+            <div className="relative border-l-2 border-[#DDE6ED] pl-4 sm:pl-6 ml-2 sm:ml-4 space-y-8">
               {educationTimeline.map((edu) => (
                 <div key={edu.degree} className="relative group">
                   {/* Timeline Dot */}
-                  <div className="absolute -left-[31px] top-1.5 h-4 w-4 rounded-full border-2 border-white bg-[#6CB29D] shadow-md group-hover:scale-125 transition-transform" />
+                  <div className="absolute -left-[23px] sm:-left-[31px] top-1.5 h-3.5 w-3.5 sm:h-4 sm:w-4 rounded-full border-2 border-white bg-[#6CB29D] shadow-md group-hover:scale-125 transition-transform" />
                   
                   <div className="inline-block px-3 py-0.5 rounded-full bg-[#EBF5F2] text-[#002C47] text-[11px] font-bold tracking-wider mb-2">
                     {edu.year}
