@@ -96,9 +96,9 @@ export default function PatientJourney() {
         <div className="mt-16 bg-white border border-[#DDE6ED] rounded-3xl overflow-hidden shadow-lg grid grid-cols-1 lg:grid-cols-12 items-center">
           <div className="lg:col-span-6 h-64 sm:h-80 relative">
             <img
-              src="/images/patient-recovery.png"
-              alt="Luxury patient recovery lounge and post-op care"
-              className="w-full h-full object-cover"
+              src="/images/dr-randeep-rana-whitecoat.jpg"
+              alt="Dr. Randeep Rana clinical consultation and patient care"
+              className="w-full h-full object-cover object-top"
               loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/20" />

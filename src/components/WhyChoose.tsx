@@ -93,9 +93,9 @@ export default function WhyChoose() {
           {/* Realistic Hospital Background Photo */}
           <div className="absolute inset-0 z-0 opacity-20 group-hover:opacity-30 transition-opacity duration-500">
             <img
-              src="/images/hospital-facility.png"
+              src="/images/easl-hepatology-congress-hall.jpg"
               alt="Max Smart Saket and GIPMER MAMC Delhi Facility"
-              className="w-full h-full object-cover object-center"
+              className="w-full h-full object-cover object-center opacity-40"
               loading="lazy"
             />
           </div>

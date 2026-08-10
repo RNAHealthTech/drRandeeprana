@@ -624,7 +624,7 @@ export default function AboutPage() {
               <img
                 src="/images/poster-award-best-oral-clinical-science.jpg"
                 alt="Best Oral Poster Awardee in Clinical Science"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-3 right-3 text-white">
@@ -639,7 +639,7 @@ export default function AboutPage() {
               <img
                 src="/images/ddw-2024-poster-presentation.jpg"
                 alt="DDW 2024 Washington D.C. Poster"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-3 right-3 text-white">
@@ -654,7 +654,7 @@ export default function AboutPage() {
               <img
                 src="/images/apdw-2025-singapore-poster.jpg"
                 alt="APDW 2025 Singapore Poster"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-3 right-3 text-white">
@@ -669,7 +669,7 @@ export default function AboutPage() {
               <img
                 src="/images/gbpgcon-chairperson-delegate.jpg"
                 alt="GBPGCON Session Chairperson"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-3 right-3 text-white">
@@ -684,7 +684,7 @@ export default function AboutPage() {
               <img
                 src="/images/easl-hepatology-congress-hall.jpg"
                 alt="EASL Home of Hepatology Congress"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-3 right-3 text-white">

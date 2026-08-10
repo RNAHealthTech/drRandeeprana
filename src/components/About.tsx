@@ -75,9 +75,9 @@ export default function About() {
               {/* Realistic Clinical Showcase Banner Image */}
               <div className="relative rounded-2xl overflow-hidden shadow-md group h-56 sm:h-64 mb-6 border border-slate-100">
                 <img
-                  src="/images/doctor-consultation.png"
+                  src="/images/dr-randeep-rana-whitecoat.jpg"
                   alt="Dr. Randeep Rana consulting patient in clinic"
-                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/80 via-transparent to-transparent" />

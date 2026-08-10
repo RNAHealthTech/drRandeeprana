@@ -91,7 +91,7 @@ export default function MediaPage() {
                 <img
                   src="/images/ddw-2024-poster-presentation.jpg"
                   alt="DDW 2024 Washington D.C. Poster Presentation"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/80 via-transparent to-transparent opacity-60" />
                 <span className="absolute top-4 left-4 text-[10px] font-bold text-white bg-[#002C47]/90 px-3 py-1 rounded-full uppercase tracking-widest border border-white/20">
@@ -114,7 +114,7 @@ export default function MediaPage() {
                 <img
                   src="/images/apdw-2025-singapore-poster.jpg"
                   alt="APDW 2025 Singapore Poster Presentation"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/80 via-transparent to-transparent opacity-60" />
                 <span className="absolute top-4 left-4 text-[10px] font-bold text-[#6CB29D] bg-[#002C47]/90 px-3 py-1 rounded-full uppercase tracking-widest border border-[#6CB29D]/40">
@@ -137,7 +137,7 @@ export default function MediaPage() {
                 <img
                   src="/images/poster-award-best-oral-clinical-science.jpg"
                   alt="Best Oral Poster Awardee in Clinical Science"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/80 via-transparent to-transparent opacity-60" />
                 <span className="absolute top-4 left-4 text-[10px] font-bold text-white bg-[#6CB29D] px-3 py-1 rounded-full uppercase tracking-widest shadow-sm">
@@ -160,7 +160,7 @@ export default function MediaPage() {
                 <img
                   src="/images/gbpgcon-chairperson-delegate.jpg"
                   alt="GBPGCON Session Chairperson"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/80 via-transparent to-transparent opacity-60" />
                 <span className="absolute top-4 left-4 text-[10px] font-bold text-white bg-[#001D30]/90 px-3 py-1 rounded-full uppercase tracking-widest border border-white/20">
@@ -183,7 +183,7 @@ export default function MediaPage() {
                 <img
                   src="/images/easl-hepatology-congress-hall.jpg"
                   alt="EASL Home of Hepatology Congress Hall"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/80 via-transparent to-transparent opacity-60" />
                 <span className="absolute top-4 left-4 text-[10px] font-bold text-white bg-[#002C47]/90 px-3 py-1 rounded-full uppercase tracking-widest border border-[#6CB29D]/40">

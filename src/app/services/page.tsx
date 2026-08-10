@@ -180,15 +180,15 @@ export default function ServicesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="relative rounded-3xl overflow-hidden shadow-lg border border-[#DDE6ED] h-60 sm:h-72 group">
               <img
-                src="/images/endoscopy-suite.png"
-                alt="State-of-the-art Endoscopy Suite"
-                className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                src="/images/dr-randeep-rana-scrubs-front.jpg"
+                alt="State-of-the-art Endoscopy Suite Dr. Randeep Rana"
+                className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-500"
                 loading="eager"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
               <div className="absolute bottom-5 left-5 right-5 text-white">
                 <span className="px-3 py-1 rounded-full bg-[#6CB29D] text-[10px] font-extrabold uppercase tracking-widest text-white inline-block mb-1">
-                  Accredited Procedure Suite
+                  Interventional GI & Endoscopy
                 </span>
                 <h3 className="text-xl font-serif font-bold">Advanced EUS & ERCP Interventions</h3>
               </div>
@@ -196,9 +196,9 @@ export default function ServicesPage() {
 
             <div className="relative rounded-3xl overflow-hidden shadow-lg border border-[#DDE6ED] h-60 sm:h-72 group">
               <img
-                src="/images/fibroscan-liver-care.png"
-                alt="Non-Invasive FibroScan Liver Diagnostics"
-                className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                src="/images/apdw-2025-singapore-poster.jpg"
+                alt="Hepatology & Liver Research Dr. Randeep Rana"
+                className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-500"
                 loading="eager"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />

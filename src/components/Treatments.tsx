@@ -94,9 +94,9 @@ export default function Treatments() {
           {/* Card 1: Advanced Endoscopy Suite */}
           <div className="relative rounded-3xl overflow-hidden shadow-xl group border border-[#DDE6ED] h-64 sm:h-72">
             <img
-              src="/images/endoscopy-suite.png"
-              alt="Advanced Hospital Endoscopy Suite Max Smart Saket"
-              className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+              src="/images/dr-randeep-rana-scrubs-front.jpg"
+              alt="Advanced Interventional Endoscopy Dr. Randeep Rana"
+              className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-700"
               loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#002C47] via-[#002C47]/40 to-transparent" />
@@ -105,10 +105,10 @@ export default function Treatments() {
                 Interventional Endoscopy Suite
               </span>
               <h3 className="text-xl sm:text-2xl font-serif font-bold text-white">
-                HD Narrow-Band Imaging & CO2 Endoscopy
+                HD Narrow-Band Imaging & EUS / ERCP Care
               </h3>
               <p className="text-xs text-slate-200 font-light">
-                Equipped with latest Olympus & Fujinon EUS/ERCP towers for painless diagnostic & therapeutic procedures.
+                Specializing in POEM, ESD, STER, EFTR, and EUS-guided vascular & biliary interventions at Max Smart Saket.
               </p>
             </div>
           </div>
@@ -116,15 +116,15 @@ export default function Treatments() {
           {/* Card 2: FibroScan & Non-Invasive Hepatology */}
           <div className="relative rounded-3xl overflow-hidden shadow-xl group border border-[#DDE6ED] h-64 sm:h-72">
             <img
-              src="/images/fibroscan-liver-care.png"
-              alt="FibroScan Quantitative Liver Assessment Equipment"
-              className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+              src="/images/apdw-2025-singapore-poster.jpg"
+              alt="Hepatology Research & Liver Diagnostics Dr. Randeep Rana"
+              className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-700"
               loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#002C47] via-[#002C47]/40 to-transparent" />
             <div className="absolute bottom-6 left-6 right-6 text-white space-y-1.5">
               <span className="px-3 py-1 rounded-full bg-[#001D30] border border-[#6CB29D]/50 text-[10px] font-extrabold uppercase tracking-widest text-[#6CB29D] inline-block">
-                Hepatology & Liver Diagnostics
+                Hepatology & Clinical Research
               </span>
               <h3 className="text-xl sm:text-2xl font-serif font-bold text-white">
                 Non-Invasive FibroScan & Fatty Liver Clinic

@@ -19,8 +19,8 @@ export default function ServicesOverview() {
       id: 1,
       title: "Endoscopic Ultrasound (EUS) & ERCP Suite",
       category: "Advanced Endoscopy",
-      image: "/images/endoscopy-suite.png",
-      description: "State-of-the-art EUS and ERCP towers with narrow-band imaging for non-surgical bile duct stone extraction and pancreatic cyst drainage.",
+      image: "/images/dr-randeep-rana-scrubs-side.jpg",
+      description: "State-of-the-art EUS and ERCP procedures with narrow-band imaging for non-surgical bile duct stone extraction and pancreatic cyst drainage.",
       linkText: "View Interventional Suite",
       icon: Activity,
     },
@@ -28,7 +28,7 @@ export default function ServicesOverview() {
       id: 2,
       title: "Non-Invasive FibroScan & Liver Clinic",
       category: "Hepatology Care",
-      image: "/images/fibroscan-liver-care.png",
+      image: "/images/apdw-2025-singapore-poster.jpg",
       description: "Quantitative stiffness & CAP fat scoring for early fatty liver reversal and evidence-based cirrhosis survival protocols.",
       linkText: "View Liver Diagnostics",
       icon: HeartPulse,
@@ -37,7 +37,7 @@ export default function ServicesOverview() {
       id: 3,
       title: "Consultant-Led GI OPD & Diagnostics",
       category: "Clinical Care",
-      image: "/images/doctor-consultation.png",
+      image: "/images/dr-randeep-rana-whitecoat.jpg",
       description: "Comprehensive, consultant-led evaluation at Max Smart Superspeciality Hospital Saket and GIPMER / MAMC New Delhi.",
       linkText: "Schedule OPD Visit",
       icon: Stethoscope,
@@ -84,7 +84,7 @@ export default function ServicesOverview() {
                   <img
                     src={panel.image}
                     alt={panel.title}
-                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+                    className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-700"
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#1C2936]/80 via-transparent to-transparent" />
