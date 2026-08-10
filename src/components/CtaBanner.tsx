@@ -13,7 +13,7 @@ export default function CtaBanner() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-6">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md text-[#6CB29D] text-xs font-bold uppercase tracking-widest border border-[#6CB29D]/30">
           <Sparkles className="w-4 h-4 text-[#6CB29D]" />
-          <span>Max Smart Saket & GIPMER / MAMC, New Delhi</span>
+          <span>Max Smart Superspeciality Hospital, Saket, New Delhi</span>
         </div>
 
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold tracking-tight text-white">
@@ -21,7 +21,7 @@ export default function CtaBanner() {
         </h2>
 
         <p className="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed font-light">
-          Consult Dr. Randeep Rana, MD, DM (Gastroenterology, AIIMS) for expert diagnosis and advanced endoscopic care.
+          Consult Dr. Randeep Rana, MBBS (DMCH), MD (Dr. RMLH), DM & Advanced GI Endoscopy Fellow (AIIMS New Delhi).
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
@@ -35,11 +35,11 @@ export default function CtaBanner() {
             </div>
           </Link>
           <a
-            href="tel:+919876543210"
+            href="tel:+919501569493"
             className="bg-[#001D30] hover:bg-black text-white border border-white/20 font-extrabold text-xs sm:text-sm uppercase tracking-wider rounded-full py-3.5 px-8 transition-all duration-200 flex items-center justify-center gap-2.5 w-full sm:w-auto"
           >
             <Phone className="w-4 h-4 text-[#6CB29D]" />
-            <span>Call OPD Hotline (+91 98765 43210)</span>
+            <span>Call OPD Hotline (+91 95015 69493)</span>
           </a>
         </div>
       </div>

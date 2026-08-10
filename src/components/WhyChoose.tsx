@@ -103,13 +103,13 @@ export default function WhyChoose() {
 
           <div className="space-y-3 text-center md:text-left relative z-10 max-w-2xl">
             <span className="px-3.5 py-1 rounded-full bg-white/10 border border-[#6CB29D]/30 text-xs font-bold uppercase tracking-widest text-[#6CB29D]">
-              Hospital & University Affiliations
+              Consultant Gastroenterology
             </span>
             <h3 className="text-2xl sm:text-3xl font-serif font-bold text-white">
-              Practicing at Max Smart Saket & GIPMER / MAMC New Delhi
+              Max Smart Superspeciality Hospital, Saket, New Delhi
             </h3>
             <p className="text-slate-300 text-xs sm:text-sm font-light leading-relaxed">
-              State-of-the-art ICU backup, advanced endoscopy suites, emergency 24x7 GI services, and multidisciplinary tumor board support.
+              Ex-Assistant Professor at GIPMER & Ex-Associate Consultant at Sir Ganga Ram Hospital (ILGPS). Offering state-of-the-art diagnostic evaluations and advanced therapeutic endoscopic interventions.
             </p>
           </div>
           <a

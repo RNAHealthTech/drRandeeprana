@@ -12,38 +12,43 @@ export const metadata: Metadata = {
 
 export default function MediaPage() {
   const societalRoles = [
-    { role: "Fellow", organization: "Indian Society of Gastroenterology (ISG)" },
-    { role: "International Member", organization: "American College of Gastroenterology (ACG)" },
-    { role: "Editorial Fellow", organization: "Indian Journal of Gastroenterology (IJG) - First IJG Editorial Fellowship" },
-    { role: "Organizing Committee Member", organization: "ISGCON 2025 (66th Annual Conference)" },
-    { role: "Organizing Committee Member", organization: "WCOG 2026 (World Congress of Gastroenterology, India)" },
-    { role: "Participant", organization: "JGHFoundation Young Clinician Investigator Program, APDW 2025, Singapore" },
+    { role: "Life Member", organization: "Indian Society of Gastroenterology (ISG)" },
+    { role: "Life Member", organization: "Indian Pancreas Club (IPC)" },
+    { role: "Life Member", organization: "Society of Gastrointestinal Endoscopy of India (SGEI)" },
+    { role: "Life Member", organization: "Colitis & Crohn’s Foundation - India (CCFI)" },
+    { role: "Member", organization: "European Association for the Study of the Liver (EASL)" },
+    { role: "Member", organization: "American Society for Gastrointestinal Endoscopy (ASGE)" },
+    { role: "Member", organization: "European Society of Gastrointestinal Endoscopy (ESGE)" },
+    { role: "Member", organization: "International Association of Pancreatology (IAP)" },
+    { role: "Member", organization: "World Endoscopy Organization (WEO)" },
+    { role: "Member", organization: "International Liver Cancer Association (ILCA)" },
+    { role: "Editorial Fellow", organization: "Indian Journal of Gastroenterology (IJG)" },
   ];
 
   const globalResearch = [
     {
+      journal: "The American Journal of Gastroenterology",
+      title: "Simvastatin Addition to Standard of Care Improves Long-Term Survival in Patients With Cirrhosis After Variceal Bleed: An Open Label RCT",
+      year: "2025",
+      impact: "Landmark RCT demonstrating statin addition improves long-term survival in decompensated cirrhosis.",
+    },
+    {
+      journal: "Journal of Clinical Gastroenterology",
+      title: "Adjunctive Incremental Pregabalin Therapy Leads to Better Pain Relief in Patients With Chronic Pancreatitis: A Double-Blind RCT",
+      year: "2025",
+      impact: "Double-blind RCT providing high-level evidence for neuropathic pain control in chronic pancreatitis.",
+    },
+    {
       journal: "JAMA",
       title: "Simvastatin and Rifaximin for Patients With Decompensated Cirrhosis",
       year: "2025",
-      impact: "Influencing global treatment protocols for end-stage liver disease.",
-    },
-    {
-      journal: "The American Journal of Gastroenterology",
-      title: "Simvastatin Addition to Standard of Care Improves Long-Term Survival in Patients With Cirrhosis After Variceal Bleed",
-      year: "2026",
-      impact: "Landmark RCT proving statins improve survival after severe gastrointestinal bleeding.",
+      impact: "Clinical trial insight on systemic inflammation and survival in end-stage liver disease.",
     },
     {
       journal: "Indian Journal of Gastroenterology",
-      title: "Endoscopic Interventions for Managing Pancreatic Fluid Collections",
+      title: "Endoscopic Interventions for Managing Pancreatic Fluid Collections Associated with Acute Pancreatitis: A State-of-the-Art Review",
       year: "2025",
-      impact: "Comprehensive review on EUS-guided cystogastrostomy cited by researchers worldwide.",
-    },
-    {
-      journal: "Pancreatology",
-      title: "Improving Mortality Prediction in Acute Pancreatitis: Refining ICU Risk Scoring Models",
-      year: "2025",
-      impact: "Optimizing critical care risk stratification for severe acute pancreatitis.",
+      impact: "State-of-the-art review on EUS-guided cystogastrostomy and necrosectomy.",
     },
   ];
 
@@ -60,6 +65,7 @@ export default function MediaPage() {
         title="Dr. Randeep Rana in the News & Academic Realm"
         subtitle="Explore Dr. Rana's international conference presentations, editorial appointments, research publications in top-tier medical journals, and public educational outreach."
         breadcrumbs={[{ label: "Media & Recognition" }]}
+        bgImage="/images/dr-randeep-rana-speaker.jpg"
       />
 
       {/* Section 1: Conferences & Achievements */}

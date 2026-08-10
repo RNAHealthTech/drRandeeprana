@@ -19,26 +19,26 @@ export default function Hero() {
     {
       title: "Our Provider Profile",
       icon: UserCheck,
-      badge: "15+ Years Exp",
-      description: "Dr. Randeep Rana — DM Gastroenterology (AIIMS New Delhi) & PGIMER MD Alumni.",
+      badge: "AIIMS & DMCH Alumni",
+      description: "Dr. Randeep Rana — MBBS, MD (Dr. RMLH), DM & Advanced GI Endoscopy Fellow (AIIMS New Delhi).",
       linkText: "View Qualifications",
       href: "/about",
       accentBg: "bg-[#EBF5F2]",
     },
     {
-      title: "OPD Locations & Directions",
+      title: "OPD Location & Timings",
       icon: MapPin,
-      badge: "Saket & GIPMER",
-      description: "Max Smart Superspeciality Hospital Saket & GB Pant Institute (GIPMER) & MAMC, New Delhi.",
-      linkText: "Get Locations",
+      badge: "Max Smart Saket",
+      description: "Max Smart Super Speciality Hospital, Saket, New Delhi (Mon - Sat: 9.00 am - 6.00 pm).",
+      linkText: "Get Directions",
       href: "/contact",
       accentBg: "bg-[#E8F4FA]",
     },
     {
       title: "Book OPD Appointments",
       icon: Calendar,
-      badge: "In-Person & Virtual",
-      description: "Get prompt in-person consultation or virtual medical guidance for gut & liver care.",
+      badge: "In-Person & Online",
+      description: "Schedule prompt in-person consultation or medical guidance for gut, liver & pancreas care.",
       linkText: "Schedule Consultation",
       href: "#contact",
       accentBg: "bg-[#EBF5F2]",
@@ -47,35 +47,37 @@ export default function Hero() {
 
   return (
     <section id="hero" className="relative pt-24 pb-16 bg-[#F4F7F9] text-[#1C2936] overflow-hidden">
-      
-      {/* Top Banner Hero Background Image with Dark Vignette Overlay (Exact Cleveland Clinic Style) */}
+      {/* Top Banner Hero Section - Exact Match to Reference Screenshot */}
       <div className="relative min-h-[520px] sm:min-h-[600px] lg:min-h-[640px] bg-slate-900 flex items-center justify-center overflow-hidden">
-        <img
-          src="/images/dr-randeep-rana.webp"
-          alt="Dr. Randeep Rana - Gastroenterology Specialist Banner"
-          className="w-full h-full object-cover object-[center_20%] absolute inset-0 opacity-65"
-          loading="eager"
-        />
-        
-        {/* Dark Vignette Overlay for Crisp White Text Readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/60 to-black/30" />
+        {/* Background Image - Right-Side Constrained with Top Head Alignment */}
+        <div className="absolute top-0 right-0 bottom-0 w-full lg:w-1/2 h-full z-0 overflow-hidden">
+          <img
+            src="/images/drrandeep.webp"
+            alt="Dr. Randeep Rana - AIIMS Trained Consultant Gastroenterologist Banner"
+            className="w-full h-full object-cover opacity-90"
+            style={{ objectPosition: "center top" }}
+            loading="eager"
+          />
+          {/* Gradient Overlay: Solid Dark Navy on Left under text, Clear Photo on Right */}
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/85 via-30% to-transparent" />
+        </div>
 
         {/* Hero Copy */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full py-16 sm:py-20 lg:py-24 text-white text-center lg:text-left">
           <div className="max-w-3xl space-y-6">
             
-            {/* Eyebrow */}
+            {/* Eyebrow Badge */}
             <motion.div
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2 px-3.5 py-1 rounded-sm bg-[#00843D] text-white text-xs font-bold uppercase tracking-widest"
+              className="inline-flex items-center gap-2 px-3 py-1 rounded-sm bg-[#00843D] text-white text-xs font-bold uppercase tracking-widest"
             >
               <Sparkles className="w-3.5 h-3.5" />
-              <span>AIIMS-Trained Consultant Gastroenterologist</span>
+              <span>AIIMS-TRAINED CONSULTANT GASTROENTEROLOGIST</span>
             </motion.div>
 
-            {/* Headline (Exact Cleveland Clinic Wording) */}
+            {/* Headline */}
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -85,13 +87,14 @@ export default function Hero() {
               We&apos;re here when you need us &mdash; for every care in digestive health.
             </motion.h1>
 
+            {/* Subtitle */}
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-slate-200 text-base sm:text-lg font-light leading-relaxed"
+              className="text-slate-200 text-base sm:text-lg font-light leading-relaxed max-w-2xl mx-auto lg:mx-0"
             >
-              Consultant Gastroenterologist, Hepatologist & Pancreatologist at Max Smart Saket and Assistant Professor at GIPMER & MAMC, New Delhi.
+              Consultant Gastroenterologist, Hepatologist &amp; Pancreatologist at Max Smart Saket and Assistant Professor at GIPMER &amp; MAMC, New Delhi.
             </motion.p>
 
           </div>
@@ -119,7 +122,7 @@ export default function Hero() {
                 >
                   {/* Subtle top accent gradient line */}
                   <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#00843D] to-[#0078BF] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  
+
                   <div className="space-y-4">
                     {/* Card Header Illustration Box */}
                     <div className="flex items-center justify-between">

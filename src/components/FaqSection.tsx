@@ -10,11 +10,11 @@ export default function FaqSection() {
   const faqs = [
     {
       q: "Where does Dr. Randeep Rana practice in New Delhi?",
-      a: "Dr. Randeep Rana is Consultant Gastroenterologist practicing at Max Smart Super Speciality Hospital, Saket, New Delhi and Assistant Professor at GB Pant Institute (GIPMER) & MAMC. You can book an OPD consultation directly through this website or by calling +91 98765 43210.",
+      a: "Dr. Randeep Rana is Consultant Gastroenterology practicing at Max Smart Super Speciality Hospital, Saket, New Delhi. Ex-Assistant Professor at GB Pant Institute (GIPMER). You can book an OPD consultation directly through this website or by calling +91 95015 69493.",
     },
     {
       q: "What are Dr. Randeep Rana's educational qualifications?",
-      a: "Dr. Randeep Rana holds an MD in General Medicine (PGIMER Chandigarh), a DM in Gastroenterology from AIIMS New Delhi, and a Fellowship in Advanced GI Endoscopy from AIIMS New Delhi.",
+      a: "Dr. Randeep Rana holds MBBS (Gold Medalist, DMCH Ludhiana), MD in Internal Medicine (ABVIMS & Dr. RML Hospital New Delhi), DM in Gastroenterology (AIIMS New Delhi), and Fellowship in Advanced GI Endoscopy (AIIMS New Delhi).",
     },
     {
       q: "Is an Endoscopy or Colonoscopy procedure painful?",
@@ -46,7 +46,7 @@ export default function FaqSection() {
     },
     {
       q: "Does Dr. Randeep Rana treat Acute and Chronic Pancreatitis?",
-      a: "Yes. Dr. Rana specializes in treating severe pancreatic conditions, managing pancreatic enzymes (PERT), clearing ductal stones via ERCP, and draining pancreatic pseudocysts via EUS-guided cystogastrostomy.",
+      a: "Yes. Dr. Rana specializes in Pancreatico-Biliary Sciences, managing pancreatic enzymes (PERT), pregabalin pain protocols, clearing ductal stones via ERCP, and draining pancreatic pseudocysts via EUS-guided cystogastrostomy.",
     },
     {
       q: "How often should gastrointestinal cancer screening be performed?",
@@ -54,7 +54,7 @@ export default function FaqSection() {
     },
     {
       q: "What are the OPD timings for Dr. Randeep Rana at Max Smart Saket?",
-      a: "OPD consultations are available Monday through Saturday from 10:00 AM to 5:00 PM. Prior online or phone booking is recommended to avoid waiting.",
+      a: "OPD consultations are available Monday through Saturday from 9:00 AM to 6:00 PM. Prior online or phone booking is recommended to avoid waiting.",
     },
     {
       q: "Can I consult Dr. Randeep Rana for a second medical opinion?",
@@ -66,7 +66,7 @@ export default function FaqSection() {
     },
     {
       q: "How can I book an appointment with Dr. Randeep Rana?",
-      a: "You can book an appointment by filling out the online booking form on this website, or by calling +91 98765 43210 or messaging on WhatsApp.",
+      a: "You can book an appointment by filling out the online booking form on this website, or by calling +91 95015 69493 or messaging on WhatsApp.",
     },
   ];
 

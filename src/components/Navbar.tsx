@@ -37,19 +37,19 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-between font-medium">
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1.5 text-[#5B6770]">
-              <MapPin className="w-3.5 h-3.5 text-[#00843D]" /> Max Smart Saket & GIPMER / MAMC, New Delhi
+              <MapPin className="w-3.5 h-3.5 text-[#00843D]" /> Max Smart Superspeciality Hospital, Saket, New Delhi
             </span>
           </div>
           <div className="flex items-center gap-6">
-            <a href="tel:+919876543210" className="hover:text-[#0078BF] transition-colors font-bold text-[#0078BF] flex items-center gap-1">
-              <Phone className="w-3.5 h-3.5" /> +91 98765 43210
+            <a href="tel:+919501569493" className="hover:text-[#0078BF] transition-colors font-bold text-[#0078BF] flex items-center gap-1">
+              <Phone className="w-3.5 h-3.5" /> +91 95015 69493
             </a>
-            <a href="mailto:drrandeeprana@gastrohealth.in" className="hover:text-[#0078BF] transition-colors">
-              drrandeeprana@gastrohealth.in
+            <a href="mailto:randeeprana90@gmail.com" className="hover:text-[#0078BF] transition-colors">
+              randeeprana90@gmail.com
             </a>
             <a
               href="#contact"
-              className="bg-[#00843D] hover:bg-[#006EB6] text-white font-bold text-[11px] uppercase tracking-wider px-3.5 py-1 rounded-sm transition-colors"
+              className="bg-[#00843D] hover:bg-[#006EB6] text-white font-semibold text-[11px] uppercase tracking-wider px-3.5 py-1 rounded-sm transition-colors"
             >
               Book Appointment
             </a>
@@ -72,8 +72,8 @@ export default function Navbar() {
               <Logo variant="light" />
             </Link>
 
-            {/* Nav Links */}
-            <nav className="hidden md:flex items-center space-x-7 text-xs font-bold uppercase tracking-wider text-[#5B6770]">
+            {/* Nav Links - Semi-bold 600 */}
+            <nav className="hidden md:flex items-center space-x-7 text-xs font-semibold uppercase tracking-wider text-[#5B6770]">
               {navLinks.map((link) => {
                 const isActive =
                   pathname === link.href ||
@@ -84,8 +84,8 @@ export default function Navbar() {
                     href={link.href}
                     className={`relative py-1 transition-colors duration-200 ${
                       isActive
-                        ? "text-[#0078BF] font-extrabold"
-                        : "hover:text-[#0078BF]"
+                        ? "text-[#0078BF] font-semibold"
+                        : "hover:text-[#0078BF] font-semibold"
                     }`}
                   >
                     {link.name}
@@ -100,11 +100,11 @@ export default function Navbar() {
               })}
             </nav>
 
-            {/* Dr. Mohid Khan Style Signature CTA Button Pill */}
+            {/* Signature CTA Button Pill - Semi-bold 600 */}
             <div className="hidden sm:flex items-center space-x-3 shrink-0">
               <Link
                 href="/contact"
-                className="bg-[#6CB29D] hover:bg-[#5BA897] text-white font-extrabold text-[11px] uppercase tracking-wider rounded-full py-2.5 pl-5 pr-2 transition-all duration-200 shadow-md shadow-[#6CB29D]/20 flex items-center gap-3 group"
+                className="bg-[#6CB29D] hover:bg-[#5BA897] text-white font-semibold text-[11px] uppercase tracking-wider rounded-full py-2.5 pl-5 pr-2 transition-all duration-200 shadow-md shadow-[#6CB29D]/20 flex items-center gap-3 group"
               >
                 <span>Book Appointment</span>
                 <div className="w-7 h-7 rounded-full bg-white/20 text-white flex items-center justify-center group-hover:bg-white/30 transition-colors">
@@ -157,12 +157,12 @@ export default function Navbar() {
               })}
               <div className="pt-3 border-t border-[#002C47] flex flex-col gap-2">
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+919501569493"
                   onClick={() => setMobileMenuOpen(false)}
                   className="w-full py-3 rounded-full text-center font-bold text-white bg-[#002C47] flex items-center justify-center gap-2"
                 >
                   <Phone className="w-4 h-4 text-[#6CB29D]" />
-                  <span>Call +91 98765 43210</span>
+                  <span>Call +91 95015 69493</span>
                 </a>
                 <Link
                   href="/contact"

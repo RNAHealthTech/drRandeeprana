@@ -25,94 +25,94 @@ export const metadata: Metadata = {
 export default function ServicesPage() {
   const serviceCategories = [
     {
-      title: "Advanced Diagnostic & Therapeutic Endoscopy",
+      title: "Pancreatico-Biliary Sciences & Advanced ERCP",
       icon: Activity,
       description:
-        "Minimally invasive diagnostic and interventional endoscopic procedures performed under painless sedation.",
+        "Comprehensive interventional care for complex acute and chronic pancreatitis, pancreatic fluid collections, and biliary disorders.",
       items: [
         {
-          name: "Endoscopic Ultrasound (EUS)",
+          name: "Complex ERCP & Bile Duct Stone Clearance",
           details:
-            "High-frequency ultrasound probe endoscope for diagnosing pancreatic cysts, bile duct stones, and submucosal GI lesions. Enables EUS-guided FNA biopsy and drainage of pancreatic pseudocysts & walled-off necrosis.",
+            "Endoscopic removal of choledocholithiasis (CBD stones), relief of obstructive jaundice via plastic/metallic stents, and pancreatic duct interventions.",
         },
         {
-          name: "Endoscopic Retrograde Cholangiopancreatography (ERCP)",
+          name: "EUS-Guided Cystogastrostomy & Necrosectomy",
           details:
-            "Specialized intervention to extract choledocholithiasis (bile duct stones), relieve obstructive jaundice with plastic or metallic stents, and evaluate biliary strictures.",
+            "Minimally invasive drainage of pancreatic pseudocysts and walled-off necrosis using plastic stents or LAMS (Lumen-Apposing Metal Stents) under EUS guidance.",
         },
         {
-          name: "Routine Endoscopic Procedures (Gastroscopy & Colonoscopy)",
+          name: "Chronic Pancreatitis & Pain Protocols",
           details:
-            "Upper GI Gastroscopy for ulcers, GERD, and bleeding. Colonoscopy for colorectal cancer screening, IBD mucosal evaluation, and precision snare polypectomy.",
+            "Multi-modal pain management including adjunctive incremental pregabalin therapy, pancreatic enzyme replacement therapy (PERT), and Type 3c diabetes care.",
         },
       ],
     },
     {
-      title: "Hepatology & Liver Disease Management",
+      title: "Third Space Endoscopy & Early GI Cancer (EFTR / FTRD)",
+      icon: Zap,
+      description:
+        "Organ-preserving submucosal endoscopic resections replacing open surgical procedures.",
+      items: [
+        {
+          name: "POEM (Peroral Endoscopic Myotomy)",
+          details:
+            "Advanced endoscopic treatment for Achalasia Cardia and esophageal motility disorders without skin incisions.",
+        },
+        {
+          name: "ESD & STER (Submucosal Tunneling)",
+          details:
+            "Endoscopic Submucosal Dissection (ESD) and STER for resection of early mucosal cancers and submucosal tumors.",
+        },
+        {
+          name: "Full-Thickness Resection Device (FTRD / EFTR)",
+          details:
+            "OVESCO Germany certified advanced full-thickness resection for deep mucosal lesions, difficult polyps, and recurrent early GI neoplasia.",
+        },
+      ],
+    },
+    {
+      title: "Portal Hypertension & Endo-Hepatology",
       icon: Heart,
       description:
         "State-of-the-art liver care grounded in Dr. Rana's clinical trial research in decompensated cirrhosis and portal hypertension.",
       items: [
         {
-          name: "Cirrhosis & Portal Hypertension",
+          name: "Variceal Bleed Management & Simvastatin Protocol",
           details:
-            "Management of ascites, hepatic encephalopathy, and endoscopic band ligation (EVL) for esophageal and gastric variceal bleeding. Evidence-based simvastatin & rifaximin protocols.",
+            "Endoscopic Band Ligation (EVL) for esophageal/gastric varices combined with evidence-based simvastatin therapy to improve long-term survival after bleeding.",
         },
         {
-          name: "Fatty Liver Disease (NAFLD / NASH)",
+          name: "EUS-Guided Vascular Interventions",
           details:
-            "FibroScan CAP score assessment, lifestyle modification strategies, and medical therapies to arrest progression in both overweight and lean NAFLD.",
+            "Endosonographic thrombin/coil embolization for gastric varices and visceral arterial pseudoaneurysms (VAPT-EASE protocol).",
         },
         {
-          name: "Viral & Autoimmune Liver Diseases",
+          name: "EUS-Guided Biliary & Enteric Drainage (EUS-HGS / CDS / GE)",
           details:
-            "Direct-acting antiviral treatment for Hepatitis B and C, plus long-term care for Autoimmune Hepatitis (AIH), Primary Biliary Cholangitis (PBC), and Primary Sclerosing Cholangitis (PSC).",
+            "Advanced EUS-guided hepaticogastrostomy, choledochoduodenostomy, and EUS-guided gastrojejunostomy for complex obstructive jaundice and gastric outlet obstruction.",
         },
         {
-          name: "Liver Cancer (HCC) Surveillance",
+          name: "Fatty Liver & Quantitative FibroScan",
           details:
-            "Early detection protocols and collaborative multidisciplinary management for Hepatocellular Carcinoma.",
+            "Non-invasive liver stiffness elastography and CAP fat scoring for early fatty liver reversal and cirrhosis staging.",
         },
       ],
     },
     {
-      title: "Pancreatology Services",
-      icon: Zap,
-      description:
-        "Expert dedicated management for complex acute pancreatitis, chronic pancreatitis pain, and pancreatic fluid collections.",
-      items: [
-        {
-          name: "Acute Pancreatitis Care",
-          details:
-            "Immediate fluid resuscitation, pain control, and minimally invasive EUS-guided cystogastrostomy for infected necrosis and pseudocysts.",
-        },
-        {
-          name: "Chronic Pancreatitis & Pain Management",
-          details:
-            "Innovative pain relief protocols including adjunctive incremental pregabalin therapy, pancreatic enzyme replacement therapy (PERT), and Type 3c diabetes management.",
-        },
-        {
-          name: "Pancreatic Cyst Surveillance",
-          details:
-            "Comprehensive evaluation of incidental pancreatic cysts to determine malignant potential and guide surgical vs conservative care.",
-        },
-      ],
-    },
-    {
-      title: "Inflammatory Bowel Disease (IBD) Center",
+      title: "Inflammatory Bowel Diseases (IBD) Center",
       icon: ShieldCheck,
       description:
-        "Long-term specialized management tailored to control inflammation and achieve mucosal healing.",
+        "Dedicated long-term management for Ulcerative Colitis, Crohn's Disease, and complex enteropathies.",
       items: [
         {
-          name: "Crohn's Disease",
+          name: "Ulcerative Colitis & Crohn's Disease",
           details:
-            "Targeted immunomodulator and biologic therapies to control intestinal inflammation, prevent strictures, and heal fistulas.",
+            "Evidence-based biologic, immunomodulator, and small molecule therapies to induce mucosal healing and prevent disease flares.",
         },
         {
-          name: "Ulcerative Colitis",
+          name: "Celiac Enteropathy & Intestinal TB",
           details:
-            "Comprehensive treatment strategies tailored to disease extent and severity, focusing on long-term clinical remission.",
+            "Differential diagnosis and targeted management of gluten sensitivity, refractory intestinal tuberculosis, and malabsorption syndromes.",
         },
       ],
     },
@@ -169,8 +169,9 @@ export default function ServicesPage() {
       <PageHeader
         badge="Expert Medical Services in New Delhi"
         title="Comprehensive Gastroenterology & Endoscopy Services"
-        subtitle="At the forefront of digestive health care, Dr. Randeep Rana offers state-of-the-art diagnostic evaluations and therapeutic interventions at Max Smart Super Speciality Hospital Saket and GIPMER & MAMC."
+        subtitle="At the forefront of digestive health care, Dr. Randeep Rana offers state-of-the-art diagnostic evaluations and therapeutic interventions at Max Smart Super Speciality Hospital Saket."
         breadcrumbs={[{ label: "Services" }]}
+        bgImage="/images/dr-randeep-rana-scrubs-side.jpg"
       />
 
       {/* Visual Infrastructure Banner */}

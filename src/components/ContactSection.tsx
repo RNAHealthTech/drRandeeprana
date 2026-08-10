@@ -43,7 +43,7 @@ export default function ContactSection() {
             <span className="text-[#6CB29D] italic">Dr. Randeep Rana</span>
           </h2>
           <p className="text-slate-600 text-base sm:text-lg leading-relaxed font-light">
-            Schedule an in-person OPD visit at Max Smart Super Speciality Hospital Saket or GB Pant Institute (GIPMER) & MAMC, New Delhi.
+            Schedule an in-person OPD visit at Max Smart Super Speciality Hospital, Saket, New Delhi.
           </p>
         </div>
 
@@ -200,7 +200,7 @@ export default function ContactSection() {
             {/* Hospital Contact Info Card */}
             <div className="bg-[#002C47] text-white p-8 rounded-3xl shadow-xl space-y-6">
               <h3 className="text-xl font-serif font-bold border-b border-[#001D30] pb-4 text-white">
-                Clinical Locations & Timings
+                Clinical Location & OPD Timings
               </h3>
 
               <div className="space-y-4 text-sm">
@@ -211,19 +211,7 @@ export default function ContactSection() {
                   <div>
                     <div className="font-bold text-white">Max Smart Superspeciality Hospital</div>
                     <div className="text-slate-300 text-xs mt-0.5 font-light">
-                      Press Enclave Marg, Saket, New Delhi - 110017
-                    </div>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3.5">
-                  <div className="h-9 w-9 rounded-full bg-white/10 text-[#6CB29D] flex items-center justify-center shrink-0">
-                    <MapPin className="w-4 h-4" />
-                  </div>
-                  <div>
-                    <div className="font-bold text-white">GB Pant Institute (GIPMER) & MAMC</div>
-                    <div className="text-slate-300 text-xs mt-0.5 font-light">
-                      Assistant Professor, Dept of Gastroenterology, New Delhi
+                      Saket, New Delhi, India
                     </div>
                   </div>
                 </div>
@@ -233,12 +221,12 @@ export default function ContactSection() {
                     <Clock className="w-4 h-4" />
                   </div>
                   <div>
-                    <div className="font-bold text-white">OPD Hours</div>
+                    <div className="font-bold text-white">OPD Timings</div>
                     <div className="text-slate-300 text-xs mt-0.5 font-light">
-                      Monday – Saturday: 10:00 AM – 5:00 PM
+                      Monday – Saturday: 9:00 AM – 6:00 PM
                     </div>
                     <div className="text-[#6CB29D] text-xs font-semibold mt-0.5">
-                      24x7 Emergency GI Services Available
+                      Consultant Gastroenterology
                     </div>
                   </div>
                 </div>
@@ -249,9 +237,14 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <div className="font-bold text-white">Direct Helpline</div>
-                    <a href="tel:+919876543210" className="text-xs text-[#6CB29D] font-bold hover:underline">
-                      +91 98765 43210
-                    </a>
+                    <div className="flex flex-col gap-0.5">
+                      <a href="tel:+919501569493" className="text-xs text-[#6CB29D] font-bold hover:underline">
+                        +91 95015 69493
+                      </a>
+                      <a href="tel:+917703807941" className="text-xs text-[#6CB29D] font-bold hover:underline">
+                        +91 77038 07941
+                      </a>
+                    </div>
                   </div>
                 </div>
 
@@ -261,8 +254,8 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <div className="font-bold text-white">Email Contact</div>
-                    <a href="mailto:drrandeeprana@gastrohealth.in" className="text-xs text-[#6CB29D] font-bold hover:underline">
-                      drrandeeprana@gastrohealth.in
+                    <a href="mailto:randeeprana90@gmail.com" className="text-xs text-[#6CB29D] font-bold hover:underline">
+                      randeeprana90@gmail.com
                     </a>
                   </div>
                 </div>
@@ -271,7 +264,7 @@ export default function ContactSection() {
               {/* Quick Action Buttons */}
               <div className="grid grid-cols-2 gap-3 pt-2">
                 <a
-                  href="https://wa.me/919876543210?text=Hello%20Dr.%20Randeep%20Rana,%20I%20would%20like%20to%20book%20an%20OPD%20appointment."
+                  href="https://wa.me/919501569493?text=Hello%20Dr.%20Randeep%20Rana,%20I%20would%20like%20to%20book%20an%20OPD%20appointment."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="py-3 px-4 rounded-full bg-[#6CB29D] text-white font-extrabold text-xs flex items-center justify-center gap-2 hover:bg-[#5BA897] transition-colors shadow-md uppercase tracking-wider"
@@ -281,7 +274,7 @@ export default function ContactSection() {
                 </a>
 
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+919501569493"
                   className="py-3 px-4 rounded-full bg-white/10 text-white font-extrabold text-xs flex items-center justify-center gap-2 hover:bg-white/20 transition-colors shadow-md uppercase tracking-wider"
                 >
                   <Phone className="w-4 h-4 text-[#6CB29D]" />

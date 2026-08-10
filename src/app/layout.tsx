@@ -1,55 +1,31 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Plus_Jakarta_Sans } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingWidgets from "@/components/FloatingWidgets";
 import CustomCursor from "@/components/CustomCursor";
 import "./globals.css";
 
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
-  variable: "--font-playfair",
-  display: "swap",
-});
-
-const plusJakarta = Plus_Jakarta_Sans({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  variable: "--font-jakarta",
-  display: "swap",
-});
-
 export const metadata: Metadata = {
-  title: "Dr. Randeep Rana | Expert Gastroenterologist, Hepatologist & Pancreatologist in Delhi",
+  title: "Dr. Randeep Rana | Consultant Gastroenterology Saket New Delhi",
   description:
-    "Dr. Randeep Rana — AIIMS-trained Consultant Gastroenterologist, Hepatologist & Pancreatologist in New Delhi. Expert in Advanced Endoscopy, EUS, ERCP, Liver Disease & Pancreatitis. Book an appointment today.",
+    "Dr. Randeep Rana — MBBS (DMCH), MD (Dr. RMLH), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi). Consultant Gastroenterology at Max Smart Superspeciality Hospital, Saket, New Delhi.",
   keywords: [
-    "Gastroenterologist Delhi",
-    "Hepatologist New Delhi",
-    "Pancreatologist Delhi",
-    "Advanced Endoscopy Specialist",
-    "EUS ERCP Expert Delhi",
-    "Liver Disease Treatment Delhi",
-    "Pancreatitis Treatment Delhi",
-    "Best Gastroenterologist Saket",
-    "Fatty Liver Treatment Delhi",
-    "Cirrhosis Specialist",
-    "Inflammatory Bowel Disease Treatment",
-    "Colonoscopy Delhi",
-    "Gastroenterology Consultation Delhi",
-    "YourGutDoc",
-    "Best gastroenterologist near Saket Delhi",
-    "EUS-guided cystogastrostomy Delhi",
-    "chronic pancreatitis treatment New Delhi",
-    "variceal bleeding specialist Delhi",
-    "NAFLD management Delhi",
+    "Dr Randeep Rana",
+    "Gastroenterologist Saket",
+    "Max Smart Saket Gastroenterologist",
+    "Advanced GI Endoscopy Delhi",
+    "EUS ERCP Specialist Delhi",
+    "Pancreatico Biliary Sciences",
+    "Third Space Endoscopy POEM ESD",
+    "Inflammatory Bowel Disease Specialist",
+    "Portal Hypertension Cirrhosis Specialist",
+    "AIIMS Gastroenterologist",
   ],
   authors: [{ name: "Dr. Randeep Rana" }],
   openGraph: {
-    title: "Dr. Randeep Rana | Expert Gastroenterologist, Hepatologist & Pancreatologist in Delhi",
+    title: "Dr. Randeep Rana | Consultant Gastroenterology Saket New Delhi",
     description:
-      "Dr. Randeep Rana — AIIMS-trained Consultant Gastroenterologist, Hepatologist & Pancreatologist in New Delhi. Expert in Advanced Endoscopy, EUS, ERCP, Liver Disease & Pancreatitis.",
+      "Dr. Randeep Rana — MBBS (DMCH), MD (Dr. RMLH), DM (AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi). Consultant Gastroenterology at Max Smart Superspeciality Hospital, Saket, New Delhi.",
     type: "website",
     locale: "en_IN",
   },
@@ -62,11 +38,13 @@ const jsonLd = {
   medicalSpecialty: [
     "Gastroenterology",
     "Hepatology",
-    "Pancreatology",
+    "Pancreatico-Biliary Sciences",
     "Advanced Therapeutic Endoscopy",
   ],
   description:
-    "AIIMS-trained Consultant Gastroenterologist, Hepatologist & Pancreatologist in New Delhi. Expert in EUS, ERCP, Liver Disease & Pancreatitis.",
+    "MBBS (DMCH), MD (Dr. RMLH), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi). Consultant Gastroenterology at Max Smart Superspeciality Hospital, Saket, New Delhi.",
+  telephone: "+91-9501569493",
+  email: "randeeprana90@gmail.com",
   alumniOf: [
     {
       "@type": "EducationalOrganization",
@@ -74,7 +52,11 @@ const jsonLd = {
     },
     {
       "@type": "EducationalOrganization",
-      name: "Post Graduate Institute of Medical Education and Research (PGIMER), Chandigarh",
+      name: "ABVIMS & Dr Ram Manohar Lohia Hospital (Dr RMLH), New Delhi",
+    },
+    {
+      "@type": "EducationalOrganization",
+      name: "Dayanand Medical College & Hospital (DMCH), Ludhiana",
     },
   ],
   hospitalAffiliation: [
@@ -83,26 +65,11 @@ const jsonLd = {
       name: "Max Smart Superspeciality Hospital",
       address: {
         "@type": "PostalAddress",
-        streetAddress: "Press Enclave Marg, Saket",
-        addressLocality: "New Delhi",
-        postalCode: "110017",
-        addressCountry: "IN",
-      },
-    },
-    {
-      "@type": "Hospital",
-      name: "GB Pant Institute of Postgraduate Medical Education and Research (GIPMER) & MAMC",
-      address: {
-        "@type": "PostalAddress",
+        streetAddress: "Saket",
         addressLocality: "New Delhi",
         addressCountry: "IN",
       },
     },
-  ],
-  sameAs: [
-    "https://twitter.com/randeeprana90",
-    "https://instagram.com/rana_randeep_yourgutdoc",
-    "https://facebook.com/RandeepRanaYourgutdoc",
   ],
 };
 
@@ -112,7 +79,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${playfair.variable} ${plusJakarta.variable} scroll-smooth`}>
+    <html lang="en" className="scroll-smooth">
       <head>
         <script
           type="application/ld+json"

@@ -14,50 +14,50 @@ export default function GalleryPage() {
   const galleryItems = [
     {
       id: 1,
-      title: "Dr. Randeep Rana — Consultant Gastroenterologist",
+      title: "Dr. Randeep Rana — Consultant Gastroenterology",
       category: "Doctor Profile",
-      image: "/images/dr-randeep-rana.webp",
-      description: "AIIMS-trained Consultant Gastroenterologist, Hepatologist & Pancreatologist in New Delhi.",
+      image: "/images/dr-randeep-rana-whitecoat.jpg",
+      description: "Dr. Randeep Rana in clinical white coat at Max Smart Superspeciality Hospital, Saket.",
       icon: UserCheck,
     },
     {
       id: 2,
-      title: "Advanced Endoscopy Procedure Suite",
-      category: "Interventional Suite",
-      image: "/images/endoscopy-suite.png",
-      description: "State-of-the-art EUS and ERCP towers with high-definition narrow-band imaging and CO2 insufflation.",
-      icon: Activity,
-    },
-    {
-      id: 3,
-      title: "Compassionate Patient Consultation",
-      category: "Clinical Care",
-      image: "/images/doctor-consultation.png",
-      description: "Private consultation room at Max Smart Saket for in-depth medical evaluation and patient guidance.",
-      icon: Stethoscope,
-    },
-    {
-      id: 4,
-      title: "FibroScan & Quantitative Liver Clinic",
-      category: "Liver Diagnostics",
-      image: "/images/fibroscan-liver-care.png",
-      description: "Non-invasive elastography and CAP score assessment unit for painless fatty liver and cirrhosis staging.",
+      title: "Best Oral Award Presentation — EASL Conference",
+      category: "Academic Excellence",
+      image: "/images/dr-randeep-rana-award.jpg",
+      description: "Dr. Randeep Rana receiving Best Oral Presentation Award for clinical science at EASL Congress.",
       icon: Sparkles,
     },
     {
-      id: 5,
-      title: "Super-Specialty Hospital Facility",
-      category: "Infrastructure",
-      image: "/images/hospital-facility.png",
-      description: "Modern healthcare campus at Max Smart Superspeciality Hospital Saket & GIPMER MAMC New Delhi.",
+      id: 3,
+      title: "National Conference Speaker — GBPGCON",
+      category: "Keynote & Speaker",
+      image: "/images/dr-randeep-rana-speaker.jpg",
+      description: "Dr. Randeep Rana presenting clinical insights on stage at GBPGCON annual gastroenterology conference.",
       icon: Building2,
     },
     {
+      id: 4,
+      title: "Interventional Gastroenterologist — Max Healthcare",
+      category: "Clinical Practice",
+      image: "/images/dr-randeep-rana-scrubs-front.jpg",
+      description: "Dr. Randeep Rana in Max Healthcare scrubs specializing in EUS, ERCP & Third Space Endoscopy.",
+      icon: Stethoscope,
+    },
+    {
+      id: 5,
+      title: "Advanced Interventional Endoscopy Stance",
+      category: "Specialized Procedures",
+      image: "/images/dr-randeep-rana-scrubs-side.jpg",
+      description: "Dr. Randeep Rana — Specialist in POEM, ESD, STER, EFTR, and EUS-guided vascular & biliary interventions.",
+      icon: Activity,
+    },
+    {
       id: 6,
-      title: "Private Day-Care Recovery Lounge",
-      category: "Patient Comfort",
-      image: "/images/patient-recovery.png",
-      description: "Tranquil post-endoscopy recovery suite designed for patient safety, comfort, and same-day discharge.",
+      title: "Advanced Endoscopy Procedure Suite",
+      category: "Interventional Suite",
+      image: "/images/endoscopy-suite.png",
+      description: "State-of-the-art EUS and ERCP towers with narrow-band imaging and CO2 insufflation at Max Smart Saket.",
       icon: Camera,
     },
   ];
@@ -66,15 +66,16 @@ export default function GalleryPage() {
     <div className="bg-white text-[#1C2936]">
       <PageHeader
         badge="Clinical Gallery"
-        title="Infrastructure & Patient Care Facilities"
-        subtitle="Step inside our world-class gastroenterology center, modern endoscopy suites, and advanced diagnostic facilities in New Delhi."
+        title="Infrastructure & Photo Gallery"
+        subtitle="Explore authentic photo moments of Dr. Randeep Rana's clinical practice, international award recognitions, conference presentations, and procedure facilities."
         breadcrumbs={[{ label: "Gallery" }]}
+        bgImage="/images/dr-randeep-rana-award.jpg"
       />
 
       {/* Main Gallery Section */}
       <section className="py-20 bg-[#F4F7F9]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-          
+
           <div className="text-center max-w-3xl mx-auto space-y-4">
             <span className="px-4 py-1.5 rounded-full bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
               Visual Tour
@@ -104,7 +105,7 @@ export default function GalleryPage() {
                       loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/80 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity" />
-                    
+
                     {/* Floating Category Badge */}
                     <div className="absolute top-4 left-4 bg-[#001D30]/90 backdrop-blur-md text-[#6CB29D] border border-[#6CB29D]/40 text-[10px] font-extrabold uppercase tracking-widest px-3 py-1 rounded-full flex items-center gap-1.5">
                       <Icon className="w-3.5 h-3.5" />

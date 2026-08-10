@@ -196,6 +196,7 @@ export default function BlogPage() {
         title="Gastrointestinal Health & Medical Blog"
         subtitle="Informative articles, clinical insights, and patient education guides written by Dr. Randeep Rana to empower you on your digestive wellness journey."
         breadcrumbs={[{ label: "Blog" }]}
+        bgImage="/images/dr-randeep-rana-scrubs-front.jpg"
       />
 
       <section className="py-20 bg-white">

@@ -9,6 +9,7 @@ interface PageHeaderProps {
   title: string;
   subtitle: string;
   breadcrumbs: BreadcrumbItem[];
+  bgImage?: string;
 }
 
 export default function PageHeader({
@@ -16,18 +17,34 @@ export default function PageHeader({
   title,
   subtitle,
   breadcrumbs,
+  bgImage = "/images/drrandeep.webp",
 }: PageHeaderProps) {
   return (
-    <section className="relative pt-28 sm:pt-32 lg:pt-36 pb-16 bg-[#002C47] text-white overflow-hidden border-b border-[#001D30]">
-      {/* Decorative Subtle Dark Glow */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-[#6CB29D]/10 rounded-full blur-3xl pointer-events-none" />
+    <section className="relative min-h-[520px] sm:min-h-[580px] lg:min-h-[620px] pt-32 sm:pt-36 lg:pt-40 pb-16 sm:pb-20 bg-slate-900 text-white overflow-hidden border-b border-[#002C47] flex items-center">
+      {/* Background Image - Right-Side Constrained with Top Head Alignment */}
+      {bgImage && (
+        <div className="absolute top-0 right-0 bottom-0 w-full lg:w-1/2 h-full z-0 overflow-hidden">
+          <img
+            src={bgImage}
+            alt="Dr. Randeep Rana Banner Background"
+            className="w-full h-full object-cover opacity-90"
+            style={{ objectPosition: "center top" }}
+            loading="eager"
+          />
+          {/* Gradient Overlay: Solid Dark Navy on Left under text, Clear Photo on Right */}
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/85 via-30% to-transparent" />
+        </div>
+      )}
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      {/* Ambient Glow */}
+      <div className="absolute top-0 right-0 w-96 h-96 bg-[#6CB29D]/15 rounded-full blur-3xl pointer-events-none z-0" />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="max-w-3xl space-y-4"
+          className="max-w-2xl space-y-4 text-left"
         >
           {/* Breadcrumbs */}
           <div className="text-slate-300">
@@ -35,17 +52,17 @@ export default function PageHeader({
           </div>
 
           {/* Badge */}
-          <div className="inline-flex items-center px-3.5 py-1 rounded-full bg-white/10 border border-[#6CB29D]/40 text-[#6CB29D] text-xs font-bold uppercase tracking-widest">
+          <div className="inline-flex items-center px-3.5 py-1 rounded-full bg-[#00843D] text-white text-xs font-bold uppercase tracking-widest border border-white/20 shadow-sm">
             {badge}
           </div>
 
           {/* Title - Playfair Serif */}
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-semibold tracking-tight text-white leading-tight">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold tracking-tight text-white leading-tight drop-shadow-md">
             {title}
           </h1>
 
           {/* Subtitle */}
-          <p className="text-slate-200 text-base sm:text-lg leading-relaxed font-light max-w-2xl">
+          <p className="text-slate-100 text-base sm:text-lg leading-relaxed font-light max-w-xl drop-shadow">
             {subtitle}
           </p>
         </motion.div>

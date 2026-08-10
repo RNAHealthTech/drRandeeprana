@@ -21,15 +21,15 @@ export default function Footer() {
             </Link>
 
             <p className="text-xs text-slate-400 font-light leading-relaxed">
-              Consultant Gastroenterologist, Hepatologist & Pancreatologist at Max Smart Super Speciality Hospital Saket and Assistant Professor at GB Pant Institute (GIPMER) & MAMC, New Delhi.
+              Consultant Gastroenterology at Max Smart Superspeciality Hospital, Saket, New Delhi. Ex-Assistant Professor at GIPMER. DM (Gastroenterology) & Fellowship in Advanced GI Endoscopy from AIIMS, New Delhi.
             </p>
 
             <div className="pt-2 flex flex-col space-y-2 text-xs text-slate-300 font-light">
               <span className="flex items-center gap-2">
-                <Award className="w-4 h-4 text-[#6CB29D]" /> AIIMS & PGIMER Super Specialist Alumni
+                <Award className="w-4 h-4 text-[#6CB29D]" /> MBBS (DMCH), MD (Dr. RMLH), DM & Fellowship (AIIMS New Delhi)
               </span>
               <span className="flex items-center gap-2">
-                <ShieldCheck className="w-4 h-4 text-[#6CB29D]" /> Max Smart Saket & GIPMER / MAMC
+                <ShieldCheck className="w-4 h-4 text-[#6CB29D]" /> Max Smart Superspeciality Hospital, Saket
               </span>
             </div>
           </div>
@@ -52,43 +52,42 @@ export default function Footer() {
           <div className="lg:col-span-3 space-y-4">
             <h4 className="text-xs font-bold text-[#6CB29D] uppercase tracking-widest">Key Services</h4>
             <ul className="space-y-2 text-xs font-light text-slate-400">
-              <li><Link href="/services" className="hover:text-[#6CB29D]">Acidity & Severe GERD Treatment</Link></li>
-              <li><Link href="/services" className="hover:text-[#6CB29D]">Painless Gastroscopy & Colonoscopy</Link></li>
-              <li><Link href="/services" className="hover:text-[#6CB29D]">Non-Invasive Fatty Liver & FibroScan</Link></li>
-              <li><Link href="/services" className="hover:text-[#6CB29D]">ERCP Bile Duct Stone Clearance</Link></li>
-              <li><Link href="/services" className="hover:text-[#6CB29D]">Pancreatitis & EUS Cystogastrostomy</Link></li>
-              <li><Link href="/services" className="hover:text-[#6CB29D]">Ulcerative Colitis & Crohn's Disease</Link></li>
+              <li><Link href="/services" className="hover:text-[#6CB29D]">Pancreatico-Biliary Sciences & ERCP</Link></li>
+              <li><Link href="/services" className="hover:text-[#6CB29D]">Advanced Endoscopy & EUS</Link></li>
+              <li><Link href="/services" className="hover:text-[#6CB29D]">Third Space Endoscopy (POEM, ESD, STER)</Link></li>
+              <li><Link href="/services" className="hover:text-[#6CB29D]">Early GI Cancer & EFTR (FTRD)</Link></li>
+              <li><Link href="/services" className="hover:text-[#6CB29D]">Inflammatory Bowel Diseases (IBD)</Link></li>
+              <li><Link href="/services" className="hover:text-[#6CB29D]">Portal Hypertension & Liver Cirrhosis</Link></li>
             </ul>
           </div>
 
           {/* Hospital Location Column */}
           <div className="lg:col-span-3 space-y-4">
-            <h4 className="text-xs font-bold text-[#6CB29D] uppercase tracking-widest">Clinical Locations</h4>
+            <h4 className="text-xs font-bold text-[#6CB29D] uppercase tracking-widest">Clinical Location</h4>
             <div className="space-y-3 text-xs text-slate-400 font-light">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#6CB29D] shrink-0 mt-0.5" />
                 <span>
                   <strong className="text-slate-200">Max Smart Superspeciality Hospital</strong><br />
-                  Press Enclave Marg, Saket, New Delhi 110017
-                </span>
-              </div>
-              <div className="flex items-start gap-2.5">
-                <MapPin className="w-4 h-4 text-[#6CB29D] shrink-0 mt-0.5" />
-                <span>
-                  <strong className="text-slate-200">GB Pant (GIPMER) & MAMC</strong><br />
-                  Asst. Professor, Dept of Gastroenterology
+                  Saket, New Delhi, India<br />
+                  <span className="text-slate-400 text-[11px]">Mon - Sat: 9.00 am - 6.00 pm</span>
                 </span>
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-[#6CB29D] shrink-0" />
-                <a href="tel:+919876543210" className="hover:underline text-slate-200 font-bold">
-                  +91 98765 43210
-                </a>
+                <div className="flex flex-col">
+                  <a href="tel:+919501569493" className="hover:underline text-slate-200 font-bold">
+                    +91 95015 69493
+                  </a>
+                  <a href="tel:+917703807941" className="hover:underline text-slate-200 font-bold">
+                    +91 77038 07941
+                  </a>
+                </div>
               </div>
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-[#6CB29D] shrink-0" />
-                <a href="mailto:drrandeeprana@gastrohealth.in" className="hover:underline text-slate-200">
-                  drrandeeprana@gastrohealth.in
+                <a href="mailto:randeeprana90@gmail.com" className="hover:underline text-slate-200">
+                  randeeprana90@gmail.com
                 </a>
               </div>
             </div>

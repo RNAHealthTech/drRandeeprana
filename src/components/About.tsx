@@ -9,30 +9,38 @@ export default function About() {
     {
       degree: "Fellowship in Advanced GI Endoscopy",
       institution: "All India Institute of Medical Sciences (AIIMS), New Delhi",
-      year: "2023 - 2024",
-      description: "Super-specialized training in Endoscopic Ultrasound (EUS), ERCP, and complex interventional GI procedures.",
+      year: "July 2023 – July 2024",
+      description: "Super-specialized fellowship in Advanced GI Endoscopy, EUS, ERCP, and complex interventional procedures.",
     },
     {
-      degree: "DM (Gastroenterology)",
+      degree: "D.M. (Gastroenterology)",
       institution: "All India Institute of Medical Sciences (AIIMS), New Delhi",
-      year: "2020 - 2023",
-      description: "Pivotal research on decompensated cirrhosis, variceal bleeding, and pancreatic fluid collection management.",
+      year: "July 2020 – July 2023",
+      description: "Pivotal clinical and randomized controlled trial research in portal hypertension, cirrhosis survival, and pancreatic disorders.",
     },
     {
-      degree: "MD (Internal Medicine)",
-      institution: "Post Graduate Institute of Medical Education and Research (PGIMER), Chandigarh",
-      year: "2019",
-      description: "Rigorous clinical residency in internal medicine, acute emergency care, and systemic disease diagnostics.",
+      degree: "M.D. (Internal Medicine)",
+      institution: "ABVIMS & Dr Ram Manohar Lohia Hospital (Dr RMLH), New Delhi",
+      year: "May 2015 – May 2018",
+      description: "Comprehensive residency in internal medicine, acute emergency care, and multi-system medical management.",
+    },
+    {
+      degree: "MBBS (Gold Medalist)",
+      institution: "Dayanand Medical College & Hospital (DMCH), Ludhiana",
+      year: "Aug 2008 – Dec 2012",
+      description: "First Position & Gold Medal in Medicine, MBBS (2012). Internship completed 2013-2014.",
     },
   ];
 
   const highlights = [
-    "Over 15+ years of extensive clinical & interventional experience",
-    "Expert in EUS, ERCP, and EUS-guided cystogastrostomy",
-    "Assistant Professor of Gastroenterology at GIPMER & MAMC",
-    "Consultant Gastroenterologist at Max Smart Super Speciality Hospital, Saket",
-    "Over 40 high-impact research publications in JAMA, AJG, and IJG",
-    "Editorial Fellow of the Indian Journal of Gastroenterology (IJG)",
+    "Gold Medalist (First Position in Medicine, MBBS 2012)",
+    "All India Rank 2 (AIIMS DM Entrance 2020) & AIR 1 (AIIMS Fellowship 2023)",
+    "All India Rank 69, State Rank 2 (NEET-PG)",
+    "Consultant Gastroenterology, Max Smart Superspeciality Hospital, Saket",
+    "Ex-Assistant Professor, GB Pant Institute (GIPMER), New Delhi",
+    "Ex-Associate Consultant, Sir Ganga Ram Hospital (ILGPS), New Delhi",
+    "Editorial Fellow - Indian Journal of Gastroenterology",
+    "Member: ESGE, ASGE, EASL, WEO, ILCA, IAP, ISG, SGEI, IPC, CCFI",
   ];
 
   return (
@@ -49,7 +57,7 @@ export default function About() {
             <span className="text-[#6CB29D] italic">Advanced Endoscopy Care</span>
           </h2>
           <p className="text-slate-600 text-base sm:text-lg leading-relaxed font-light">
-            Combining academic rigor from AIIMS New Delhi and PGIMER Chandigarh with compassionate patient care at Max Smart Super Speciality Hospital Saket and GIPMER / MAMC.
+            Combining academic rigor from AIIMS New Delhi, Dr. RML Hospital, and DMCH with compassionate care at Max Smart Super Speciality Hospital, Saket.
           </p>
         </div>
 
@@ -88,10 +96,10 @@ export default function About() {
                 Professional Profile & Clinical Legacy
               </h3>
               <p className="text-slate-600 leading-relaxed font-light">
-                <strong className="text-[#002C47] font-semibold">Dr. Randeep Rana</strong> is a distinguished Consultant Gastroenterologist, Hepatologist, and Pancreatologist in New Delhi. Describing himself as <em className="text-[#002C47] font-serif font-medium">&ldquo;a gastroenterologist by profession, a therapeutic endoscopist by choice, and a Punjabi by heart,&rdquo;</em> he combines deep cultural empathy with cutting-edge interventional medicine.
+                <strong className="text-[#002C47] font-semibold">Dr. Randeep Rana</strong> is Consultant Gastroenterology at Max Smart Superspeciality Hospital, Saket, New Delhi. Holding MBBS (Gold Medalist, DMCH), M.D (Dr. RMLH), D.M (Gastroenterology, AIIMS Delhi), and Fellowship in Advanced GI Endoscopy (AIIMS Delhi), he is an Ex-Assistant Professor at GB Pant Institute of Postgraduate Medical Education and Research (GIPMER).
               </p>
               <p className="text-slate-600 leading-relaxed font-light">
-                Currently serving as Assistant Professor in the Department of Gastroenterology at GB Pant Institute (GIPMER) & Maulana Azad Medical College (MAMC), and consulting at Max Smart Superspeciality Hospital Saket, Dr. Rana is a recognized authority in Endoscopic Ultrasound (EUS), ERCP, cirrhosis survival, and complex acute/chronic pancreatitis.
+                Specializing in Pancreatico-Biliary Sciences, Inflammatory Bowel Diseases, Portal Hypertension, Advanced Endoscopy (EUS/ERCP), Third Space Endoscopy (POEM, ESD, STER), and Early GI Cancer Management (EMR, ESD, EFTR/FTRD), Dr. Rana serves as Editorial Fellow of the <em>Indian Journal of Gastroenterology</em> and is an active member of ESGE, ASGE, EASL, WEO, ILCA, IAP, ISG, SGEI, IPC, and CCFI.
               </p>
 
               {/* Key Clinical Highlights */}
