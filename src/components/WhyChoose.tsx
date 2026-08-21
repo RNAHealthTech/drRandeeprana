@@ -42,11 +42,11 @@ export default function WhyChoose() {
   ];
 
   return (
-    <section id="why-choose" className="py-24 bg-white relative text-[#1C2936]">
+    <section id="why-choose" className="py-16 bg-white relative text-[#1C2936]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Title */}
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-16">
-          <span className="px-4 py-1.5 rounded-full bg-[#EBF5F2] text-[#002C47] text-xs font-bold uppercase tracking-widest">
+          <span className="px-4 py-1.5 rounded-md bg-[#EBF5F2] text-[#002C47] text-xs font-bold uppercase tracking-widest">
             The Standard of Care
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#002C47] tracking-tight">
@@ -69,12 +69,12 @@ export default function WhyChoose() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.1 * idx }}
-                className="bg-[#F4F7F9] border border-[#DDE6ED] p-8 rounded-3xl shadow-sm hover:shadow-lg hover:border-[#6CB29D]/50 transition-all duration-300 relative group"
+                className="bg-white border border-slate-200 p-8 rounded-md flex flex-col justify-between"
               >
-                <div className="h-12 w-12 rounded-full bg-[#EBF5F2] text-[#6CB29D] flex items-center justify-center mb-6 group-hover:bg-[#6CB29D] group-hover:text-white transition-colors duration-300">
+                <div className="h-12 w-12 rounded-md bg-[#EBF5F2] text-[#6CB29D] flex items-center justify-center mb-6">
                   <Icon className="w-6 h-6" />
                 </div>
-                <h3 className="text-xl font-serif font-bold text-[#002C47] mb-3 group-hover:text-[#6CB29D] transition-colors">
+                <h3 className="text-xl font-serif font-bold text-[#002C47] mb-3">
                   {pillar.title}
                 </h3>
                 <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mb-4 font-light">
@@ -89,7 +89,7 @@ export default function WhyChoose() {
         </div>
 
         {/* Max Smart & GIPMER Trust Banner */}
-        <div className="mt-16 bg-[#002C47] rounded-3xl p-8 sm:p-12 text-white shadow-xl flex flex-col md:flex-row items-center justify-between gap-8 relative overflow-hidden group">
+        <div className="mt-16 bg-[#002C47] rounded-md p-8 sm:p-12 text-white shadow-sm flex flex-col md:flex-row items-center justify-between gap-8 relative overflow-hidden group">
           {/* Realistic Hospital Background Photo */}
           <div className="absolute inset-0 z-0 opacity-20 group-hover:opacity-30 transition-opacity duration-500">
             <img
@@ -102,7 +102,7 @@ export default function WhyChoose() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#002C47] via-[#002C47]/90 to-transparent pointer-events-none z-0" />
 
           <div className="space-y-3 text-center md:text-left relative z-10 max-w-2xl">
-            <span className="px-3.5 py-1 rounded-full bg-white/10 border border-[#6CB29D]/30 text-xs font-bold uppercase tracking-widest text-[#6CB29D]">
+            <span className="px-3.5 py-1 rounded-md bg-white/10 border border-[#6CB29D]/30 text-xs font-bold uppercase tracking-widest text-[#6CB29D]">
               Consultant Gastroenterology
             </span>
             <h3 className="text-2xl sm:text-3xl font-serif font-bold text-white">
@@ -114,12 +114,10 @@ export default function WhyChoose() {
           </div>
           <a
             href="#contact"
-            className="relative z-10 bg-[#6CB29D] hover:bg-[#5BA897] text-white font-extrabold text-xs uppercase tracking-wider rounded-full py-3.5 pl-6 pr-2 transition-all shadow-lg flex items-center gap-3 shrink-0 group"
+            className="relative z-10 bg-[#6CB29D] hover:bg-[#5BA897] text-white font-bold text-xs uppercase tracking-wider rounded-md py-3.5 px-6 transition-colors flex items-center gap-2 shrink-0"
           >
             <span>Schedule OPD Visit</span>
-            <div className="w-8 h-8 rounded-full bg-white/20 text-white flex items-center justify-center">
-              <SquarePen className="w-4 h-4" />
-            </div>
+            <SquarePen className="w-4 h-4" />
           </a>
         </div>
       </div>

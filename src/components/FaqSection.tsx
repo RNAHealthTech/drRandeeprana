@@ -71,11 +71,11 @@ export default function FaqSection() {
   ];
 
   return (
-    <section id="faq" className="py-24 bg-white relative text-[#1C2936]">
+    <section id="faq" className="py-16 bg-white relative text-[#1C2936]">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-16">
-          <span className="px-4 py-1.5 rounded-full bg-[#EBF5F2] text-[#002C47] text-xs font-bold uppercase tracking-widest">
+          <span className="px-4 py-1.5 rounded-md bg-[#EBF5F2] text-[#002C47] text-xs font-bold uppercase tracking-widest">
             Patient Support & Information
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#002C47] tracking-tight">
@@ -91,15 +91,11 @@ export default function FaqSection() {
           {faqs.map((faq, idx) => {
             const isOpen = openIndex === idx;
             return (
-              <motion.div
+              <div
                 key={faq.q}
-                initial={{ opacity: 0, y: 10 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.3, delay: 0.03 * idx }}
-                className={`border rounded-2xl transition-all duration-200 overflow-hidden ${
+                className={`border rounded-md transition-all duration-200 overflow-hidden ${
                   isOpen
-                    ? "bg-[#EBF5F2]/40 border-[#6CB29D]/50 shadow-md"
+                    ? "bg-[#EBF5F2]/40 border-[#6CB29D]/50"
                     : "bg-[#F4F7F9] border-[#DDE6ED] hover:border-[#6CB29D]/40"
                 }`}
               >
@@ -133,7 +129,7 @@ export default function FaqSection() {
                     </motion.div>
                   )}
                 </AnimatePresence>
-              </motion.div>
+              </div>
             );
           })}
         </div>

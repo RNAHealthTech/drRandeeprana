@@ -72,7 +72,7 @@ export default function MediaPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
           <div className="max-w-3xl space-y-4">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#EBF5F2] text-[#002C47] text-xs font-bold uppercase tracking-widest">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-md bg-[#EBF5F2] text-[#002C47] text-xs font-bold uppercase tracking-widest">
               <Trophy className="w-4 h-4 text-[#6CB29D]" />
               Conference Presentations & Achievements
             </div>
@@ -86,15 +86,15 @@ export default function MediaPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* DDW 2024 Washington D.C. */}
-            <div className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-3xl overflow-hidden shadow-sm space-y-0 hover:border-[#6CB29D]/50 transition-all group flex flex-col justify-between">
+            <div className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-md overflow-hidden shadow-sm space-y-0 hover:border-[#6CB29D]/50 transition-all group flex flex-col justify-between">
               <div className="relative h-56 overflow-hidden bg-slate-900">
                 <img
                   src="/images/ddw-2024-poster-presentation.jpg"
                   alt="DDW 2024 Washington D.C. Poster Presentation"
-                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-top group- transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/80 via-transparent to-transparent opacity-60" />
-                <span className="absolute top-4 left-4 text-[10px] font-bold text-white bg-[#002C47]/90 px-3 py-1 rounded-full uppercase tracking-widest border border-white/20">
+                <span className="absolute top-4 left-4 text-[10px] font-bold text-white bg-[#002C47]/90 px-3 py-1 rounded-md uppercase tracking-widest border border-white/20">
                   DDW 2024 • Washington D.C.
                 </span>
               </div>
@@ -109,15 +109,15 @@ export default function MediaPage() {
             </div>
 
             {/* APDW 2025 Singapore */}
-            <div className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-3xl overflow-hidden shadow-sm space-y-0 hover:border-[#6CB29D]/50 transition-all group flex flex-col justify-between">
+            <div className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-md overflow-hidden shadow-sm space-y-0 hover:border-[#6CB29D]/50 transition-all group flex flex-col justify-between">
               <div className="relative h-56 overflow-hidden bg-slate-900">
                 <img
                   src="/images/apdw-2025-singapore-poster.jpg"
                   alt="APDW 2025 Singapore Poster Presentation"
-                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-top group- transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/80 via-transparent to-transparent opacity-60" />
-                <span className="absolute top-4 left-4 text-[10px] font-bold text-[#6CB29D] bg-[#002C47]/90 px-3 py-1 rounded-full uppercase tracking-widest border border-[#6CB29D]/40">
+                <span className="absolute top-4 left-4 text-[10px] font-bold text-[#6CB29D] bg-[#002C47]/90 px-3 py-1 rounded-md uppercase tracking-widest border border-[#6CB29D]/40">
                   APDW 2025 • Singapore
                 </span>
               </div>
@@ -132,15 +132,15 @@ export default function MediaPage() {
             </div>
 
             {/* Poster Award - Clinical Science */}
-            <div className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-3xl overflow-hidden shadow-sm space-y-0 hover:border-[#6CB29D]/50 transition-all group flex flex-col justify-between">
+            <div className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-md overflow-hidden shadow-sm space-y-0 hover:border-[#6CB29D]/50 transition-all group flex flex-col justify-between">
               <div className="relative h-56 overflow-hidden bg-slate-900">
                 <img
                   src="/images/poster-award-best-oral-clinical-science.jpg"
                   alt="Best Oral Poster Awardee in Clinical Science"
-                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-top group- transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/80 via-transparent to-transparent opacity-60" />
-                <span className="absolute top-4 left-4 text-[10px] font-bold text-white bg-[#6CB29D] px-3 py-1 rounded-full uppercase tracking-widest shadow-sm">
+                <span className="absolute top-4 left-4 text-[10px] font-bold text-white bg-[#6CB29D] px-3 py-1 rounded-md uppercase tracking-widest shadow-sm">
                   Best Oral Award • Clinical Science
                 </span>
               </div>
@@ -155,15 +155,15 @@ export default function MediaPage() {
             </div>
 
             {/* GBPGCON Session Chairperson */}
-            <div className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-3xl overflow-hidden shadow-sm space-y-0 hover:border-[#6CB29D]/50 transition-all group flex flex-col justify-between">
+            <div className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-md overflow-hidden shadow-sm space-y-0 hover:border-[#6CB29D]/50 transition-all group flex flex-col justify-between">
               <div className="relative h-56 overflow-hidden bg-slate-900">
                 <img
                   src="/images/gbpgcon-chairperson-delegate.jpg"
                   alt="GBPGCON Session Chairperson"
-                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-top group- transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/80 via-transparent to-transparent opacity-60" />
-                <span className="absolute top-4 left-4 text-[10px] font-bold text-white bg-[#001D30]/90 px-3 py-1 rounded-full uppercase tracking-widest border border-white/20">
+                <span className="absolute top-4 left-4 text-[10px] font-bold text-white bg-[#001D30]/90 px-3 py-1 rounded-md uppercase tracking-widest border border-white/20">
                   GBPGCON • New Delhi
                 </span>
               </div>
@@ -178,15 +178,15 @@ export default function MediaPage() {
             </div>
 
             {/* EASL Hepatology Congress Hall */}
-            <div className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-3xl overflow-hidden shadow-sm space-y-0 hover:border-[#6CB29D]/50 transition-all group flex flex-col justify-between md:col-span-2 lg:col-span-2">
+            <div className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-md overflow-hidden shadow-sm space-y-0 hover:border-[#6CB29D]/50 transition-all group flex flex-col justify-between md:col-span-2 lg:col-span-2">
               <div className="relative h-56 sm:h-64 overflow-hidden bg-slate-900">
                 <img
                   src="/images/easl-hepatology-congress-hall.jpg"
                   alt="EASL Home of Hepatology Congress Hall"
-                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-center group- transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/80 via-transparent to-transparent opacity-60" />
-                <span className="absolute top-4 left-4 text-[10px] font-bold text-white bg-[#002C47]/90 px-3 py-1 rounded-full uppercase tracking-widest border border-[#6CB29D]/40">
+                <span className="absolute top-4 left-4 text-[10px] font-bold text-white bg-[#002C47]/90 px-3 py-1 rounded-md uppercase tracking-widest border border-[#6CB29D]/40">
                   EASL Congress • Home of Hepatology
                 </span>
               </div>
@@ -207,7 +207,7 @@ export default function MediaPage() {
       <section className="py-20 bg-[#F4F7F9]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
           <div className="max-w-3xl space-y-4">
-            <span className="px-4 py-1.5 rounded-full bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
+            <span className="px-4 py-1.5 rounded-md bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
               Editorial Appointments & Affiliations
             </span>
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#002C47]">
@@ -215,7 +215,7 @@ export default function MediaPage() {
             </h2>
           </div>
 
-          <div className="overflow-x-auto rounded-3xl border border-[#DDE6ED] bg-white shadow-md">
+          <div className="overflow-x-auto rounded-md border border-[#DDE6ED] bg-white shadow-md">
             <table className="w-full text-left border-collapse min-w-[650px]">
               <thead>
                 <tr className="bg-[#002C47] text-white text-xs font-bold uppercase tracking-widest">
@@ -240,7 +240,7 @@ export default function MediaPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
           <div className="max-w-3xl space-y-4">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#EBF5F2] text-[#002C47] text-xs font-bold uppercase tracking-widest">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-md bg-[#EBF5F2] text-[#002C47] text-xs font-bold uppercase tracking-widest">
               <BookOpen className="w-4 h-4 text-[#6CB29D]" />
               Research Spotlight
             </div>
@@ -253,10 +253,10 @@ export default function MediaPage() {
             {globalResearch.map((res, idx) => (
               <div
                 key={idx}
-                className="p-8 rounded-3xl border border-[#DDE6ED] bg-[#F4F7F9] shadow-sm space-y-4"
+                className="p-8 rounded-md border border-[#DDE6ED] bg-[#F4F7F9] shadow-sm space-y-4"
               >
                 <div className="flex items-center justify-between">
-                  <span className="px-3 py-1 rounded-full bg-[#002C47] text-[#6CB29D] font-bold text-[11px] uppercase tracking-widest">
+                  <span className="px-3 py-1 rounded-md bg-[#002C47] text-[#6CB29D] font-bold text-[11px] uppercase tracking-widest">
                     {res.journal}
                   </span>
                   <span className="text-xs font-bold text-slate-400">{res.year}</span>
@@ -273,7 +273,7 @@ export default function MediaPage() {
       <section className="py-20 bg-[#F4F7F9]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
           <div className="text-center max-w-3xl mx-auto space-y-4">
-            <span className="px-4 py-1.5 rounded-full bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
+            <span className="px-4 py-1.5 rounded-md bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
               Public Health Outreach • "YourGutDoc"
             </span>
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#002C47]">
@@ -291,9 +291,9 @@ export default function MediaPage() {
                 href={handle.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white p-6 rounded-3xl border border-[#DDE6ED] shadow-sm hover:shadow-lg hover:border-[#6CB29D]/50 transition-all text-center space-y-3 block group"
+                className="bg-white p-6 rounded-md border border-[#DDE6ED] shadow-sm hover:shadow-sm hover:border-[#6CB29D]/50 transition-all text-center space-y-3 block group"
               >
-                <div className="h-10 w-10 rounded-full bg-[#EBF5F2] text-[#002C47] flex items-center justify-center mx-auto group-hover:bg-[#6CB29D] group-hover:text-white transition-colors">
+                <div className="h-10 w-10 rounded-md bg-[#EBF5F2] text-[#002C47] flex items-center justify-center mx-auto group-hover:bg-[#6CB29D] group-hover:text-white transition-colors">
                   <Video className="w-5 h-5" />
                 </div>
                 <div>

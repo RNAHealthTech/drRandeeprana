@@ -78,19 +78,17 @@ export default function ServicesOverview() {
             return (
               <div
                 key={panel.id}
-                className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-1.5 group flex flex-col justify-between border border-slate-200"
+                className="bg-white rounded-md overflow-hidden shadow-sm group flex flex-col justify-between border border-slate-200"
               >
                 <div className="relative h-60 overflow-hidden bg-slate-900">
                   <img
                     src={panel.image}
                     alt={panel.title}
-                    className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-700"
+                    className="w-full h-full object-cover object-top"
                     loading="lazy"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#1C2936]/80 via-transparent to-transparent" />
                   
-                  {/* Category Tag */}
-                  <div className="absolute top-4 left-4 bg-white/90 text-[#00843D] border border-slate-200 text-[10px] font-extrabold uppercase tracking-widest px-3 py-1 rounded-sm flex items-center gap-1.5 backdrop-blur-md shadow-sm">
+                  <div className="absolute top-4 left-4 bg-white text-[#00843D] border border-slate-200 text-[10px] font-extrabold uppercase tracking-widest px-3 py-1 rounded-sm flex items-center gap-1.5 shadow-sm">
                     <Icon className="w-3.5 h-3.5 text-[#00843D]" />
                     <span>{panel.category}</span>
                   </div>
@@ -120,7 +118,7 @@ export default function ServicesOverview() {
         </div>
 
         {/* Cleveland Clinic "Not Sure Where To Go for Care?" Banner */}
-        <div className="bg-white rounded-lg p-8 sm:p-10 border border-slate-200 shadow-lg flex flex-col md:flex-row items-center justify-between gap-8">
+        <div className="bg-white rounded-lg p-8 sm:p-10 border border-slate-200 shadow-sm flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="space-y-2 text-center md:text-left max-w-2xl">
             <div className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-[#00843D]">
               <HelpCircle className="w-4 h-4" />
@@ -136,7 +134,7 @@ export default function ServicesOverview() {
 
           <a
             href="#contact"
-            className="bg-[#00843D] hover:bg-[#006EB6] text-white font-extrabold text-xs uppercase tracking-wider rounded-sm px-8 py-4 transition-colors shadow-md shrink-0 flex items-center gap-3"
+            className="bg-[#00843D] hover:bg-[#006EB6] text-white font-extrabold text-xs uppercase tracking-wider rounded-sm px-8 py-4 transition-colors flex items-center gap-3"
           >
             <span>Book Consultation</span>
             <ArrowRight className="w-4 h-4" />

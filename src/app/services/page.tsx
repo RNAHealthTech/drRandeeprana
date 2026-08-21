@@ -178,32 +178,32 @@ export default function ServicesPage() {
       <section className="pt-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="relative rounded-3xl overflow-hidden shadow-lg border border-[#DDE6ED] h-60 sm:h-72 group">
+            <div className="relative rounded-md overflow-hidden shadow-sm border border-[#DDE6ED] h-60 sm:h-72 group">
               <img
                 src="/images/dr-randeep-rana-scrubs-front.jpg"
                 alt="State-of-the-art Endoscopy Suite Dr. Randeep Rana"
-                className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover object-top transform group- transition-transform duration-500"
                 loading="eager"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
               <div className="absolute bottom-5 left-5 right-5 text-white">
-                <span className="px-3 py-1 rounded-full bg-[#6CB29D] text-[10px] font-extrabold uppercase tracking-widest text-white inline-block mb-1">
+                <span className="px-3 py-1 rounded-md bg-[#6CB29D] text-[10px] font-extrabold uppercase tracking-widest text-white inline-block mb-1">
                   Interventional GI & Endoscopy
                 </span>
                 <h3 className="text-xl font-serif font-bold">Advanced EUS & ERCP Interventions</h3>
               </div>
             </div>
 
-            <div className="relative rounded-3xl overflow-hidden shadow-lg border border-[#DDE6ED] h-60 sm:h-72 group">
+            <div className="relative rounded-md overflow-hidden shadow-sm border border-[#DDE6ED] h-60 sm:h-72 group">
               <img
                 src="/images/apdw-2025-singapore-poster.jpg"
                 alt="Hepatology & Liver Research Dr. Randeep Rana"
-                className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover object-top transform group- transition-transform duration-500"
                 loading="eager"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
               <div className="absolute bottom-5 left-5 right-5 text-white">
-                <span className="px-3 py-1 rounded-full bg-[#001D30] border border-[#6CB29D]/40 text-[10px] font-extrabold uppercase tracking-widest text-[#6CB29D] inline-block mb-1">
+                <span className="px-3 py-1 rounded-md bg-[#001D30] border border-[#6CB29D]/40 text-[10px] font-extrabold uppercase tracking-widest text-[#6CB29D] inline-block mb-1">
                   Non-Invasive Liver Diagnostics
                 </span>
                 <h3 className="text-xl font-serif font-bold">FibroScan Quantitative Liver Assessment</h3>
@@ -221,11 +221,11 @@ export default function ServicesPage() {
             return (
               <div
                 key={cat.title}
-                className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-3xl p-8 sm:p-12 shadow-sm space-y-8"
+                className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-md p-8 sm:p-12 shadow-sm space-y-8"
               >
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-[#DDE6ED] pb-6">
                   <div className="flex items-center gap-4">
-                    <div className="h-12 w-12 rounded-full bg-[#002C47] text-[#6CB29D] flex items-center justify-center font-bold">
+                    <div className="h-12 w-12 rounded-md bg-[#002C47] text-[#6CB29D] flex items-center justify-center font-bold">
                       <Icon className="w-6 h-6" />
                     </div>
                     <div>
@@ -243,7 +243,7 @@ export default function ServicesPage() {
                   {cat.items.map((item) => (
                     <div
                       key={item.name}
-                      className="bg-white p-6 rounded-2xl border border-[#DDE6ED] shadow-sm space-y-3 hover:border-[#6CB29D]/50 transition-colors"
+                      className="bg-white p-6 rounded-md border border-[#DDE6ED] shadow-sm space-y-3 hover:border-[#6CB29D]/50 transition-colors"
                     >
                       <h3 className="text-lg font-serif font-bold text-[#002C47] flex items-center gap-2">
                         <CheckCircle2 className="w-4 h-4 text-[#6CB29D] shrink-0" />
@@ -265,7 +265,7 @@ export default function ServicesPage() {
       <section className="py-20 bg-[#F4F7F9]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
           <div className="text-center max-w-3xl mx-auto space-y-4">
-            <span className="px-4 py-1.5 rounded-full bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
+            <span className="px-4 py-1.5 rounded-md bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
               Why Choose Our Services?
             </span>
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#002C47]">
@@ -279,9 +279,9 @@ export default function ServicesPage() {
               return (
                 <div
                   key={p.title}
-                  className="bg-white p-8 rounded-3xl border border-[#DDE6ED] shadow-sm space-y-4 text-center hover:shadow-lg transition-shadow"
+                  className="bg-white p-8 rounded-md border border-[#DDE6ED] shadow-sm space-y-4 text-center hover:shadow-sm transition-shadow"
                 >
-                  <div className="h-12 w-12 rounded-full bg-[#EBF5F2] text-[#6CB29D] flex items-center justify-center mx-auto">
+                  <div className="h-12 w-12 rounded-md bg-[#EBF5F2] text-[#6CB29D] flex items-center justify-center mx-auto">
                     <Icon className="w-6 h-6" />
                   </div>
                   <h3 className="text-lg font-serif font-bold text-[#002C47]">{p.title}</h3>
@@ -294,7 +294,7 @@ export default function ServicesPage() {
           <div className="text-center pt-6">
             <a
               href="/contact"
-              className="bg-[#6CB29D] hover:bg-[#5BA897] text-white font-extrabold text-xs uppercase tracking-wider rounded-full py-4 px-8 transition-all shadow-lg inline-flex items-center gap-3"
+              className="bg-[#6CB29D] hover:bg-[#5BA897] text-white font-extrabold text-xs uppercase tracking-wider rounded-md py-4 px-8 transition-all shadow-sm inline-flex items-center gap-3"
             >
               <span>Schedule a Consultation</span>
               <ArrowRight className="w-4 h-4" />

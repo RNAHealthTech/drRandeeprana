@@ -37,7 +37,7 @@ export default function PageHeader({
       )}
 
       {/* Ambient Glow */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-[#6CB29D]/15 rounded-full blur-3xl pointer-events-none z-0" />
+      <div className="absolute top-0 right-0 w-96 h-96 bg-[#6CB29D]/15 rounded-md blur-3xl pointer-events-none z-0" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
         <motion.div
@@ -52,7 +52,7 @@ export default function PageHeader({
           </div>
 
           {/* Badge */}
-          <div className="inline-flex items-center px-3.5 py-1 rounded-full bg-[#00843D] text-white text-xs font-bold uppercase tracking-widest border border-white/20 shadow-sm">
+          <div className="inline-flex items-center px-3.5 py-1 rounded-md bg-[#00843D] text-white text-xs font-bold uppercase tracking-widest border border-white/20 shadow-sm">
             {badge}
           </div>
 

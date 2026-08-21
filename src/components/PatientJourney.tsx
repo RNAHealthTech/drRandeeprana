@@ -39,11 +39,11 @@ export default function PatientJourney() {
   ];
 
   return (
-    <section id="patient-journey" className="py-24 bg-[#F4F7F9] relative overflow-hidden text-[#1C2936]">
+    <section id="patient-journey" className="py-16 bg-[#F4F7F9] relative overflow-hidden text-[#1C2936]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Title */}
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-20">
-          <span className="px-4 py-1.5 rounded-full bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
+          <span className="px-4 py-1.5 rounded-md bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
             Seamless Healthcare Experience
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#002C47] tracking-tight">
@@ -69,10 +69,10 @@ export default function PatientJourney() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.1 * idx }}
-                className="relative z-10 bg-white border border-[#DDE6ED] rounded-3xl p-6 shadow-sm hover:shadow-lg hover:border-[#6CB29D]/50 transition-all duration-300 flex flex-col items-center text-center group"
+                className="relative z-10 bg-white border border-slate-200 rounded-md p-6 flex flex-col items-center text-center"
               >
                 {/* Step Circle Badge */}
-                <div className="h-14 w-14 rounded-full bg-[#002C47] text-[#6CB29D] flex items-center justify-center text-xl font-serif font-bold mb-6 shadow-md group-hover:bg-[#6CB29D] group-hover:text-white transition-colors">
+                <div className="h-14 w-14 rounded-md bg-[#EBF5F2] text-[#6CB29D] flex items-center justify-center text-xl font-serif font-bold mb-6">
                   <Icon className="w-6 h-6" />
                 </div>
 
@@ -80,7 +80,7 @@ export default function PatientJourney() {
                   Step {step.number}
                 </span>
 
-                <h3 className="text-lg font-serif font-bold text-[#002C47] mb-2 group-hover:text-[#6CB29D] transition-colors">
+                <h3 className="text-lg font-serif font-bold text-[#002C47] mb-2">
                   {step.title}
                 </h3>
 
@@ -93,7 +93,7 @@ export default function PatientJourney() {
         </div>
 
         {/* Patient Recovery Lounge Visual Showcase */}
-        <div className="mt-16 bg-white border border-[#DDE6ED] rounded-3xl overflow-hidden shadow-lg grid grid-cols-1 lg:grid-cols-12 items-center">
+        <div className="mt-16 bg-white border border-[#DDE6ED] rounded-md overflow-hidden shadow-sm grid grid-cols-1 lg:grid-cols-12 items-center">
           <div className="lg:col-span-6 h-64 sm:h-80 relative">
             <img
               src="/images/dr-randeep-rana-whitecoat.jpg"
@@ -104,7 +104,7 @@ export default function PatientJourney() {
             <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/20" />
           </div>
           <div className="lg:col-span-6 p-8 sm:p-10 space-y-4">
-            <span className="px-3.5 py-1 rounded-full bg-[#EBF5F2] text-[#002C47] text-xs font-bold uppercase tracking-widest">
+            <span className="px-3.5 py-1 rounded-md bg-[#EBF5F2] text-[#002C47] text-xs font-bold uppercase tracking-widest">
               Day-Care Procedure Recovery
             </span>
             <h3 className="text-2xl sm:text-3xl font-serif font-bold text-[#002C47]">
@@ -114,13 +114,13 @@ export default function PatientJourney() {
               Most diagnostic and therapeutic endoscopies are completed in 15–30 minutes under conscious sedation. Patients rest comfortably in our private recovery lounge and can resume normal activities the same day.
             </p>
             <div className="flex flex-wrap gap-4 pt-2 text-xs font-semibold text-[#002C47]">
-              <span className="flex items-center gap-1.5 bg-[#F4F7F9] px-3 py-1.5 rounded-full border border-slate-200">
+              <span className="flex items-center gap-1.5 bg-[#F4F7F9] px-3 py-1.5 rounded-md border border-slate-200">
                 ✓ Zero Surgical Incisions
               </span>
-              <span className="flex items-center gap-1.5 bg-[#F4F7F9] px-3 py-1.5 rounded-full border border-slate-200">
+              <span className="flex items-center gap-1.5 bg-[#F4F7F9] px-3 py-1.5 rounded-md border border-slate-200">
                 ✓ Monitored Sedation
               </span>
-              <span className="flex items-center gap-1.5 bg-[#F4F7F9] px-3 py-1.5 rounded-full border border-slate-200">
+              <span className="flex items-center gap-1.5 bg-[#F4F7F9] px-3 py-1.5 rounded-md border border-slate-200">
                 ✓ Same-Day Discharge
               </span>
             </div>

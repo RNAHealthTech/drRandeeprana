@@ -80,11 +80,11 @@ export default function Expertise() {
   ];
 
   return (
-    <section id="expertise" className="py-24 bg-[#F4F7F9] relative text-[#1C2936]">
+    <section id="expertise" className="py-16 bg-[#F4F7F9] relative text-[#1C2936]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Title */}
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-16">
-          <span className="px-4 py-1.5 rounded-full bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
+          <span className="px-4 py-1.5 rounded-md bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
             Clinical Expertise & Conditions Treated
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#002C47] tracking-tight">
@@ -107,21 +107,21 @@ export default function Expertise() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.05 * idx }}
-                className="bg-white border border-[#DDE6ED] rounded-3xl p-7 shadow-sm hover:shadow-xl hover:border-[#6CB29D]/50 transition-all duration-300 flex flex-col justify-between group"
+                className="bg-white border border-slate-200 rounded-md p-6 sm:p-8 flex flex-col justify-between"
               >
                 <div>
                   {/* Top Bar */}
                   <div className="flex items-center justify-between mb-6">
-                    <div className="h-12 w-12 rounded-full bg-[#EBF5F2] text-[#6CB29D] flex items-center justify-center group-hover:bg-[#002C47] group-hover:text-white transition-colors duration-300">
+                    <div className="h-12 w-12 rounded-md bg-[#EBF5F2] text-[#6CB29D] flex items-center justify-center group-hover:bg-[#002C47] group-hover:text-white transition-colors duration-300">
                       <Icon className="w-6 h-6" />
                     </div>
-                    <span className="text-[11px] font-extrabold text-[#6CB29D] bg-[#EBF5F2] px-3 py-1 rounded-full uppercase tracking-wider">
+                    <span className="text-[11px] font-extrabold text-[#6CB29D] bg-[#EBF5F2] px-3 py-1 rounded-md uppercase tracking-wider">
                       {item.category}
                     </span>
                   </div>
 
                   {/* Title & Description */}
-                  <h3 className="text-xl font-serif font-bold text-[#002C47] group-hover:text-[#6CB29D] transition-colors mb-3">
+                  <h3 className="text-xl font-serif font-bold text-[#002C47] mb-3">
                     {item.title}
                   </h3>
                   <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mb-6 font-light">
@@ -150,10 +150,10 @@ export default function Expertise() {
                 {/* Card CTA */}
                 <a
                   href="#contact"
-                  className="w-full py-3 rounded-full text-xs font-bold text-[#002C47] bg-[#EBF5F2] group-hover:bg-[#002C47] group-hover:text-white transition-all duration-200 flex items-center justify-center gap-2 uppercase tracking-wider"
+                  className="w-full py-3 rounded-md text-xs font-bold text-[#002C47] bg-[#EBF5F2] hover:bg-[#002C47] hover:text-white transition-colors flex items-center justify-center gap-2 uppercase tracking-wider"
                 >
                   <span>Consult Dr. Rana</span>
-                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  <ArrowRight className="w-4 h-4" />
                 </a>
               </motion.div>
             );

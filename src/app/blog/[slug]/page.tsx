@@ -53,9 +53,9 @@ export default async function BlogPostDetailPage({ params }: Props) {
           </Link>
 
           {/* Author Card */}
-          <div className="p-5 sm:p-6 rounded-3xl bg-[#002C47] text-white flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-lg">
+          <div className="p-5 sm:p-6 rounded-md bg-[#002C47] text-white flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-sm">
             <div className="flex items-center space-x-3 sm:space-x-4">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[#6CB29D] text-white font-serif font-extrabold flex items-center justify-center text-sm sm:text-lg shadow-md shrink-0">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-md bg-[#6CB29D] text-white font-serif font-extrabold flex items-center justify-center text-sm sm:text-lg shadow-md shrink-0">
                 DR
               </div>
               <div>
@@ -69,7 +69,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
           </div>
 
           {/* Abstract / Excerpt */}
-          <div className="p-6 rounded-2xl bg-[#F4F7F9] border-l-4 border-[#6CB29D] text-[#002C47] font-serif italic text-base leading-relaxed">
+          <div className="p-6 rounded-md bg-[#F4F7F9] border-l-4 border-[#6CB29D] text-[#002C47] font-serif italic text-base leading-relaxed">
             {post.excerpt}
           </div>
 
@@ -90,7 +90,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
 
             {/* Key Takeaways Box */}
             <div className="pt-4">
-              <div className="p-6 sm:p-8 rounded-3xl bg-[#EBF5F2] border border-[#6CB29D]/40 space-y-4">
+              <div className="p-6 sm:p-8 rounded-md bg-[#EBF5F2] border border-[#6CB29D]/40 space-y-4">
                 <h3 className="text-lg font-serif font-bold text-[#002C47] flex items-center gap-2">
                   <BookOpen className="w-5 h-5 text-[#6CB29D]" />
                   Key Clinical Takeaways
@@ -115,7 +115,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
             </p>
             <Link
               href="/contact"
-              className="bg-[#6CB29D] hover:bg-[#5BA897] text-white font-extrabold text-xs uppercase tracking-wider rounded-full py-3.5 px-8 transition-all shadow-lg inline-flex items-center gap-3"
+              className="bg-[#6CB29D] hover:bg-[#5BA897] text-white font-extrabold text-xs uppercase tracking-wider rounded-md py-3.5 px-8 transition-all shadow-sm inline-flex items-center gap-3"
             >
               <span>Consult Dr. Randeep Rana</span>
               <SquarePen className="w-4 h-4" />

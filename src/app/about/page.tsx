@@ -419,7 +419,7 @@ export default function AboutPage() {
               <p><strong className="text-[#6CB29D]">Editorial Fellow:</strong> Indian Journal of Gastroenterology (IJG) | <strong className="text-[#6CB29D]">DMC Registration:</strong> 82691</p>
             </div>
 
-            <div className="lg:col-span-4 bg-white/10 p-5 rounded-2xl border border-white/20 text-xs text-slate-200 space-y-1.5 font-light">
+            <div className="lg:col-span-4 bg-white/10 p-5 rounded-md border border-white/20 text-xs text-slate-200 space-y-1.5 font-light">
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-[#6CB29D] shrink-0" />
                 <span>+91-9501569493, +91-7703807941</span>
@@ -455,7 +455,7 @@ export default function AboutPage() {
             ].map((interest, idx) => (
               <span
                 key={idx}
-                className="px-4 py-2 rounded-full bg-white border border-[#DDE6ED] text-[#002C47] text-xs sm:text-sm font-bold shadow-sm"
+                className="px-4 py-2 rounded-md bg-white border border-[#DDE6ED] text-[#002C47] text-xs sm:text-sm font-bold shadow-sm"
               >
                 {interest}
               </span>
@@ -471,7 +471,7 @@ export default function AboutPage() {
           {/* Education Table */}
           <div className="space-y-6">
             <div className="flex items-center gap-3">
-              <div className="h-10 w-10 rounded-full bg-[#EBF5F2] text-[#002C47] flex items-center justify-center font-bold">
+              <div className="h-10 w-10 rounded-md bg-[#EBF5F2] text-[#002C47] flex items-center justify-center font-bold">
                 <GraduationCap className="w-6 h-6" />
               </div>
               <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#002C47]">
@@ -479,7 +479,7 @@ export default function AboutPage() {
               </h2>
             </div>
 
-            <div className="overflow-x-auto rounded-3xl border border-[#DDE6ED] shadow-sm">
+            <div className="overflow-x-auto rounded-md border border-[#DDE6ED] shadow-sm">
               <table className="w-full text-left border-collapse min-w-[650px]">
                 <thead>
                   <tr className="bg-[#002C47] text-white text-xs font-bold uppercase tracking-widest">
@@ -504,7 +504,7 @@ export default function AboutPage() {
           {/* Clinical Work Experience Table */}
           <div className="space-y-6">
             <div className="flex items-center gap-3">
-              <div className="h-10 w-10 rounded-full bg-[#EBF5F2] text-[#002C47] flex items-center justify-center font-bold">
+              <div className="h-10 w-10 rounded-md bg-[#EBF5F2] text-[#002C47] flex items-center justify-center font-bold">
                 <Briefcase className="w-6 h-6" />
               </div>
               <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#002C47]">
@@ -512,7 +512,7 @@ export default function AboutPage() {
               </h2>
             </div>
 
-            <div className="overflow-x-auto rounded-3xl border border-[#DDE6ED] shadow-sm">
+            <div className="overflow-x-auto rounded-md border border-[#DDE6ED] shadow-sm">
               <table className="w-full text-left border-collapse min-w-[650px]">
                 <thead>
                   <tr className="bg-[#002C47] text-white text-xs font-bold uppercase tracking-widest">
@@ -542,7 +542,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
           <div className="flex items-center justify-between flex-wrap gap-4">
             <div className="space-y-2">
-              <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
+              <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-md bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
                 <BookOpen className="w-4 h-4 text-[#6CB29D]" />
                 36 Research Publications
               </div>
@@ -550,12 +550,12 @@ export default function AboutPage() {
                 Publications in Peer-Reviewed Journals
               </h2>
             </div>
-            <div className="bg-white px-4 py-2 rounded-2xl border border-[#DDE6ED] text-xs text-[#002C47] font-bold">
+            <div className="bg-white px-4 py-2 rounded-md border border-[#DDE6ED] text-xs text-[#002C47] font-bold">
               Google Scholar: H-Index 4 | i10-Index 2 | 61+ Citations
             </div>
           </div>
 
-          <div className="overflow-x-auto rounded-3xl border border-[#DDE6ED] bg-white shadow-md">
+          <div className="overflow-x-auto rounded-md border border-[#DDE6ED] bg-white shadow-md">
             <table className="w-full text-left border-collapse min-w-[700px]">
               <thead>
                 <tr className="bg-[#002C47] text-white text-xs font-bold uppercase tracking-widest">
@@ -577,7 +577,7 @@ export default function AboutPage() {
           </div>
 
           {/* Publications in line / pipeline */}
-          <div className="mt-8 bg-white p-8 rounded-3xl border border-[#DDE6ED] space-y-4 shadow-sm">
+          <div className="mt-8 bg-white p-8 rounded-md border border-[#DDE6ED] space-y-4 shadow-sm">
             <h3 className="text-xl font-serif font-bold text-[#002C47]">Publications In Line / Pipeline</h3>
             <ul className="space-y-2 text-xs sm:text-sm text-slate-700">
               {pipelinePublications.map((item, idx) => (
@@ -590,7 +590,7 @@ export default function AboutPage() {
           </div>
 
           {/* Ongoing Projects */}
-          <div className="mt-8 bg-white p-8 rounded-3xl border border-[#DDE6ED] space-y-4 shadow-sm">
+          <div className="mt-8 bg-white p-8 rounded-md border border-[#DDE6ED] space-y-4 shadow-sm">
             <h3 className="text-xl font-serif font-bold text-[#002C47]">Ongoing Research Projects</h3>
             <ul className="space-y-2 text-xs sm:text-sm text-slate-700">
               {ongoingProjects.map((item, idx) => (
@@ -609,7 +609,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
           
           <div className="space-y-3">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#EBF5F2] text-[#002C47] text-xs font-bold uppercase tracking-widest">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-md bg-[#EBF5F2] text-[#002C47] text-xs font-bold uppercase tracking-widest">
               <Trophy className="w-4 h-4 text-[#6CB29D]" />
               Conference Papers & Posters
             </div>
@@ -620,75 +620,75 @@ export default function AboutPage() {
 
           {/* Authentic Conference & Award Photos Gallery */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="relative rounded-2xl overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900">
+            <div className="relative rounded-md overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900">
               <img
                 src="/images/poster-award-best-oral-clinical-science.jpg"
                 alt="Best Oral Poster Awardee in Clinical Science"
-                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover object-top group- transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-3 right-3 text-white">
-                <span className="px-2.5 py-0.5 rounded-full bg-[#6CB29D] text-[9px] font-extrabold uppercase tracking-widest text-white mb-1 inline-block">
+                <span className="px-2.5 py-0.5 rounded-md bg-[#6CB29D] text-[9px] font-extrabold uppercase tracking-widest text-white mb-1 inline-block">
                   Best Oral Award
                 </span>
                 <div className="text-xs font-serif font-bold">Clinical Science Awardee</div>
               </div>
             </div>
 
-            <div className="relative rounded-2xl overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900">
+            <div className="relative rounded-md overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900">
               <img
                 src="/images/ddw-2024-poster-presentation.jpg"
                 alt="DDW 2024 Washington D.C. Poster"
-                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover object-top group- transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-3 right-3 text-white">
-                <span className="px-2.5 py-0.5 rounded-full bg-[#002C47] text-[9px] font-extrabold uppercase tracking-widest text-[#6CB29D] mb-1 inline-block border border-[#6CB29D]/40">
+                <span className="px-2.5 py-0.5 rounded-md bg-[#002C47] text-[9px] font-extrabold uppercase tracking-widest text-[#6CB29D] mb-1 inline-block border border-[#6CB29D]/40">
                   DDW 2024 • USA
                 </span>
                 <div className="text-xs font-serif font-bold">Washington D.C. Poster Presentation</div>
               </div>
             </div>
 
-            <div className="relative rounded-2xl overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900">
+            <div className="relative rounded-md overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900">
               <img
                 src="/images/apdw-2025-singapore-poster.jpg"
                 alt="APDW 2025 Singapore Poster"
-                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover object-top group- transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-3 right-3 text-white">
-                <span className="px-2.5 py-0.5 rounded-full bg-[#002C47] text-[9px] font-extrabold uppercase tracking-widest text-[#6CB29D] mb-1 inline-block border border-[#6CB29D]/40">
+                <span className="px-2.5 py-0.5 rounded-md bg-[#002C47] text-[9px] font-extrabold uppercase tracking-widest text-[#6CB29D] mb-1 inline-block border border-[#6CB29D]/40">
                   APDW 2025 • Singapore
                 </span>
                 <div className="text-xs font-serif font-bold">EUS Pseudoaneurysm VAPT-EASE Study</div>
               </div>
             </div>
 
-            <div className="relative rounded-2xl overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900">
+            <div className="relative rounded-md overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900">
               <img
                 src="/images/gbpgcon-chairperson-delegate.jpg"
                 alt="GBPGCON Session Chairperson"
-                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover object-top group- transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-3 right-3 text-white">
-                <span className="px-2.5 py-0.5 rounded-full bg-[#001D30] text-[9px] font-extrabold uppercase tracking-widest text-white mb-1 inline-block border border-white/20">
+                <span className="px-2.5 py-0.5 rounded-md bg-[#001D30] text-[9px] font-extrabold uppercase tracking-widest text-white mb-1 inline-block border border-white/20">
                   GBPGCON
                 </span>
                 <div className="text-xs font-serif font-bold">Session Chairperson & Delegate</div>
               </div>
             </div>
 
-            <div className="relative rounded-2xl overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900 md:col-span-2 lg:col-span-2">
+            <div className="relative rounded-md overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900 md:col-span-2 lg:col-span-2">
               <img
                 src="/images/easl-hepatology-congress-hall.jpg"
                 alt="EASL Home of Hepatology Congress"
-                className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover object-center group- transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-3 right-3 text-white">
-                <span className="px-2.5 py-0.5 rounded-full bg-[#002C47] text-[9px] font-extrabold uppercase tracking-widest text-[#6CB29D] mb-1 inline-block border border-[#6CB29D]/40">
+                <span className="px-2.5 py-0.5 rounded-md bg-[#002C47] text-[9px] font-extrabold uppercase tracking-widest text-[#6CB29D] mb-1 inline-block border border-[#6CB29D]/40">
                   EASL Congress
                 </span>
                 <div className="text-xs font-serif font-bold">European Association for the Study of the Liver (EASL)</div>
@@ -703,7 +703,7 @@ export default function AboutPage() {
             </h3>
             <div className="space-y-3">
               {internationalConferences.map((item, idx) => (
-                <div key={idx} className="p-4 rounded-2xl bg-[#F4F7F9] border border-[#DDE6ED] text-xs sm:text-sm text-slate-700 leading-relaxed">
+                <div key={idx} className="p-4 rounded-md bg-[#F4F7F9] border border-[#DDE6ED] text-xs sm:text-sm text-slate-700 leading-relaxed">
                   <strong className="text-[#002C47] font-bold">{idx + 1}.</strong> {item}
                 </div>
               ))}
@@ -717,7 +717,7 @@ export default function AboutPage() {
             </h3>
             <div className="space-y-3">
               {nationalConferences.map((item, idx) => (
-                <div key={idx} className="p-4 rounded-2xl bg-[#F4F7F9] border border-[#DDE6ED] text-xs sm:text-sm text-slate-700 leading-relaxed">
+                <div key={idx} className="p-4 rounded-md bg-[#F4F7F9] border border-[#DDE6ED] text-xs sm:text-sm text-slate-700 leading-relaxed">
                   <strong className="text-[#002C47] font-bold">{idx + 11}.</strong> {item}
                 </div>
               ))}
@@ -731,7 +731,7 @@ export default function AboutPage() {
       <section className="py-16 bg-[#F4F7F9]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
           <div className="space-y-3">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-md bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
               <Activity className="w-4 h-4 text-[#6CB29D]" />
               Procedural & Clinical Expertise
             </div>
@@ -742,14 +742,14 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {clinicalSkillsList.map((skillGroup, idx) => (
-              <div key={idx} className="bg-white p-8 rounded-3xl border border-[#DDE6ED] shadow-sm space-y-4">
+              <div key={idx} className="bg-white p-8 rounded-md border border-[#DDE6ED] shadow-sm space-y-4">
                 <h3 className="text-lg font-serif font-bold text-[#002C47] border-b border-slate-100 pb-3">
                   {skillGroup.category}
                 </h3>
                 <ul className="space-y-2 text-xs sm:text-sm text-slate-700 font-light leading-relaxed">
                   {skillGroup.points.map((pt, pIdx) => (
                     <li key={pIdx} className="flex items-start gap-2.5">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#6CB29D] mt-2 shrink-0" />
+                      <span className="w-1.5 h-1.5 rounded-md bg-[#6CB29D] mt-2 shrink-0" />
                       <span>{pt}</span>
                     </li>
                   ))}
@@ -772,7 +772,7 @@ export default function AboutPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {awardsList.map((award, idx) => (
-                <div key={idx} className="p-4 rounded-2xl bg-[#F4F7F9] border border-[#DDE6ED] text-xs sm:text-sm text-slate-700 font-medium flex items-start gap-3">
+                <div key={idx} className="p-4 rounded-md bg-[#F4F7F9] border border-[#DDE6ED] text-xs sm:text-sm text-slate-700 font-medium flex items-start gap-3">
                   <CheckCircle2 className="w-4 h-4 text-[#6CB29D] shrink-0 mt-0.5" />
                   <span>{award}</span>
                 </div>
@@ -786,7 +786,7 @@ export default function AboutPage() {
               <Users className="w-6 h-6 text-[#6CB29D]" />
               Societal Memberships
             </h2>
-            <div className="p-6 rounded-3xl bg-[#002C47] text-white space-y-4">
+            <div className="p-6 rounded-md bg-[#002C47] text-white space-y-4">
               <p className="text-xs sm:text-sm text-slate-200">
                 <strong className="text-[#6CB29D]">Life Member:</strong> Indian Society of Gastroenterology (ISG), Indian Pancreas Club (IPC), Society of Gastrointestinal Endoscopy of India (SGEI), Colitis and Crohn’s Foundation (India)
               </p>
@@ -803,8 +803,8 @@ export default function AboutPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {extracurriculars.map((item, idx) => (
-                <div key={idx} className="p-4 rounded-2xl bg-[#F4F7F9] border border-[#DDE6ED] text-xs sm:text-sm text-slate-700 font-medium flex items-start gap-3">
-                  <span className="w-2 h-2 rounded-full bg-[#6CB29D] mt-1.5 shrink-0" />
+                <div key={idx} className="p-4 rounded-md bg-[#F4F7F9] border border-[#DDE6ED] text-xs sm:text-sm text-slate-700 font-medium flex items-start gap-3">
+                  <span className="w-2 h-2 rounded-md bg-[#6CB29D] mt-1.5 shrink-0" />
                   <span>{item}</span>
                 </div>
               ))}
@@ -817,7 +817,7 @@ export default function AboutPage() {
               Future Vision and Plans
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="p-6 rounded-3xl bg-[#F4F7F9] border border-[#DDE6ED] space-y-3">
+              <div className="p-6 rounded-md bg-[#F4F7F9] border border-[#DDE6ED] space-y-3">
                 <h3 className="text-base font-serif font-bold text-[#002C47]">Personal & Short-Term Vision</h3>
                 <ol className="space-y-2 text-xs sm:text-sm text-slate-700 list-decimal list-inside">
                   {futureVision.shortTerm.map((st, sIdx) => (
@@ -826,7 +826,7 @@ export default function AboutPage() {
                 </ol>
               </div>
 
-              <div className="p-6 rounded-3xl bg-[#F4F7F9] border border-[#DDE6ED] space-y-3">
+              <div className="p-6 rounded-md bg-[#F4F7F9] border border-[#DDE6ED] space-y-3">
                 <h3 className="text-base font-serif font-bold text-[#002C47]">Professional & Long-Term Vision</h3>
                 <ol className="space-y-2 text-xs sm:text-sm text-slate-700 list-decimal list-inside" start={5}>
                   {futureVision.longTerm.map((lt, lIdx) => (
@@ -838,7 +838,7 @@ export default function AboutPage() {
           </div>
 
           {/* Personal Details & Registration */}
-          <div className="p-8 rounded-3xl bg-[#F4F7F9] border border-[#DDE6ED] space-y-4">
+          <div className="p-8 rounded-md bg-[#F4F7F9] border border-[#DDE6ED] space-y-4">
             <h3 className="text-xl font-serif font-bold text-[#002C47]">Personal Details & DMC Registration</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-xs sm:text-sm text-slate-700 font-light">
               <div><strong>Registration:</strong> Delhi Medical Council Regd. No: 82691</div>

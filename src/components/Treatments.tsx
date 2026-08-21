@@ -73,11 +73,11 @@ export default function Treatments() {
   ];
 
   return (
-    <section id="treatments" className="py-24 bg-white relative text-[#1C2936]">
+    <section id="treatments" className="py-16 bg-white relative text-[#1C2936]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-16">
-          <span className="px-4 py-1.5 rounded-full bg-[#EBF5F2] text-[#002C47] text-xs font-bold uppercase tracking-widest">
+          <span className="px-4 py-1.5 rounded-md bg-[#EBF5F2] text-[#002C47] text-xs font-bold uppercase tracking-widest">
             Advanced Endoscopic & Liver Procedures
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#002C47] tracking-tight">
@@ -92,16 +92,16 @@ export default function Treatments() {
         {/* Realistic Procedure Facility Showcase Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           {/* Card 1: Advanced Endoscopy Suite */}
-          <div className="relative rounded-3xl overflow-hidden shadow-xl group border border-[#DDE6ED] h-64 sm:h-72">
+          <div className="relative rounded-md overflow-hidden shadow-sm group border border-[#DDE6ED] h-64 sm:h-72">
             <img
               src="/images/dr-randeep-rana-scrubs-front.jpg"
               alt="Advanced Interventional Endoscopy Dr. Randeep Rana"
-              className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-700"
+              className="w-full h-full object-cover object-top"
               loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#002C47] via-[#002C47]/40 to-transparent" />
             <div className="absolute bottom-6 left-6 right-6 text-white space-y-1.5">
-              <span className="px-3 py-1 rounded-full bg-[#6CB29D] text-[10px] font-extrabold uppercase tracking-widest text-white inline-block">
+              <span className="px-3 py-1 rounded-md bg-[#6CB29D] text-[10px] font-extrabold uppercase tracking-widest text-white inline-block">
                 Interventional Endoscopy Suite
               </span>
               <h3 className="text-xl sm:text-2xl font-serif font-bold text-white">
@@ -114,16 +114,16 @@ export default function Treatments() {
           </div>
 
           {/* Card 2: FibroScan & Non-Invasive Hepatology */}
-          <div className="relative rounded-3xl overflow-hidden shadow-xl group border border-[#DDE6ED] h-64 sm:h-72">
+          <div className="relative rounded-md overflow-hidden shadow-sm group border border-[#DDE6ED] h-64 sm:h-72">
             <img
               src="/images/apdw-2025-singapore-poster.jpg"
               alt="Hepatology Research & Liver Diagnostics Dr. Randeep Rana"
-              className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-700"
+              className="w-full h-full object-cover object-top"
               loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#002C47] via-[#002C47]/40 to-transparent" />
             <div className="absolute bottom-6 left-6 right-6 text-white space-y-1.5">
-              <span className="px-3 py-1 rounded-full bg-[#001D30] border border-[#6CB29D]/50 text-[10px] font-extrabold uppercase tracking-widest text-[#6CB29D] inline-block">
+              <span className="px-3 py-1 rounded-md bg-[#001D30] border border-[#6CB29D]/50 text-[10px] font-extrabold uppercase tracking-widest text-[#6CB29D] inline-block">
                 Hepatology & Clinical Research
               </span>
               <h3 className="text-xl sm:text-2xl font-serif font-bold text-white">
@@ -147,21 +147,21 @@ export default function Treatments() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.1 * idx }}
-                className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-3xl p-8 shadow-sm hover:shadow-xl hover:border-[#6CB29D]/50 transition-all duration-300 flex flex-col justify-between group"
+                className="bg-white border border-slate-200 rounded-md p-6 sm:p-8 flex flex-col justify-between"
               >
                 <div>
                   {/* Top Tag & Icon */}
                   <div className="flex items-center justify-between mb-6">
-                    <span className="text-[11px] font-extrabold text-[#6CB29D] bg-[#EBF5F2] px-3 py-1 rounded-full uppercase tracking-wider">
+                    <span className="text-[11px] font-extrabold text-[#6CB29D] bg-[#EBF5F2] px-3 py-1 rounded-md uppercase tracking-wider">
                       {proc.tag}
                     </span>
-                    <div className="h-10 w-10 rounded-full bg-[#002C47] text-[#6CB29D] flex items-center justify-center">
+                    <div className="h-10 w-10 rounded-md bg-[#002C47] text-[#6CB29D] flex items-center justify-center">
                       <Icon className="w-5 h-5" />
                     </div>
                   </div>
 
                   {/* Title */}
-                  <h3 className="text-xl font-serif font-bold text-[#002C47] group-hover:text-[#6CB29D] transition-colors mb-3">
+                  <h3 className="text-xl font-serif font-bold text-[#002C47] mb-3">
                     {proc.title}
                   </h3>
 
@@ -184,7 +184,7 @@ export default function Treatments() {
                     <div className="text-[11px] font-bold text-slate-400 uppercase tracking-widest">Key Advantages:</div>
                     {proc.benefits.map((b) => (
                       <div key={b} className="flex items-center gap-2 text-xs font-medium text-slate-700">
-                        <span className="w-1.5 h-1.5 rounded-full bg-[#6CB29D]" />
+                        <span className="w-1.5 h-1.5 rounded-md bg-[#6CB29D]" />
                         <span>{b}</span>
                       </div>
                     ))}
@@ -194,7 +194,7 @@ export default function Treatments() {
                 {/* Per Card Action CTA */}
                 <a
                   href="#contact"
-                  className="w-full py-3.5 rounded-full font-bold text-white bg-[#002C47] hover:bg-[#001D30] transition-all shadow-md flex items-center justify-center gap-2 text-xs uppercase tracking-wider"
+                  className="w-full py-3.5 rounded-md font-bold text-white bg-[#002C47] hover:bg-[#001D30] transition-colors flex items-center justify-center gap-2 text-xs uppercase tracking-wider"
                 >
                   <span>Book Procedure Consult</span>
                   <ArrowRight className="w-4 h-4 text-[#6CB29D]" />
@@ -205,9 +205,9 @@ export default function Treatments() {
         </div>
 
         {/* Featured Clinical Insights Banner */}
-        <div className="mt-20 bg-[#002C47] rounded-3xl p-8 sm:p-12 text-white shadow-2xl relative overflow-hidden">
+        <div className="mt-20 bg-[#002C47] rounded-md p-8 sm:p-12 text-white shadow-sm relative overflow-hidden">
           <div className="relative z-10 space-y-6 max-w-4xl">
-            <span className="px-3.5 py-1.5 rounded-full bg-white/10 text-[#6CB29D] text-xs font-extrabold uppercase tracking-widest border border-[#6CB29D]/30 inline-block">
+            <span className="px-3.5 py-1.5 rounded-md bg-white/10 text-[#6CB29D] text-xs font-extrabold uppercase tracking-widest border border-[#6CB29D]/30 inline-block">
               Featured Clinical Research & Breakthroughs
             </span>
             
@@ -217,7 +217,7 @@ export default function Treatments() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
               {/* Insight 1: Endoscopic Pancreatitis Review */}
-              <div className="bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/10 space-y-3">
+              <div className="bg-white/10  p-6 rounded-md border border-white/10 space-y-3">
                 <span className="text-[11px] font-bold text-[#6CB29D] uppercase tracking-wider">
                   Indian Journal of Gastroenterology
                 </span>
@@ -225,12 +225,12 @@ export default function Treatments() {
                   Endoscopic Interventions for Managing Pancreatic Fluid Collections
                 </h4>
                 <p className="text-xs text-slate-300 font-light leading-relaxed">
-                  Dr. Rana's state-of-the-art review highlights EUS-guided cystogastrostomy as a minimally invasive alternative to traditional surgery for draining pancreatic pseudocysts and walled-off necrosis.
+                  Dr. Rana&apos;s state-of-the-art review highlights EUS-guided cystogastrostomy as a minimally invasive alternative to traditional surgery for draining pancreatic pseudocysts and walled-off necrosis.
                 </p>
               </div>
 
               {/* Insight 2: Simvastatin Cirrhosis Trial */}
-              <div className="bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/10 space-y-3">
+              <div className="bg-white/10  p-6 rounded-md border border-white/10 space-y-3">
                 <span className="text-[11px] font-bold text-[#6CB29D] uppercase tracking-wider">
                   Am J Gastroenterol & JAMA
                 </span>

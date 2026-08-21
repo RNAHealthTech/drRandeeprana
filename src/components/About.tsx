@@ -44,12 +44,12 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="py-24 bg-[#F4F7F9] relative overflow-hidden text-[#1C2936]">
+    <section id="about" className="py-16 bg-[#F4F7F9] relative overflow-hidden text-[#1C2936]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-16">
-          <span className="px-4 py-1.5 rounded-full bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
+          <span className="px-4 py-1.5 rounded-md bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
             About Dr. Randeep Rana
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#002C47] tracking-tight">
@@ -71,18 +71,18 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="lg:col-span-7 space-y-8"
           >
-            <div className="bg-white p-8 sm:p-10 rounded-3xl border border-[#DDE6ED] shadow-sm space-y-6">
+            <div className="bg-white p-8 sm:p-10 rounded-md border border-[#DDE6ED] shadow-sm space-y-6">
               {/* Realistic Clinical Showcase Banner Image */}
-              <div className="relative rounded-2xl overflow-hidden shadow-md group h-56 sm:h-64 mb-6 border border-slate-100">
+              <div className="relative rounded-md overflow-hidden shadow-md group h-56 sm:h-64 mb-6 border border-slate-100">
                 <img
                   src="/images/dr-randeep-rana-whitecoat.jpg"
                   alt="Dr. Randeep Rana consulting patient in clinic"
-                  className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-top"
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/80 via-transparent to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4 text-white">
-                  <span className="px-3 py-1 rounded-full bg-[#6CB29D] text-[10px] font-extrabold uppercase tracking-widest text-white mb-1 inline-block">
+                  <span className="px-3 py-1 rounded-md bg-[#6CB29D] text-[10px] font-extrabold uppercase tracking-widest text-white mb-1 inline-block">
                     Patient-Centered Care
                   </span>
                   <div className="text-sm font-serif font-bold">
@@ -120,8 +120,8 @@ export default function About() {
 
             {/* Mission & Vision Cards */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div className="bg-[#002C47] text-white p-6 rounded-3xl space-y-3 shadow-md">
-                <div className="h-10 w-10 rounded-full bg-[#6CB29D] text-white flex items-center justify-center font-bold">
+              <div className="bg-[#002C47] text-white p-6 rounded-md space-y-3 shadow-md">
+                <div className="h-10 w-10 rounded-md bg-[#6CB29D] text-white flex items-center justify-center font-bold">
                   <Target className="w-5 h-5" />
                 </div>
                 <h4 className="text-lg font-serif font-bold text-white">Our Mission</h4>
@@ -130,8 +130,8 @@ export default function About() {
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-3xl border border-[#DDE6ED] space-y-3 shadow-sm">
-                <div className="h-10 w-10 rounded-full bg-[#EBF5F2] text-[#6CB29D] flex items-center justify-center font-bold">
+              <div className="bg-white p-6 rounded-md border border-[#DDE6ED] space-y-3 shadow-sm">
+                <div className="h-10 w-10 rounded-md bg-[#EBF5F2] text-[#6CB29D] flex items-center justify-center font-bold">
                   <Eye className="w-5 h-5" />
                 </div>
                 <h4 className="text-lg font-serif font-bold text-[#002C47]">Our Vision</h4>
@@ -148,10 +148,10 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="lg:col-span-5 bg-white p-6 sm:p-10 rounded-3xl border border-[#DDE6ED] shadow-sm"
+            className="lg:col-span-5 bg-white p-6 sm:p-10 rounded-md border border-[#DDE6ED] shadow-sm"
           >
             <div className="flex items-center space-x-3 mb-8">
-              <div className="h-10 w-10 rounded-full bg-[#EBF5F2] text-[#002C47] flex items-center justify-center">
+              <div className="h-10 w-10 rounded-md bg-[#EBF5F2] text-[#002C47] flex items-center justify-center">
                 <GraduationCap className="w-6 h-6" />
               </div>
               <h3 className="text-xl sm:text-2xl font-serif font-bold text-[#002C47]">Academic Timeline</h3>
@@ -161,12 +161,12 @@ export default function About() {
               {educationTimeline.map((edu) => (
                 <div key={edu.degree} className="relative group">
                   {/* Timeline Dot */}
-                  <div className="absolute -left-[23px] sm:-left-[31px] top-1.5 h-3.5 w-3.5 sm:h-4 sm:w-4 rounded-full border-2 border-white bg-[#6CB29D] shadow-md group-hover:scale-125 transition-transform" />
+                  <div className="absolute -left-[23px] sm:-left-[31px] top-1.5 h-3.5 w-3.5 sm:h-4 sm:w-4 rounded-md border-2 border-white bg-[#6CB29D] shadow-sm" />
                   
-                  <div className="inline-block px-3 py-0.5 rounded-full bg-[#EBF5F2] text-[#002C47] text-[11px] font-bold tracking-wider mb-2">
+                  <div className="inline-block px-3 py-0.5 rounded-md bg-[#EBF5F2] text-[#002C47] text-[11px] font-bold tracking-wider mb-2">
                     {edu.year}
                   </div>
-                  <h4 className="text-lg font-serif font-bold text-[#002C47] group-hover:text-[#6CB29D] transition-colors">
+                  <h4 className="text-lg font-serif font-bold text-[#002C47]">
                     {edu.degree}
                   </h4>
                   <p className="text-xs font-semibold text-[#6CB29D] mt-0.5">
@@ -180,7 +180,7 @@ export default function About() {
             </div>
 
             {/* AIIMS Banner */}
-            <div className="mt-8 p-5 rounded-2xl bg-[#002C47] text-white flex items-center space-x-4">
+            <div className="mt-8 p-5 rounded-md bg-[#002C47] text-white flex items-center space-x-4">
               <Award className="w-8 h-8 text-[#6CB29D] shrink-0" />
               <div>
                 <div className="text-xs font-bold uppercase tracking-widest text-[#6CB29D]">AIIMS New Delhi Fellowship</div>

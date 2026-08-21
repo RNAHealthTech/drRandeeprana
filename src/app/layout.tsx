@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingWidgets from "@/components/FloatingWidgets";
-import CustomCursor from "@/components/CustomCursor";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -87,9 +86,6 @@ export default function RootLayout({
         />
       </head>
       <body className="font-sans bg-white text-slate-800 antialiased selection:bg-[#0A6EBB]/20 selection:text-[#0A6EBB] min-h-screen flex flex-col">
-        {/* Custom Modern Mouse Cursor Follower */}
-        <CustomCursor />
-
         {/* Persistent Sticky Navbar on ALL pages */}
         <Navbar />
 

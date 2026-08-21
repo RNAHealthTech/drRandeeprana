@@ -112,7 +112,7 @@ export default function Footer() {
             <Link href="/terms" className="hover:text-[#6CB29D]">Terms of Use</Link>
             <button
               onClick={scrollToTop}
-              className="p-2.5 rounded-full bg-[#002C47] hover:bg-[#6CB29D] text-slate-200 hover:text-white transition-colors"
+              className="p-2.5 rounded-md bg-[#002C47] hover:bg-[#6CB29D] text-slate-200 hover:text-white transition-colors"
               aria-label="Scroll to top"
             >
               <ArrowUp className="w-4 h-4" />

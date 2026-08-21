@@ -41,11 +41,11 @@ export default function Testimonials() {
   ];
 
   return (
-    <section id="testimonials" className="py-24 bg-[#F4F7F9] relative text-[#1C2936]">
+    <section id="testimonials" className="py-16 bg-[#F4F7F9] relative text-[#1C2936]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-16">
-          <span className="px-4 py-1.5 rounded-full bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
+          <span className="px-4 py-1.5 rounded-md bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
             Patient Stories & Reviews
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#002C47] tracking-tight">
@@ -62,10 +62,10 @@ export default function Testimonials() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mb-16 bg-[#002C47] rounded-3xl p-8 sm:p-12 text-white shadow-xl grid grid-cols-1 lg:grid-cols-12 gap-8 items-center"
+          className="mb-16 bg-[#002C47] rounded-md p-8 sm:p-12 text-white shadow-sm grid grid-cols-1 lg:grid-cols-12 gap-8 items-center"
         >
           <div className="lg:col-span-7 space-y-4">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-xs font-bold uppercase text-[#6CB29D]">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-white/10 text-xs font-bold uppercase text-[#6CB29D]">
               <Play className="w-3.5 h-3.5 fill-current" /> Video Experience
             </div>
             <h3 className="text-2xl sm:text-3xl font-serif font-bold text-white">
@@ -86,8 +86,8 @@ export default function Testimonials() {
           </div>
 
           <div className="lg:col-span-5 relative">
-            <div className="relative aspect-video rounded-2xl bg-black/50 border border-white/20 overflow-hidden flex items-center justify-center shadow-2xl group cursor-pointer">
-              <div className="w-16 h-16 rounded-full bg-[#6CB29D] text-white flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform">
+            <div className="relative aspect-video rounded-md bg-black/50 border border-white/20 overflow-hidden flex items-center justify-center shadow-sm group cursor-pointer">
+              <div className="w-16 h-16 rounded-md bg-[#6CB29D] text-white flex items-center justify-center shadow-sm">
                 <Play className="w-7 h-7 fill-current ml-1" />
               </div>
               <div className="absolute bottom-3 left-4 right-4 flex items-center justify-between text-xs text-white/90">
@@ -107,9 +107,9 @@ export default function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 * idx }}
-              className="bg-white border border-[#DDE6ED] p-8 rounded-3xl shadow-sm hover:shadow-lg hover:border-[#6CB29D]/50 transition-all duration-300 relative group"
+              className="bg-white border border-slate-200 p-8 rounded-md relative"
             >
-              <Quote className="absolute top-6 right-6 w-10 h-10 text-slate-100 group-hover:text-[#6CB29D]/20 transition-colors" />
+              <Quote className="absolute top-6 right-6 w-10 h-10 text-slate-100" />
 
               <div className="flex items-center space-x-1 text-amber-400 mb-4">
                 {[...Array(rev.rating)].map((_, i) => (
@@ -129,7 +129,7 @@ export default function Testimonials() {
                 </div>
 
                 <div className="text-right">
-                  <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-[#EBF5F2] text-[#6CB29D] text-[10px] font-bold">
+                  <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#EBF5F2] text-[#6CB29D] text-[10px] font-bold">
                     <CheckCircle2 className="w-3 h-3" /> Verified Review
                   </span>
                   <div className="text-[10px] text-slate-400 mt-1">{rev.date}</div>

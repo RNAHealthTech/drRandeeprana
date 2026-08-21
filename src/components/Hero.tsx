@@ -63,7 +63,7 @@ export default function Hero() {
         </div>
 
         {/* Hero Copy */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full py-16 sm:py-20 lg:py-24 text-white text-center lg:text-left">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full py-16 sm:py-20 lg:py-16 text-white text-center lg:text-left">
           <div className="max-w-3xl space-y-6">
             
             {/* Eyebrow Badge */}
@@ -73,7 +73,6 @@ export default function Hero() {
               transition={{ duration: 0.5 }}
               className="inline-flex items-center gap-2 px-3 py-1 rounded-sm bg-[#00843D] text-white text-xs font-bold uppercase tracking-widest"
             >
-              <Sparkles className="w-3.5 h-3.5" />
               <span>AIIMS-TRAINED CONSULTANT GASTROENTEROLOGIST</span>
             </motion.div>
 
@@ -82,7 +81,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="text-2xl sm:text-4xl lg:text-6xl font-serif font-bold text-white tracking-tight leading-[1.15]"
+              className="text-2xl sm:text-4xl lg:text-5xl font-serif font-bold text-white tracking-tight leading-[1.15]"
             >
               We&apos;re here when you need us &mdash; for every care in digestive health.
             </motion.h1>
@@ -106,7 +105,7 @@ export default function Hero() {
             >
               <Link
                 href="/contact"
-                className="w-full sm:w-auto px-6 py-3.5 rounded-full bg-[#00843D] hover:bg-[#006EB6] text-white font-bold text-xs sm:text-sm uppercase tracking-wider transition-all duration-300 shadow-lg shadow-[#00843D]/30 flex items-center justify-center gap-2 group"
+                className="w-full sm:w-auto px-6 py-3.5 rounded-md bg-[#00843D] hover:bg-[#006EB6] text-white font-bold text-xs sm:text-sm uppercase tracking-wider transition-all duration-300 shadow-sm shadow-[#00843D]/30 flex items-center justify-center gap-2 group"
               >
                 <Calendar className="w-4 h-4" />
                 <span>Book OPD Appointment</span>
@@ -114,9 +113,8 @@ export default function Hero() {
               </Link>
               <a
                 href="tel:+919501569493"
-                className="w-full sm:w-auto px-6 py-3.5 rounded-full bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold text-xs sm:text-sm uppercase tracking-wider transition-all duration-300 backdrop-blur-md flex items-center justify-center gap-2"
+                className="w-full sm:w-auto px-6 py-3.5 rounded-md bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold text-xs sm:text-sm uppercase tracking-wider transition-all duration-300  flex items-center justify-center gap-2"
               >
-                <PhoneCall className="w-4 h-4 text-[#6CB29D]" />
                 <span>Call +91 95015 69493</span>
               </a>
             </motion.div>
@@ -142,10 +140,9 @@ export default function Hero() {
               >
                 <Link
                   href={card.href}
-                  className="bg-white rounded-xl border border-slate-200 shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col justify-between group p-6 sm:p-8 h-full cursor-pointer relative overflow-hidden"
+                  className="bg-white rounded-md border border-slate-200 shadow-sm hover:shadow-sm transition-all duration-300 flex flex-col justify-between group p-6 sm:p-8 h-full cursor-pointer relative overflow-hidden"
                 >
-                  {/* Subtle top accent gradient line */}
-                  <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#00843D] to-[#0078BF] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  {/* Removed subtle top accent gradient line for cleaner look */}
 
                   <div className="space-y-4">
                     {/* Card Header Illustration Box */}
