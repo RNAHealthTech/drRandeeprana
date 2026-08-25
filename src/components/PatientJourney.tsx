@@ -93,7 +93,7 @@ export default function PatientJourney() {
         </div>
 
         {/* Patient Recovery Lounge Visual Showcase */}
-        <div className="mt-16 bg-white border border-[#DDE6ED] rounded-md overflow-hidden shadow-sm grid grid-cols-1 lg:grid-cols-12 items-center">
+        <div className="mt-16 bg-white border border-[#DDE6ED] rounded-md overflow-hidden grid grid-cols-1 lg:grid-cols-12 items-center">
           <div className="lg:col-span-6 h-64 sm:h-80 relative">
             <img
               src="/images/dr-randeep-rana-whitecoat.jpg"

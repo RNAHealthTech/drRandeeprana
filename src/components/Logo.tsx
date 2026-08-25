@@ -21,7 +21,7 @@ export default function Logo({
       <div className="relative w-10 h-10 sm:w-11 sm:h-11 shrink-0 flex items-center justify-center">
         <svg
           viewBox="0 0 100 100"
-          className="w-full h-full transform group- transition-transform duration-300 drop-shadow-md"
+          className="w-full h-full transform group-hover:scale-105 transition-transform duration-300"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >

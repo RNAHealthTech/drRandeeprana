@@ -62,19 +62,19 @@ export default function Testimonials() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mb-16 bg-[#002C47] rounded-md p-8 sm:p-12 text-white shadow-sm grid grid-cols-1 lg:grid-cols-12 gap-8 items-center"
+          className="mb-16 bg-[#EBF5F2] border border-[#DDE6ED] rounded-md p-8 sm:p-12 text-[#1C2936] grid grid-cols-1 lg:grid-cols-12 gap-8 items-center"
         >
           <div className="lg:col-span-7 space-y-4">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-white/10 text-xs font-bold uppercase text-[#6CB29D]">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-white border border-slate-200 text-xs font-bold uppercase text-[#00843D]">
               <Play className="w-3.5 h-3.5 fill-current" /> Video Experience
             </div>
-            <h3 className="text-2xl sm:text-3xl font-serif font-bold text-white">
+            <h3 className="text-2xl sm:text-3xl font-serif font-bold text-[#002C47]">
               &ldquo;My Painless ERCP & Bile Duct Recovery Experience&rdquo;
             </h3>
-            <p className="text-slate-300 text-sm font-light leading-relaxed">
+            <p className="text-slate-600 text-sm font-light leading-relaxed">
               Watch how our patient recovered smoothly from severe jaundice and gallstone bile duct blockage through endoscopic intervention with Dr. Randeep Rana.
             </p>
-            <div className="flex items-center gap-4 text-xs font-semibold pt-2 text-slate-300">
+            <div className="flex items-center gap-4 text-xs font-semibold pt-2 text-slate-600">
               <span className="flex items-center gap-1">
                 <CheckCircle2 className="w-4 h-4 text-[#6CB29D]" /> Max Smart OPD Patient
               </span>
@@ -86,8 +86,8 @@ export default function Testimonials() {
           </div>
 
           <div className="lg:col-span-5 relative">
-            <div className="relative aspect-video rounded-md bg-black/50 border border-white/20 overflow-hidden flex items-center justify-center shadow-sm group cursor-pointer">
-              <div className="w-16 h-16 rounded-md bg-[#6CB29D] text-white flex items-center justify-center shadow-sm">
+            <div className="relative aspect-video rounded-md bg-slate-900 border border-slate-300 overflow-hidden flex items-center justify-center group cursor-pointer">
+              <div className="w-16 h-16 rounded-md bg-[#6CB29D] text-white flex items-center justify-center">
                 <Play className="w-7 h-7 fill-current ml-1" />
               </div>
               <div className="absolute bottom-3 left-4 right-4 flex items-center justify-between text-xs text-white/90">

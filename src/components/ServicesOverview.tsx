@@ -64,7 +64,7 @@ export default function ServicesOverview() {
 
           <a
             href="/services"
-            className="inline-flex items-center gap-2 bg-[#0078BF] hover:bg-[#006EB6] text-white font-bold text-xs uppercase tracking-wider rounded-sm px-6 py-3.5 transition-colors shadow-sm shrink-0"
+            className="inline-flex items-center gap-2 bg-[#0078BF] hover:bg-[#006EB6] text-white font-bold text-xs uppercase tracking-wider rounded-sm px-6 py-3.5 transition-colors shrink-0"
           >
             <span>View All Services</span>
             <ArrowRight className="w-4 h-4" />
@@ -78,7 +78,7 @@ export default function ServicesOverview() {
             return (
               <div
                 key={panel.id}
-                className="bg-white rounded-md overflow-hidden shadow-sm group flex flex-col justify-between border border-slate-200"
+                className="bg-white rounded-md overflow-hidden group flex flex-col justify-between border border-slate-200"
               >
                 <div className="relative h-60 overflow-hidden bg-slate-900">
                   <img
@@ -88,7 +88,7 @@ export default function ServicesOverview() {
                     loading="lazy"
                   />
                   
-                  <div className="absolute top-4 left-4 bg-white text-[#00843D] border border-slate-200 text-[10px] font-extrabold uppercase tracking-widest px-3 py-1 rounded-sm flex items-center gap-1.5 shadow-sm">
+                  <div className="absolute top-4 left-4 bg-white text-[#00843D] border border-slate-200 text-[10px] font-extrabold uppercase tracking-widest px-3 py-1 rounded-sm flex items-center gap-1.5">
                     <Icon className="w-3.5 h-3.5 text-[#00843D]" />
                     <span>{panel.category}</span>
                   </div>
@@ -118,7 +118,7 @@ export default function ServicesOverview() {
         </div>
 
         {/* Cleveland Clinic "Not Sure Where To Go for Care?" Banner */}
-        <div className="bg-white rounded-lg p-8 sm:p-10 border border-slate-200 shadow-sm flex flex-col md:flex-row items-center justify-between gap-8">
+        <div className="bg-white rounded-lg p-8 sm:p-10 border border-slate-200 flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="space-y-2 text-center md:text-left max-w-2xl">
             <div className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-[#00843D]">
               <HelpCircle className="w-4 h-4" />

@@ -92,14 +92,14 @@ export default function Treatments() {
         {/* Realistic Procedure Facility Showcase Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           {/* Card 1: Advanced Endoscopy Suite */}
-          <div className="relative rounded-md overflow-hidden shadow-sm group border border-[#DDE6ED] h-64 sm:h-72">
+          <div className="relative rounded-md overflow-hidden group border border-[#DDE6ED] h-64 sm:h-72">
             <img
               src="/images/dr-randeep-rana-scrubs-front.jpg"
               alt="Advanced Interventional Endoscopy Dr. Randeep Rana"
               className="w-full h-full object-cover object-top"
               loading="lazy"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#002C47] via-[#002C47]/40 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/85 via-[#002C47]/30 to-transparent" />
             <div className="absolute bottom-6 left-6 right-6 text-white space-y-1.5">
               <span className="px-3 py-1 rounded-md bg-[#6CB29D] text-[10px] font-extrabold uppercase tracking-widest text-white inline-block">
                 Interventional Endoscopy Suite
@@ -114,16 +114,16 @@ export default function Treatments() {
           </div>
 
           {/* Card 2: FibroScan & Non-Invasive Hepatology */}
-          <div className="relative rounded-md overflow-hidden shadow-sm group border border-[#DDE6ED] h-64 sm:h-72">
+          <div className="relative rounded-md overflow-hidden group border border-[#DDE6ED] h-64 sm:h-72">
             <img
               src="/images/apdw-2025-singapore-poster.jpg"
               alt="Hepatology Research & Liver Diagnostics Dr. Randeep Rana"
               className="w-full h-full object-cover object-top"
               loading="lazy"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#002C47] via-[#002C47]/40 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/85 via-[#002C47]/30 to-transparent" />
             <div className="absolute bottom-6 left-6 right-6 text-white space-y-1.5">
-              <span className="px-3 py-1 rounded-md bg-[#001D30] border border-[#6CB29D]/50 text-[10px] font-extrabold uppercase tracking-widest text-[#6CB29D] inline-block">
+              <span className="px-3 py-1 rounded-md bg-[#EBF5F2] text-[#00843D] border border-[#00843D]/20 text-[10px] font-extrabold uppercase tracking-widest inline-block">
                 Hepatology & Clinical Research
               </span>
               <h3 className="text-xl sm:text-2xl font-serif font-bold text-white">
@@ -155,7 +155,7 @@ export default function Treatments() {
                     <span className="text-[11px] font-extrabold text-[#6CB29D] bg-[#EBF5F2] px-3 py-1 rounded-md uppercase tracking-wider">
                       {proc.tag}
                     </span>
-                    <div className="h-10 w-10 rounded-md bg-[#002C47] text-[#6CB29D] flex items-center justify-center">
+                    <div className="h-10 w-10 rounded-md bg-[#EBF5F2] text-[#00843D] flex items-center justify-center">
                       <Icon className="w-5 h-5" />
                     </div>
                   </div>
@@ -194,10 +194,10 @@ export default function Treatments() {
                 {/* Per Card Action CTA */}
                 <a
                   href="#contact"
-                  className="w-full py-3.5 rounded-md font-bold text-white bg-[#002C47] hover:bg-[#001D30] transition-colors flex items-center justify-center gap-2 text-xs uppercase tracking-wider"
+                  className="w-full py-3.5 rounded-md font-bold text-white bg-[#6CB29D] hover:bg-[#5BA897] transition-colors flex items-center justify-center gap-2 text-xs uppercase tracking-wider"
                 >
                   <span>Book Procedure Consult</span>
-                  <ArrowRight className="w-4 h-4 text-[#6CB29D]" />
+                  <ArrowRight className="w-4 h-4" />
                 </a>
               </motion.div>
             );
@@ -205,39 +205,39 @@ export default function Treatments() {
         </div>
 
         {/* Featured Clinical Insights Banner */}
-        <div className="mt-20 bg-[#002C47] rounded-md p-8 sm:p-12 text-white shadow-sm relative overflow-hidden">
+        <div className="mt-20 bg-[#F4F7F9] border border-[#DDE6ED] rounded-md p-8 sm:p-12 text-[#1C2936] relative overflow-hidden">
           <div className="relative z-10 space-y-6 max-w-4xl">
-            <span className="px-3.5 py-1.5 rounded-md bg-white/10 text-[#6CB29D] text-xs font-extrabold uppercase tracking-widest border border-[#6CB29D]/30 inline-block">
+            <span className="px-3.5 py-1.5 rounded-md bg-white text-[#00843D] text-xs font-extrabold uppercase tracking-widest border border-[#6CB29D]/30 inline-block">
               Featured Clinical Research & Breakthroughs
             </span>
             
-            <h3 className="text-2xl sm:text-3xl font-serif font-bold text-white">
+            <h3 className="text-2xl sm:text-3xl font-serif font-bold text-[#002C47]">
               Pioneering Interventions in Hepatology & Pancreatology
             </h3>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
               {/* Insight 1: Endoscopic Pancreatitis Review */}
-              <div className="bg-white/10  p-6 rounded-md border border-white/10 space-y-3">
-                <span className="text-[11px] font-bold text-[#6CB29D] uppercase tracking-wider">
+              <div className="bg-white p-6 rounded-md border border-[#DDE6ED] space-y-3">
+                <span className="text-[11px] font-bold text-[#00843D] uppercase tracking-wider">
                   Indian Journal of Gastroenterology
                 </span>
-                <h4 className="text-base font-serif font-bold text-white leading-snug">
+                <h4 className="text-base font-serif font-bold text-[#002C47] leading-snug">
                   Endoscopic Interventions for Managing Pancreatic Fluid Collections
                 </h4>
-                <p className="text-xs text-slate-300 font-light leading-relaxed">
+                <p className="text-xs text-slate-600 font-light leading-relaxed">
                   Dr. Rana&apos;s state-of-the-art review highlights EUS-guided cystogastrostomy as a minimally invasive alternative to traditional surgery for draining pancreatic pseudocysts and walled-off necrosis.
                 </p>
               </div>
 
               {/* Insight 2: Simvastatin Cirrhosis Trial */}
-              <div className="bg-white/10  p-6 rounded-md border border-white/10 space-y-3">
-                <span className="text-[11px] font-bold text-[#6CB29D] uppercase tracking-wider">
+              <div className="bg-white p-6 rounded-md border border-[#DDE6ED] space-y-3">
+                <span className="text-[11px] font-bold text-[#00843D] uppercase tracking-wider">
                   Am J Gastroenterol & JAMA
                 </span>
-                <h4 className="text-base font-serif font-bold text-white leading-snug">
+                <h4 className="text-base font-serif font-bold text-[#002C47] leading-snug">
                   Simvastatin Addition Improves Long-Term Survival in Cirrhosis
                 </h4>
-                <p className="text-xs text-slate-300 font-light leading-relaxed">
+                <p className="text-xs text-slate-600 font-light leading-relaxed">
                   Landmark randomized controlled trial exploring novel statin & rifaximin therapy to reduce portal hypertension, lower variceal re-bleeding risk, and improve long-term survival in decompensated cirrhosis.
                 </p>
               </div>

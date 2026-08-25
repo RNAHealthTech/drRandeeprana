@@ -53,19 +53,19 @@ export default async function BlogPostDetailPage({ params }: Props) {
           </Link>
 
           {/* Author Card */}
-          <div className="p-5 sm:p-6 rounded-md bg-[#002C47] text-white flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-sm">
+          <div className="p-5 sm:p-6 rounded-md bg-[#EBF5F2] border border-[#6CB29D]/30 text-[#1C2936] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
             <div className="flex items-center space-x-3 sm:space-x-4">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-md bg-[#6CB29D] text-white font-serif font-extrabold flex items-center justify-center text-sm sm:text-lg shadow-md shrink-0">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-md bg-[#6CB29D] text-white font-serif font-extrabold flex items-center justify-center text-sm sm:text-lg shrink-0">
                 DR
               </div>
               <div>
-                <h3 className="text-base font-serif font-bold text-white">Dr. Randeep Rana</h3>
-                <p className="text-xs text-[#6CB29D] font-medium">
+                <h3 className="text-base font-serif font-bold text-[#002C47]">Dr. Randeep Rana</h3>
+                <p className="text-xs text-[#00843D] font-semibold">
                   MD, DM (AIIMS) • Consultant Gastroenterologist, Hepatologist & Pancreatologist
                 </p>
               </div>
             </div>
-            <span className="text-xs text-slate-300 font-bold hidden sm:inline">{post.date}</span>
+            <span className="text-xs text-slate-500 font-bold hidden sm:inline">{post.date}</span>
           </div>
 
           {/* Abstract / Excerpt */}
@@ -115,7 +115,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
             </p>
             <Link
               href="/contact"
-              className="bg-[#6CB29D] hover:bg-[#5BA897] text-white font-extrabold text-xs uppercase tracking-wider rounded-md py-3.5 px-8 transition-all shadow-sm inline-flex items-center gap-3"
+              className="bg-[#6CB29D] hover:bg-[#5BA897] text-white font-extrabold text-xs uppercase tracking-wider rounded-md py-3.5 px-8 transition-all inline-flex items-center gap-3"
             >
               <span>Consult Dr. Randeep Rana</span>
               <SquarePen className="w-4 h-4" />

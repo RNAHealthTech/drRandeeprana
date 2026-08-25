@@ -61,7 +61,7 @@ export default function Navbar() {
       <div
         className={`transition-all duration-300 ${
           scrolled
-            ? "bg-white/95  border-b border-slate-200 shadow-md py-3"
+            ? "bg-white/95 border-b border-slate-200 py-3"
             : "bg-white border-b border-slate-200 py-4"
         }`}
       >
@@ -116,7 +116,7 @@ export default function Navbar() {
             <div className="flex md:hidden">
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="p-2 rounded-md text-slate-200 bg-[#001D30] hover:text-[#6CB29D] transition-colors focus:outline-none"
+                className="p-2 rounded-md text-[#002C47] bg-[#F4F7F9] border border-slate-200 hover:text-[#6CB29D] transition-colors focus:outline-none"
                 aria-label="Toggle navigation menu"
               >
                 {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -130,7 +130,7 @@ export default function Navbar() {
       <>
         {mobileMenuOpen && (
           <div
-            className="md:hidden bg-[#001D30] border-b border-[#002C47] px-4 pt-3 pb-6 shadow-sm text-white"
+            className="md:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 text-[#1C2936]"
           >
             <div className="flex flex-col space-y-2 font-medium text-xs uppercase tracking-wider">
               {navLinks.map((link) => {
@@ -143,19 +143,19 @@ export default function Navbar() {
                     href={link.href}
                     onClick={() => setMobileMenuOpen(false)}
                     className={`py-2.5 px-4 rounded-md transition-colors ${isActive
-                        ? "bg-[#6CB29D]/20 text-[#6CB29D] font-bold"
-                        : "hover:bg-[#002C47] hover:text-[#6CB29D]"
+                        ? "bg-[#EBF5F2] text-[#00843D] font-bold"
+                        : "hover:bg-[#F4F7F9] hover:text-[#0078BF]"
                       }`}
                   >
                     {link.name}
                   </Link>
                 );
               })}
-              <div className="pt-3 border-t border-[#002C47] flex flex-col gap-2">
+              <div className="pt-3 border-t border-slate-200 flex flex-col gap-2">
                 <a
                   href="tel:+919643163941"
                   onClick={() => setMobileMenuOpen(false)}
-                  className="w-full py-3 rounded-md text-center font-bold text-white bg-[#002C47] flex items-center justify-center gap-2"
+                  className="w-full py-3 rounded-md text-center font-bold text-[#002C47] bg-[#F4F7F9] border border-slate-200 flex items-center justify-center gap-2"
                 >
                   <Phone className="w-4 h-4 text-[#6CB29D]" />
                   <span>Call +91 96431 63941</span>
@@ -163,7 +163,7 @@ export default function Navbar() {
                 <Link
                   href="/contact"
                   onClick={() => setMobileMenuOpen(false)}
-                  className="w-full py-3 rounded-md text-center font-bold text-white bg-[#6CB29D] shadow-md flex items-center justify-center gap-2"
+                  className="w-full py-3 rounded-md text-center font-bold text-white bg-[#6CB29D] hover:bg-[#5BA897] flex items-center justify-center gap-2"
                 >
                   <Calendar className="w-4 h-4" />
                   <span>Book Appointment</span>

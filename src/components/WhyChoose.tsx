@@ -89,26 +89,26 @@ export default function WhyChoose() {
         </div>
 
         {/* Max Smart & GIPMER Trust Banner */}
-        <div className="mt-16 bg-[#002C47] rounded-md p-8 sm:p-12 text-white shadow-sm flex flex-col md:flex-row items-center justify-between gap-8 relative overflow-hidden group">
+        <div className="mt-16 bg-[#EBF5F2] border border-[#6CB29D]/30 rounded-md p-8 sm:p-12 text-[#1C2936] flex flex-col md:flex-row items-center justify-between gap-8 relative overflow-hidden group">
           {/* Realistic Hospital Background Photo */}
-          <div className="absolute inset-0 z-0 opacity-20 group-hover:opacity-30 transition-opacity duration-500">
+          <div className="absolute inset-0 z-0 opacity-15 group-hover:opacity-25 transition-opacity duration-500">
             <img
               src="/images/easl-hepatology-congress-hall.jpg"
               alt="Max Smart Saket and GIPMER MAMC Delhi Facility"
-              className="w-full h-full object-cover object-center opacity-40"
+              className="w-full h-full object-cover object-center"
               loading="lazy"
             />
           </div>
-          <div className="absolute inset-0 bg-gradient-to-r from-[#002C47] via-[#002C47]/90 to-transparent pointer-events-none z-0" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#EBF5F2] via-[#EBF5F2]/90 to-transparent pointer-events-none z-0" />
 
           <div className="space-y-3 text-center md:text-left relative z-10 max-w-2xl">
-            <span className="px-3.5 py-1 rounded-md bg-white/10 border border-[#6CB29D]/30 text-xs font-bold uppercase tracking-widest text-[#6CB29D]">
+            <span className="px-3.5 py-1 rounded-md bg-white border border-[#6CB29D]/40 text-xs font-bold uppercase tracking-widest text-[#00843D] inline-block">
               Consultant Gastroenterology
             </span>
-            <h3 className="text-2xl sm:text-3xl font-serif font-bold text-white">
+            <h3 className="text-2xl sm:text-3xl font-serif font-bold text-[#002C47]">
               Max Smart Superspeciality Hospital, Saket, New Delhi
             </h3>
-            <p className="text-slate-300 text-xs sm:text-sm font-light leading-relaxed">
+            <p className="text-slate-600 text-xs sm:text-sm font-light leading-relaxed">
               Ex-Assistant Professor at GIPMER & Ex-Associate Consultant at Sir Ganga Ram Hospital (ILGPS). Offering state-of-the-art diagnostic evaluations and advanced therapeutic endoscopic interventions.
             </p>
           </div>

@@ -67,7 +67,7 @@
   }
 }
 
-/* Custom Dr. Mohid Khan Aesthetics Theme Utilities */
+/* Custom Aesthetics Theme Utilities */
 
 .font-serif-heading {
   font-family: var(--font-serif);
@@ -78,17 +78,17 @@
 }
 
 /* Color Brand Tokens */
-/* Deep Royal Navy: #002C47, #00233A */
+/* Deep Royal Navy (text & accents): #002C47, #00233A */
 /* Muted Sage Mint: #6CB29D, #5BA897 */
 /* Soft Sage Tint: #EBF5F2, #F4F8FA */
 /* Neutral Border: #DDE6ED */
 
 .bg-navy-dark {
-  background-color: #002C47;
+  background-color: #F4F7F9;
 }
 
 .bg-navy-deep {
-  background-color: #001D30;
+  background-color: #EBF5F2;
 }
 
 .text-navy-dark {
@@ -96,7 +96,7 @@
 }
 
 .border-navy-dark {
-  border-color: #002C47;
+  border-color: #DDE6ED;
 }
 
 .bg-sage-mint {
@@ -123,7 +123,7 @@
   background-color: #F4F7F9;
 }
 
-/* Dr. Mohid Khan Signature Button Component Classes */
+/* Signature Button Component Classes (No Shadows) */
 .btn-mohid-sage {
   background-color: #6CB29D;
   color: #ffffff;
@@ -137,13 +137,11 @@
   display: inline-flex;
   items-center: center;
   gap: 0.75rem;
-  box-shadow: 0 10px 25px -5px rgba(108, 178, 157, 0.35);
 }
 
 .btn-mohid-sage:hover {
   background-color: #5BA897;
-  transform: translateY(-2px);
-  box-shadow: 0 14px 30px -5px rgba(108, 178, 157, 0.45);
+  transform: translateY(-1px);
 }
 
 .btn-mohid-navy {
@@ -159,16 +157,15 @@
   display: inline-flex;
   items-center: center;
   gap: 0.75rem;
-  box-shadow: 0 10px 25px -5px rgba(0, 44, 71, 0.25);
 }
 
 .btn-mohid-navy:hover {
   background-color: #001D30;
-  transform: translateY(-2px);
-  box-shadow: 0 14px 30px -5px rgba(0, 44, 71, 0.35);
+  transform: translateY(-1px);
 }
 
-/* Subtle Card Glow */
+/* Zero shadow utility override */
 .mohid-card-shadow {
-  box-shadow: 0 15px 35px -10px rgba(0, 44, 71, 0.06);
+  box-shadow: none;
 }
+

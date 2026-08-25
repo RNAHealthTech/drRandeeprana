@@ -410,26 +410,26 @@ export default function AboutPage() {
       />
 
       {/* CV Quick Credentials & Contact Strip */}
-      <section className="py-8 bg-[#002C47] text-white border-b border-[#001D30]">
+      <section className="py-8 bg-[#EBF5F2] text-[#1C2936] border-b border-[#DDE6ED]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-            <div className="lg:col-span-8 space-y-2 text-xs sm:text-sm text-slate-200 font-light">
-              <p><strong className="text-[#6CB29D]">Current Position:</strong> Consultant Gastroenterology, Max Smart Superspeciality Hospital, Saket, New Delhi, India</p>
-              <p><strong className="text-[#6CB29D]">Ex-Positions:</strong> Ex-Assistant Professor (GIPMER) | Ex-Associate Consultant (Sir Ganga Ram Hospital ILGPS)</p>
-              <p><strong className="text-[#6CB29D]">Editorial Fellow:</strong> Indian Journal of Gastroenterology (IJG) | <strong className="text-[#6CB29D]">DMC Registration:</strong> 82691</p>
+            <div className="lg:col-span-8 space-y-2 text-xs sm:text-sm text-slate-700 font-normal">
+              <p><strong className="text-[#00843D]">Current Position:</strong> Consultant Gastroenterology, Max Smart Superspeciality Hospital, Saket, New Delhi, India</p>
+              <p><strong className="text-[#00843D]">Ex-Positions:</strong> Ex-Assistant Professor (GIPMER) | Ex-Associate Consultant (Sir Ganga Ram Hospital ILGPS)</p>
+              <p><strong className="text-[#00843D]">Editorial Fellow:</strong> Indian Journal of Gastroenterology (IJG) | <strong className="text-[#00843D]">DMC Registration:</strong> 82691</p>
             </div>
 
-            <div className="lg:col-span-4 bg-white/10 p-5 rounded-md border border-white/20 text-xs text-slate-200 space-y-1.5 font-light">
+            <div className="lg:col-span-4 bg-white p-5 rounded-md border border-slate-200 text-xs text-slate-700 space-y-1.5 font-normal">
               <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-[#6CB29D] shrink-0" />
+                <Phone className="w-4 h-4 text-[#00843D] shrink-0" />
                 <span>+91-9643163941, +91-9643163941</span>
               </div>
               <div className="flex items-center gap-2">
-                <Mail className="w-4 h-4 text-[#6CB29D] shrink-0" />
+                <Mail className="w-4 h-4 text-[#00843D] shrink-0" />
                 <span>randeeprana90@gmail.com</span>
               </div>
               <div className="flex items-center gap-2">
-                <MapPin className="w-4 h-4 text-[#6CB29D] shrink-0" />
+                <MapPin className="w-4 h-4 text-[#00843D] shrink-0" />
                 <span>Max Smart Saket (Mon - Sat: 9.00 am - 6.00 pm)</span>
               </div>
             </div>
@@ -455,7 +455,7 @@ export default function AboutPage() {
             ].map((interest, idx) => (
               <span
                 key={idx}
-                className="px-4 py-2 rounded-md bg-white border border-[#DDE6ED] text-[#002C47] text-xs sm:text-sm font-bold shadow-sm"
+                className="px-4 py-2 rounded-md bg-white border border-[#DDE6ED] text-[#002C47] text-xs sm:text-sm font-bold"
               >
                 {interest}
               </span>
@@ -479,10 +479,10 @@ export default function AboutPage() {
               </h2>
             </div>
 
-            <div className="overflow-x-auto rounded-md border border-[#DDE6ED] shadow-sm">
+            <div className="overflow-x-auto rounded-md border border-[#DDE6ED]">
               <table className="w-full text-left border-collapse min-w-[650px]">
                 <thead>
-                  <tr className="bg-[#002C47] text-white text-xs font-bold uppercase tracking-widest">
+                  <tr className="bg-[#EBF5F2] text-[#002C47] border-b border-[#DDE6ED] text-xs font-bold uppercase tracking-widest">
                     <th className="py-4 px-6">Course / Degree</th>
                     <th className="py-4 px-6">Duration</th>
                     <th className="py-4 px-6">Institute</th>
@@ -512,10 +512,10 @@ export default function AboutPage() {
               </h2>
             </div>
 
-            <div className="overflow-x-auto rounded-md border border-[#DDE6ED] shadow-sm">
+            <div className="overflow-x-auto rounded-md border border-[#DDE6ED]">
               <table className="w-full text-left border-collapse min-w-[650px]">
                 <thead>
-                  <tr className="bg-[#002C47] text-white text-xs font-bold uppercase tracking-widest">
+                  <tr className="bg-[#EBF5F2] text-[#002C47] border-b border-[#DDE6ED] text-xs font-bold uppercase tracking-widest">
                     <th className="py-4 px-6">Position</th>
                     <th className="py-4 px-6">Duration</th>
                     <th className="py-4 px-6">Institution</th>
@@ -555,10 +555,10 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="overflow-x-auto rounded-md border border-[#DDE6ED] bg-white shadow-md">
+          <div className="overflow-x-auto rounded-md border border-[#DDE6ED] bg-white">
             <table className="w-full text-left border-collapse min-w-[700px]">
               <thead>
-                <tr className="bg-[#002C47] text-white text-xs font-bold uppercase tracking-widest">
+                <tr className="bg-[#EBF5F2] text-[#002C47] border-b border-[#DDE6ED] text-xs font-bold uppercase tracking-widest">
                   <th className="py-4 px-4 text-center w-12">#</th>
                   <th className="py-4 px-6">Publication Reference</th>
                   <th className="py-4 px-6 w-48">Journal</th>
@@ -577,7 +577,7 @@ export default function AboutPage() {
           </div>
 
           {/* Publications in line / pipeline */}
-          <div className="mt-8 bg-white p-8 rounded-md border border-[#DDE6ED] space-y-4 shadow-sm">
+          <div className="mt-8 bg-white p-8 rounded-md border border-[#DDE6ED] space-y-4">
             <h3 className="text-xl font-serif font-bold text-[#002C47]">Publications In Line / Pipeline</h3>
             <ul className="space-y-2 text-xs sm:text-sm text-slate-700">
               {pipelinePublications.map((item, idx) => (
@@ -590,7 +590,7 @@ export default function AboutPage() {
           </div>
 
           {/* Ongoing Projects */}
-          <div className="mt-8 bg-white p-8 rounded-md border border-[#DDE6ED] space-y-4 shadow-sm">
+          <div className="mt-8 bg-white p-8 rounded-md border border-[#DDE6ED] space-y-4">
             <h3 className="text-xl font-serif font-bold text-[#002C47]">Ongoing Research Projects</h3>
             <ul className="space-y-2 text-xs sm:text-sm text-slate-700">
               {ongoingProjects.map((item, idx) => (
@@ -620,11 +620,11 @@ export default function AboutPage() {
 
           {/* Authentic Conference & Award Photos Gallery */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="relative rounded-md overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900">
+            <div className="relative rounded-md overflow-hidden border border-[#DDE6ED] group h-56 bg-slate-900">
               <img
                 src="/images/poster-award-best-oral-clinical-science.jpg"
                 alt="Best Oral Poster Awardee in Clinical Science"
-                className="w-full h-full object-cover object-top group- transition-transform duration-500"
+                className="w-full h-full object-cover object-top transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-3 right-3 text-white">
@@ -635,11 +635,11 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="relative rounded-md overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900">
+            <div className="relative rounded-md overflow-hidden border border-[#DDE6ED] group h-56 bg-slate-900">
               <img
                 src="/images/ddw-2024-poster-presentation.jpg"
                 alt="DDW 2024 Washington D.C. Poster"
-                className="w-full h-full object-cover object-top group- transition-transform duration-500"
+                className="w-full h-full object-cover object-top transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-3 right-3 text-white">
@@ -650,11 +650,11 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="relative rounded-md overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900">
+            <div className="relative rounded-md overflow-hidden border border-[#DDE6ED] group h-56 bg-slate-900">
               <img
                 src="/images/apdw-2025-singapore-poster.jpg"
                 alt="APDW 2025 Singapore Poster"
-                className="w-full h-full object-cover object-top group- transition-transform duration-500"
+                className="w-full h-full object-cover object-top transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-3 right-3 text-white">
@@ -665,11 +665,11 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="relative rounded-md overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900">
+            <div className="relative rounded-md overflow-hidden border border-[#DDE6ED] group h-56 bg-slate-900">
               <img
                 src="/images/gbpgcon-chairperson-delegate.jpg"
                 alt="GBPGCON Session Chairperson"
-                className="w-full h-full object-cover object-top group- transition-transform duration-500"
+                className="w-full h-full object-cover object-top transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-3 right-3 text-white">
@@ -680,11 +680,11 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="relative rounded-md overflow-hidden shadow-md border border-[#DDE6ED] group h-56 bg-slate-900 md:col-span-2 lg:col-span-2">
+            <div className="relative rounded-md overflow-hidden border border-[#DDE6ED] group h-56 bg-slate-900 md:col-span-2 lg:col-span-2">
               <img
                 src="/images/easl-hepatology-congress-hall.jpg"
                 alt="EASL Home of Hepatology Congress"
-                className="w-full h-full object-cover object-center group- transition-transform duration-500"
+                className="w-full h-full object-cover object-center transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-3 right-3 text-white">
@@ -742,7 +742,7 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {clinicalSkillsList.map((skillGroup, idx) => (
-              <div key={idx} className="bg-white p-8 rounded-md border border-[#DDE6ED] shadow-sm space-y-4">
+              <div key={idx} className="bg-white p-8 rounded-md border border-[#DDE6ED] space-y-4">
                 <h3 className="text-lg font-serif font-bold text-[#002C47] border-b border-slate-100 pb-3">
                   {skillGroup.category}
                 </h3>
@@ -773,7 +773,7 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {awardsList.map((award, idx) => (
                 <div key={idx} className="p-4 rounded-md bg-[#F4F7F9] border border-[#DDE6ED] text-xs sm:text-sm text-slate-700 font-medium flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#6CB29D] shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-4 h-4 text-[#6CB29D]" />
                   <span>{award}</span>
                 </div>
               ))}
@@ -786,12 +786,12 @@ export default function AboutPage() {
               <Users className="w-6 h-6 text-[#6CB29D]" />
               Societal Memberships
             </h2>
-            <div className="p-6 rounded-md bg-[#002C47] text-white space-y-4">
-              <p className="text-xs sm:text-sm text-slate-200">
-                <strong className="text-[#6CB29D]">Life Member:</strong> Indian Society of Gastroenterology (ISG), Indian Pancreas Club (IPC), Society of Gastrointestinal Endoscopy of India (SGEI), Colitis and Crohn’s Foundation (India)
+            <div className="p-6 rounded-md bg-[#EBF5F2] border border-[#6CB29D]/30 text-[#1C2936] space-y-4">
+              <p className="text-xs sm:text-sm text-slate-700">
+                <strong className="text-[#00843D]">Life Member:</strong> Indian Society of Gastroenterology (ISG), Indian Pancreas Club (IPC), Society of Gastrointestinal Endoscopy of India (SGEI), Colitis and Crohn’s Foundation (India)
               </p>
-              <p className="text-xs sm:text-sm text-slate-200">
-                <strong className="text-[#6CB29D]">Member:</strong> European Association for Study of Liver (EASL), American Society of Gastrointestinal Endoscopy (ASGE), European Society of Gastrointestinal Endoscopy (ESGE), International Association of Pancreatology (IAP), World Endoscopy Organization (WEO), International Liver Cancer Association (ILCA)
+              <p className="text-xs sm:text-sm text-slate-700">
+                <strong className="text-[#00843D]">Member:</strong> European Association for Study of Liver (EASL), American Society of Gastrointestinal Endoscopy (ASGE), European Society of Gastrointestinal Endoscopy (ESGE), International Association of Pancreatology (IAP), World Endoscopy Organization (WEO), International Liver Cancer Association (ILCA)
               </p>
             </div>
           </div>

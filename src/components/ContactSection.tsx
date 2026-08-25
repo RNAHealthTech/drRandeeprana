@@ -78,7 +78,7 @@ ${formData.message ? `Message: ${formData.message}` : ""}`;
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="lg:col-span-7 bg-white p-5 sm:p-10 rounded-md border border-[#DDE6ED] shadow-sm"
+            className="lg:col-span-7 bg-white p-5 sm:p-10 rounded-md border border-[#DDE6ED]"
           >
             <div className="flex items-center space-x-3 mb-6">
               <div className="h-10 w-10 rounded-md bg-[#EBF5F2] text-[#6CB29D] flex items-center justify-center font-bold">
@@ -111,7 +111,7 @@ ${formData.message ? `Message: ${formData.message}` : ""}`;
                       message: "",
                     });
                   }}
-                  className="px-6 py-2.5 rounded-md bg-[#002C47] text-white font-bold text-xs hover:bg-[#001D30] transition-all uppercase tracking-wider"
+                  className="px-6 py-2.5 rounded-md bg-[#6CB29D] hover:bg-[#5BA897] text-white font-bold text-xs transition-all uppercase tracking-wider"
                 >
                   Book Another Appointment
                 </button>
@@ -211,7 +211,7 @@ ${formData.message ? `Message: ${formData.message}` : ""}`;
 
                 <button
                   type="submit"
-                  className="w-full py-4 rounded-md font-extrabold text-white bg-[#6CB29D] hover:bg-[#5BA897] transition-all shadow-md flex items-center justify-center gap-3 text-xs uppercase tracking-wider group"
+                  className="w-full py-4 rounded-md font-extrabold text-white bg-[#6CB29D] hover:bg-[#5BA897] transition-all flex items-center justify-center gap-3 text-xs uppercase tracking-wider group"
                 >
                   <span>Confirm Appointment Request</span>
                   <div className="w-7 h-7 rounded-md bg-white/20 text-white flex items-center justify-center">
@@ -231,47 +231,47 @@ ${formData.message ? `Message: ${formData.message}` : ""}`;
             className="lg:col-span-5 space-y-6"
           >
             {/* Hospital Contact Info Card */}
-            <div className="bg-[#002C47] text-white p-6 sm:p-8 rounded-md shadow-sm space-y-6">
-              <h3 className="text-xl font-serif font-bold border-b border-[#001D30] pb-4 text-white">
+            <div className="bg-[#F4F7F9] border border-[#DDE6ED] text-[#1C2936] p-6 sm:p-8 rounded-md space-y-6">
+              <h3 className="text-xl font-serif font-bold border-b border-slate-200 pb-4 text-[#002C47]">
                 Clinical Location & OPD Timings
               </h3>
 
               <div className="space-y-4 text-sm">
                 <div className="flex items-start gap-3.5">
-                  <div className="h-9 w-9 rounded-md bg-white/10 text-[#6CB29D] flex items-center justify-center shrink-0">
+                  <div className="h-9 w-9 rounded-md bg-[#EBF5F2] text-[#00843D] flex items-center justify-center shrink-0">
                     <MapPin className="w-4 h-4" />
                   </div>
                   <div>
-                    <div className="font-bold text-white">Max Smart Superspeciality Hospital</div>
-                    <div className="text-slate-300 text-xs mt-0.5 font-light">
+                    <div className="font-bold text-[#002C47]">Max Smart Superspeciality Hospital</div>
+                    <div className="text-slate-600 text-xs mt-0.5 font-light">
                       Saket, New Delhi, India
                     </div>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-3.5">
-                  <div className="h-9 w-9 rounded-md bg-white/10 text-[#6CB29D] flex items-center justify-center shrink-0">
+                  <div className="h-9 w-9 rounded-md bg-[#EBF5F2] text-[#00843D] flex items-center justify-center shrink-0">
                     <Clock className="w-4 h-4" />
                   </div>
                   <div>
-                    <div className="font-bold text-white">OPD Timings</div>
-                    <div className="text-slate-300 text-xs mt-0.5 font-light">
+                    <div className="font-bold text-[#002C47]">OPD Timings</div>
+                    <div className="text-slate-600 text-xs mt-0.5 font-light">
                       Monday – Saturday: 9:00 AM – 6:00 PM
                     </div>
-                    <div className="text-[#6CB29D] text-xs font-semibold mt-0.5">
+                    <div className="text-[#00843D] text-xs font-semibold mt-0.5">
                       Consultant Gastroenterology
                     </div>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-3.5">
-                  <div className="h-9 w-9 rounded-md bg-white/10 text-[#6CB29D] flex items-center justify-center shrink-0">
+                  <div className="h-9 w-9 rounded-md bg-[#EBF5F2] text-[#00843D] flex items-center justify-center shrink-0">
                     <Phone className="w-4 h-4" />
                   </div>
                   <div>
-                    <div className="font-bold text-white">Direct Helpline</div>
+                    <div className="font-bold text-[#002C47]">Direct Helpline</div>
                     <div className="flex flex-col gap-0.5">
-                      <a href="tel:+919643163941" className="text-xs text-[#6CB29D] font-bold hover:underline">
+                      <a href="tel:+919643163941" className="text-xs text-[#0078BF] font-bold hover:underline">
                         +91 96431 63941
                       </a>
                     </div>
@@ -279,12 +279,12 @@ ${formData.message ? `Message: ${formData.message}` : ""}`;
                 </div>
 
                 <div className="flex items-start gap-3.5">
-                  <div className="h-9 w-9 rounded-md bg-white/10 text-[#6CB29D] flex items-center justify-center shrink-0">
+                  <div className="h-9 w-9 rounded-md bg-[#EBF5F2] text-[#00843D] flex items-center justify-center shrink-0">
                     <Mail className="w-4 h-4" />
                   </div>
                   <div>
-                    <div className="font-bold text-white">Email Contact</div>
-                    <a href="mailto:randeeprana90@gmail.com" className="text-xs text-[#6CB29D] font-bold hover:underline">
+                    <div className="font-bold text-[#002C47]">Email Contact</div>
+                    <a href="mailto:randeeprana90@gmail.com" className="text-xs text-[#0078BF] font-bold hover:underline">
                       randeeprana90@gmail.com
                     </a>
                   </div>
@@ -297,7 +297,7 @@ ${formData.message ? `Message: ${formData.message}` : ""}`;
                   href="https://wa.me/919643163941?text=Hello%20Dr.%20Randeep%20Rana,%20I%20would%20like%20to%20book%20an%20OPD%20appointment."
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="py-3 px-4 rounded-md bg-[#6CB29D] text-white font-extrabold text-xs flex items-center justify-center gap-2 hover:bg-[#5BA897] transition-colors shadow-md uppercase tracking-wider"
+                  className="py-3 px-4 rounded-md bg-[#6CB29D] text-white font-extrabold text-xs flex items-center justify-center gap-2 hover:bg-[#5BA897] transition-colors uppercase tracking-wider"
                 >
                   <MessageSquare className="w-4 h-4" />
                   <span>WhatsApp</span>
@@ -305,7 +305,7 @@ ${formData.message ? `Message: ${formData.message}` : ""}`;
 
                 <a
                   href="tel:+919643163941"
-                  className="py-3 px-4 rounded-md bg-white/10 text-white font-extrabold text-xs flex items-center justify-center gap-2 hover:bg-white/20 transition-colors shadow-md uppercase tracking-wider"
+                  className="py-3 px-4 rounded-md bg-white border border-slate-300 text-[#002C47] font-extrabold text-xs flex items-center justify-center gap-2 hover:bg-slate-50 transition-colors uppercase tracking-wider"
                 >
                   <Phone className="w-4 h-4 text-[#6CB29D]" />
                   <span>Direct Call</span>
@@ -314,7 +314,7 @@ ${formData.message ? `Message: ${formData.message}` : ""}`;
             </div>
 
             {/* Google Map */}
-            <div className="bg-white p-2 rounded-md border border-[#DDE6ED] shadow-sm overflow-hidden h-56">
+            <div className="bg-white p-2 rounded-md border border-[#DDE6ED] overflow-hidden h-56">
               <iframe
                 title="Max Smart Super Speciality Hospital Saket Map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.4746685818967!2d77.21200427618204!3d28.525421375723483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce1f75ff3ad59%3A0x6b772ad37e75bf1!2sMax%20Smart%20Super%20Speciality%20Hospital%2C%20Saket!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"

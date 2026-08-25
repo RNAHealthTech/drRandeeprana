@@ -71,9 +71,9 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="lg:col-span-7 space-y-8"
           >
-            <div className="bg-white p-8 sm:p-10 rounded-md border border-[#DDE6ED] shadow-sm space-y-6">
+            <div className="bg-white p-8 sm:p-10 rounded-md border border-[#DDE6ED] space-y-6">
               {/* Realistic Clinical Showcase Banner Image */}
-              <div className="relative rounded-md overflow-hidden shadow-md group h-56 sm:h-64 mb-6 border border-slate-100">
+              <div className="relative rounded-md overflow-hidden group h-56 sm:h-64 mb-6 border border-slate-100">
                 <img
                   src="/images/dr-randeep-rana-whitecoat.jpg"
                   alt="Dr. Randeep Rana consulting patient in clinic"
@@ -120,17 +120,17 @@ export default function About() {
 
             {/* Mission & Vision Cards */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div className="bg-[#002C47] text-white p-6 rounded-md space-y-3 shadow-md">
+              <div className="bg-[#E8F4FA] border border-[#DDE6ED] p-6 rounded-md space-y-3">
                 <div className="h-10 w-10 rounded-md bg-[#6CB29D] text-white flex items-center justify-center font-bold">
                   <Target className="w-5 h-5" />
                 </div>
-                <h4 className="text-lg font-serif font-bold text-white">Our Mission</h4>
-                <p className="text-xs sm:text-sm text-slate-300 font-light leading-relaxed">
+                <h4 className="text-lg font-serif font-bold text-[#002C47]">Our Mission</h4>
+                <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed">
                   To provide evidence-based, compassionate gastroenterology care, utilizing advanced interventional endoscopy with warmth, clarity, and patient empowerment.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-md border border-[#DDE6ED] space-y-3 shadow-sm">
+              <div className="bg-white p-6 rounded-md border border-[#DDE6ED] space-y-3">
                 <div className="h-10 w-10 rounded-md bg-[#EBF5F2] text-[#6CB29D] flex items-center justify-center font-bold">
                   <Eye className="w-5 h-5" />
                 </div>
@@ -148,7 +148,7 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="lg:col-span-5 bg-white p-6 sm:p-10 rounded-md border border-[#DDE6ED] shadow-sm"
+            className="lg:col-span-5 bg-white p-6 sm:p-10 rounded-md border border-[#DDE6ED]"
           >
             <div className="flex items-center space-x-3 mb-8">
               <div className="h-10 w-10 rounded-md bg-[#EBF5F2] text-[#002C47] flex items-center justify-center">
@@ -161,7 +161,7 @@ export default function About() {
               {educationTimeline.map((edu) => (
                 <div key={edu.degree} className="relative group">
                   {/* Timeline Dot */}
-                  <div className="absolute -left-[23px] sm:-left-[31px] top-1.5 h-3.5 w-3.5 sm:h-4 sm:w-4 rounded-md border-2 border-white bg-[#6CB29D] shadow-sm" />
+                  <div className="absolute -left-[23px] sm:-left-[31px] top-1.5 h-3.5 w-3.5 sm:h-4 sm:w-4 rounded-md border-2 border-white bg-[#6CB29D]" />
                   
                   <div className="inline-block px-3 py-0.5 rounded-md bg-[#EBF5F2] text-[#002C47] text-[11px] font-bold tracking-wider mb-2">
                     {edu.year}
@@ -180,11 +180,11 @@ export default function About() {
             </div>
 
             {/* AIIMS Banner */}
-            <div className="mt-8 p-5 rounded-md bg-[#002C47] text-white flex items-center space-x-4">
+            <div className="mt-8 p-5 rounded-md bg-[#EBF5F2] border border-[#6CB29D]/30 text-[#002C47] flex items-center space-x-4">
               <Award className="w-8 h-8 text-[#6CB29D] shrink-0" />
               <div>
-                <div className="text-xs font-bold uppercase tracking-widest text-[#6CB29D]">AIIMS New Delhi Fellowship</div>
-                <div className="text-xs font-light text-slate-200 mt-0.5">Specialized Interventional Therapeutic Endoscopy</div>
+                <div className="text-xs font-bold uppercase tracking-widest text-[#00843D]">AIIMS New Delhi Fellowship</div>
+                <div className="text-xs font-normal text-slate-600 mt-0.5">Specialized Interventional Therapeutic Endoscopy</div>
               </div>
             </div>
           </motion.div>

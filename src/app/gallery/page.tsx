@@ -155,7 +155,7 @@ export default function GalleryPage() {
                 <div
                   key={item.id}
                   onClick={() => setSelectedItem(item)}
-                  className="bg-white border border-[#DDE6ED] rounded-md overflow-hidden shadow-sm hover:shadow-sm hover:border-[#6CB29D]/50 transition-all duration-300 group flex flex-col justify-between cursor-pointer"
+                  className="bg-white border border-[#DDE6ED] rounded-md overflow-hidden hover:border-[#6CB29D]/50 transition-all duration-300 group flex flex-col justify-between cursor-pointer"
                 >
                   <div className="relative h-64 sm:h-72 overflow-hidden bg-slate-950 flex items-center justify-center">
                     <img
@@ -167,13 +167,13 @@ export default function GalleryPage() {
                     <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/80 via-transparent to-transparent opacity-50 group-hover:opacity-75 transition-opacity" />
 
                     {/* Floating Category Badge */}
-                    <div className="absolute top-4 left-4 bg-[#001D30]/90  text-[#6CB29D] border border-[#6CB29D]/40 text-[10px] font-extrabold uppercase tracking-widest px-3 py-1 rounded-md flex items-center gap-1.5">
+                    <div className="absolute top-4 left-4 bg-white text-[#00843D] border border-slate-200 text-[10px] font-extrabold uppercase tracking-widest px-3 py-1 rounded-md flex items-center gap-1.5">
                       <Icon className="w-3.5 h-3.5" />
                       <span>{item.category}</span>
                     </div>
 
                     {/* Zoom Icon indicator on hover */}
-                    <div className="absolute top-4 right-4 bg-white/20  text-white p-2 rounded-md opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="absolute top-4 right-4 bg-white/20 text-white p-2 rounded-md opacity-0 group-hover:opacity-100 transition-opacity">
                       <Maximize2 className="w-4 h-4" />
                     </div>
                   </div>
@@ -196,26 +196,26 @@ export default function GalleryPage() {
       {/* Interactive Lightbox Modal */}
       {selectedItem && (
         <div
-          className="fixed inset-0 z-50 bg-black/90  flex items-center justify-center p-4 sm:p-6"
+          className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4 sm:p-6"
           onClick={() => setSelectedItem(null)}
         >
           <div
-            className="relative max-w-5xl w-full bg-slate-900 border border-slate-800 rounded-md overflow-hidden shadow-sm flex flex-col max-h-[90vh]"
+            className="relative max-w-5xl w-full bg-white border border-slate-200 rounded-md overflow-hidden flex flex-col max-h-[90vh]"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Modal Header */}
-            <div className="p-4 sm:p-6 border-b border-slate-800 flex items-center justify-between bg-slate-950">
+            <div className="p-4 sm:p-6 border-b border-slate-200 flex items-center justify-between bg-white">
               <div className="flex items-center gap-2">
-                <span className="px-3 py-1 rounded-md bg-[#6CB29D]/20 text-[#6CB29D] text-xs font-bold uppercase tracking-widest border border-[#6CB29D]/30">
+                <span className="px-3 py-1 rounded-md bg-[#EBF5F2] text-[#00843D] text-xs font-bold uppercase tracking-widest border border-[#6CB29D]/30">
                   {selectedItem.category}
                 </span>
-                <h3 className="text-base sm:text-xl font-serif font-bold text-white truncate max-w-md sm:max-w-xl">
+                <h3 className="text-base sm:text-xl font-serif font-bold text-[#002C47] truncate max-w-md sm:max-w-xl">
                   {selectedItem.title}
                 </h3>
               </div>
               <button
                 onClick={() => setSelectedItem(null)}
-                className="p-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-md transition-colors"
+                className="p-2 text-slate-500 hover:text-slate-900 hover:bg-slate-100 rounded-md transition-colors"
                 aria-label="Close modal"
               >
                 <X className="w-6 h-6" />
@@ -223,16 +223,16 @@ export default function GalleryPage() {
             </div>
 
             {/* Modal Image Area */}
-            <div className="flex-1 bg-black flex items-center justify-center p-2 sm:p-4 overflow-hidden min-h-[300px]">
+            <div className="flex-1 bg-slate-900 flex items-center justify-center p-2 sm:p-4 overflow-hidden min-h-[300px]">
               <img
                 src={selectedItem.image}
                 alt={selectedItem.title}
-                className="max-h-[65vh] w-auto max-w-full object-contain rounded-lg shadow-sm"
+                className="max-h-[65vh] w-auto max-w-full object-contain rounded-lg"
               />
             </div>
 
             {/* Modal Footer Description */}
-            <div className="p-4 sm:p-6 bg-slate-950 border-t border-slate-800 text-slate-300 text-xs sm:text-sm font-light leading-relaxed">
+            <div className="p-4 sm:p-6 bg-[#F8FAFC] border-t border-slate-200 text-slate-700 text-xs sm:text-sm font-light leading-relaxed">
               {selectedItem.description}
             </div>
           </div>
