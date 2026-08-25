@@ -10,7 +10,7 @@ export default function PatientJourney() {
       number: "01",
       icon: Calendar,
       title: "Book Appointment",
-      description: "Schedule your OPD visit at Max Smart Saket online or via phone (+91 95015 69493) at a time convenient for you.",
+      description: "Schedule your OPD visit at Max Smart Saket online or via phone (+91 96431 63941) at a time convenient for you.",
     },
     {
       number: "02",

@@ -38,6 +38,13 @@ export default function ContactSection() {
       });
       if (response.ok) {
         setSubmitted(true);
+        const waMessage = `Hello Dr. Randeep Rana, I would like to book an OPD appointment.
+Name: ${formData.name}
+Phone: ${formData.phone}
+Date: ${formData.date}
+Condition: ${formData.condition}
+${formData.message ? `Message: ${formData.message}` : ""}`;
+        window.open(`https://wa.me/919643163941?text=${encodeURIComponent(waMessage)}`, "_blank");
       } else {
         alert("Oops! There was a problem submitting your form");
       }
@@ -264,11 +271,8 @@ export default function ContactSection() {
                   <div>
                     <div className="font-bold text-white">Direct Helpline</div>
                     <div className="flex flex-col gap-0.5">
-                      <a href="tel:+919501569493" className="text-xs text-[#6CB29D] font-bold hover:underline">
-                        +91 95015 69493
-                      </a>
-                      <a href="tel:+917703807941" className="text-xs text-[#6CB29D] font-bold hover:underline">
-                        +91 77038 07941
+                      <a href="tel:+919643163941" className="text-xs text-[#6CB29D] font-bold hover:underline">
+                        +91 96431 63941
                       </a>
                     </div>
                   </div>
@@ -290,7 +294,7 @@ export default function ContactSection() {
               {/* Quick Action Buttons */}
               <div className="grid grid-cols-2 gap-3 pt-2">
                 <a
-                  href="https://wa.me/919501569493?text=Hello%20Dr.%20Randeep%20Rana,%20I%20would%20like%20to%20book%20an%20OPD%20appointment."
+                  href="https://wa.me/919643163941?text=Hello%20Dr.%20Randeep%20Rana,%20I%20would%20like%20to%20book%20an%20OPD%20appointment."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="py-3 px-4 rounded-md bg-[#6CB29D] text-white font-extrabold text-xs flex items-center justify-center gap-2 hover:bg-[#5BA897] transition-colors shadow-md uppercase tracking-wider"
@@ -300,7 +304,7 @@ export default function ContactSection() {
                 </a>
 
                 <a
-                  href="tel:+919501569493"
+                  href="tel:+919643163941"
                   className="py-3 px-4 rounded-md bg-white/10 text-white font-extrabold text-xs flex items-center justify-center gap-2 hover:bg-white/20 transition-colors shadow-md uppercase tracking-wider"
                 >
                   <Phone className="w-4 h-4 text-[#6CB29D]" />

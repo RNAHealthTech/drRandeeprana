@@ -10,7 +10,7 @@ export default function FaqSection() {
   const faqs = [
     {
       q: "Where does Dr. Randeep Rana practice in New Delhi?",
-      a: "Dr. Randeep Rana is Consultant Gastroenterology practicing at Max Smart Super Speciality Hospital, Saket, New Delhi. Ex-Assistant Professor at GB Pant Institute (GIPMER). You can book an OPD consultation directly through this website or by calling +91 95015 69493.",
+      a: "Dr. Randeep Rana is Consultant Gastroenterology practicing at Max Smart Super Speciality Hospital, Saket, New Delhi. Ex-Assistant Professor at GB Pant Institute (GIPMER). You can book an OPD consultation directly through this website or by calling +91 96431 63941.",
     },
     {
       q: "What are Dr. Randeep Rana's educational qualifications?",
@@ -66,7 +66,7 @@ export default function FaqSection() {
     },
     {
       q: "How can I book an appointment with Dr. Randeep Rana?",
-      a: "You can book an appointment by filling out the online booking form on this website, or by calling +91 95015 69493 or messaging on WhatsApp.",
+      a: "You can book an appointment by filling out the online booking form on this website, or by calling +91 96431 63941 or messaging on WhatsApp.",
     },
   ];
 

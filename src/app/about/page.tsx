@@ -422,7 +422,7 @@ export default function AboutPage() {
             <div className="lg:col-span-4 bg-white/10 p-5 rounded-md border border-white/20 text-xs text-slate-200 space-y-1.5 font-light">
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-[#6CB29D] shrink-0" />
-                <span>+91-9501569493, +91-7703807941</span>
+                <span>+91-9643163941, +91-9643163941</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-[#6CB29D] shrink-0" />
@@ -849,7 +849,7 @@ export default function AboutPage() {
               <div><strong>Languages:</strong> English, Hindi, Punjabi</div>
               <div><strong>Hobbies:</strong> Cricket, Badminton, Music, Singing</div>
               <div><strong>Email:</strong> randeeprana90@gmail.com</div>
-              <div><strong>Contact:</strong> +91-9501569493, +91-7703807941</div>
+              <div><strong>Contact:</strong> +91-9643163941, +91-9643163941</div>
             </div>
           </div>
 

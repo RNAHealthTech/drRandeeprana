@@ -42,7 +42,7 @@ const jsonLd = {
   ],
   description:
     "MBBS (DMCH), MD (Dr. RMLH), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi). Consultant Gastroenterology at Max Smart Superspeciality Hospital, Saket, New Delhi.",
-  telephone: "+91-9501569493",
+  telephone: "+91-9643163941",
   email: "randeeprana90@gmail.com",
   alumniOf: [
     {

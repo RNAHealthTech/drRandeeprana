@@ -10,7 +10,7 @@ export default function FloatingWidgets() {
       {/* Floating WhatsApp Button */}
       <div className="fixed bottom-20 sm:bottom-8 right-6 z-40">
         <a
-          href="https://wa.me/919501569493?text=Hello%20Dr.%20Randeep%20Rana,%20I%20would%20like%20to%20consult%20regarding%20gastroenterology%20care."
+          href="https://wa.me/919643163941?text=Hello%20Dr.%20Randeep%20Rana,%20I%20would%20like%20to%20consult%20regarding%20gastroenterology%20care."
           target="_blank"
           rel="noopener noreferrer"
           className="relative group flex items-center justify-center w-14 h-14 rounded-md bg-[#6CB29D] text-white shadow-sm  transition-transform duration-300"
@@ -31,7 +31,7 @@ export default function FloatingWidgets() {
       <div className="fixed bottom-0 left-0 right-0 z-40 bg-[#002C47] border-t border-[#001D30] p-3 shadow-sm sm:hidden">
         <div className="grid grid-cols-2 gap-3">
           <a
-            href="tel:+919501569493"
+            href="tel:+919643163941"
             className="py-3 px-4 rounded-md font-bold text-xs text-white bg-[#001D30] flex items-center justify-center gap-2 border border-white/20 uppercase tracking-wider"
           >
             <Phone className="w-4 h-4 text-[#6CB29D]" />

@@ -35,11 +35,11 @@ export default function CtaBanner() {
             </div>
           </Link>
           <a
-            href="tel:+919501569493"
+            href="tel:+919643163941"
             className="bg-[#001D30] hover:bg-black text-white border border-white/20 font-extrabold text-xs sm:text-sm uppercase tracking-wider rounded-md py-3.5 px-8 transition-all duration-200 flex items-center justify-center gap-2.5 w-full sm:w-auto"
           >
             <Phone className="w-4 h-4 text-[#6CB29D]" />
-            <span>Call OPD Hotline (+91 95015 69493)</span>
+            <span>Call OPD Hotline (+91 96431 63941)</span>
           </a>
         </div>
       </div>

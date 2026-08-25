@@ -41,8 +41,8 @@ export default function Navbar() {
             </span>
           </div>
           <div className="flex items-center gap-6">
-            <a href="tel:+919501569493" className="hover:text-[#0078BF] transition-colors font-bold text-[#0078BF] flex items-center gap-1">
-              <Phone className="w-3.5 h-3.5" /> +91 95015 69493
+            <a href="tel:+919643163941" className="hover:text-[#0078BF] transition-colors font-bold text-[#0078BF] flex items-center gap-1">
+              <Phone className="w-3.5 h-3.5" /> +91 96431 63941
             </a>
             <a href="mailto:randeeprana90@gmail.com" className="hover:text-[#0078BF] transition-colors">
               randeeprana90@gmail.com
@@ -153,12 +153,12 @@ export default function Navbar() {
               })}
               <div className="pt-3 border-t border-[#002C47] flex flex-col gap-2">
                 <a
-                  href="tel:+919501569493"
+                  href="tel:+919643163941"
                   onClick={() => setMobileMenuOpen(false)}
                   className="w-full py-3 rounded-md text-center font-bold text-white bg-[#002C47] flex items-center justify-center gap-2"
                 >
                   <Phone className="w-4 h-4 text-[#6CB29D]" />
-                  <span>Call +91 95015 69493</span>
+                  <span>Call +91 96431 63941</span>
                 </a>
                 <Link
                   href="/contact"
