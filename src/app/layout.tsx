@@ -7,7 +7,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Dr. Randeep Rana | Consultant Gastroenterology Saket New Delhi",
   description:
-    "Dr. Randeep Rana — MBBS (DMCH), MD (Dr. RMLH), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi). Consultant Gastroenterology at Max Smart Superspeciality Hospital, Saket, New Delhi.",
+    "Dr. Randeep Rana — MBBS (DMCH), MD (Dr. RMLH), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi). Consultant Gastroenterology at Max Smart Super Speciality Hospital, Saket, New Delhi.",
   keywords: [
     "Dr Randeep Rana",
     "Gastroenterologist Saket",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Dr. Randeep Rana | Consultant Gastroenterology Saket New Delhi",
     description:
-      "Dr. Randeep Rana — MBBS (DMCH), MD (Dr. RMLH), DM (AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi). Consultant Gastroenterology at Max Smart Superspeciality Hospital, Saket, New Delhi.",
+      "Dr. Randeep Rana — MBBS (DMCH), MD (Dr. RMLH), DM (AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi). Consultant Gastroenterology at Max Smart Super Speciality Hospital, Saket, New Delhi.",
     type: "website",
     locale: "en_IN",
   },
@@ -41,7 +41,7 @@ const jsonLd = {
     "Advanced Therapeutic Endoscopy",
   ],
   description:
-    "MBBS (DMCH), MD (Dr. RMLH), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi). Consultant Gastroenterology at Max Smart Superspeciality Hospital, Saket, New Delhi.",
+    "MBBS (DMCH), MD (Dr. RMLH), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi). Consultant Gastroenterology at Max Smart Super Speciality Hospital, Saket, New Delhi.",
   telephone: "+91-9643163941",
   email: "randeeprana90@gmail.com",
   alumniOf: [
@@ -61,7 +61,7 @@ const jsonLd = {
   hospitalAffiliation: [
     {
       "@type": "Hospital",
-      name: "Max Smart Superspeciality Hospital",
+      name: "Max Smart Super Speciality Hospital",
       address: {
         "@type": "PostalAddress",
         streetAddress: "Saket",

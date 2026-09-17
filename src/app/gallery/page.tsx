@@ -35,7 +35,7 @@ export default function GalleryPage() {
       title: "Dr. Randeep Rana — Consultant Gastroenterology",
       category: "Doctor Profile",
       image: "/images/dr-randeep-rana-max-whitecoat.jpg",
-      description: "Dr. Randeep Rana in clinical white coat with stethoscope at Max Smart Superspeciality Hospital, Saket.",
+      description: "Dr. Randeep Rana in clinical white coat with stethoscope at Max Smart Super Speciality Hospital, Saket.",
       icon: UserCheck,
       objectPosition: "object-top",
     },

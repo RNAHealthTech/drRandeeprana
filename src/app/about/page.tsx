@@ -216,7 +216,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-8 space-y-2 text-xs sm:text-sm text-slate-700 font-normal">
-              <p><strong className="text-[#00843D]">Current Position:</strong> Consultant Gastroenterology, Max Smart Superspeciality Hospital, Saket, New Delhi, India</p>
+              <p><strong className="text-[#00843D]">Current Position:</strong> Consultant Gastroenterology, Max Smart Super Speciality Hospital, Saket, New Delhi, India</p>
               <p><strong className="text-[#00843D]">Ex-Positions:</strong> Ex-Assistant Professor (GIPMER) | Ex-Associate Consultant (Sir Ganga Ram Hospital ILGPS)</p>
               <p><strong className="text-[#00843D]">Editorial Fellow:</strong> Indian Journal of Gastroenterology (IJG) | <strong className="text-[#00843D]">DMC Registration:</strong> 82691</p>
             </div>
@@ -224,11 +224,11 @@ export default function AboutPage() {
             <div className="lg:col-span-4 bg-white p-5 rounded-md border border-slate-200 text-xs text-slate-700 space-y-1.5 font-normal">
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-[#00843D] shrink-0" />
-                <span>+91-9643163941, +91-9643163941</span>
+                <a href="tel:+919643163941" className="hover:underline font-bold text-[#0078BF]">+91 96431 63941</a>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-[#00843D] shrink-0" />
-                <span>randeeprana90@gmail.com</span>
+                <a href="mailto:randeeprana90@gmail.com" className="hover:underline text-[#0078BF]">randeeprana90@gmail.com</a>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-[#00843D] shrink-0" />

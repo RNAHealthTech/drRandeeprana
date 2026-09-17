@@ -13,7 +13,7 @@ export default function CtaBanner() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-6">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-md bg-white text-[#00843D] text-xs font-bold uppercase tracking-widest border border-[#6CB29D]/30">
           <Sparkles className="w-4 h-4 text-[#00843D]" />
-          <span>Max Smart Superspeciality Hospital, Saket, New Delhi</span>
+          <span>Max Smart Super Speciality Hospital, Saket, New Delhi</span>
         </div>
 
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold tracking-tight text-[#002C47]">

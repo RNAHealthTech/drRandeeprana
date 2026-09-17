@@ -7,7 +7,7 @@ import CtaBanner from "@/components/CtaBanner";
 export const metadata: Metadata = {
   title: "Book Appointment & Contact | Dr. Randeep Rana Saket",
   description:
-    "Schedule an OPD consultation with Dr. Randeep Rana at Max Smart Super Speciality Hospital, Saket, New Delhi. Call +91 96431 63941 or +91 96431 63941 or book online.",
+    "Schedule an OPD consultation with Dr. Randeep Rana at Max Smart Super Speciality Hospital, Saket, New Delhi. Call +91 96431 63941 or book online.",
 };
 
 export default function ContactPage() {

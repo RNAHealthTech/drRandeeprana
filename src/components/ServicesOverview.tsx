@@ -38,7 +38,7 @@ export default function ServicesOverview() {
       title: "Consultant-Led GI OPD & Diagnostics",
       category: "Clinical Care",
       image: "/images/dr-randeep-rana-whitecoat.jpg",
-      description: "Comprehensive, consultant-led evaluation at Max Smart Superspeciality Hospital Saket and GIPMER / MAMC New Delhi.",
+      description: "Comprehensive, consultant-led evaluation at Max Smart Super Speciality Hospital Saket and GIPMER / MAMC New Delhi.",
       linkText: "Schedule OPD Visit",
       icon: Stethoscope,
     },

@@ -242,7 +242,7 @@ ${formData.message ? `Message: ${formData.message}` : ""}`;
                     <MapPin className="w-4 h-4" />
                   </div>
                   <div>
-                    <div className="font-bold text-[#002C47]">Max Smart Superspeciality Hospital</div>
+                    <div className="font-bold text-[#002C47]">Max Smart Super Speciality Hospital</div>
                     <div className="text-slate-600 text-xs mt-0.5 font-light">
                       Saket, New Delhi, India
                     </div>

@@ -36,7 +36,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-between font-medium">
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1.5 text-[#5B6770]">
-              <MapPin className="w-3.5 h-3.5 text-[#00843D]" /> Max Smart Superspeciality Hospital, Saket, New Delhi
+              <MapPin className="w-3.5 h-3.5 text-[#00843D]" /> Max Smart Super Speciality Hospital, Saket, New Delhi
             </span>
           </div>
           <div className="flex items-center gap-6">

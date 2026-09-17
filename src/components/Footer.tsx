@@ -21,7 +21,7 @@ export default function Footer() {
             </Link>
 
             <p className="text-xs text-slate-600 font-light leading-relaxed">
-              Consultant Gastroenterology at Max Smart Superspeciality Hospital, Saket, New Delhi. Ex-Assistant Professor at GIPMER. DM (Gastroenterology) & Fellowship in Advanced GI Endoscopy from AIIMS, New Delhi.
+              Consultant Gastroenterology at Max Smart Super Speciality Hospital, Saket, New Delhi. Ex-Assistant Professor at GIPMER. DM (Gastroenterology) & Fellowship in Advanced GI Endoscopy from AIIMS, New Delhi.
             </p>
 
             <div className="pt-2 flex flex-col space-y-2 text-xs text-slate-700 font-normal">
@@ -29,7 +29,7 @@ export default function Footer() {
                 <Award className="w-4 h-4 text-[#00843D]" /> MBBS (DMCH), MD (Dr. RMLH), DM & Fellowship (AIIMS New Delhi)
               </span>
               <span className="flex items-center gap-2">
-                <ShieldCheck className="w-4 h-4 text-[#00843D]" /> Max Smart Superspeciality Hospital, Saket
+                <ShieldCheck className="w-4 h-4 text-[#00843D]" /> Max Smart Super Speciality Hospital, Saket
               </span>
             </div>
           </div>
@@ -68,21 +68,16 @@ export default function Footer() {
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#00843D] shrink-0 mt-0.5" />
                 <span>
-                  <strong className="text-[#002C47]">Max Smart Superspeciality Hospital</strong><br />
+                  <strong className="text-[#002C47]">Max Smart Super Speciality Hospital</strong><br />
                   Saket, New Delhi, India<br />
                   <span className="text-slate-500 text-[11px]">Mon - Sat: 9.00 am - 6.00 pm</span>
                 </span>
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-[#00843D] shrink-0" />
-                <div className="flex flex-col">
-                  <a href="tel:+919643163941" className="hover:underline text-[#0078BF] font-bold">
-                    +91 96431 63941
-                  </a>
-                  <a href="tel:+919643163941" className="hover:underline text-[#0078BF] font-bold">
-                    +91 96431 63941
-                  </a>
-                </div>
+                <a href="tel:+919643163941" className="hover:underline text-[#0078BF] font-bold">
+                  +91 96431 63941
+                </a>
               </div>
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-[#00843D] shrink-0" />

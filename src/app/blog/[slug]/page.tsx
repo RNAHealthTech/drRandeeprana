@@ -111,7 +111,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
           <div className="pt-8 border-t border-slate-200 text-center space-y-4">
             <h4 className="text-lg font-serif font-bold text-[#002C47]">Need Personal Medical Advice?</h4>
             <p className="text-xs sm:text-sm text-slate-500 max-w-md mx-auto font-light">
-              Schedule a personalized consultation with Dr. Randeep Rana at Max Smart Superspeciality Hospital, Saket.
+              Schedule a personalized consultation with Dr. Randeep Rana at Max Smart Super Speciality Hospital, Saket.
             </p>
             <Link
               href="/contact"
