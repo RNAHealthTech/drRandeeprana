@@ -21,7 +21,7 @@ export default function CtaBanner() {
         </h2>
 
         <p className="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed font-light">
-          Consult Dr. Randeep Rana, MBBS (DMCH), MD (Dr. RMLH), DM & Advanced GI Endoscopy Fellow (AIIMS New Delhi).
+          Consultant Gastroenterologist, Hepatologist &amp; advanced endoscopist at Max Smart Saket
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">

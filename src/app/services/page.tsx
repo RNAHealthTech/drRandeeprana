@@ -2,174 +2,51 @@ import React from "react";
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import CtaBanner from "@/components/CtaBanner";
+import ServicesClinicalTabs from "@/components/ServicesClinicalTabs";
 import {
-  Stethoscope,
-  Activity,
-  Heart,
-  ShieldCheck,
-  Zap,
-  CheckCircle2,
-  ArrowRight,
   FileCheck,
   Users,
   Compass,
   Award,
+  ArrowRight,
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Gastroenterology Services | Dr. Randeep Rana — Advanced Endoscopy, Hepatology & Pancreatology in Delhi",
+  title: "Gastroenterology Services | Conditions, Diagnostics & Symptoms — Dr. Randeep Rana",
   description:
-    "Dr. Randeep Rana offers comprehensive gastroenterology services including Advanced Endoscopy (EUS, ERCP), Hepatology, Pancreatology, IBD Care, and General GI consultations in New Delhi. Book an appointment.",
+    "Explore comprehensive GI, liver, and pancreatic conditions, state-of-the-art diagnostic suites, and rapid symptom triage with Dr. Randeep Rana at Max Smart Super Speciality Hospital, Saket, New Delhi.",
 };
 
 export default function ServicesPage() {
-  const serviceCategories = [
-    {
-      title: "Pancreatico-Biliary Sciences & Advanced ERCP",
-      icon: Activity,
-      description:
-        "Comprehensive interventional care for complex acute and chronic pancreatitis, pancreatic fluid collections, and biliary disorders.",
-      items: [
-        {
-          name: "Complex ERCP & Bile Duct Stone Clearance",
-          details:
-            "Endoscopic removal of choledocholithiasis (CBD stones), relief of obstructive jaundice via plastic/metallic stents, and pancreatic duct interventions.",
-        },
-        {
-          name: "EUS-Guided Cystogastrostomy & Necrosectomy",
-          details:
-            "Minimally invasive drainage of pancreatic pseudocysts and walled-off necrosis using plastic stents or LAMS (Lumen-Apposing Metal Stents) under EUS guidance.",
-        },
-        {
-          name: "Chronic Pancreatitis & Pain Protocols",
-          details:
-            "Multi-modal pain management including adjunctive incremental pregabalin therapy, pancreatic enzyme replacement therapy (PERT), and Type 3c diabetes care.",
-        },
-      ],
-    },
-    {
-      title: "Third Space Endoscopy & Early GI Cancer (EFTR / FTRD)",
-      icon: Zap,
-      description:
-        "Organ-preserving submucosal endoscopic resections replacing open surgical procedures.",
-      items: [
-        {
-          name: "POEM (Peroral Endoscopic Myotomy)",
-          details:
-            "Advanced endoscopic treatment for Achalasia Cardia and esophageal motility disorders without skin incisions.",
-        },
-        {
-          name: "ESD & STER (Submucosal Tunneling)",
-          details:
-            "Endoscopic Submucosal Dissection (ESD) and STER for resection of early mucosal cancers and submucosal tumors.",
-        },
-        {
-          name: "Full-Thickness Resection Device (FTRD / EFTR)",
-          details:
-            "OVESCO Germany certified advanced full-thickness resection for deep mucosal lesions, difficult polyps, and recurrent early GI neoplasia.",
-        },
-      ],
-    },
-    {
-      title: "Portal Hypertension & Endo-Hepatology",
-      icon: Heart,
-      description:
-        "State-of-the-art liver care grounded in Dr. Rana's clinical trial research in decompensated cirrhosis and portal hypertension.",
-      items: [
-        {
-          name: "Variceal Bleed Management & Simvastatin Protocol",
-          details:
-            "Endoscopic Band Ligation (EVL) for esophageal/gastric varices combined with evidence-based simvastatin therapy to improve long-term survival after bleeding.",
-        },
-        {
-          name: "EUS-Guided Vascular Interventions",
-          details:
-            "Endosonographic thrombin/coil embolization for gastric varices and visceral arterial pseudoaneurysms (VAPT-EASE protocol).",
-        },
-        {
-          name: "EUS-Guided Biliary & Enteric Drainage (EUS-HGS / CDS / GE)",
-          details:
-            "Advanced EUS-guided hepaticogastrostomy, choledochoduodenostomy, and EUS-guided gastrojejunostomy for complex obstructive jaundice and gastric outlet obstruction.",
-        },
-        {
-          name: "Fatty Liver & Quantitative FibroScan",
-          details:
-            "Non-invasive liver stiffness elastography and CAP fat scoring for early fatty liver reversal and cirrhosis staging.",
-        },
-      ],
-    },
-    {
-      title: "Inflammatory Bowel Diseases (IBD) Center",
-      icon: ShieldCheck,
-      description:
-        "Dedicated long-term management for Ulcerative Colitis, Crohn's Disease, and complex enteropathies.",
-      items: [
-        {
-          name: "Ulcerative Colitis & Crohn's Disease",
-          details:
-            "Evidence-based biologic, immunomodulator, and small molecule therapies to induce mucosal healing and prevent disease flares.",
-        },
-        {
-          name: "Celiac Enteropathy & Intestinal TB",
-          details:
-            "Differential diagnosis and targeted management of gluten sensitivity, refractory intestinal tuberculosis, and malabsorption syndromes.",
-        },
-      ],
-    },
-    {
-      title: "General Gastroenterology",
-      icon: Stethoscope,
-      description:
-        "Thorough evaluations and personalized treatment plans for common and complex digestive ailments.",
-      items: [
-        {
-          name: "Acid Peptic & Reflux Disorders (GERD)",
-          details:
-            "Diagnosis and management of persistent heartburn, sour regurgitation, and Barrett's esophagus.",
-        },
-        {
-          name: "Functional Bowel Disorders (IBS & Constipation)",
-          details:
-            "Tailored dietary and pharmacological solutions for Irritable Bowel Syndrome, chronic constipation, and diarrhea.",
-        },
-        {
-          name: "Celiac Disease & GI Bleeding / Anemia",
-          details:
-            "Gluten sensitivity evaluation, investigation of obscure GI bleeding, and IV iron replacement for anemia.",
-        },
-      ],
-    },
-  ];
-
   const pillars = [
     {
+      title: "Compassionate Education",
+      desc: "Dr. Rana ensures every patient clearly understands their condition, diagnostic reports, treatment options, and recovery roadmap.",
+      icon: Users,
+    },
+    {
+      title: "Comprehensive Diagnostics",
+      desc: "State-of-the-art high-definition Japanese video endoscopes, non-invasive liver FibroScan (CAP/kPa), and motility labs under one roof.",
+      icon: Award,
+    },
+    {
       title: "Evidence-Based Care",
-      desc: "All treatment protocols are grounded in the latest medical research, much of which Dr. Rana has personally published.",
+      desc: "All treatment protocols are grounded in the latest international medical research, academic trials, and peer-reviewed gastroenterology guidelines.",
       icon: FileCheck,
     },
     {
       title: "Minimally Invasive Approach",
-      desc: "Advanced endoscopic techniques replace open surgeries, significantly reducing recovery times and surgical risks.",
+      desc: "Advanced endoscopic techniques (EUS, ERCP, POEM, ESD) replace open surgeries, reducing recovery times and patient discomfort.",
       icon: Compass,
-    },
-    {
-      title: "Comprehensive Diagnostics",
-      desc: "State-of-the-art imaging including EUS, Fibroscan, and high-definition endoscopes for precise diagnoses.",
-      icon: Award,
-    },
-    {
-      title: "Compassionate Education",
-      desc: "Dr. Rana ensures every patient clearly understands their condition, treatment choices, and recovery plan.",
-      icon: Users,
     },
   ];
 
   return (
     <div className="bg-white text-[#1C2936]">
       <PageHeader
-        badge="Expert Medical Services in New Delhi"
-        title="Comprehensive Gastroenterology & Endoscopy Services"
-        subtitle="At the forefront of digestive health care, Dr. Randeep Rana offers state-of-the-art diagnostic evaluations and therapeutic interventions at Max Smart Super Speciality Hospital Saket."
+        badge="Advanced Clinical Care & Interventions"
+        title="Conditions, Diagnostics & Procedures"
+        subtitle="Expert diagnosis & customized treatment protocols across all digestive organs. Led by Dr. Randeep Rana at Max Smart Super Speciality Hospital, Saket, New Delhi."
         breadcrumbs={[{ label: "Services" }]}
         bgImage="/images/dr-randeep-rana-scrubs-side.jpg"
       />
@@ -178,30 +55,30 @@ export default function ServicesPage() {
       <section className="pt-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="relative rounded-md overflow-hidden border border-[#DDE6ED] h-60 sm:h-72 group">
+            <div className="relative rounded-2xl overflow-hidden border border-[#DDE6ED] h-60 sm:h-72 group shadow-xs">
               <img
-                src="/images/dr-randeep-rana-scrubs-front.jpg"
-                alt="State-of-the-art Endoscopy Suite Dr. Randeep Rana"
-                className="w-full h-full object-cover object-top transform group- transition-transform duration-500"
+                src="/images/services-eus-ercp-suite.jpg"
+                alt="State-of-the-art Advanced EUS and ERCP Endoscopy Suite"
+                className="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-500"
                 loading="eager"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-[#002C47]/30 to-transparent" />
               <div className="absolute bottom-5 left-5 right-5 text-white">
-                <span className="px-3 py-1 rounded-md bg-[#6CB29D] text-[10px] font-extrabold uppercase tracking-widest text-white inline-block mb-1">
+                <span className="px-3 py-1 rounded-md bg-[#00843D] text-[10px] font-extrabold uppercase tracking-widest text-white inline-block mb-1">
                   Interventional GI & Endoscopy
                 </span>
                 <h3 className="text-xl font-serif font-bold">Advanced EUS & ERCP Interventions</h3>
               </div>
             </div>
 
-            <div className="relative rounded-md overflow-hidden border border-[#DDE6ED] h-60 sm:h-72 group">
+            <div className="relative rounded-2xl overflow-hidden border border-[#DDE6ED] h-60 sm:h-72 group shadow-xs">
               <img
-                src="/images/apdw-2025-singapore-poster.jpg"
-                alt="Hepatology & Liver Research Dr. Randeep Rana"
-                className="w-full h-full object-cover object-top transform group- transition-transform duration-500"
+                src="/images/services-fibroscan-liver.jpg"
+                alt="FibroScan Non-Invasive Liver Stiffness Assessment Suite"
+                className="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-500"
                 loading="eager"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-[#002C47]/30 to-transparent" />
               <div className="absolute bottom-5 left-5 right-5 text-white">
                 <span className="px-3 py-1 rounded-md bg-[#EBF5F2] text-[#00843D] border border-[#00843D]/30 text-[10px] font-extrabold uppercase tracking-widest inline-block mb-1">
                   Non-Invasive Liver Diagnostics
@@ -213,51 +90,10 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Services Grid */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
-          {serviceCategories.map((cat, idx) => {
-            const Icon = cat.icon;
-            return (
-              <div
-                key={cat.title}
-                className="bg-[#F4F7F9] border border-[#DDE6ED] rounded-md p-8 sm:p-12 space-y-8"
-              >
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-[#DDE6ED] pb-6">
-                  <div className="flex items-center gap-4">
-                    <div className="h-12 w-12 rounded-md bg-[#EBF5F2] text-[#00843D] flex items-center justify-center font-bold">
-                      <Icon className="w-6 h-6" />
-                    </div>
-                    <div>
-                      <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#002C47]">
-                        {cat.title}
-                      </h2>
-                      <p className="text-xs sm:text-sm text-slate-500 font-light mt-1">
-                        {cat.description}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {cat.items.map((item) => (
-                    <div
-                      key={item.name}
-                      className="bg-white p-6 rounded-md border border-[#DDE6ED] space-y-3 hover:border-[#6CB29D]/50 transition-colors"
-                    >
-                      <h3 className="text-lg font-serif font-bold text-[#002C47] flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-[#6CB29D] shrink-0" />
-                        <span>{item.name}</span>
-                      </h3>
-                      <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed">
-                        {item.details}
-                      </p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            );
-          })}
+      {/* Main Clinical Section: Conditions, Diagnostics & Symptoms */}
+      <section className="py-16 bg-white" id="clinical-services">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ServicesClinicalTabs />
         </div>
       </section>
 
@@ -269,8 +105,11 @@ export default function ServicesPage() {
               Why Choose Our Services?
             </span>
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#002C47]">
-              The Four Pillars of Dr. Rana's Practice
+              The Four Pillars of Dr. Rana&apos;s Practice
             </h2>
+            <p className="text-slate-600 text-sm font-light max-w-2xl mx-auto">
+              Combining world-class academic expertise from AIIMS & PGIMER with patient-centric empathy and state-of-the-art medical technology.
+            </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -279,9 +118,9 @@ export default function ServicesPage() {
               return (
                 <div
                   key={p.title}
-                  className="bg-white p-8 rounded-md border border-[#DDE6ED] space-y-4 text-center transition-colors"
+                  className="bg-white p-8 rounded-2xl border border-[#DDE6ED] space-y-4 text-center hover:border-[#00843D]/40 hover:shadow-lg transition-all"
                 >
-                  <div className="h-12 w-12 rounded-md bg-[#EBF5F2] text-[#6CB29D] flex items-center justify-center mx-auto">
+                  <div className="h-12 w-12 rounded-xl bg-[#EBF5F2] text-[#00843D] flex items-center justify-center mx-auto">
                     <Icon className="w-6 h-6" />
                   </div>
                   <h3 className="text-lg font-serif font-bold text-[#002C47]">{p.title}</h3>
@@ -294,7 +133,7 @@ export default function ServicesPage() {
           <div className="text-center pt-6">
             <a
               href="/contact"
-              className="bg-[#6CB29D] hover:bg-[#5BA897] text-white font-extrabold text-xs uppercase tracking-wider rounded-md py-4 px-8 transition-all inline-flex items-center gap-3"
+              className="bg-[#00843D] hover:bg-[#006EB6] text-white font-extrabold text-xs uppercase tracking-wider rounded-lg py-4 px-8 transition-all inline-flex items-center gap-3 shadow-md"
             >
               <span>Schedule a Consultation</span>
               <ArrowRight className="w-4 h-4" />

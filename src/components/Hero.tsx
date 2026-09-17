@@ -20,10 +20,13 @@ export default function Hero() {
       title: "Our Provider Profile",
       icon: UserCheck,
       badge: "AIIMS & DMCH Alumni",
-      description: "Dr. Randeep Rana — MBBS, MD (Dr. RMLH), DM & Advanced GI Endoscopy Fellow (AIIMS New Delhi).",
+      description: "Dr. Randeep Rana — MBBS, MD (Dr. RMLH), DM (Gastroenterology) & Advanced Endoscopist (AIIMS New Delhi).",
       linkText: "View Qualifications",
       href: "/about",
-      accentBg: "bg-[#EBF5F2]",
+      iconBoxStyle:
+        "bg-gradient-to-br from-[#EBF5F2] to-[#D5EDE6] text-[#00843D] border border-[#00843D]/25 group-hover:from-[#00843D] group-hover:to-[#005A29] group-hover:text-white",
+      badgeStyle: "bg-[#EBF5F2] text-[#00843D] border border-[#00843D]/20",
+      dotColor: "bg-[#00843D]",
     },
     {
       title: "OPD Location & Timings",
@@ -32,7 +35,10 @@ export default function Hero() {
       description: "Max Smart Super Speciality Hospital, Saket, New Delhi (Mon - Sat: 9.00 am - 6.00 pm).",
       linkText: "Get Directions",
       href: "/contact",
-      accentBg: "bg-[#E8F4FA]",
+      iconBoxStyle:
+        "bg-gradient-to-br from-[#EFF6FF] to-[#DBEAFE] text-[#0078BF] border border-[#0078BF]/25 group-hover:from-[#0078BF] group-hover:to-[#004E7C] group-hover:text-white",
+      badgeStyle: "bg-[#EFF6FF] text-[#0078BF] border border-[#0078BF]/20",
+      dotColor: "bg-[#0078BF]",
     },
     {
       title: "Book OPD Appointments",
@@ -41,7 +47,10 @@ export default function Hero() {
       description: "Schedule prompt in-person consultation or medical guidance for gut, liver & pancreas care.",
       linkText: "Schedule Consultation",
       href: "#contact",
-      accentBg: "bg-[#EBF5F2]",
+      iconBoxStyle:
+        "bg-gradient-to-br from-[#F0FDF4] to-[#DCFCE7] text-[#059669] border border-[#059669]/25 group-hover:from-[#059669] group-hover:to-[#00843D] group-hover:text-white",
+      badgeStyle: "bg-[#F0FDF4] text-[#059669] border border-[#059669]/20",
+      dotColor: "bg-[#059669]",
     },
   ];
 
@@ -93,7 +102,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-slate-600 text-xs sm:text-base lg:text-lg font-normal leading-relaxed max-w-2xl mx-auto lg:mx-0"
             >
-              Consultant Gastroenterologist, Hepatologist &amp; Pancreatologist at Max Smart Saket and Assistant Professor at GIPMER &amp; MAMC, New Delhi.
+              Consultant Gastroenterologist, Hepatologist &amp; advanced endoscopist at Max Smart Saket and Ex-Assistant Professor at GP Pant (GIPMER), New Delhi.
             </motion.p>
 
             {/* Hero Responsive Action Buttons */}
@@ -119,6 +128,41 @@ export default function Hero() {
               </a>
             </motion.div>
 
+            {/* Key Clinical Statistics Strip */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+              className="pt-6 border-t border-slate-200/80 grid grid-cols-3 gap-3 sm:gap-6 max-w-xl mx-auto lg:mx-0 text-center lg:text-left"
+            >
+              <div className="bg-white/70 backdrop-blur-sm sm:bg-transparent p-3 sm:p-0 rounded-lg sm:rounded-none border sm:border-0 border-slate-200/60 shadow-sm sm:shadow-none">
+                <div className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-[#00843D]">
+                  15k+
+                </div>
+                <div className="text-[11px] sm:text-xs font-semibold text-slate-700 uppercase tracking-wider mt-0.5">
+                  Patients Treated
+                </div>
+              </div>
+
+              <div className="bg-white/70 backdrop-blur-sm sm:bg-transparent p-3 sm:p-0 rounded-lg sm:rounded-none border sm:border-0 border-slate-200/60 shadow-sm sm:shadow-none sm:border-x sm:border-slate-300/80 sm:px-4">
+                <div className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-[#002C47]">
+                  10+
+                </div>
+                <div className="text-[11px] sm:text-xs font-semibold text-slate-700 uppercase tracking-wider mt-0.5">
+                  Years Experience
+                </div>
+              </div>
+
+              <div className="bg-white/70 backdrop-blur-sm sm:bg-transparent p-3 sm:p-0 rounded-lg sm:rounded-none border sm:border-0 border-slate-200/60 shadow-sm sm:shadow-none">
+                <div className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-[#0078BF]">
+                  5k+
+                </div>
+                <div className="text-[11px] sm:text-xs font-semibold text-slate-700 uppercase tracking-wider mt-0.5">
+                  Procedures Done
+                </div>
+              </div>
+            </motion.div>
+
           </div>
         </div>
       </div>
@@ -140,21 +184,22 @@ export default function Hero() {
               >
                 <Link
                   href={card.href}
-                  className="bg-white rounded-md border border-slate-200 transition-all duration-300 flex flex-col justify-between group p-6 sm:p-8 h-full cursor-pointer relative overflow-hidden"
+                  className="bg-white rounded-2xl border border-slate-200/90 shadow-xs hover:shadow-xl hover:border-[#00843D]/40 transition-all duration-300 flex flex-col justify-between group p-6 sm:p-8 h-full cursor-pointer relative overflow-hidden"
                 >
-                  <div className="space-y-4">
-                    {/* Card Header Illustration Box */}
-                    <div className="flex items-center justify-between">
-                      <div className="h-12 w-12 rounded-lg bg-[#F4F7F9] text-[#0078BF] flex items-center justify-center font-bold group-hover:bg-[#00843D] group-hover:text-white transition-colors duration-300">
-                        <Icon className="w-6 h-6" />
+                  <div className="space-y-5">
+                    {/* Card Header Illustration Box & Badge */}
+                    <div className="flex items-center justify-between gap-3">
+                      <div className={`w-14 h-14 rounded-2xl flex items-center justify-center font-bold transition-all duration-300 shadow-2xs group-hover:scale-105 ${card.iconBoxStyle}`}>
+                        <Icon className="w-7 h-7 stroke-[2.2]" />
                       </div>
-                      <span className="text-[10px] font-extrabold uppercase tracking-widest text-[#00843D] bg-[#EBF5F2] px-2.5 py-1 rounded-sm border border-[#00843D]/10">
-                        {card.badge}
+                      <span className={`text-[10px] font-extrabold uppercase tracking-widest px-3 py-1 rounded-full flex items-center gap-1.5 shadow-2xs ${card.badgeStyle}`}>
+                        <span className={`w-1.5 h-1.5 rounded-full animate-pulse ${card.dotColor}`} />
+                        <span>{card.badge}</span>
                       </span>
                     </div>
 
                     {/* Title */}
-                    <h3 className="text-xl font-serif font-bold text-[#0078BF] group-hover:text-[#00843D] transition-colors duration-300">
+                    <h3 className="text-xl font-serif font-bold text-[#002C47] group-hover:text-[#00843D] transition-colors duration-300">
                       {card.title}
                     </h3>
 
@@ -165,7 +210,7 @@ export default function Hero() {
                   </div>
 
                   {/* Card Link */}
-                  <div className="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-[#0078BF] group-hover:text-[#00843D] transition-colors duration-300">
+                  <div className="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-[#00843D] group-hover:text-[#0078BF] transition-colors duration-300">
                     <span>{card.linkText}</span>
                     <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1.5 transition-transform duration-300" />
                   </div>
