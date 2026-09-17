@@ -210,20 +210,20 @@ export default function About() {
 
         {/* Top Key Statistics Bar */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-6 bg-white rounded-3xl border border-slate-200 shadow-xs">
-          <div className="p-4 rounded-2xl bg-[#F0FAF7] border border-[#C5E9DF] text-center space-y-1">
+          <div className="p-4 sm:p-5 rounded-2xl bg-[#F8FAFC] border border-slate-200 text-center space-y-1 hover:border-[#00843D]/40 transition-colors">
             <span className="text-2xl sm:text-3xl font-serif font-bold text-[#00843D]">Gold Medalist</span>
             <span className="text-xs text-slate-600 font-medium block">1st in Medicine (MBBS)</span>
           </div>
-          <div className="p-4 rounded-2xl bg-[#EFF6FF] border border-[#BFDBFE] text-center space-y-1">
-            <span className="text-2xl sm:text-3xl font-serif font-bold text-[#0078BF]">AIR 1 &amp; AIR 2</span>
-            <span className="text-xs text-slate-600 font-medium block">AIIMS Fellowship &amp; DM</span>
+          <div className="p-4 sm:p-5 rounded-2xl bg-[#F8FAFC] border border-slate-200 text-center space-y-1 hover:border-[#00843D]/40 transition-colors">
+            <span className="text-2xl sm:text-3xl font-serif font-bold text-[#00843D]">AIR 1</span>
+            <span className="text-xs text-slate-600 font-medium block">AIIMS Fellowship Entrance</span>
           </div>
-          <div className="p-4 rounded-2xl bg-[#FFFBEB] border border-[#FDE68A] text-center space-y-1">
-            <span className="text-2xl sm:text-3xl font-serif font-bold text-[#D97706]">15+ Years</span>
+          <div className="p-4 sm:p-5 rounded-2xl bg-[#F8FAFC] border border-slate-200 text-center space-y-1 hover:border-[#00843D]/40 transition-colors">
+            <span className="text-2xl sm:text-3xl font-serif font-bold text-[#00843D]">15+ Years</span>
             <span className="text-xs text-slate-600 font-medium block">Clinical &amp; Research Exp</span>
           </div>
-          <div className="p-4 rounded-2xl bg-[#FAF5FF] border border-[#E9D5FF] text-center space-y-1">
-            <span className="text-2xl sm:text-3xl font-serif font-bold text-[#9333EA]">Global Speaker</span>
+          <div className="p-4 sm:p-5 rounded-2xl bg-[#F8FAFC] border border-slate-200 text-center space-y-1 hover:border-[#00843D]/40 transition-colors">
+            <span className="text-2xl sm:text-3xl font-serif font-bold text-[#00843D]">Global Impact</span>
             <span className="text-xs text-slate-600 font-medium block">EASL, DDW, APDW, UEG</span>
           </div>
         </div>

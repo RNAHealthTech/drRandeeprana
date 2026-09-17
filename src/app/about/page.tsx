@@ -91,27 +91,7 @@ export default function AboutPage() {
     },
   ];
 
-  const internationalConferences = [
-    "Best oral presentation (Clinical) (received travel grant and award) - 'Addition of simvastatin to carvedilol improves survival in patients with decompensated cirrhosis after variceal bleed. A randomised controlled trial' - EASL Congress 2024, Milan, Italy",
-    "Oral - 'Adjunctive incremental pregabalin therapy versus placebo for pain management in chronic pancreatitis: a randomized controlled trial' - PANCREAS 2023 - joint international conference of International association of pancreatology (IAP) and Indian pancreas club (IPC), New Delhi (2023)",
-    "Best Abstract Presentation Prize: 'Visceral Arterial Pseudoaneurysm Treatment with EUS-Guided Thrombin or Thrombin-Coil Combination: A Single-Centre Experience (VAPT-EASE Study)' - Moderated Poster Session: EUS Hot Topics, UEG Week, October 2025, Messe Berlin, Germany",
-    "Poster of Distinction - 'Visceral Arterial Pseudoaneurysm Treatment with EUS-Guided Thrombin or Thrombin-Coil Combination: A Single-Centre Experience (VAPT-EASE Study)' - Asian Pacific Digestive Week (APDW), Singapore (2025)",
-    "Poster - 'CLEAR Study: Clearance Using EPLBD in Difficult CBD Stones – A Decade’s Tertiary Care Experience' UEG Week, October 2025, Messe Berlin, Germany",
-    "Poster - 'CLEAR Study: Clearance Using EPLBD in Difficult CBD Stones – A Decade’s Tertiary Care Experience' - Asian Pacific Digestive Week (APDW), Singapore (2025)",
-    "Poster - 'Microbiome and mycobiome metagenomics reveals presence of microbes in pancreatic tissue of patients with chronic pancreatitis: implications for pathophysiology of persistent inflammation and pain' - Digestive Disease Week, DDW, Washington, USA (2024)",
-    "Poster - 'Characterization of pancreatic head mass in patients with chronic pancreatitis' - American pancreatology association (APA) annual meeting, Orlando, Florida, USA (2022)",
-    "Poster - 'Non-invasive tools are suboptimal to predict the presence of varices needing treatment and risk of clinical decompensation in patients with autoimmune hepatitis related cirrhosis.' - International Liver congress (ILC), EASL, London, United Kingdom (2022)",
-    "Poster - 'Long term outcomes in patients with isolated gastric variceal bleeding without previous clinical decompensations: a propensity score matched study' - The Liver meeting (AASLD), San Diego, USA (2021)",
-  ];
 
-  const nationalConferences = [
-    "Oral Presentation (Plenary Session) - 'Visceral Arterial Pseudoaneurysm Treatment with EUS-Guided Thrombin or Thrombin-Coil Combination: A Single-Centre Experience (VAPT-EASE Study)' - 25th annual conference of Society of gastrointestinal society of India (SGEI), ENDOCON, Jaipur (2025)",
-    "Oral presentation (Plenary session) - 'Characterization of pancreatic head mass in patients with chronic pancreatitis' - 22nd annual conference of Society of gastrointestinal society of India (SGEI), ENDOCON, Hyderabad (2022)",
-    "Best Oral (Third prize) - 'Characterization of pancreatic head mass in patients with chronic pancreatitis' - Indian Pancreas Club (IPC) meeting, New Delhi (2022)",
-    "Poster - 'Characterization of pancreatic head mass in patients with chronic pancreatitis' - 63rd Annual Conference of the Indian Society of Gastroenterology, ISGCON, Jaipur (2022)",
-    "Poster - 'Correlation of Disease activity score (DAS28) with anti-CCP levels in patients with Rheumatoid arthritis' - 33rd annual conference of Indian rheumatology association (IRACON), Lucknow (2017)",
-    "Oral - 'An unusual case of quadriparesis' - API - Delhi state chapter (2017)",
-  ];
 
   const awardsList = [
     {
@@ -186,16 +166,7 @@ export default function AboutPage() {
     },
   ];
 
-  const extracurriculars = [
-    "Represented and captained college cricket team in various intercollege cricket tournaments including Euphoria (GMCH-32, Chandigarh)",
-    "All-rounder performances in cricket for various tournaments",
-    "Best Batsman (2012 - SMASH, DMCH)",
-    "Best Bowler (2011 - SMASH, DMCH)",
-    "Best Bowler - Resident’s Cricket League (RCL), AIIMS (2020)",
-    "2nd Most Valuable Player - Resident’s Cricket League (RCL), AIIMS (2024)",
-    "Best Bowler - Delhi Medical Association (DMA) Cricket Tournament (2024)",
-    "Represented College Badminton Team (DMCH, 2008-12)",
-  ];
+
 
 
   return (
@@ -431,33 +402,7 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* International */}
-          <div className="space-y-4">
-            <h3 className="text-xl font-serif font-bold text-[#002C47] flex items-center gap-2">
-              <Globe className="w-5 h-5 text-[#6CB29D]" /> International Presentations
-            </h3>
-            <div className="space-y-3">
-              {internationalConferences.map((item, idx) => (
-                <div key={idx} className="p-4 rounded-md bg-[#F4F7F9] border border-[#DDE6ED] text-xs sm:text-sm text-slate-700 leading-relaxed">
-                  <strong className="text-[#002C47] font-bold">{idx + 1}.</strong> {item}
-                </div>
-              ))}
-            </div>
-          </div>
 
-          {/* National */}
-          <div className="space-y-4">
-            <h3 className="text-xl font-serif font-bold text-[#002C47] flex items-center gap-2">
-              <Award className="w-5 h-5 text-[#6CB29D]" /> National Presentations
-            </h3>
-            <div className="space-y-3">
-              {nationalConferences.map((item, idx) => (
-                <div key={idx} className="p-4 rounded-md bg-[#F4F7F9] border border-[#DDE6ED] text-xs sm:text-sm text-slate-700 leading-relaxed">
-                  <strong className="text-[#002C47] font-bold">{idx + 11}.</strong> {item}
-                </div>
-              ))}
-            </div>
-          </div>
 
         </div>
       </section>
@@ -520,20 +465,7 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* Extracurriculars */}
-          <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#002C47]">
-              Extracurricular Achievements
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {extracurriculars.map((item, idx) => (
-                <div key={idx} className="p-4 rounded-md bg-[#F4F7F9] border border-[#DDE6ED] text-xs sm:text-sm text-slate-700 font-medium flex items-start gap-3">
-                  <span className="w-2 h-2 rounded-md bg-[#6CB29D] mt-1.5 shrink-0" />
-                  <span>{item}</span>
-                </div>
-              ))}
-            </div>
-          </div>
+
 
 
         </div>

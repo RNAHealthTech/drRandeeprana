@@ -58,7 +58,7 @@ export default function ServicesOverview() {
               World-Class Gastroenterology & Liver Services
             </h2>
             <p className="text-slate-600 text-sm sm:text-base font-light leading-relaxed">
-              Ground-breaking interventional endoscopy suites and academic clinical excellence from AIIMS & PGIMER.
+              Ground-breaking interventional endoscopy suites and academic clinical excellence.
             </p>
           </div>
 

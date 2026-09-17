@@ -89,53 +89,6 @@ export default function Treatments() {
           </p>
         </div>
 
-        {/* Realistic Procedure Facility Showcase Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-          {/* Card 1: Advanced Endoscopy Suite */}
-          <div className="relative rounded-md overflow-hidden group border border-[#DDE6ED] h-64 sm:h-72">
-            <img
-              src="/images/dr-randeep-rana-scrubs-front.jpg"
-              alt="Advanced Interventional Endoscopy Dr. Randeep Rana"
-              className="w-full h-full object-cover object-top"
-              loading="lazy"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/85 via-[#002C47]/30 to-transparent" />
-            <div className="absolute bottom-6 left-6 right-6 text-white space-y-1.5">
-              <span className="px-3 py-1 rounded-md bg-[#6CB29D] text-[10px] font-extrabold uppercase tracking-widest text-white inline-block">
-                Interventional Endoscopy Suite
-              </span>
-              <h3 className="text-xl sm:text-2xl font-serif font-bold text-white">
-                HD Narrow-Band Imaging & EUS / ERCP Care
-              </h3>
-              <p className="text-xs text-slate-200 font-light">
-                Specializing in POEM, ESD, STER, EFTR, and EUS-guided vascular & biliary interventions at Max Smart Saket.
-              </p>
-            </div>
-          </div>
-
-          {/* Card 2: FibroScan & Non-Invasive Hepatology */}
-          <div className="relative rounded-md overflow-hidden group border border-[#DDE6ED] h-64 sm:h-72">
-            <img
-              src="/images/apdw-2025-singapore-poster.jpg"
-              alt="Hepatology Research & Liver Diagnostics Dr. Randeep Rana"
-              className="w-full h-full object-cover object-top"
-              loading="lazy"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/85 via-[#002C47]/30 to-transparent" />
-            <div className="absolute bottom-6 left-6 right-6 text-white space-y-1.5">
-              <span className="px-3 py-1 rounded-md bg-[#EBF5F2] text-[#00843D] border border-[#00843D]/20 text-[10px] font-extrabold uppercase tracking-widest inline-block">
-                Hepatology & Clinical Research
-              </span>
-              <h3 className="text-xl sm:text-2xl font-serif font-bold text-white">
-                Non-Invasive FibroScan & Fatty Liver Clinic
-              </h3>
-              <p className="text-xs text-slate-200 font-light">
-                Instant stiffness & fat CAP scoring without needle puncture or pain for early fatty liver reversal.
-              </p>
-            </div>
-          </div>
-        </div>
-
         {/* Procedures Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {treatments.map((proc, idx) => {

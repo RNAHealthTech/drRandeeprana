@@ -16,7 +16,7 @@ export default function ContactPage() {
       <PageHeader
         badge="OPD Consultation & Booking"
         title="Schedule Your OPD Appointment"
-        subtitle="Book an in-person consultation with Dr. Randeep Rana — MBBS (DMCH), MD (Dr. RMLH), DM & advanced endoscopist (AIIMS Delhi) at Max Smart Super Speciality Hospital, Saket, New Delhi."
+        subtitle="Consultant Gastroenterologist, Hepatologist & advanced endoscopist at Max Smart Saket and Ex-Assistant Professor at GP Pant (GIPMER), New Delhi."
         breadcrumbs={[{ label: "Contact & Booking" }]}
         bgImage="/images/dr-randeep-rana-max-whitecoat.jpg"
       />

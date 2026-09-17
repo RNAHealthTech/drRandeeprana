@@ -6,134 +6,129 @@ interface LogoProps {
   variant?: "light" | "dark";
   className?: string;
   showText?: boolean;
+  stacked?: boolean;
 }
 
 export default function Logo({
   variant = "light",
   className = "",
   showText = true,
+  stacked = false,
 }: LogoProps) {
   const isDarkBg = variant === "dark";
 
   return (
-    <div className={`inline-flex items-center gap-3 group shrink-0 select-none ${className}`}>
-      {/* Enhanced Emblem Graphic */}
-      <div className="relative w-11 h-11 sm:w-12 sm:h-12 shrink-0 flex items-center justify-center">
-        {/* Ambient Glow */}
-        <div className="absolute inset-0 bg-[#00843D]/20 rounded-2xl blur-md group-hover:bg-[#0078BF]/30 transition-all duration-300 pointer-events-none" />
+    <div
+      className={`inline-flex ${
+        stacked ? "flex-col items-center text-center gap-3" : "items-center gap-3.5"
+      } group shrink-0 select-none ${className}`}
+    >
+      {/* Precision Circular Health Emblem */}
+      <div
+        className={`relative ${
+          stacked ? "w-20 h-20 sm:w-24 sm:h-24" : "w-11 h-11 sm:w-13 sm:h-13"
+        } shrink-0 flex items-center justify-center`}
+      >
+        {/* Soft Ambient Radial Glow */}
+        <div className="absolute inset-0 bg-[#00843D]/15 rounded-full blur-md group-hover:bg-[#0078BF]/25 transition-all duration-300 pointer-events-none" />
 
         <svg
           viewBox="0 0 120 120"
-          className="w-full h-full relative z-10 transform group-hover:scale-105 transition-transform duration-300 filter drop-shadow-sm"
+          className="w-full h-full relative z-10 transform group-hover:scale-105 transition-transform duration-300 drop-shadow-xs"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
           <defs>
-            {/* Primary Emerald Gradient */}
-            <linearGradient id="emblemGradPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="#00A859" />
-              <stop offset="50%" stopColor="#00843D" />
-              <stop offset="100%" stopColor="#005A29" />
+            {/* Primary Gradient: Blue to Green Arc */}
+            <linearGradient id="logoArcGrad" x1="15%" y1="15%" x2="85%" y2="85%">
+              <stop offset="0%" stopColor="#0284C7" />
+              <stop offset="40%" stopColor="#0078BF" />
+              <stop offset="70%" stopColor="#00843D" />
+              <stop offset="100%" stopColor="#059669" />
             </linearGradient>
 
-            {/* Sapphire Blue Gradient */}
-            <linearGradient id="emblemGradSecondary" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="#0099FF" />
-              <stop offset="50%" stopColor="#0078BF" />
-              <stop offset="100%" stopColor="#004E7C" />
-            </linearGradient>
-
-            {/* Subtle Inner Sheen */}
-            <linearGradient id="emblemSheen" x1="0%" y1="0%" x2="0%" y2="100%">
-              <stop offset="0%" stopColor="#FFFFFF" stopOpacity="0.4" />
-              <stop offset="100%" stopColor="#FFFFFF" stopOpacity="0" />
-            </linearGradient>
-
-            {/* Medical Gold Accent */}
-            <linearGradient id="emblemGold" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="#F59E0B" />
-              <stop offset="100%" stopColor="#D97706" />
+            {/* Inner Ring Glow */}
+            <linearGradient id="logoInnerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#0284C7" stopOpacity="0.25" />
+              <stop offset="100%" stopColor="#00843D" stopOpacity="0.25" />
             </linearGradient>
           </defs>
 
-          {/* Outer Shield Crest */}
+          {/* Outer Gradient Ring with Top Opening for the Sphere */}
           <path
-            d="M60 6L108 22V56C108 84 86 106 60 114C34 106 12 84 12 56V22L60 6Z"
-            fill="url(#emblemGradPrimary)"
-            stroke="#FFFFFF"
+            d="M 60 22 A 38 38 0 1 0 60.01 22"
+            stroke="url(#logoArcGrad)"
+            strokeWidth="11"
+            strokeLinecap="round"
+          />
+
+          {/* Inner Thin Concentric Guidance Circle */}
+          <circle
+            cx="60"
+            cy="60"
+            r="28"
+            stroke={isDarkBg ? "#334155" : "#E2E8F0"}
             strokeWidth="1.5"
-            strokeOpacity="0.4"
           />
 
-          {/* Inner Shield Layer */}
-          <path
-            d="M60 14L98 28V56C98 79 80 98 60 105C40 98 22 79 22 56V28L60 14Z"
-            fill={isDarkBg ? "#001D30" : "#FFFFFF"}
+          {/* Top Medical / Patient Wellness Dot */}
+          <circle
+            cx="60"
+            cy="22"
+            r="6.5"
+            fill="#00843D"
+            stroke="#FFFFFF"
+            strokeWidth="2"
           />
 
-          {/* Top Sheen Reflection */}
+          {/* Center Smiling Digestive Wellness Arc */}
           <path
-            d="M60 14L98 28V50C76 46 44 46 22 50V28L60 14Z"
-            fill="url(#emblemSheen)"
-          />
-
-          {/* Medical Stethoscope Arc / Care Loop */}
-          <path
-            d="M38 38C38 32 43 27 50 27C57 27 62 32 62 38V60C62 70 71 78 81 78C91 78 98 70 98 60"
-            stroke="url(#emblemGradSecondary)"
-            strokeWidth="4"
-            strokeLinecap="round"
-            opacity="0.18"
-          />
-
-          {/* Stylized Monogram "R R" */}
-          {/* First 'R' in Medical Emerald */}
-          <path
-            d="M40 38H55C61.5 38 65.5 41.5 65.5 46.5C65.5 51.5 61.5 55 55 55H40V38ZM40 55V82M54 55L67 82"
+            d="M 44 61 Q 60 72 76 61"
             stroke="#00843D"
-            strokeWidth="6"
+            strokeWidth="4.5"
             strokeLinecap="round"
-            strokeLinejoin="round"
           />
-
-          {/* Second 'R' in Sapphire Blue Interlocking */}
-          <path
-            d="M62 38H77C83.5 38 87.5 41.5 87.5 46.5C87.5 51.5 83.5 55 77 55H62V38ZM62 55V82M76 55L89 82"
-            stroke="#0078BF"
-            strokeWidth="6"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-
-          {/* Medical Caduceus Star / Trust Dot */}
-          <circle cx="60" cy="24" r="4" fill="url(#emblemGold)" />
         </svg>
       </div>
 
-      {/* Brand Text */}
+      {/* Structured 3-Tier Brand Typography */}
       {showText && (
-        <div className="flex flex-col justify-center">
-          <div className="flex items-center gap-1.5">
-            <span
-              className={`text-xl sm:text-[22px] font-serif font-bold tracking-tight transition-colors duration-200 leading-tight ${
-                isDarkBg
-                  ? "text-white group-hover:text-[#6CB29D]"
-                  : "text-[#002C47] group-hover:text-[#0078BF]"
-              }`}
-            >
-              Dr. Randeep Rana
-            </span>
-          </div>
+        <div
+          className={`flex flex-col justify-center ${
+            stacked ? "items-center text-center" : "items-start text-left"
+          }`}
+        >
+          {/* Main Name */}
+          <h1
+            className={`text-lg sm:text-[21px] font-bold tracking-tight transition-colors duration-200 leading-none ${
+              isDarkBg
+                ? "text-white group-hover:text-[#6CB29D]"
+                : "text-[#002C47] group-hover:text-[#0078BF]"
+            }`}
+          >
+            Dr. Randeep Rana
+          </h1>
 
+          {/* Tier 1: Specialities in Medical Green */}
           <span
-            className={`text-[9.5px] sm:text-[10px] font-sans font-extrabold tracking-widest uppercase mt-0.5 ${
+            className={`text-[8.5px] sm:text-[9.5px] font-bold tracking-wider uppercase mt-1 ${
               isDarkBg ? "text-[#6CB29D]" : "text-[#00843D]"
             }`}
           >
-            DM Gastroenterology (AIIMS New Delhi)
+            GASTROENTEROLOGY · HEPATOLOGY · ADVANCED ENDOSCOPY
+          </span>
+
+          {/* Tier 2: Pedigree & Hospital (30% bottom section) */}
+          <span
+            className={`text-[7.5px] sm:text-[8px] font-medium tracking-wide uppercase mt-0.5 ${
+              isDarkBg ? "text-slate-400" : "text-slate-500"
+            }`}
+          >
+            DM (AIIMS, NEW DELHI) · MAX SMART SUPER SPECIALITY HOSPITAL, SAKET
           </span>
         </div>
       )}
     </div>
   );
 }
+
