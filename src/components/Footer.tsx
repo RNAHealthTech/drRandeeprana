@@ -15,21 +15,21 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-slate-200">
           {/* Brand Info Column */}
-          <div className="lg:col-span-4 space-y-4">
-            <Link href="/" aria-label="Dr. Randeep Rana Home">
+          <div className="lg:col-span-4 flex flex-col">
+            <Link href="/" aria-label="Dr. Randeep Rana Home" className="inline-block mb-3">
               <Logo variant="light" />
             </Link>
 
-            <p className="text-xs text-slate-600 font-light leading-relaxed">
+            <p className="text-xs text-slate-600 font-light leading-relaxed mt-2 mb-4">
               Consultant Gastroenterology at Max Smart Super Speciality Hospital, Saket, New Delhi. Ex-Assistant Professor at GIPMER. DM (Gastroenterology) & Fellowship in Advanced GI Endoscopy from AIIMS, New Delhi.
             </p>
 
-            <div className="pt-2 flex flex-col space-y-2 text-xs text-slate-700 font-normal">
+            <div className="flex flex-col space-y-2 text-xs text-slate-700 font-normal">
               <span className="flex items-center gap-2">
-                <Award className="w-4 h-4 text-[#00843D]" /> MBBS (DMCH), MD (Dr. RMLH), DM & Fellowship (AIIMS New Delhi)
+                <Award className="w-4 h-4 text-[#00843D] shrink-0" /> MBBS (DMCH), MD (Dr. RMLH), DM & Fellowship (AIIMS New Delhi)
               </span>
               <span className="flex items-center gap-2">
-                <ShieldCheck className="w-4 h-4 text-[#00843D]" /> Max Smart Super Speciality Hospital, Saket
+                <ShieldCheck className="w-4 h-4 text-[#00843D] shrink-0" /> Max Smart Super Speciality Hospital, Saket
               </span>
             </div>
           </div>

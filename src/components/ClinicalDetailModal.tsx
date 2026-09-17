@@ -23,7 +23,6 @@ import {
   MapPin,
 } from "lucide-react";
 import { ClinicalItem, getClinicalDetails } from "@/data/clinicalData";
-import Logo from "@/components/Logo";
 
 const ICON_MAP: Record<string, React.ElementType> = {
   HeartPulse,
