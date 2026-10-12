@@ -2,7 +2,8 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Star, Play, Quote, CheckCircle2 } from "lucide-react";
+import { Star, Play, Quote, CheckCircle2, ExternalLink } from "lucide-react";
+import YouTubeVideoPlayer from "@/components/YouTubeVideoPlayer";
 
 export default function Testimonials() {
   const reviews = [
@@ -57,44 +58,50 @@ export default function Testimonials() {
           </p>
         </div>
 
-        {/* Video Testimonial Preview Banner */}
+        {/* Video Feature Banner */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mb-16 bg-[#EBF5F2] border border-[#DDE6ED] rounded-md p-8 sm:p-12 text-[#1C2936] grid grid-cols-1 lg:grid-cols-12 gap-8 items-center"
+          className="mb-16 bg-[#EBF5F2] border border-[#DDE6ED] rounded-md p-6 sm:p-10 text-[#1C2936] grid grid-cols-1 lg:grid-cols-12 gap-8 items-center"
         >
-          <div className="lg:col-span-7 space-y-4">
+          <div className="lg:col-span-6 space-y-4">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-white border border-slate-200 text-xs font-bold uppercase text-[#00843D]">
-              <Play className="w-3.5 h-3.5 fill-current" /> Video Experience
+              <Play className="w-3.5 h-3.5 fill-current" /> Featured Media Talk • The Lallantop
             </div>
-            <h3 className="text-2xl sm:text-3xl font-serif font-bold text-[#002C47]">
-              &ldquo;My Painless ERCP & Bile Duct Recovery Experience&rdquo;
+            <h3 className="text-2xl sm:text-3xl font-serif font-bold text-[#002C47] leading-snug">
+              &ldquo;Alcohol को हाथ भी नहीं लगाते, फिर Fatty Liver क्यों हुआ?&rdquo;
             </h3>
             <p className="text-slate-600 text-sm font-light leading-relaxed">
-              Watch how our patient recovered smoothly from severe jaundice and gallstone bile duct blockage through endoscopic intervention with Dr. Randeep Rana.
+              Watch <strong>Dr. Randeep Rana</strong> on India&apos;s leading digital media show <em>The Lallantop (&quot;Sehat&quot;)</em> discuss non-alcoholic fatty liver disease (NAFLD / MASLD), early symptoms, FibroScan assessment, and practical medical recovery.
             </p>
-            <div className="flex items-center gap-4 text-xs font-semibold pt-2 text-slate-600">
+            <div className="flex flex-wrap items-center gap-4 text-xs font-semibold pt-1 text-slate-600">
               <span className="flex items-center gap-1">
-                <CheckCircle2 className="w-4 h-4 text-[#6CB29D]" /> Max Smart OPD Patient
+                <CheckCircle2 className="w-4 h-4 text-[#6CB29D]" /> Dr. Randeep Rana, DM AIIMS
               </span>
               <span>•</span>
               <span className="flex items-center gap-1">
-                <Star className="w-4 h-4 text-amber-400 fill-current" /> 5.0 Star Rated Care
+                <Star className="w-4 h-4 text-amber-400 fill-current" /> National Health Feature
               </span>
+            </div>
+            <div className="pt-2">
+              <a
+                href="https://www.youtube.com/watch?v=7Swj422FPj0"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-xs font-bold text-[#00843D] hover:text-[#002C47] transition-colors"
+              >
+                Watch on YouTube <ExternalLink className="w-3.5 h-3.5" />
+              </a>
             </div>
           </div>
 
-          <div className="lg:col-span-5 relative">
-            <div className="relative aspect-video rounded-md bg-slate-900 border border-slate-300 overflow-hidden flex items-center justify-center group cursor-pointer">
-              <div className="w-16 h-16 rounded-md bg-[#6CB29D] text-white flex items-center justify-center">
-                <Play className="w-7 h-7 fill-current ml-1" />
-              </div>
-              <div className="absolute bottom-3 left-4 right-4 flex items-center justify-between text-xs text-white/90">
-                <span className="font-semibold">Patient Story Video</span>
-                <span className="px-2 py-0.5 bg-black/60 rounded text-[10px]">2:45 Mins</span>
-              </div>
-            </div>
+          <div className="lg:col-span-6">
+            <YouTubeVideoPlayer
+              videoId="7Swj422FPj0"
+              title="Alcohol को हाथ भी नहीं लगाते, फिर Fatty Liver क्यों हुआ? डॉक्टर से वजह सुन लीजिए — Dr. Randeep Rana"
+              channelName="The Lallantop • Sehat"
+            />
           </div>
         </motion.div>
 

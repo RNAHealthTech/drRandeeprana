@@ -2,7 +2,8 @@ import React from "react";
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import CtaBanner from "@/components/CtaBanner";
-import { Award, BookOpen, Globe, Video, Award as Trophy, Users, SquarePen } from "lucide-react";
+import { Award, BookOpen, Globe, Video, Award as Trophy, Users, SquarePen, ExternalLink } from "lucide-react";
+import YouTubeVideoPlayer from "@/components/YouTubeVideoPlayer";
 
 export const metadata: Metadata = {
   title: "Dr. Randeep Rana in the News — Media Mentions, Conferences & Publications",
@@ -269,41 +270,82 @@ export default function MediaPage() {
         </div>
       </section>
 
-      {/* Section 4: Media & Educational Social Presence ("YourGutDoc") */}
+      {/* Section 4: Media Features & Public Health Outreach */}
       <section className="py-20 bg-[#F4F7F9]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
           <div className="text-center max-w-3xl mx-auto space-y-4">
             <span className="px-4 py-1.5 rounded-md bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
-              Public Health Outreach • "YourGutDoc"
+              National Media Feature • The Lallantop
             </span>
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#002C47]">
-              Educational Content & Social Media Presence
+              Featured Health Interview & Expert Discussion
             </h2>
             <p className="text-slate-600 text-sm sm:text-base font-light leading-relaxed">
-              Under his online handle <strong>&quot;YourGutDoc&quot;</strong>, Dr. Randeep Rana shares evidence-based educational videos on EUS cystogastrostomy, pancreatitis recovery, and liver wellness to demystify complex gastroenterology for patients.
+              Dr. Randeep Rana featured on India&apos;s leading digital news and health series <strong>The Lallantop (&quot;Sehat&quot;)</strong>, explaining non-alcoholic fatty liver disease (NAFLD / MASLD), risk factors in non-drinkers, FibroScan assessment, and lifestyle protocols.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            {socialHandles.map((handle, idx) => (
+          {/* Featured Video Player Showcase */}
+          <div className="max-w-4xl mx-auto bg-white rounded-md border border-[#DDE6ED] p-6 sm:p-8 shadow-sm space-y-6">
+            <YouTubeVideoPlayer
+              videoId="7Swj422FPj0"
+              title="Alcohol को हाथ भी नहीं लगाते, फिर Fatty Liver क्यों हुआ? डॉक्टर से वजह सुन लीजिए — Dr. Randeep Rana"
+              channelName="The Lallantop • Sehat"
+            />
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-4 border-t border-slate-100">
+              <div className="space-y-1">
+                <span className="inline-block text-[11px] font-bold uppercase tracking-wider text-[#00843D] bg-[#EBF5F2] px-2.5 py-0.5 rounded">
+                  The Lallantop • Sehat Health Series
+                </span>
+                <h3 className="font-serif font-bold text-[#002C47] text-base sm:text-lg">
+                  Alcohol को हाथ भी नहीं लगाते, फिर Fatty Liver क्यों हुआ? डॉक्टर से वजह सुन लीजिए
+                </h3>
+                <p className="text-xs text-slate-500 font-light">
+                  Expert Talk by Dr. Randeep Rana (Consultant Gastroenterologist & Liver Specialist, Max Smart Super Speciality Hospital)
+                </p>
+              </div>
               <a
-                key={idx}
-                href={handle.link}
+                href="https://www.youtube.com/watch?v=7Swj422FPj0"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white p-6 rounded-md border border-[#DDE6ED] hover:border-[#6CB29D]/50 transition-all text-center space-y-3 block group"
+                className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-md bg-[#002C47] hover:bg-[#6CB29D] text-white transition-colors text-xs font-bold shrink-0 self-start sm:self-auto"
               >
-                <div className="h-10 w-10 rounded-md bg-[#EBF5F2] text-[#002C47] flex items-center justify-center mx-auto group-hover:bg-[#6CB29D] group-hover:text-white transition-colors">
-                  <Video className="w-5 h-5" />
-                </div>
-                <div>
-                  <div className="text-xs font-bold text-slate-400 uppercase tracking-widest">{handle.platform}</div>
-                  <div className="text-base font-serif font-bold text-[#002C47] group-hover:text-[#6CB29D] transition-colors mt-0.5">
-                    {handle.handle}
-                  </div>
-                </div>
+                Watch on YouTube <ExternalLink className="w-3.5 h-3.5" />
               </a>
-            ))}
+            </div>
+          </div>
+
+          {/* Social Media Presence */}
+          <div className="space-y-6 pt-4">
+            <div className="text-center">
+              <h3 className="text-xl font-serif font-bold text-[#002C47]">
+                Connect with &ldquo;YourGutDoc&rdquo; Across Social Platforms
+              </h3>
+              <p className="text-slate-600 text-xs sm:text-sm font-light mt-1">
+                Follow Dr. Randeep Rana for daily gastro education, patient case insights, and liver health tips.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              {socialHandles.map((handle, idx) => (
+                <a
+                  key={idx}
+                  href={handle.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white p-6 rounded-md border border-[#DDE6ED] hover:border-[#6CB29D]/50 transition-all text-center space-y-3 block group shadow-sm hover:shadow-md"
+                >
+                  <div className="h-10 w-10 rounded-md bg-[#EBF5F2] text-[#002C47] flex items-center justify-center mx-auto group-hover:bg-[#6CB29D] group-hover:text-white transition-colors">
+                    <Video className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold text-slate-400 uppercase tracking-widest">{handle.platform}</div>
+                    <div className="text-base font-serif font-bold text-[#002C47] group-hover:text-[#6CB29D] transition-colors mt-0.5">
+                      {handle.handle}
+                    </div>
+                  </div>
+                </a>
+              ))}
+            </div>
           </div>
         </div>
       </section>
