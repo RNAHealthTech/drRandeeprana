@@ -26,7 +26,10 @@ export default function Footer() {
 
             <div className="flex flex-col space-y-2 text-xs text-slate-700 font-normal">
               <span className="flex items-center gap-2">
-                <Award className="w-4 h-4 text-[#00843D] shrink-0" /> MBBS (DMCH), MD (Dr. RMLH), DM & Fellowship (AIIMS New Delhi)
+                <Award className="w-4 h-4 text-[#00843D] shrink-0" /> MBBS (DMCH), MD (Dr. RMLH), DM &amp; Fellowship (AIIMS New Delhi)
+              </span>
+              <span className="flex items-center gap-2">
+                <ShieldCheck className="w-4 h-4 text-[#00843D] shrink-0" /> Delhi Medical Council (DMC) Reg. No. 82691
               </span>
               <span className="flex items-center gap-2">
                 <ShieldCheck className="w-4 h-4 text-[#00843D] shrink-0" /> Max Smart Super Speciality Hospital, Saket

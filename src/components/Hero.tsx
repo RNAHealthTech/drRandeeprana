@@ -128,7 +128,7 @@ export default function Hero() {
               </a>
             </motion.div>
 
-            {/* Key Clinical Statistics Strip */}
+            {/* Doctor Credentials & Registration Strip */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -136,29 +136,29 @@ export default function Hero() {
               className="pt-6 border-t border-slate-200/80 grid grid-cols-3 gap-3 sm:gap-6 max-w-xl mx-auto lg:mx-0 text-center lg:text-left"
             >
               <div className="bg-white/70 backdrop-blur-sm sm:bg-transparent p-3 sm:p-0 rounded-lg sm:rounded-none border sm:border-0 border-slate-200/60 shadow-sm sm:shadow-none">
-                <div className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-[#00843D]">
-                  15k+
+                <div className="text-xl sm:text-2xl lg:text-3xl font-serif font-bold text-[#00843D]">
+                  DM (AIIMS)
                 </div>
                 <div className="text-[11px] sm:text-xs font-semibold text-slate-700 uppercase tracking-wider mt-0.5">
-                  Patients Treated
+                  Gastroenterology
                 </div>
               </div>
 
               <div className="bg-white/70 backdrop-blur-sm sm:bg-transparent p-3 sm:p-0 rounded-lg sm:rounded-none border sm:border-0 border-slate-200/60 shadow-sm sm:shadow-none sm:border-x sm:border-slate-300/80 sm:px-4">
-                <div className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-[#002C47]">
-                  10+
+                <div className="text-xl sm:text-2xl lg:text-3xl font-serif font-bold text-[#002C47]">
+                  DMC 82691
                 </div>
                 <div className="text-[11px] sm:text-xs font-semibold text-slate-700 uppercase tracking-wider mt-0.5">
-                  Years Experience
+                  Medical Council Reg.
                 </div>
               </div>
 
               <div className="bg-white/70 backdrop-blur-sm sm:bg-transparent p-3 sm:p-0 rounded-lg sm:rounded-none border sm:border-0 border-slate-200/60 shadow-sm sm:shadow-none">
-                <div className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-[#0078BF]">
-                  5k+
+                <div className="text-xl sm:text-2xl lg:text-3xl font-serif font-bold text-[#0078BF]">
+                  Max Smart
                 </div>
                 <div className="text-[11px] sm:text-xs font-semibold text-slate-700 uppercase tracking-wider mt-0.5">
-                  Procedures Done
+                  Consultant Saket
                 </div>
               </div>
             </motion.div>

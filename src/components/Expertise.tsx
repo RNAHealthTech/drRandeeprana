@@ -60,7 +60,7 @@ export default function Expertise() {
       icon: Cross,
       title: "Portal Hypertension & Endo-Hepatology",
       category: "Hepatology Specialization",
-      description: "Expert management of liver cirrhosis, variceal bleeding (EVL, simvastatin therapy), ascites in ACLF/cirrhosis, EUS-guided variceal & pseudoaneurysm coiling/glue.",
+      description: "Evidence-based management of liver cirrhosis, variceal bleeding (EVL, medical regimens), ascites in ACLF/cirrhosis, and EUS-guided variceal interventions.",
       symptoms: ["Variceal bleed", "Ascites", "Jaundice", "Hepatic encephalopathy"],
     },
     {
@@ -74,7 +74,7 @@ export default function Expertise() {
       icon: Search,
       title: "Diagnostic & Therapeutic Colonoscopy",
       category: "Lower GI",
-      description: "High-definition screening colonoscopy, hot/cold snare polypectomy, lower GI bleeding workup, and colorectal cancer prevention.",
+      description: "High-definition screening colonoscopy, hot/cold snare polypectomy, lower GI bleeding workup, and early polyp detection.",
       symptoms: ["Blood in stool", "Chronic diarrhea", "Anemia", "Polyp screening"],
     },
   ];

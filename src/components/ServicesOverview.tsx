@@ -29,7 +29,7 @@ export default function ServicesOverview() {
       title: "Non-Invasive FibroScan & Liver Clinic",
       category: "Hepatology Care",
       image: "/images/apdw-2025-singapore-poster.jpg",
-      description: "Quantitative stiffness & CAP fat scoring for early fatty liver reversal and evidence-based cirrhosis survival protocols.",
+      description: "Quantitative stiffness & CAP fat scoring for fatty liver evaluation and evidence-based chronic liver care protocols.",
       linkText: "View Liver Diagnostics",
       icon: HeartPulse,
     },
@@ -55,10 +55,10 @@ export default function ServicesOverview() {
               Speciality Clinical Centers
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#1C2936] tracking-tight">
-              World-Class Gastroenterology & Liver Services
+              Specialized Gastroenterology &amp; Liver Services
             </h2>
             <p className="text-slate-600 text-sm sm:text-base font-light leading-relaxed">
-              Ground-breaking interventional endoscopy suites and academic clinical excellence.
+              Advanced interventional endoscopy facilities and evidence-based clinical care.
             </p>
           </div>
 

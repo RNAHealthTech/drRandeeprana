@@ -34,7 +34,7 @@ export default function PatientJourney() {
       number: "05",
       icon: HeartPulse,
       title: "Recovery & Follow-Up",
-      description: "Continuous post-treatment care tracking, lifestyle guidance, and routine follow-ups ensuring long-term gut health.",
+      description: "Continuous post-treatment care tracking, lifestyle guidance, and routine follow-ups supporting long-term digestive wellness.",
     },
   ];
 
@@ -44,14 +44,14 @@ export default function PatientJourney() {
         {/* Section Title */}
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-20">
           <span className="px-4 py-1.5 rounded-md bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
-            Seamless Healthcare Experience
+            Structured Healthcare Experience
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#002C47] tracking-tight">
             Your Care Journey With <br className="hidden sm:inline" />
             <span className="text-[#6CB29D] italic">Dr. Randeep Rana</span>
           </h2>
           <p className="text-slate-600 text-base sm:text-lg leading-relaxed font-light">
-            A structured 5-step patient pathway designed for maximum comfort, transparency, and rapid medical recovery.
+            A structured 5-step patient pathway designed for patient comfort, clear communication, and comprehensive clinical evaluation.
           </p>
         </div>
 
@@ -108,20 +108,20 @@ export default function PatientJourney() {
               Day-Care Procedure Recovery
             </span>
             <h3 className="text-2xl sm:text-3xl font-serif font-bold text-[#002C47]">
-              Painless Procedures & Rapid Recovery
+              Endoscopic Care & Monitored Recovery
             </h3>
             <p className="text-slate-600 text-xs sm:text-sm font-light leading-relaxed">
-              Most diagnostic and therapeutic endoscopies are completed in 15–30 minutes under conscious sedation. Patients rest comfortably in our private recovery lounge and can resume normal activities the same day.
+              Diagnostic and therapeutic endoscopies are performed in accredited hospital suites under monitored conscious sedation. Following dedicated observation in the recovery area, day-care patients are discharged once clinically stable.
             </p>
             <div className="flex flex-wrap gap-4 pt-2 text-xs font-semibold text-[#002C47]">
               <span className="flex items-center gap-1.5 bg-[#F4F7F9] px-3 py-1.5 rounded-md border border-slate-200">
-                ✓ Zero Surgical Incisions
+                ✓ Minimally Invasive
               </span>
               <span className="flex items-center gap-1.5 bg-[#F4F7F9] px-3 py-1.5 rounded-md border border-slate-200">
                 ✓ Monitored Sedation
               </span>
               <span className="flex items-center gap-1.5 bg-[#F4F7F9] px-3 py-1.5 rounded-md border border-slate-200">
-                ✓ Same-Day Discharge
+                ✓ Day-Care Discharge
               </span>
             </div>
           </div>

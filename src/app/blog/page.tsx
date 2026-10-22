@@ -101,7 +101,7 @@ export const blogPosts: BlogPost[] = [
     date: "July 2026",
     readTime: "5 min read",
     excerpt:
-      "A complete guide to Endoscopic Ultrasound (EUS) and ERCP: how painless sedation works, key diagnostic uses, and surgical avoidance.",
+      "A complete guide to Endoscopic Ultrasound (EUS) and ERCP: how monitored sedation works, key diagnostic uses, and minimally invasive options.",
     contentSections: [
       {
         heading: "Beyond Standard Endoscopy",
@@ -109,21 +109,21 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "What to Expect During Endoscopic Ultrasound (EUS)",
-        text: "EUS combines endoscopy with high-frequency ultrasound to produce detailed images of the digestive tract and surrounding organs. It is used to evaluate pancreatic cysts, tumors, and bile duct stones, perform fine-needle aspiration (FNA) tissue sampling, and drain fluid collections under painless sedation.",
+        text: "EUS combines endoscopy with high-frequency ultrasound to produce detailed images of the digestive tract and surrounding organs. It is used to evaluate pancreatic cysts, tumors, and bile duct stones, perform fine-needle aspiration (FNA) tissue sampling, and drain fluid collections under monitored conscious sedation.",
       },
       {
         heading: "Understanding ERCP Interventions",
         text: "ERCP is a specialized technique used to examine and treat bile duct and pancreatic duct disorders. It is primarily used to extract gallstones blocking the bile duct, place plastic or metal stents to relieve jaundice, and sample strictures.",
       },
       {
-        heading: "Safety, Sedation & AIIMS Expertise",
-        text: "Both EUS and ERCP are performed with high safety standards under monitored sedation. They typically result in shorter hospital stays, reduced pain, and faster recovery compared to open surgery. Dr. Rana's extensive fellowship training at AIIMS ensures expert procedural care.",
+        heading: "Safety, Sedation & AIIMS Training",
+        text: "Both EUS and ERCP are performed with high safety standards under monitored sedation. They typically result in shorter hospital stays, reduced discomfort, and faster recovery compared to open surgery.",
       },
     ],
     keyTakeaways: [
       "EUS combines ultrasound and endoscopy for accurate pancreatic tissue sampling (FNA).",
-      "ERCP extracts bile duct stones and places stents without surgical incisions.",
-      "All advanced procedures are performed under painless, monitored sedation.",
+      "ERCP extracts bile duct stones and places stents without open surgical incisions.",
+      "All advanced procedures are performed under monitored conscious sedation to support patient comfort.",
     ],
   },
   {

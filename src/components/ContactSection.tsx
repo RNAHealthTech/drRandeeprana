@@ -187,7 +187,7 @@ ${formData.message ? `Message: ${formData.message}` : ""}`;
                   >
                     <option value="Acidity / GERD">Acidity / GERD / Heartburn</option>
                     <option value="Fatty Liver">Fatty Liver & Liver Disease</option>
-                    <option value="Gastroscopy / Colonoscopy">Painless Endoscopy / Colonoscopy</option>
+                    <option value="Gastroscopy / Colonoscopy">Diagnostic Endoscopy / Colonoscopy</option>
                     <option value="IBS / Abdominal Pain">IBS / Stomach Pain / Bloating</option>
                     <option value="ERCP / Jaundice">ERCP / Bile Duct Stones / Jaundice</option>
                     <option value="Pancreatitis Care">Acute / Chronic Pancreatitis Care</option>
@@ -269,7 +269,7 @@ ${formData.message ? `Message: ${formData.message}` : ""}`;
                     <Phone className="w-4 h-4" />
                   </div>
                   <div>
-                    <div className="font-bold text-[#002C47]">Direct Helpline</div>
+                    <div className="font-bold text-[#002C47]">Clinic Desk / Appointments</div>
                     <div className="flex flex-col gap-0.5">
                       <a href="tel:+919643163941" className="text-xs text-[#0078BF] font-bold hover:underline">
                         +91 96431 63941
@@ -308,7 +308,7 @@ ${formData.message ? `Message: ${formData.message}` : ""}`;
                   className="py-3 px-4 rounded-md bg-white border border-slate-300 text-[#002C47] font-extrabold text-xs flex items-center justify-center gap-2 hover:bg-slate-50 transition-colors uppercase tracking-wider"
                 >
                   <Phone className="w-4 h-4 text-[#6CB29D]" />
-                  <span>Direct Call</span>
+                  <span>Call Clinic Desk</span>
                 </a>
               </div>
             </div>

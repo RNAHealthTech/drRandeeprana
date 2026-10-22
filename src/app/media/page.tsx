@@ -322,7 +322,7 @@ export default function MediaPage() {
                 Connect with &ldquo;YourGutDoc&rdquo; Across Social Platforms
               </h3>
               <p className="text-slate-600 text-xs sm:text-sm font-light mt-1">
-                Follow Dr. Randeep Rana for daily gastro education, patient case insights, and liver health tips.
+                Follow Dr. Randeep Rana for evidence-based digestive health education and clinical science updates.
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">

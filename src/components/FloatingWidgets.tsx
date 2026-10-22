@@ -16,13 +16,11 @@ export default function FloatingWidgets() {
           className="relative group flex items-center justify-center w-14 h-14 rounded-md bg-[#6CB29D] text-white transition-transform duration-300"
           aria-label="Contact on WhatsApp"
         >
-          {/* Glowing Ring */}
-          <span className="absolute -inset-1 rounded-md bg-[#6CB29D]/40 animate-ping pointer-events-none" />
           <MessageCircle className="w-7 h-7 fill-current relative z-10" />
 
           {/* Hover Tooltip */}
-          <span className="absolute right-16 bg-white text-[#002C47] text-xs font-semibold px-3.5 py-1.5 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap hidden sm:inline border border-slate-200">
-            Chat on WhatsApp
+          <span className="absolute right-16 bg-white text-[#002C47] text-xs font-semibold px-3.5 py-1.5 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap hidden sm:inline border border-slate-200 shadow-xs">
+            Contact Clinic on WhatsApp
           </span>
         </a>
       </div>

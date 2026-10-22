@@ -21,32 +21,32 @@ export default function WhyChoose() {
       tag: "Clinical Precision",
       title: "Evidence-Based Medical Protocol",
       description:
-        "Treatment plans rooted in international clinical guidelines (ACG, BSG, ISG) guaranteeing proven diagnostic accuracy and optimal medical outcomes.",
-      highlight: "Global Standard Protocols",
+        "Treatment plans guided by established clinical guidelines (ACG, BSG, ISG) to support accurate diagnosis and evidence-based patient management.",
+      highlight: "Evidence-Based Protocols",
     },
     {
       icon: HeartHandshake,
       tag: "Patient Centric",
       title: "Patient-First & Compassionate Care",
       description:
-        "Dedicated time spent listening to each patient, explaining disease pathology in simple language, and minimizing anxiety before any procedure.",
+        "Dedicated time spent listening to each patient, explaining disease pathology in simple language, and addressing patient concerns before any procedure.",
       highlight: "Empathetic Counseling",
     },
     {
       icon: Cpu,
       tag: "Advanced Tech",
-      title: "State-of-the-Art Endoscopy Suite",
+      title: "Modern Endoscopy Infrastructure",
       description:
-        "Utilizing high-definition narrow-band imaging (NBI) endoscopes and CO2 insufflation at Max Smart Saket for painless, high-precision GI procedures.",
+        "Utilizing high-definition narrow-band imaging (NBI) endoscopes and CO2 insufflation at Max Smart Saket to enhance visualization and patient comfort.",
       highlight: "HD-NBI & CO₂ Insufflation",
     },
     {
       icon: Sparkles,
       tag: "Minimally Invasive",
-      title: "Advanced Non-Surgical Interventions",
+      title: "Minimally Invasive Interventions",
       description:
-        "Pioneering minimally invasive endoscopic interventions that eliminate the need for open abdominal surgery for polyps, stones, and strictures.",
-      highlight: "Zero Incision Recovery",
+        "Specialized endoscopic interventions providing non-surgical alternatives for eligible polyps, stones, and strictures when clinically appropriate.",
+      highlight: "Minimally Invasive Care",
     },
     {
       icon: ShieldCheck,

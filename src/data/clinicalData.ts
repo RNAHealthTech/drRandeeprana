@@ -56,8 +56,8 @@ export function getClinicalDetails(
 
   const keyBenefits = item.keyBenefits || [
     "Minimally invasive & non-surgical protocols",
-    "Evidence-based academic guidelines (AIIMS & PGIMER)",
-    "Effective long-lasting relief & root-cause management",
+    "Evidence-based guidelines (ACG, BSG, ISG)",
+    "Root-cause evaluation & structured clinical management",
     "Rapid recovery and same-day discharge where applicable",
   ];
 
@@ -97,17 +97,17 @@ export const CONDITIONS_DATA: MegaMenuSection = {
       items: [
         {
           name: "Fatty Liver (NAFLD & NASH)",
-          desc: "CAP fat score quantification & reversal",
+          desc: "CAP fat score quantification & management",
           typeTag: "CLINICAL CONDITION",
-          protocolSubtitle: "Non-invasive elastography & metabolic liver reversal protocol",
+          protocolSubtitle: "Non-invasive elastography & metabolic liver management",
           clinicalSummary: "Fatty liver is the accumulation of excess fat in liver cells, which can progress from simple steatosis (NAFLD) to active inflammation and fibrosis (NASH).",
           clinicalOverview: [
             "Using in-house FibroScan (CAP score fat quantification and kPa stiffness measurement), Dr. Randeep Rana provides an accurate, needle-free assessment of liver fat and early scar tissue.",
-            "Personalized treatment protocols integrate targeted metabolic management, lifestyle stabilization, and evidence-based pharmacotherapy to halt disease progression and achieve fatty liver reversal."
+            "Personalized treatment protocols integrate targeted metabolic management, lifestyle stabilization, and evidence-based pharmacotherapy to halt disease progression and manage hepatic steatosis."
           ],
           keyBenefits: [
             "Non-invasive FibroScan fat & fibrosis grading in 10 mins",
-            "Targeted reversal protocols for NAFLD & NASH",
+            "Evidence-based management protocols for NAFLD & NASH",
             "Prevention of cirrhosis & metabolic complications",
             "Continuous liver enzyme and metabolic monitoring"
           ],
@@ -132,7 +132,7 @@ export const CONDITIONS_DATA: MegaMenuSection = {
             "Evidence-based simvastatin post-bleed protocols",
             "Endoscopic Variceal Ligation (EVL) bleed prophylaxis",
             "Safe paracentesis & albumin replacement strategies",
-            "AIIMS & PGIMER fellowship trained hepatology care"
+            "AIIMS fellowship trained gastroenterology care"
           ],
           availableDiagnostics: [
             { name: "UGI Endoscopy (Variceal Screen)", iconName: "Camera" },
@@ -147,7 +147,7 @@ export const CONDITIONS_DATA: MegaMenuSection = {
           typeTag: "CLINICAL CONDITION",
           clinicalSummary: "Viral infections of the liver leading to chronic inflammation, fibrosis, and elevated hepatocellular risk if untreated.",
           clinicalOverview: [
-            "Direct-acting antiviral (DAA) therapies offer >95% cure rates for Hepatitis C, while potent oral antivirals effectively suppress Hepatitis B viral replication.",
+            "Direct-acting antiviral (DAA) therapies provide high sustained virological response (SVR) rates for Hepatitis C, while potent oral antivirals suppress Hepatitis B viral replication.",
             "Complete clinical monitoring includes viral load (HBV DNA / HCV RNA PCR) quantification and regular ultrasound screening."
           ]
         },
@@ -155,7 +155,7 @@ export const CONDITIONS_DATA: MegaMenuSection = {
           name: "Gallbladder & CBD Stones",
           desc: "Endoscopic clearance & ERCP protocols",
           typeTag: "CLINICAL CONDITION",
-          protocolSubtitle: "Non-surgical bile duct stone extraction and jaundice relief",
+          protocolSubtitle: "Endoscopic bile duct stone extraction and jaundice relief",
           clinicalSummary: "Gallstones migrating into the Common Bile Duct (CBD) can cause obstructive jaundice, cholangitis, and severe acute pancreatitis.",
           clinicalOverview: [
             "Dr. Randeep Rana specializes in therapeutic ERCP (Endoscopic Retrograde Cholangiopancreatography) to extract CBD stones without large surgical incisions.",
@@ -211,13 +211,13 @@ export const CONDITIONS_DATA: MegaMenuSection = {
         },
         {
           name: "Achalasia Cardia",
-          desc: "Incisionless POEM myotomy procedure",
+          desc: "Endoscopic POEM myotomy procedure",
           typeTag: "CLINICAL CONDITION",
-          protocolSubtitle: "Incisionless Third Space Endoscopy & POEM Surgery",
+          protocolSubtitle: "Third Space Endoscopy & POEM Protocol",
           clinicalSummary: "A motility disorder where the lower esophageal sphincter fails to relax, causing severe difficulty swallowing, regurgitation, and weight loss.",
           clinicalOverview: [
-            "POEM (Peroral Endoscopic Myotomy) is an incisionless procedure performed entirely through an endoscope to divide tight esophageal muscles.",
-            "Offers long-term swallowing relief with no external scars and significantly faster recovery compared to traditional open or laparoscopic surgery."
+            "POEM (Peroral Endoscopic Myotomy) is an advanced endoscopic procedure performed entirely through an endoscope to divide tight esophageal circular muscles.",
+            "Offers effective swallowing relief with no external skin incisions and faster recovery compared to traditional open surgery."
           ]
         },
         {
@@ -226,7 +226,7 @@ export const CONDITIONS_DATA: MegaMenuSection = {
           typeTag: "CLINICAL CONDITION",
           clinicalSummary: "Early pre-cancerous polyps and mucosal neoplasms of the stomach detected through high-magnification endoscopy.",
           clinicalOverview: [
-            "Early detection allows curative organ-preserving removal via Endoscopic Submucosal Dissection (ESD) and EMR without requiring stomach removal."
+            "Early detection allows organ-preserving resection via Endoscopic Submucosal Dissection (ESD) and EMR in eligible early neoplastic lesions."
           ]
         },
         {
@@ -286,7 +286,7 @@ export const CONDITIONS_DATA: MegaMenuSection = {
         },
         {
           name: "Colonic Polyps & Cancer Screening",
-          desc: "Painless high-definition colonoscopy",
+          desc: "High-definition screening colonoscopy under sedation",
           typeTag: "CLINICAL CONDITION",
           clinicalSummary: "Screening and removal of colorectal polyps to prevent colon cancer development.",
           clinicalOverview: [
@@ -344,7 +344,7 @@ export const CONDITIONS_DATA: MegaMenuSection = {
           typeTag: "CLINICAL CONDITION",
           clinicalSummary: "Fluid collections forming in or around the pancreas after severe acute pancreatitis or chronic injury.",
           clinicalOverview: [
-            "Treated via minimally invasive EUS-guided cystogastrostomy using plastic double-pigtail stents or lumen-apposing metal stents (LAMS), avoiding open surgery."
+            "Treated via minimally invasive EUS-guided cystogastrostomy using plastic double-pigtail stents or lumen-apposing metal stents (LAMS) when indicated."
           ]
         },
       ],
@@ -371,13 +371,13 @@ export const DIAGNOSTICS_DATA: MegaMenuSection = {
           protocolSubtitle: "Non-invasive liver stiffness & fat quantification protocol",
           clinicalSummary: "Fibroscan is a breakthrough non-invasive technology used to assess the extent of liver stiffness (fibrosis/cirrhosis) and quantitative fat accumulation (CAP score).",
           clinicalOverview: [
-            "A safe, completely painless procedure where an ultrasound-like transducer probe is placed on the right upper abdominal surface. No needles, radiation, or sedation required.",
-            "Delivers accurate numerical results in under 10 minutes, allowing early detection of fatty liver disease (NAFLD), NASH staging, and monitoring cirrhosis reversal."
+            "A safe, non-invasive ultrasound elastography procedure where a transducer probe is placed on the right upper abdominal surface. No needles, radiation, or sedation required.",
+            "Delivers accurate numerical results in under 10 minutes, allowing early detection of fatty liver disease (NAFLD), NASH staging, and monitoring chronic liver disease progression."
           ],
           keyBenefits: [
-            "100% Painless & non-invasive procedure",
+            "Non-invasive, needle-free procedure",
             "Instant numerical results (Liver stiffness in kPa & fat in CAP)",
-            "Safe alternative to painful liver biopsies in most cases",
+            "Non-invasive alternative to liver biopsy in appropriate clinical indications",
             "Same-day report & direct clinical consultation with Dr. Rana"
           ],
           availableDiagnostics: [
@@ -441,12 +441,12 @@ export const DIAGNOSTICS_DATA: MegaMenuSection = {
           ]
         },
         {
-          name: "Painless Screening Colonoscopy",
+          name: "Screening Colonoscopy Under Sedation",
           desc: "Colorectal polyp removal & cancer prevention",
           typeTag: "CLINICAL PROCEDURE",
           clinicalSummary: "Full visualization of the large intestine and terminal ileum under sedation to detect and remove pre-cancerous polyps before they turn into cancer.",
           clinicalOverview: [
-            "Painless, safe procedure with same-day discharge and immediate polyp removal (polypectomy) using specialized electrocautery snares."
+            "Sedation-assisted procedure with same-day observation and polyp removal (polypectomy) using specialized electrocautery snares."
           ]
         },
         {
@@ -457,12 +457,12 @@ export const DIAGNOSTICS_DATA: MegaMenuSection = {
           clinicalSummary: "An advanced specialized endoscopic procedure combining high-resolution endoscopy and X-ray fluoroscopy to treat bile duct and pancreatic conditions.",
           clinicalOverview: [
             "Used for removing bile duct stones (choledocholithiasis), relieving obstructive jaundice, taking biliary biopsies, and placing plastic or self-expanding metal stents.",
-            "Avoids open surgical operations on the bile duct, drastically reducing hospital stay and recovery time."
+            "Provides an effective minimally invasive endoscopic approach to bile duct disorders, often avoiding open surgical procedures when indicated."
           ]
         },
         {
           name: "POEM (Peroral Endoscopic Myotomy)",
-          desc: "Incisionless surgery for Achalasia Cardia",
+          desc: "Endoscopic intervention for Achalasia Cardia",
           typeTag: "CLINICAL PROCEDURE",
           clinicalSummary: "Cutting-edge Third Space Endoscopy technique for treating Achalasia Cardia and severe esophageal spastic motility disorders.",
           clinicalOverview: [
@@ -496,12 +496,12 @@ export const DIAGNOSTICS_DATA: MegaMenuSection = {
       iconColor: "#0D9488",
       items: [
         {
-          name: "Painless Piles Therapy",
+          name: "Endoscopic Piles Management",
           desc: "Non-surgical banding & infrared coag",
           typeTag: "CLINICAL PROCEDURE",
           clinicalSummary: "Minimally invasive outpatient procedures to treat bleeding and prolapsing hemorrhoids without open surgery.",
           clinicalOverview: [
-            "Endoscopic rubber band ligation (EVL) cuts off blood supply to hemorrhoidal cushions painlessly above the dentate line, allowing natural healing."
+            "Endoscopic rubber band ligation (EVL) applies bands above the dentate line to reduce hemorrhoidal vascular supply with minimal discomfort."
           ]
         },
         {
@@ -577,7 +577,7 @@ export const SYMPTOMS_DATA: MegaMenuSection = {
             "Dr. Randeep Rana conducts thorough assessments using Japanese HD endoscopy and pH testing to diagnose hiatal hernias, H. pylori, or motility issues."
           ],
           keyBenefits: [
-            "Immediate relief and customized medication plans",
+            "Targeted medical management and diagnostic evaluation",
             "Accurate differentiation between GERD, gastritis, and ulcers",
             "Screening to prevent Barrett's esophagus and strictures",
             "Personalized diet & lifestyle modification guidance"

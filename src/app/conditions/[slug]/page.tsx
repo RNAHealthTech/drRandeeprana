@@ -112,7 +112,7 @@ export default async function ConditionDetailPage({ params }: PageProps) {
                 className="bg-white hover:bg-slate-50 text-[#002C47] border border-slate-200 font-bold text-xs sm:text-sm rounded-xl px-6 py-3.5 transition-all flex items-center gap-2.5 shadow-2xs"
               >
                 <Phone className="w-4 h-4 text-[#00843D]" />
-                <span>24x7 Doctor Helpline</span>
+                <span>Call +91 96431 63941</span>
               </a>
             </div>
           </div>

@@ -36,7 +36,7 @@ export default function ServicesPage() {
     },
     {
       title: "Minimally Invasive Approach",
-      desc: "Advanced endoscopic techniques (EUS, ERCP, POEM, ESD) replace open surgeries, reducing recovery times and patient discomfort.",
+      desc: "Advanced endoscopic techniques (EUS, ERCP, POEM, ESD) provide minimally invasive alternatives to open surgery when clinically indicated.",
       icon: Compass,
     },
   ];
@@ -46,7 +46,7 @@ export default function ServicesPage() {
       <PageHeader
         badge="Advanced Clinical Care & Interventions"
         title="Conditions, Diagnostics & Procedures"
-        subtitle="Expert diagnosis & customized treatment protocols across all digestive organs. Led by Dr. Randeep Rana at Max Smart Super Speciality Hospital, Saket, New Delhi."
+        subtitle="Comprehensive diagnostic and therapeutic protocols across digestive, liver, and pancreatic conditions. Led by Dr. Randeep Rana at Max Smart Super Speciality Hospital, Saket, New Delhi."
         breadcrumbs={[{ label: "Services" }]}
         bgImage="/images/dr-randeep-rana-scrubs-side.jpg"
       />

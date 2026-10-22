@@ -18,7 +18,7 @@ export default function FaqSection() {
     },
     {
       q: "Is an Endoscopy or Colonoscopy procedure painful?",
-      a: "No! Under Dr. Randeep Rana's protocol, endoscopic procedures (Gastroscopy and Colonoscopy) are performed under conscious sedation or light anesthesia. Patients experience zero pain or discomfort during the procedure.",
+      a: "Diagnostic and therapeutic endoscopic procedures (Gastroscopy and Colonoscopy) are typically performed under monitored conscious sedation. This protocol helps keep patients relaxed and comfortable throughout the procedure with minimal discomfort.",
     },
     {
       q: "What is GERD and how is chronic acid reflux treated?",
@@ -26,7 +26,7 @@ export default function FaqSection() {
     },
     {
       q: "Can Fatty Liver Disease be reversed?",
-      a: "Yes! Non-Alcoholic Fatty Liver Disease (NAFLD) is reversible in early and moderate stages. Dr. Rana utilizes non-invasive FibroScan testing to assess liver fat and fibrosis, paired with a custom medical and lifestyle reversal roadmap.",
+      a: "In early to moderate stages (simple steatosis and non-alcoholic steatohepatitis), fatty liver disease (MASLD / NAFLD) can often be managed and improved through structured lifestyle modification, dietary changes, weight optimization, and medical management. Non-invasive FibroScan testing is used to evaluate liver stiffness and fat content objectively.",
     },
     {
       q: "What symptoms require urgent consultation with a Gastroenterologist?",
@@ -34,7 +34,7 @@ export default function FaqSection() {
     },
     {
       q: "What is ERCP and when is it required?",
-      a: "ERCP (Endoscopic Retrograde Cholangiopancreatography) is an advanced endoscopic procedure used to clear bile duct stones, treat obstructive jaundice, and place stents in bile or pancreatic ducts without open surgery.",
+      a: "ERCP (Endoscopic Retrograde Cholangiopancreatography) is an advanced endoscopic procedure used to clear bile duct stones, treat obstructive jaundice, and place stents in bile or pancreatic ducts, providing a minimally invasive alternative to open surgery in eligible patients.",
     },
     {
       q: "How should I prepare for a Colonoscopy?",

@@ -39,7 +39,7 @@ export default function CtaBanner() {
             className="bg-white hover:bg-slate-50 text-[#002C47] border border-slate-300 font-extrabold text-xs sm:text-sm uppercase tracking-wider rounded-md py-3.5 px-8 transition-all duration-200 flex items-center justify-center gap-2.5 w-full sm:w-auto"
           >
             <Phone className="w-4 h-4 text-[#6CB29D]" />
-            <span>Call OPD Hotline (+91 96431 63941)</span>
+            <span>Call OPD Desk (+91 96431 63941)</span>
           </a>
         </div>
       </div>

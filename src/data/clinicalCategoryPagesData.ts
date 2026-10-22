@@ -41,9 +41,9 @@ export const CATEGORY_PAGES_MAP: Record<string, CategoryPageData> = {
       "Comprehensive clinical protocols for Fatty Liver (NAFLD/NASH), Liver Cirrhosis, Viral Hepatitis, and Gallbladder/CBD Stones. Overseen by Dr. Randeep Rana at Max Smart Super Speciality Hospital, Saket, New Delhi.",
     stats: [
       { label: "Same-Day", sub: "FibroScan & CAP Fat Score", color: "#00843D" },
-      { label: "Non-Invasive", sub: "Painless Ultrasound Elastography", color: "#0D9488" },
-      { label: "ERCP Protocol", sub: "Incisionless CBD Stone Removal", color: "#0078BF" },
-      { label: "AIIMS & PGIMER", sub: "Academic Clinical Rigor", color: "#D97706" },
+      { label: "Non-Invasive", sub: "Ultrasound-Based Elastography", color: "#0D9488" },
+      { label: "ERCP Protocol", sub: "Endoscopic CBD Stone Extraction", color: "#0078BF" },
+      { label: "AIIMS & GIPMER", sub: "Academic Clinical Rigor", color: "#D97706" },
     ],
     topics: [
       {
@@ -70,7 +70,7 @@ export const CATEGORY_PAGES_MAP: Record<string, CategoryPageData> = {
           "Quantitative FibroScan fat score monitoring every 6 months",
           "Clinically structured hepatoprotective dietary and exercise protocols",
           "Targeted metabolic stabilization and insulin sensitizers",
-          "Gradual 7-10% body weight loss to achieve documented steatosis reversal",
+          "Gradual 7-10% body weight loss to support reduction of hepatic steatosis",
         ],
       },
       {
@@ -342,7 +342,7 @@ export const CATEGORY_PAGES_MAP: Record<string, CategoryPageData> = {
     description:
       "Specialized evidence-based protocols for Irritable Bowel Syndrome (IBS), Inflammatory Bowel Disease (IBD), Celiac Disease, and Colonic Polyps.",
     stats: [
-      { label: "Painless", sub: "HD Screening Colonoscopy", color: "#00843D" },
+      { label: "Comfort-Focused", sub: "HD Screening Colonoscopy", color: "#00843D" },
       { label: "IBD Biologics", sub: "Mucosal Healing Protocols", color: "#0078BF" },
       { label: "SIBO Breath Lab", sub: "Hydrogen & Methane Testing", color: "#D97706" },
       { label: "Capsule Imaging", sub: "Deep Small Intestine Camera", color: "#0D9488" },
@@ -420,7 +420,7 @@ export const CATEGORY_PAGES_MAP: Record<string, CategoryPageData> = {
           "HLA-DQ2 / HLA-DQ8 genetic typing when serology is ambiguous",
         ],
         treatment: [
-          "Strict lifelong 100% gluten-free diet (GFD)",
+          "Strict lifelong gluten-free diet (GFD)",
           "Nutritional supplementation (Iron, Vitamin D, B12, Calcium)",
           "Follow-up serological antibody monitoring to ensure mucosal recovery",
         ],
@@ -429,17 +429,17 @@ export const CATEGORY_PAGES_MAP: Record<string, CategoryPageData> = {
         id: "polyps",
         headingIndex: "Heading 04",
         title: "Colonic Polyps & Cancer Screening",
-        badge: "Painless Polypectomy",
+        badge: "Endoscopic Polypectomy",
         badgeColor: "#00843D",
         summary:
-          "Colorectal polyps are fleshy growths on the colon lining. Removing adenomatous polyps during screening colonoscopy prevents colorectal cancer development entirely.",
+          "Colorectal polyps are fleshy growths on the colon lining. Detecting and removing adenomatous polyps during screening colonoscopy significantly reduces the risk of colorectal cancer development.",
         symptoms: [
           "Usually completely asymptomatic in initial stages",
           "Occult or visible rectal bleeding during bowel movements",
           "Unexplained change in bowel habits or persistent iron deficiency anemia",
         ],
         diagnostics: [
-          "Painless Screening Colonoscopy under gentle conscious sedation",
+          "Screening Colonoscopy under monitored conscious sedation",
           "Japanese HD Narrow Band Imaging (NBI) for pit-pattern micro-classification",
           "Fecal Immunochemical Test (FIT) for stool occult blood",
         ],
@@ -551,7 +551,7 @@ export const CATEGORY_PAGES_MAP: Record<string, CategoryPageData> = {
         badge: "EUS-Guided Drainage (LAMS)",
         badgeColor: "#00843D",
         summary:
-          "Encapsulated fluid or necrotic collections forming around the pancreas following severe pancreatitis episodes, successfully drained endoscopically without open surgery.",
+          "Encapsulated fluid or necrotic collections forming around the pancreas following severe pancreatitis episodes, which may be managed through minimally invasive endoscopic drainage techniques in eligible patients.",
         symptoms: [
           "Persistent abdominal fullness, early satiety, and gastric outlet obstruction",
           "Persistent low-grade fever or infection of the fluid collection",
@@ -564,7 +564,7 @@ export const CATEGORY_PAGES_MAP: Record<string, CategoryPageData> = {
         treatment: [
           "EUS-Guided Cystogastrostomy using plastic double-pigtail stents",
           "Lumen-Apposing Metal Stents (LAMS) with direct endoscopic necrosectomy (DEN)",
-          "100% non-surgical resolution with rapid outpatient recovery",
+          "Minimally invasive internal drainage protocol supporting recovery",
         ],
       },
     ],

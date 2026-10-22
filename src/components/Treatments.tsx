@@ -21,9 +21,9 @@ export default function Treatments() {
       title: "ERCP & Complex Pancreatico-Biliary Interventions",
       tag: "Biliary & Pancreas",
       duration: "30 - 60 Mins",
-      anesthesia: "Painless Sedation / MAC",
+      anesthesia: "Monitored Sedation / MAC",
       description: "Endoscopic extraction of CBD stones, plastic & metallic biliary/pancreatic stenting, and relief of obstructive jaundice.",
-      benefits: ["Bile duct stone clearance", "Jaundice relief", "Avoids major open surgery"],
+      benefits: ["Bile duct stone clearance", "Jaundice relief", "Minimally invasive alternative to open surgery"],
     },
     {
       icon: Search,
@@ -41,7 +41,7 @@ export default function Treatments() {
       duration: "45 - 90 Mins",
       anesthesia: "General Anesthesia / MAC",
       description: "Peroral Endoscopic Myotomy (POEM) for Achalasia Cardia, Endoscopic Submucosal Dissection (ESD), and STER for submucosal tumors.",
-      benefits: ["No external incisions", "Organ-preserving therapy", "High therapeutic success"],
+      benefits: ["No external incisions", "Organ-preserving therapy", "Established clinical protocol"],
     },
     {
       icon: ShieldCheck,
@@ -50,7 +50,7 @@ export default function Treatments() {
       duration: "30 - 60 Mins",
       anesthesia: "Sedation / MAC",
       description: "Early GI cancer diagnosis with IEE/NBI, EMR, ESD, and Full-Thickness Resection Device (FTRD / EFTR by OVESCO Germany).",
-      benefits: ["Complete lesion removal", "Certified FTRD expertise", "Histopathology confirmation"],
+      benefits: ["Targeted lesion resection", "Certified FTRD expertise", "Histopathology confirmation"],
     },
     {
       icon: Heart,
@@ -66,9 +66,9 @@ export default function Treatments() {
       title: "Diagnostic & Therapeutic Endoscopy / Colonoscopy",
       tag: "Routine & Emergency GI",
       duration: "15 - 30 Mins",
-      anesthesia: "Light Sedation (Painless)",
-      description: "Painless Upper GI gastroscopy, variceal ligation (EVL), non-variceal bleed management, colonoscopy, and hot/cold snare polypectomy.",
-      benefits: ["100% painless experience", "Immediate bleeding control", "Early polyp prevention"],
+      anesthesia: "Monitored Conscious Sedation",
+      description: "Diagnostic and therapeutic Upper GI gastroscopy, variceal ligation (EVL), non-variceal bleed management, colonoscopy, and hot/cold snare polypectomy.",
+      benefits: ["Sedation-supported comfort", "Immediate bleeding control", "Early polyp detection & removal"],
     },
   ];
 

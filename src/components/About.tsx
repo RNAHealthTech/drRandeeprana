@@ -108,7 +108,7 @@ export default function About() {
       role: "Consultant – Gastroenterology",
       inst: "Max Smart Super Speciality Hospital, Saket, New Delhi",
       year: "Current",
-      desc: "Leading advanced therapeutic endoscopy, hepatology OPD, and pancreatico-biliary sciences.",
+      desc: "Consultant practice in advanced therapeutic endoscopy, hepatology OPD, and pancreatico-biliary sciences.",
     },
     {
       role: "Assistant Professor – Gastroenterology",
@@ -219,8 +219,8 @@ export default function About() {
             <span className="text-xs text-slate-600 font-medium block">AIIMS Fellowship Entrance</span>
           </div>
           <div className="p-4 sm:p-5 rounded-2xl bg-[#F8FAFC] border border-slate-200 text-center space-y-1 hover:border-[#00843D]/40 transition-colors">
-            <span className="text-2xl sm:text-3xl font-serif font-bold text-[#00843D]">15+ Years</span>
-            <span className="text-xs text-slate-600 font-medium block">Clinical &amp; Research Exp</span>
+            <span className="text-2xl sm:text-3xl font-serif font-bold text-[#00843D]">DMC 82691</span>
+            <span className="text-xs text-slate-600 font-medium block">Delhi Medical Council</span>
           </div>
           <div className="p-4 sm:p-5 rounded-2xl bg-[#F8FAFC] border border-slate-200 text-center space-y-1 hover:border-[#00843D]/40 transition-colors">
             <span className="text-2xl sm:text-3xl font-serif font-bold text-[#00843D]">Global Impact</span>
@@ -359,7 +359,7 @@ export default function About() {
                 </div>
                 <h4 className="text-lg font-serif font-bold text-[#002C47]">Our Vision</h4>
                 <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed">
-                  To set global benchmark standards in therapeutic endoscopy, cirrhosis long-term survival, and non-invasive pancreatic and liver care without unnecessary surgery.
+                  To advance clinical standards in therapeutic endoscopy, evidence-based cirrhosis management, and minimally invasive pancreatic and liver care.
                 </p>
               </div>
             </div>
