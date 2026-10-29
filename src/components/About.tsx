@@ -84,13 +84,13 @@ export default function About() {
       desc: "Super-specialized fellowship in Advanced GI Endoscopy, Linear EUS, ERCP, POEM, and Third Space interventions.",
     },
     {
-      degree: "D.M. (Gastroenterology)",
+      degree: "DM (Gastroenterology)",
       institution: "All India Institute of Medical Sciences (AIIMS), New Delhi",
       year: "2020 – 2023",
-      desc: "All India Rank 2 entrance. Pivotal RCT clinical research in portal hypertension and cirrhosis survival.",
+      desc: "Ranked second in the AIIMS entrance examination. Pivotal RCT clinical research in portal hypertension and cirrhosis survival.",
     },
     {
-      degree: "M.D. (Internal Medicine)",
+      degree: "MD (Internal Medicine)",
       institution: "ABVIMS & Dr Ram Manohar Lohia Hospital (Dr RMLH), New Delhi",
       year: "2015 – 2018",
       desc: "Comprehensive residency in internal medicine, ICU critical care, and multi-system emergency management.",
@@ -142,7 +142,7 @@ export default function About() {
       year: "2023",
     },
     {
-      title: "All India Rank 2",
+      title: "Ranked Second in AIIMS Entrance Examination",
       org: "AIIMS DM Gastroenterology Super-Speciality Entrance",
       year: "2020",
     },
@@ -333,7 +333,7 @@ export default function About() {
                 <span>Consultant-Led GI &amp; Hepatology Leadership</span>
               </h3>
               <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed">
-                <strong className="text-[#002C47] font-semibold">Dr. Randeep Rana</strong> is Consultant Gastroenterology at Max Smart Super Speciality Hospital, Saket. Holding MBBS (Gold Medalist, DMCH), M.D (Dr. RMLH), D.M (Gastroenterology, AIIMS Delhi), and Fellowship in Advanced GI Endoscopy (AIIMS Delhi), he is an Ex-Assistant Professor at GIPMER.
+                <strong className="text-[#002C47] font-semibold">Dr. Randeep Rana</strong> is a consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket. He holds an MBBS (Gold Medalist, DMCH), an MD (Dr. RMLH), a DM (Gastroenterology, AIIMS Delhi), and a fellowship in Advanced GI Endoscopy (AIIMS Delhi). He is a former Assistant Professor at GIPMER.
               </p>
             </div>
           </div>

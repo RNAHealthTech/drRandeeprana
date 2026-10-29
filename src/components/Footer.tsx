@@ -21,7 +21,7 @@ export default function Footer() {
             </Link>
 
             <p className="text-xs text-slate-600 font-light leading-relaxed mt-2 mb-4">
-              Consultant Gastroenterology at Max Smart Super Speciality Hospital, Saket, New Delhi. Ex-Assistant Professor at GIPMER. DM (Gastroenterology) & Fellowship in Advanced GI Endoscopy from AIIMS, New Delhi.
+              Consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket, New Delhi. Former Assistant Professor at GIPMER. DM (Gastroenterology) and Fellowship in Advanced GI Endoscopy from AIIMS, New Delhi.
             </p>
 
             <div className="flex flex-col space-y-2 text-xs text-slate-700 font-normal">

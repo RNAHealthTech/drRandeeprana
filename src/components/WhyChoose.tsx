@@ -53,7 +53,7 @@ export default function WhyChoose() {
       tag: "Apex Training",
       title: "Trusted AIIMS Super-Specialty Alumni",
       description:
-        "Trained at AIIMS New Delhi with All India Rank 1 Fellowship and Rank 2 DM entrance, delivering world-renowned expertise and diagnostic integrity.",
+        "Trained at AIIMS New Delhi with All India Rank 1 Fellowship and ranked second in the AIIMS entrance examination for DM, delivering expertise and diagnostic integrity.",
       highlight: "AIIMS Apex Pedigree",
     },
     {
@@ -61,7 +61,7 @@ export default function WhyChoose() {
       tag: "Global Research",
       title: "International Research & Faculty",
       description:
-        "Presented award-winning clinical trials at EASL Milan and APDW Singapore, and serves as an active reviewer for prestigious international medical journals.",
+        "Has presented award-winning clinical trials at EASL Milan and APDW Singapore, and serves as an active reviewer for international medical journals.",
       highlight: "EASL & APDW Recognized",
     },
   ];
@@ -257,13 +257,13 @@ export default function WhyChoose() {
 
           <div className="space-y-3 text-center md:text-left relative z-10 max-w-2xl">
             <span className="px-3.5 py-1 rounded-md bg-white border border-[#6CB29D]/40 text-xs font-bold uppercase tracking-widest text-[#00843D] inline-block">
-              Consultant Gastroenterology
+              Consultant Gastroenterologist
             </span>
             <h3 className="text-2xl sm:text-3xl font-serif font-bold text-[#002C47]">
               Max Smart Super Speciality Hospital, Saket, New Delhi
             </h3>
             <p className="text-slate-600 text-xs sm:text-sm font-light leading-relaxed">
-              Ex-Assistant Professor at GIPMER & Ex-Associate Consultant at Sir Ganga Ram Hospital (ILGPS). Offering state-of-the-art diagnostic evaluations and advanced therapeutic endoscopic interventions.
+              Former Assistant Professor at GIPMER and former Associate Consultant at Sir Ganga Ram Hospital (ILGPS). Offering state-of-the-art diagnostic evaluations and advanced therapeutic endoscopic interventions.
             </p>
           </div>
           <a

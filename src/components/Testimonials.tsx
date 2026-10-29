@@ -13,7 +13,7 @@ export default function Testimonials() {
       icon: HeartPulse,
       summary:
         "Persistent heartburn and acid regurgitation can indicate gastroesophageal reflux. Clinical evaluation helps rule out erosive esophagitis, hiatal hernia, and Barrett's esophagus.",
-      point: "Early lifestyle and medical evaluation prevents mucosal injury.",
+      point: "Early lifestyle changes and medical evaluation help prevent mucosal injury.",
     },
     {
       title: "Colorectal Screening Protocols",

@@ -255,7 +255,8 @@ export default async function ConditionDetailPage({ params }: PageProps) {
                 <div className="flex items-center gap-2 text-slate-600">
                   <UserCheck className="w-4 h-4 text-[#00843D] shrink-0" />
                   <span>
-                    Protocol curated by <strong className="text-[#002C47]">Dr. Randeep Rana</strong> (AIIMS &amp; PGIMER Trained, Max Smart Hospital)
+
+                    Protocol curated by <strong className="text-[#002C47]">Dr. Randeep Rana</strong> (AIIMS &amp; PGIMER trained, Max Smart Super Speciality Hospital)
                   </span>
                 </div>
 

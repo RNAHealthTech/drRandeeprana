@@ -10,11 +10,11 @@ export default function FaqSection() {
   const faqs = [
     {
       q: "Where does Dr. Randeep Rana practice in New Delhi?",
-      a: "Dr. Randeep Rana is Consultant Gastroenterology practicing at Max Smart Super Speciality Hospital, Saket, New Delhi. Ex-Assistant Professor at GB Pant Institute (GIPMER). You can book an OPD consultation directly through this website or by calling +91 96431 63941.",
+      a: "Dr. Randeep Rana is a consultant gastroenterologist practicing at Max Smart Super Speciality Hospital, Saket, New Delhi. He is a former Assistant Professor at GB Pant Institute (GIPMER). You can book an OPD consultation directly through this website or by calling +91 96431 63941.",
     },
     {
       q: "What are Dr. Randeep Rana's educational qualifications?",
-      a: "Dr. Randeep Rana holds MBBS (Gold Medalist, DMCH Ludhiana), MD in Internal Medicine (ABVIMS & Dr. RML Hospital New Delhi), DM in Gastroenterology (AIIMS New Delhi), and Fellowship in Advanced GI Endoscopy (AIIMS New Delhi).",
+      a: "Dr. Randeep Rana holds an MBBS (Gold Medalist, DMCH Ludhiana), an MD in Internal Medicine (ABVIMS & Dr. RML Hospital New Delhi), a DM in Gastroenterology (AIIMS New Delhi), and a fellowship in Advanced GI Endoscopy (AIIMS New Delhi).",
     },
     {
       q: "Is an Endoscopy or Colonoscopy procedure painful?",
@@ -22,7 +22,7 @@ export default function FaqSection() {
     },
     {
       q: "What is GERD and how is chronic acid reflux treated?",
-      a: "GERD (Gastroesophageal Reflux Disease) is a condition where stomach acid frequently flows back into the esophagus. Dr. Rana evaluates stomach motility, checks for Hiatal Hernia, and provides targeted acid suppression, dietary modification, and endoscopic intervention if necessary.",
+      a: "GERD (Gastroesophageal Reflux Disease) is a condition where stomach acid frequently flows back into the esophagus. Dr. Rana evaluates stomach motility, checks for hiatal hernia, and provides targeted acid suppression, dietary modification, and endoscopic intervention if necessary.",
     },
     {
       q: "Can Fatty Liver Disease be reversed?",

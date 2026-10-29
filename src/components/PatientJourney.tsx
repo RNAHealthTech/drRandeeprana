@@ -34,7 +34,7 @@ export default function PatientJourney() {
       number: "05",
       icon: HeartPulse,
       title: "Recovery & Follow-Up",
-      description: "Continuous post-treatment care tracking, lifestyle guidance, and routine follow-ups supporting long-term digestive wellness.",
+      description: "Continuous post-treatment follow-up, lifestyle guidance, and routine reviews supporting long-term digestive wellness.",
     },
   ];
 
@@ -47,7 +47,7 @@ export default function PatientJourney() {
             Structured Healthcare Experience
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#002C47] tracking-tight">
-            Your Care Journey With <br className="hidden sm:inline" />
+            Your Care Journey with <br className="hidden sm:inline" />
             <span className="text-[#6CB29D] italic">Dr. Randeep Rana</span>
           </h2>
           <p className="text-slate-600 text-base sm:text-lg leading-relaxed font-light">

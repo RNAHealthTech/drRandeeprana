@@ -19,9 +19,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Dr. Randeep Rana — Consultant Gastroenterology Saket",
+  title: "About Dr. Randeep Rana — Consultant Gastroenterologist Saket",
   description:
-    "Comprehensive Profile & Curriculum Vitae of Dr. Randeep Rana — MBBS (DMCH Gold Medalist), MD (Dr. RMLH), DM & Advanced GI Endoscopy Fellow (AIIMS Delhi). Consultant Gastroenterology at Max Smart Super Speciality Hospital, Saket.",
+    "Comprehensive Profile & Curriculum Vitae of Dr. Randeep Rana — MBBS (DMCH Gold Medalist), MD (Dr. RMLH), DM & Advanced GI Endoscopy Fellow (AIIMS Delhi). Consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket.",
 };
 
 export default function AboutPage() {
@@ -32,12 +32,12 @@ export default function AboutPage() {
       institute: "All India Institute of Medical Sciences (AIIMS), New Delhi",
     },
     {
-      course: "D.M. (Gastroenterology)",
+      course: "DM (Gastroenterology)",
       duration: "July 2020 to July 2023",
       institute: "All India Institute of Medical Sciences (AIIMS), New Delhi",
     },
     {
-      course: "M.D. (Internal Medicine)",
+      course: "MD (Internal Medicine)",
       duration: "May 2015 to May 2018",
       institute: "ABVIMS & Dr Ram Manohar Lohia Hospital (Dr RMLH), New Delhi",
     },
@@ -103,7 +103,7 @@ export default function AboutPage() {
     },
     {
       sn: "02",
-      title: "All India Rank 2",
+      title: "Ranked Second in AIIMS Entrance Examination",
       detail: "AIIMS Super-Speciality Entrance Examination (DM Gastroenterology, 2020)",
       badge: "National Rank 2",
       category: "Academic Rank",
@@ -174,7 +174,7 @@ export default function AboutPage() {
       <PageHeader
         badge="About Dr. Randeep Rana"
         title="Consultant Gastroenterology & Advanced Endoscopy"
-        subtitle="MBBS (DMCH Gold Medalist), M.D (Dr. RMLH), D.M (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi) at Max Smart Super Speciality Hospital, Saket, New Delhi."
+        subtitle="MBBS (DMCH Gold Medalist), MD (Dr. RMLH), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi) at Max Smart Super Speciality Hospital, Saket, New Delhi."
         breadcrumbs={[{ label: "About" }]}
         bgImage="/images/dr-randeep-rana-scrubs-front.jpg"
       />
@@ -187,8 +187,8 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-8 space-y-2 text-xs sm:text-sm text-slate-700 font-normal">
-              <p><strong className="text-[#00843D]">Current Position:</strong> Consultant Gastroenterology, Max Smart Super Speciality Hospital, Saket, New Delhi, India</p>
-              <p><strong className="text-[#00843D]">Ex-Positions:</strong> Ex-Assistant Professor (GIPMER) | Ex-Associate Consultant (Sir Ganga Ram Hospital ILGPS)</p>
+              <p><strong className="text-[#00843D]">Current Position:</strong> Consultant Gastroenterologist, Max Smart Super Speciality Hospital, Saket, New Delhi, India</p>
+              <p><strong className="text-[#00843D]">Previous Positions:</strong> Former Assistant Professor (GIPMER) | Former Associate Consultant (Sir Ganga Ram Hospital ILGPS)</p>
               <p><strong className="text-[#00843D]">Editorial Fellow:</strong> Indian Journal of Gastroenterology (IJG) | <strong className="text-[#00843D]">DMC Registration:</strong> 82691</p>
             </div>
 
@@ -457,10 +457,10 @@ export default function AboutPage() {
             </h2>
             <div className="p-6 rounded-md bg-[#EBF5F2] border border-[#6CB29D]/30 text-[#1C2936] space-y-4">
               <p className="text-xs sm:text-sm text-slate-700">
-                <strong className="text-[#00843D]">Life Member:</strong> Indian Society of Gastroenterology (ISG), Indian Pancreas Club (IPC), Society of Gastrointestinal Endoscopy of India (SGEI), Colitis and Crohn’s Foundation (India)
+                <strong className="text-[#00843D]">Life Member:</strong> Indian Society of Gastroenterology (ISG), Indian Pancreas Club (IPC), Society of Gastrointestinal Endoscopy of India (SGEI), Colitis and Crohn's Foundation (India)
               </p>
               <p className="text-xs sm:text-sm text-slate-700">
-                <strong className="text-[#00843D]">Member:</strong> European Association for Study of Liver (EASL), American Society of Gastrointestinal Endoscopy (ASGE), European Society of Gastrointestinal Endoscopy (ESGE), International Association of Pancreatology (IAP), World Endoscopy Organization (WEO), International Liver Cancer Association (ILCA)
+                <strong className="text-[#00843D]">Member:</strong> European Association for the Study of the Liver (EASL), American Society of Gastrointestinal Endoscopy (ASGE), European Society of Gastrointestinal Endoscopy (ESGE), International Association of Pancreatology (IAP), World Endoscopy Organization (WEO), International Liver Cancer Association (ILCA)
               </p>
             </div>
           </div>

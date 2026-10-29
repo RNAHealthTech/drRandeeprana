@@ -267,10 +267,10 @@ export const CONDITIONS_DATA: MegaMenuSection = {
         },
         {
           name: "Inflammatory Bowel Disease (IBD)",
-          desc: "Crohn’s disease & Ulcerative Colitis",
+          desc: "Crohn's disease & ulcerative colitis",
           typeTag: "CLINICAL CONDITION",
           protocolSubtitle: "Mucosal healing & advanced biologic therapeutic protocols",
-          clinicalSummary: "Chronic autoimmune inflammation of the gastrointestinal tract, categorized into Ulcerative Colitis and Crohn’s Disease.",
+          clinicalSummary: "Chronic autoimmune inflammation of the gastrointestinal tract, categorized into ulcerative colitis and Crohn's disease.",
           clinicalOverview: [
             "Comprehensive management includes high-definition colonoscopy with chromoendoscopy, fecal calprotectin tracking, and targeted biologic/small molecule therapies."
           ]
@@ -365,11 +365,11 @@ export const DIAGNOSTICS_DATA: MegaMenuSection = {
       iconColor: "#0891B2",
       items: [
         {
-          name: "Fibroscan (Transient Elastography)",
+          name: "FibroScan (Transient Elastography)",
           desc: "Liver stiffness (kPa) & fat (CAP) in 10 mins",
           typeTag: "CLINICAL PROCEDURE",
           protocolSubtitle: "Non-invasive liver stiffness & fat quantification protocol",
-          clinicalSummary: "Fibroscan is a breakthrough non-invasive technology used to assess the extent of liver stiffness (fibrosis/cirrhosis) and quantitative fat accumulation (CAP score).",
+          clinicalSummary: "FibroScan is a breakthrough non-invasive technology used to assess the extent of liver stiffness (fibrosis/cirrhosis) and quantitative fat accumulation (CAP score).",
           clinicalOverview: [
             "A safe, non-invasive ultrasound elastography procedure where a transducer probe is placed on the right upper abdominal surface. No needles, radiation, or sedation required.",
             "Delivers accurate numerical results in under 10 minutes, allowing early detection of fatty liver disease (NAFLD), NASH staging, and monitoring chronic liver disease progression."

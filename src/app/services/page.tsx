@@ -108,7 +108,7 @@ export default function ServicesPage() {
               The Four Pillars of Dr. Rana&apos;s Practice
             </h2>
             <p className="text-slate-600 text-sm font-light max-w-2xl mx-auto">
-              Combining world-class academic expertise from AIIMS & PGIMER with patient-centric empathy and state-of-the-art medical technology.
+              Combining extensive academic expertise from AIIMS and PGIMER with patient-centric care and state-of-the-art medical technology.
             </p>
           </div>
 

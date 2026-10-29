@@ -126,7 +126,7 @@ export default function MediaPage() {
                 <div>
                   <h3 className="text-xl font-serif font-bold text-[#002C47]">Poster of Distinction & Clinical Study</h3>
                   <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed mt-2">
-                    Featured research on EUS-Guided Thrombin & Coil combination for Visceral Arterial Pseudoaneurysm (VAPT-EASE Study) at Asian Pacific Digestive Week 2025 Singapore.
+                    Research presented on EUS-guided thrombin and coil combination for visceral arterial pseudoaneurysm (VAPT-EASE study) at Asian Pacific Digestive Week 2025 in Singapore.
                   </p>
                 </div>
               </div>
@@ -149,7 +149,7 @@ export default function MediaPage() {
                 <div>
                   <h3 className="text-xl font-serif font-bold text-[#002C47]">International Poster Awardee</h3>
                   <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed mt-2">
-                    Honored with the Best Oral Award in Clinical Science for landmark Randomized Controlled Trial on statin therapy in decompensated cirrhosis.
+                    Honored with the Best Oral Award in Clinical Science for a landmark randomized controlled trial on statin therapy in decompensated cirrhosis.
                   </p>
                 </div>
               </div>
@@ -195,7 +195,7 @@ export default function MediaPage() {
                 <div>
                   <h3 className="text-xl font-serif font-bold text-[#002C47]">European Association for the Study of the Liver (EASL)</h3>
                   <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed mt-2">
-                    Active active member and clinical presenter at EASL congresses, participating in global clinical trial dialogues and advanced hepatology protocols.
+                    Active member and clinical presenter at EASL congresses, participating in global clinical trial dialogues and advanced hepatology protocols.
                   </p>
                 </div>
               </div>

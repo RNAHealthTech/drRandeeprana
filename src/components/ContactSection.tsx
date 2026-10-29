@@ -259,7 +259,7 @@ ${formData.message ? `Message: ${formData.message}` : ""}`;
                       Monday – Saturday: 9:00 AM – 6:00 PM
                     </div>
                     <div className="text-[#00843D] text-xs font-semibold mt-0.5">
-                      Consultant Gastroenterology
+                      Consultant Gastroenterologist
                     </div>
                   </div>
                 </div>

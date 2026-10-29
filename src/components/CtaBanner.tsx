@@ -21,7 +21,7 @@ export default function CtaBanner() {
         </h2>
 
         <p className="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed font-light">
-          Consultant Gastroenterologist, Hepatologist &amp; advanced endoscopist at Max Smart Saket
+          Consultant Gastroenterologist, Hepatologist, and Advanced Endoscopist at Max Smart Super Speciality Hospital, Saket.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">

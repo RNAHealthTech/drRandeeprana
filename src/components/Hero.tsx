@@ -44,7 +44,7 @@ export default function Hero() {
       title: "Book OPD Appointments",
       icon: Calendar,
       badge: "In-Person & Online",
-      description: "Schedule prompt in-person consultation or medical guidance for gut, liver & pancreas care.",
+      description: "Schedule a prompt in-person consultation or medical guidance for gut, liver & pancreas care.",
       linkText: "Schedule Consultation",
       href: "#contact",
       iconBoxStyle:
@@ -92,7 +92,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-2xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#002C47] tracking-tight leading-[1.15]"
             >
-              We&apos;re here when you need us &mdash; for every care in digestive health.
+              We&apos;re here when you need us&mdash;for all your digestive health needs.
             </motion.h1>
 
             {/* Subtitle */}
@@ -102,7 +102,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-slate-600 text-xs sm:text-base lg:text-lg font-normal leading-relaxed max-w-2xl mx-auto lg:mx-0"
             >
-              Consultant Gastroenterologist, Hepatologist &amp; advanced endoscopist at Max Smart Saket and Ex-Assistant Professor at GP Pant (GIPMER), New Delhi.
+              Consultant Gastroenterologist, Hepatologist, and Advanced Endoscopist at Max Smart Saket and former Assistant Professor at GB Pant Hospital (GIPMER), New Delhi.
             </motion.p>
 
             {/* Hero Responsive Action Buttons */}

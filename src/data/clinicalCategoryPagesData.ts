@@ -381,7 +381,7 @@ export const CATEGORY_PAGES_MAP: Record<string, CategoryPageData> = {
         badge: "Crohn's & Ulcerative Colitis",
         badgeColor: "#2563EB",
         summary:
-          "IBD comprises Ulcerative Colitis and Crohn’s Disease — chronic autoimmune inflammatory disorders requiring precise immunosuppressive and biologic therapies to induce deep mucosal healing.",
+          "IBD comprises ulcerative colitis and Crohn's disease—chronic autoimmune inflammatory disorders requiring precise immunosuppressive and biologic therapies to induce deep mucosal healing.",
         symptoms: [
           "Frequent loose stools with visible blood, mucus, or pus",
           "Urgent, painful need to defecate (tenesmus)",

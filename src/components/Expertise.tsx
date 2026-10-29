@@ -46,14 +46,14 @@ export default function Expertise() {
       icon: ShieldCheck,
       title: "Early GI Cancer & EFTR (FTRD)",
       category: "Oncology & Resection",
-      description: "Early GI cancer diagnosis (IEE, NBI) and full-thickness resection device (FTRD / EFTR) by OVESCO Germany certification, EMR and ESD for early mucosal neoplasms.",
+      description: "Early GI cancer diagnosis (IEE, NBI) and full-thickness resection device (FTRD / EFTR), for which he holds certification from OVESCO, Germany, along with EMR and ESD for early mucosal neoplasms.",
       symptoms: ["Early mucosal lesions", "Polyps", "Subepithelial tumors", "Gastric dysplasia"],
     },
     {
       icon: HeartPulse,
       title: "Inflammatory Bowel Diseases (IBD)",
       category: "Special Interest",
-      description: "Comprehensive care for complicated and steroid-refractory Ulcerative Colitis, Crohn's Disease, Celiac Enteropathy, and Intestinal Tuberculosis.",
+      description: "Comprehensive care for complicated and steroid-refractory ulcerative colitis, Crohn's disease, celiac disease, and intestinal tuberculosis.",
       symptoms: ["Bloody diarrhea", "Abdominal cramps", "Weight loss", "Mucus in stool"],
     },
     {

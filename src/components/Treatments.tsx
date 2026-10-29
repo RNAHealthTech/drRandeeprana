@@ -49,7 +49,7 @@ export default function Treatments() {
       tag: "Preventive Oncology & Resection",
       duration: "30 - 60 Mins",
       anesthesia: "Sedation / MAC",
-      description: "Early GI cancer diagnosis with IEE/NBI, EMR, ESD, and Full-Thickness Resection Device (FTRD / EFTR by OVESCO Germany).",
+      description: "Early GI cancer diagnosis with IEE/NBI, EMR, ESD, and Full-Thickness Resection Device (FTRD / EFTR), for which he holds certification from OVESCO, Germany.",
       benefits: ["Targeted lesion resection", "Certified FTRD expertise", "Histopathology confirmation"],
     },
     {
@@ -191,7 +191,7 @@ export default function Treatments() {
                   Simvastatin Addition Improves Long-Term Survival in Cirrhosis
                 </h4>
                 <p className="text-xs text-slate-600 font-light leading-relaxed">
-                  Landmark randomized controlled trial exploring novel statin & rifaximin therapy to reduce portal hypertension, lower variceal re-bleeding risk, and improve long-term survival in decompensated cirrhosis.
+                  A landmark randomized controlled trial exploring novel statin and rifaximin therapy to reduce portal hypertension, lower variceal re-bleeding risk, and improve long-term survival in decompensated cirrhosis.
                 </p>
               </div>
             </div>

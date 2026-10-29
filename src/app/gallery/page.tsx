@@ -32,7 +32,7 @@ export default function GalleryPage() {
   const galleryItems = [
     {
       id: 1,
-      title: "Dr. Randeep Rana — Consultant Gastroenterology",
+      title: "Dr. Randeep Rana — Consultant Gastroenterologist",
       category: "Doctor Profile",
       image: "/images/dr-randeep-rana-max-whitecoat.jpg",
       description: "Dr. Randeep Rana in clinical white coat with stethoscope at Max Smart Super Speciality Hospital, Saket.",
@@ -53,7 +53,7 @@ export default function GalleryPage() {
       title: "DDW 2024 Poster Presentation — Washington D.C.",
       category: "International Research",
       image: "/images/ddw-2024-poster-presentation.jpg",
-      description: "Presenting Microbiome & Mycobiome Metagenomics research in chronic pancreatitis at Digestive Disease Week (DDW 2024) in Washington D.C.",
+      description: "Presenting Microbiome & Mycobiome Metagenomics research in chronic pancreatitis at Digestive Disease Week (DDW 2024) in Washington, D.C.",
       icon: Globe,
       objectPosition: "object-top",
     },
@@ -62,7 +62,7 @@ export default function GalleryPage() {
       title: "APDW 2025 Singapore — EUS Intervention Study",
       category: "Poster of Distinction",
       image: "/images/apdw-2025-singapore-poster.jpg",
-      description: "Displaying landmark research on EUS-guided thrombin and coil combination for Visceral Arterial Pseudoaneurysm (VAPT-EASE Study) at APDW Singapore.",
+      description: "Research presented on EUS-guided thrombin and coil combination for visceral arterial pseudoaneurysm (VAPT-EASE study) at APDW 2025 in Singapore.",
       icon: FileText,
       objectPosition: "object-top",
     },
