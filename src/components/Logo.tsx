@@ -34,16 +34,16 @@ export default function Logo({
 
       {/* Tier 1: Specialities */}
       <span
-        className={`text-[8.5px] sm:text-[9.5px] font-bold tracking-wider uppercase mt-1 ${
+        className={`text-[10px] sm:text-[11.5px] font-bold tracking-wide uppercase mt-1 ${
           isDarkBg ? "text-[#6CB29D]" : "text-[#00843D]"
         }`}
       >
-        GASTROENTEROLOGY · HEPATOLOGY · ADVANCED ENDOSCOPY
+        GASTROENTEROLOGIST · HEPATOLOGIST · ADVANCED ENDOSCOPIST
       </span>
 
       {/* Tier 2: Pedigree & Hospital */}
       <span
-        className={`text-[7.5px] sm:text-[8px] font-medium tracking-wide uppercase mt-0.5 ${
+        className={`text-[8px] sm:text-[8.5px] font-medium tracking-wide uppercase mt-0.5 ${
           isDarkBg ? "text-slate-400" : "text-slate-500"
         }`}
       >

@@ -221,7 +221,7 @@ export default function ClinicalDetailModal({
                     </div>
                   </div>
                   <p className="text-xs text-slate-600 font-light border-t border-slate-200/80 pt-3">
-                    Comprehensive, consultant-led digestive care &amp; advanced interventional endoscopy in Saket, New Delhi.
+                    Comprehensive, consultant-led digestive care from an advanced interventional endoscopist in Saket, New Delhi.
                   </p>
                 </div>
 

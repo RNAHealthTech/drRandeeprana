@@ -19,7 +19,7 @@ export default function Hero() {
     {
       title: "Our Provider Profile",
       icon: UserCheck,
-      badge: "AIIMS & DMCH Alumni",
+      badge: "AIIMS Alumnus",
       description: "Dr. Randeep Rana — MBBS, MD (Dr. RMLH), DM (Gastroenterology) & Advanced Endoscopist (AIIMS New Delhi).",
       linkText: "View Qualifications",
       href: "/about",
@@ -102,7 +102,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-slate-600 text-xs sm:text-base lg:text-lg font-normal leading-relaxed max-w-2xl mx-auto lg:mx-0"
             >
-              Consultant Gastroenterologist, Hepatologist, and Advanced Endoscopist at Max Smart Saket and former Assistant Professor at GB Pant Hospital (GIPMER), New Delhi.
+              Consultant Gastroenterologist, Hepatologist, and Advanced Endoscopist at Max Smart Saket and former Assistant Professor at GB Pant Hospital, New Delhi.
             </motion.p>
 
             {/* Hero Responsive Action Buttons */}
@@ -133,7 +133,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="pt-6 border-t border-slate-200/80 grid grid-cols-3 gap-3 sm:gap-6 max-w-xl mx-auto lg:mx-0 text-center lg:text-left"
+              className="pt-6 border-t border-slate-200/80 grid grid-cols-2 gap-6 sm:gap-10 max-w-xl mx-auto lg:mx-0 text-center lg:text-left"
             >
               <div className="bg-white/70 backdrop-blur-sm sm:bg-transparent p-3 sm:p-0 rounded-lg sm:rounded-none border sm:border-0 border-slate-200/60 shadow-sm sm:shadow-none">
                 <div className="text-xl sm:text-2xl lg:text-3xl font-serif font-bold text-[#00843D]">
@@ -144,21 +144,12 @@ export default function Hero() {
                 </div>
               </div>
 
-              <div className="bg-white/70 backdrop-blur-sm sm:bg-transparent p-3 sm:p-0 rounded-lg sm:rounded-none border sm:border-0 border-slate-200/60 shadow-sm sm:shadow-none sm:border-x sm:border-slate-300/80 sm:px-4">
+              <div className="bg-white/70 backdrop-blur-sm sm:bg-transparent p-3 sm:p-0 rounded-lg sm:rounded-none border sm:border-0 border-slate-200/60 shadow-sm sm:shadow-none sm:border-l sm:border-slate-300/80 sm:pl-8">
                 <div className="text-xl sm:text-2xl lg:text-3xl font-serif font-bold text-[#002C47]">
                   DMC 82691
                 </div>
                 <div className="text-[11px] sm:text-xs font-semibold text-slate-700 uppercase tracking-wider mt-0.5">
                   Medical Council Reg.
-                </div>
-              </div>
-
-              <div className="bg-white/70 backdrop-blur-sm sm:bg-transparent p-3 sm:p-0 rounded-lg sm:rounded-none border sm:border-0 border-slate-200/60 shadow-sm sm:shadow-none">
-                <div className="text-xl sm:text-2xl lg:text-3xl font-serif font-bold text-[#0078BF]">
-                  Max Smart
-                </div>
-                <div className="text-[11px] sm:text-xs font-semibold text-slate-700 uppercase tracking-wider mt-0.5">
-                  Consultant Saket
                 </div>
               </div>
             </motion.div>

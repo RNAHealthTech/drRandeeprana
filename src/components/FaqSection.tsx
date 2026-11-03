@@ -14,7 +14,7 @@ export default function FaqSection() {
     },
     {
       q: "What are Dr. Randeep Rana's educational qualifications?",
-      a: "Dr. Randeep Rana holds an MBBS (Gold Medalist, DMCH Ludhiana), an MD in Internal Medicine (ABVIMS & Dr. RML Hospital New Delhi), a DM in Gastroenterology (AIIMS New Delhi), and a fellowship in Advanced GI Endoscopy (AIIMS New Delhi).",
+      a: "Dr. Randeep Rana holds an MBBS (Gold Medalist), an MD in Internal Medicine (ABVIMS & Dr. RML Hospital New Delhi), a DM in Gastroenterology (AIIMS New Delhi), and a fellowship in Advanced GI Endoscopy (AIIMS New Delhi).",
     },
     {
       q: "Is an Endoscopy or Colonoscopy procedure painful?",

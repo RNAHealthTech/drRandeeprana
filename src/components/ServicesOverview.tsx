@@ -18,7 +18,7 @@ export default function ServicesOverview() {
     {
       id: 1,
       title: "Endoscopic Ultrasound (EUS) & ERCP Suite",
-      category: "Advanced Endoscopy",
+      category: "Advanced Endoscopist",
       image: "/images/dr-randeep-rana-scrubs-side.jpg",
       description: "State-of-the-art EUS and ERCP procedures with narrow-band imaging for non-surgical bile duct stone extraction and pancreatic cyst drainage.",
       linkText: "View Interventional Suite",

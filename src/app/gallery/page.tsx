@@ -104,7 +104,7 @@ export default function GalleryPage() {
     },
     {
       id: 9,
-      title: "Advanced Interventional Endoscopy Stance",
+      title: "Advanced Interventional Endoscopist",
       category: "Specialized Procedures",
       image: "/images/dr-randeep-rana-scrubs-side.jpg",
       description: "Dr. Randeep Rana — Specialist in POEM, ESD, STER, EFTR, and EUS-guided vascular & biliary interventions.",

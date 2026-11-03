@@ -31,7 +31,7 @@ export default function About() {
     {
       image: "/images/dr-randeep-rana-whitecoat.jpg",
       tag: "Clinical Excellence",
-      title: "Consultant Gastroenterology & Liver OPD",
+      title: "Consultant Gastroenterologist & Liver OPD",
       desc: "Patient-centered evaluations at Max Smart Super Speciality Hospital, Saket, New Delhi.",
     },
     {
@@ -87,7 +87,7 @@ export default function About() {
       degree: "DM (Gastroenterology)",
       institution: "All India Institute of Medical Sciences (AIIMS), New Delhi",
       year: "2020 – 2023",
-      desc: "Ranked second in the AIIMS entrance examination. Pivotal RCT clinical research in portal hypertension and cirrhosis survival.",
+      desc: "Secured rank second position in the AIIMS entrance examination. Pivotal RCT clinical research in portal hypertension and cirrhosis survival.",
     },
     {
       degree: "MD (Internal Medicine)",
@@ -97,7 +97,7 @@ export default function About() {
     },
     {
       degree: "MBBS (Gold Medalist)",
-      institution: "Dayanand Medical College & Hospital (DMCH), Ludhiana",
+      institution: "",
       year: "2008 – 2012",
       desc: "Awarded First Position & University Gold Medal in Medicine.",
     },
@@ -105,7 +105,7 @@ export default function About() {
 
   const experienceList = [
     {
-      role: "Consultant – Gastroenterology",
+      role: "Consultant – Gastroenterologist, Hepatologist and Advanced Endoscopist",
       inst: "Max Smart Super Speciality Hospital, Saket, New Delhi",
       year: "Current",
       desc: "Consultant practice in advanced therapeutic endoscopy, hepatology OPD, and pancreatico-biliary sciences.",
@@ -133,7 +133,7 @@ export default function About() {
   const honorsList = [
     {
       title: "Gold Medal (First Position in Medicine)",
-      org: "Dayanand Medical College & Hospital (DMCH)",
+      org: "Dayanand Medical College & Hospital",
       year: "MBBS 2012",
     },
     {
@@ -142,7 +142,7 @@ export default function About() {
       year: "2023",
     },
     {
-      title: "Ranked Second in AIIMS Entrance Examination",
+      title: "Secured Rank Second Position in AIIMS Entrance Examination",
       org: "AIIMS DM Gastroenterology Super-Speciality Entrance",
       year: "2020",
     },
@@ -159,7 +159,7 @@ export default function About() {
     {
       title: "Editorial Fellow",
       org: "Indian Journal of Gastroenterology (IJG)",
-      year: "2024 – Present",
+      year: "2026",
     },
   ];
 
@@ -201,10 +201,10 @@ export default function About() {
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#002C47] tracking-tight">
             Excellence in Gastroenterology &amp; <br className="hidden sm:inline" />
-            <span className="text-[#00843D] italic">Advanced Endoscopy Care</span>
+            <span className="text-[#00843D] italic">Advanced Endoscopist Care</span>
           </h2>
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed font-light">
-            Combining academic rigor from AIIMS New Delhi, Dr. RML Hospital, and DMCH with compassionate, patient-centered care at Max Smart Super Speciality Hospital, Saket.
+            Combining academic rigor from AIIMS New Delhi and Dr. RML Hospital with compassionate, patient-centered care at Max Smart Super Speciality Hospital, Saket.
           </p>
         </div>
 
@@ -333,7 +333,7 @@ export default function About() {
                 <span>Consultant-Led GI &amp; Hepatology Leadership</span>
               </h3>
               <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed">
-                <strong className="text-[#002C47] font-semibold">Dr. Randeep Rana</strong> is a consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket. He holds an MBBS (Gold Medalist, DMCH), an MD (Dr. RMLH), a DM (Gastroenterology, AIIMS Delhi), and a fellowship in Advanced GI Endoscopy (AIIMS Delhi). He is a former Assistant Professor at GIPMER.
+                <strong className="text-[#002C47] font-semibold">Dr. Randeep Rana</strong> is a consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket. He completed his MBBS (Gold Medalist), MD in Internal Medicine, and DM in Gastroenterology from AIIMS Delhi, followed by a Fellowship in Advanced GI Endoscopy from AIIMS Delhi. He is a former Assistant Professor at GB Pant Hospital, New Delhi.
               </p>
             </div>
           </div>
@@ -349,7 +349,7 @@ export default function About() {
                 </div>
                 <h4 className="text-lg font-serif font-bold text-[#002C47]">Our Clinical Mission</h4>
                 <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed">
-                  To provide evidence-based, compassionate gastroenterology care, utilizing advanced interventional endoscopy with warmth, diagnostic clarity, and patient empowerment.
+                  To deliver comprehensive, evidence-based digestive and liver care—combining precise diagnosis, advanced endoscopic treatments, and compassionate guidance tailored to each patient&apos;s needs.
                 </p>
               </div>
 
@@ -359,7 +359,7 @@ export default function About() {
                 </div>
                 <h4 className="text-lg font-serif font-bold text-[#002C47]">Our Vision</h4>
                 <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed">
-                  To advance clinical standards in therapeutic endoscopy, evidence-based cirrhosis management, and minimally invasive pancreatic and liver care.
+                  To be a trusted benchmark in gastroenterology and therapeutic endoscopy, delivering cutting-edge, minimally invasive care, ethical medical practice, and superior patient outcomes.
                 </p>
               </div>
             </div>
@@ -477,9 +477,11 @@ export default function About() {
                       <h4 className="text-base font-serif font-bold text-[#002C47]">
                         {edu.degree}
                       </h4>
-                      <p className="text-xs font-semibold text-[#0078BF]">
-                        {edu.institution}
-                      </p>
+                      {edu.institution ? (
+                        <p className="text-xs font-semibold text-[#0078BF]">
+                          {edu.institution}
+                        </p>
+                      ) : null}
                       <p className="text-xs text-slate-500 font-light leading-relaxed pt-1">
                         {edu.desc}
                       </p>

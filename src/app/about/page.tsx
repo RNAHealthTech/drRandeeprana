@@ -21,7 +21,7 @@ import {
 export const metadata: Metadata = {
   title: "About Dr. Randeep Rana — Consultant Gastroenterologist Saket",
   description:
-    "Comprehensive Profile & Curriculum Vitae of Dr. Randeep Rana — MBBS (DMCH Gold Medalist), MD (Dr. RMLH), DM & Advanced GI Endoscopy Fellow (AIIMS Delhi). Consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket.",
+    "Comprehensive Profile & Curriculum Vitae of Dr. Randeep Rana — MBBS (Gold Medalist), MD (Dr. RMLH), DM & Advanced GI Endoscopist (AIIMS Delhi). Consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket.",
 };
 
 export default function AboutPage() {
@@ -44,13 +44,13 @@ export default function AboutPage() {
     {
       course: "MBBS",
       duration: "Aug 2008 to Dec 2012",
-      institute: "Dayanand Medical College & Hospital (DMCH), Ludhiana",
+      institute: "Dayanand Medical College & Hospital, Ludhiana",
     },
   ];
 
   const clinicalExperience = [
     {
-      position: "Consultant – Gastroenterology",
+      position: "Consultant – Gastroenterologist, Hepatologist and Advanced Endoscopist",
       duration: "May 2026 – Present",
       institution: "Max Smart Super Speciality Hospital, Saket, New Delhi",
     },
@@ -87,7 +87,7 @@ export default function AboutPage() {
     {
       position: "Medical Internship",
       duration: "01/01/2013 to 15/02/2014",
-      institution: "Dayanand Medical College & Hospital (DMCH), Ludhiana, Punjab, India",
+      institution: "Dayanand Medical College & Hospital, Ludhiana, Punjab, India",
     },
   ];
 
@@ -103,7 +103,7 @@ export default function AboutPage() {
     },
     {
       sn: "02",
-      title: "Ranked Second in AIIMS Entrance Examination",
+      title: "Secured Rank Second Position in AIIMS Entrance Examination",
       detail: "AIIMS Super-Speciality Entrance Examination (DM Gastroenterology, 2020)",
       badge: "National Rank 2",
       category: "Academic Rank",
@@ -126,7 +126,7 @@ export default function AboutPage() {
       sn: "05",
       title: "Advanced Certification in Full-Thickness Resection Device (FTRD)",
       detail: "Hands-on Advanced Interventional Endoscopy Workshop by OVESCO (Germany) at AIIMS New Delhi (2025)",
-      badge: "Advanced Endoscopy",
+      badge: "Advanced Endoscopist",
       category: "Certification",
     },
     {
@@ -173,8 +173,8 @@ export default function AboutPage() {
     <div className="bg-white text-[#1C2936]">
       <PageHeader
         badge="About Dr. Randeep Rana"
-        title="Consultant Gastroenterology & Advanced Endoscopy"
-        subtitle="MBBS (DMCH Gold Medalist), MD (Dr. RMLH), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi) at Max Smart Super Speciality Hospital, Saket, New Delhi."
+        title="Consultant Gastroenterologist & Advanced Endoscopist"
+        subtitle="MBBS (Gold Medalist), MD (Dr. RMLH), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi) at Max Smart Super Speciality Hospital, Saket, New Delhi."
         breadcrumbs={[{ label: "About" }]}
         bgImage="/images/dr-randeep-rana-scrubs-front.jpg"
       />

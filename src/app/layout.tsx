@@ -7,12 +7,12 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Dr. Randeep Rana | Consultant Gastroenterologist Saket New Delhi",
   description:
-    "Dr. Randeep Rana — MBBS (DMCH), MD (Dr. RMLH), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi). Consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket, New Delhi.",
+    "Dr. Randeep Rana — MBBS, MD (Dr. RMLH), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi). Consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket, New Delhi.",
   keywords: [
     "Dr Randeep Rana",
     "Gastroenterologist Saket",
     "Max Smart Saket Gastroenterologist",
-    "Advanced GI Endoscopy Delhi",
+    "Advanced GI Endoscopist Delhi",
     "EUS ERCP Specialist Delhi",
     "Pancreatico Biliary Sciences",
     "Third Space Endoscopy POEM ESD",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Dr. Randeep Rana | Consultant Gastroenterologist Saket New Delhi",
     description:
-      "Dr. Randeep Rana — MBBS (DMCH), MD (Dr. RMLH), DM (AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi). Consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket, New Delhi.",
+      "Dr. Randeep Rana — MBBS, MD (Dr. RMLH), DM (AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi). Consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket, New Delhi.",
     type: "website",
     locale: "en_IN",
   },
@@ -38,10 +38,10 @@ const jsonLd = {
     "Gastroenterology",
     "Hepatology",
     "Pancreatico-Biliary Sciences",
-    "Advanced Therapeutic Endoscopy",
+    "Advanced Therapeutic Endoscopist",
   ],
   description:
-    "MBBS (DMCH), MD (Dr. RMLH), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi). Consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket, New Delhi.",
+    "MBBS, MD (Dr. RMLH), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi). Consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket, New Delhi.",
   identifier: {
     "@type": "PropertyValue",
     name: "Medical Council Registration",
@@ -60,7 +60,7 @@ const jsonLd = {
     },
     {
       "@type": "EducationalOrganization",
-      name: "Dayanand Medical College & Hospital (DMCH), Ludhiana",
+      name: "Dayanand Medical College & Hospital, Ludhiana",
     },
   ],
   hospitalAffiliation: [

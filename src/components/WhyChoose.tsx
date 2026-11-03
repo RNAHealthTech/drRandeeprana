@@ -53,7 +53,7 @@ export default function WhyChoose() {
       tag: "Apex Training",
       title: "Trusted AIIMS Super-Specialty Alumni",
       description:
-        "Trained at AIIMS New Delhi with All India Rank 1 Fellowship and ranked second in the AIIMS entrance examination for DM, delivering expertise and diagnostic integrity.",
+        "Trained at AIIMS New Delhi with All India Rank 1 Fellowship and secured rank second position in the AIIMS entrance examination for DM, delivering expertise and diagnostic integrity.",
       highlight: "AIIMS Apex Pedigree",
     },
     {
@@ -140,7 +140,7 @@ export default function WhyChoose() {
               <span className="text-[#00843D] italic">Dr. Randeep Rana?</span>
             </h2>
             <p className="text-slate-600 text-sm sm:text-base leading-relaxed font-light">
-              Delivering global-standard gastroenterology, hepatology, and advanced endoscopy care with clinical precision, cutting-edge technology, and genuine human empathy.
+              Delivering global-standard gastroenterology, hepatology, and advanced endoscopist care with clinical precision, cutting-edge technology, and genuine human empathy.
             </p>
           </div>
 

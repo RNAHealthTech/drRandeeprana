@@ -65,7 +65,7 @@ export default function ServicesPage() {
               <div className="absolute inset-0 bg-gradient-to-t from-[#002C47]/90 via-[#002C47]/30 to-transparent" />
               <div className="absolute bottom-5 left-5 right-5 text-white">
                 <span className="px-3 py-1 rounded-md bg-[#00843D] text-[10px] font-extrabold uppercase tracking-widest text-white inline-block mb-1">
-                  Interventional GI & Endoscopy
+                  Interventional GI & Endoscopist
                 </span>
                 <h3 className="text-xl font-serif font-bold">Advanced EUS & ERCP Interventions</h3>
               </div>
