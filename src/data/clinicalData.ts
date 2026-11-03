@@ -62,9 +62,9 @@ export function getClinicalDetails(
   ];
 
   const availableDiagnostics = item.availableDiagnostics || [
-    { name: "High-Resolution Endoscopy", iconName: "Camera" },
+    { name: "High Definition White Light Endoscopy", iconName: "Camera" },
     { name: "FibroScan (Liver Assessment)", iconName: "Activity" },
-    { name: "24-hr pH & Manometry", iconName: "Layers" },
+    { name: "High Resolution non-Invasive Esophageal Manometry", iconName: "Layers" },
     { name: "Endoscopic Ultrasound (EUS)", iconName: "Stethoscope" },
   ];
 
@@ -397,12 +397,12 @@ export const DIAGNOSTICS_DATA: MegaMenuSection = {
           ]
         },
         {
-          name: "24-Hour pH & Manometry",
-          desc: "Reflux tracking based on USA motility standards",
+          name: "High Resolution non-Invasive Esophageal Manometry",
+          desc: "Motility tracking based on high-resolution standards",
           typeTag: "CLINICAL PROCEDURE",
-          clinicalSummary: "Gold standard diagnostic tools for evaluating esophageal motility disorders and quantifying exact acid reflux over a full 24-hour cycle.",
+          clinicalSummary: "Gold standard diagnostic tools for evaluating esophageal motility disorders and swallowing function with non-invasive precision.",
           clinicalOverview: [
-            "Utilizes high-resolution sensor catheters to measure esophageal muscle contractions during swallowing and document acid exposure correlated with symptoms."
+            "Utilizes high-resolution sensor catheters to measure esophageal muscle contractions during swallowing and document motility function with comfort and accuracy."
           ]
         },
         {
@@ -451,13 +451,19 @@ export const DIAGNOSTICS_DATA: MegaMenuSection = {
         },
         {
           name: "ERCP Procedure",
-          desc: "Bile duct stone extraction & stent placement",
+          desc: "Bile duct stones, stenting & pancreaticobiliary malignancy",
           typeTag: "CLINICAL PROCEDURE",
-          protocolSubtitle: "Therapeutic fluoroscopic endoscopy for biliary & pancreatic duct disorders",
-          clinicalSummary: "An advanced specialized endoscopic procedure combining high-resolution endoscopy and X-ray fluoroscopy to treat bile duct and pancreatic conditions.",
+          protocolSubtitle: "Therapeutic fluoroscopy for biliary disorders & pancreaticobiliary malignancy",
+          clinicalSummary: "An advanced specialized endoscopic procedure combining high-definition endoscopy and X-ray fluoroscopy to treat bile duct conditions, strictures, and pancreaticobiliary malignancy.",
           clinicalOverview: [
-            "Used for removing bile duct stones (choledocholithiasis), relieving obstructive jaundice, taking biliary biopsies, and placing plastic or self-expanding metal stents.",
-            "Provides an effective minimally invasive endoscopic approach to bile duct disorders, often avoiding open surgical procedures when indicated."
+            "Used for removing bile duct stones (choledocholithiasis), relieving obstructive jaundice in benign and pancreaticobiliary malignancy cases, taking biliary brush cytology biopsies, and placing plastic or self-expanding metal stents (SEMS).",
+            "Provides an effective minimally invasive endoscopic approach for biliary drainage in pancreaticobiliary malignancy and ductal disorders, avoiding high-risk open surgical procedures."
+          ],
+          keyBenefits: [
+            "Minimally invasive CBD stone extraction without open surgery",
+            "Biliary decompression & stenting for pancreaticobiliary malignancy",
+            "Relief of obstructive jaundice and prevention of acute cholangitis",
+            "Fluoroscopic precision guidance with rapid post-procedure recovery"
           ]
         },
         {
@@ -583,8 +589,8 @@ export const SYMPTOMS_DATA: MegaMenuSection = {
             "Personalized diet & lifestyle modification guidance"
           ],
           availableDiagnostics: [
-            { name: "HD Video Endoscopy", iconName: "Camera" },
-            { name: "24-hr pH Manometry", iconName: "Layers" },
+            { name: "High Definition White Light Endoscopy", iconName: "Camera" },
+            { name: "High Resolution non-Invasive Esophageal Manometry", iconName: "Layers" },
             { name: "H. Pylori Breath Test", iconName: "Activity" },
             { name: "Ultrasound Abdomen", iconName: "Stethoscope" }
           ]
@@ -611,7 +617,7 @@ export const SYMPTOMS_DATA: MegaMenuSection = {
       ],
     },
     {
-      title: "Lower GI & Bleeding",
+      title: "Intestinal Symptoms",
       iconName: "Droplet",
       iconBg: "bg-red-50 text-red-600",
       iconColor: "#DC2626",

@@ -4,6 +4,7 @@ import PageHeader from "@/components/PageHeader";
 import CtaBanner from "@/components/CtaBanner";
 import { Award, BookOpen, Globe, Video, Award as Trophy, Users, SquarePen, ExternalLink } from "lucide-react";
 import YouTubeVideoPlayer from "@/components/YouTubeVideoPlayer";
+import PressMediaSlider from "@/components/PressMediaSlider";
 
 export const metadata: Metadata = {
   title: "Dr. Randeep Rana in the News — Media Mentions, Conferences & Publications",
@@ -23,7 +24,7 @@ export default function MediaPage() {
     { role: "Member", organization: "International Association of Pancreatology (IAP)" },
     { role: "Member", organization: "World Endoscopy Organization (WEO)" },
     { role: "Member", organization: "International Liver Cancer Association (ILCA)" },
-    { role: "Editorial Fellow", organization: "Indian Journal of Gastroenterology (IJG)" },
+    { role: "Awarded Editorial Fellowship", organization: "Indian Journal of Gastroenterology (IJG) under the aegis of ISG at the Congress of World Gastroenterology" },
   ];
 
   const globalResearch = [
@@ -203,6 +204,9 @@ export default function MediaPage() {
           </div>
         </div>
       </section>
+
+      {/* Print Media & Newspaper Coverage Interactive Slider */}
+      <PressMediaSlider />
 
       {/* Section 2: Editorial Roles & Medical Societies Table */}
       <section className="py-20 bg-[#F4F7F9]">

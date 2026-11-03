@@ -20,7 +20,7 @@ export default function Hero() {
       title: "Our Provider Profile",
       icon: UserCheck,
       badge: "AIIMS Alumnus",
-      description: "Dr. Randeep Rana — MBBS, MD (Dr. RMLH), DM (Gastroenterology) & Advanced Endoscopist (AIIMS New Delhi).",
+      description: "Dr. Randeep Rana — MBBS, MD (Internal Medicine), DM (Gastroenterology) & Advanced Endoscopist (AIIMS New Delhi).",
       linkText: "View Qualifications",
       href: "/about",
       iconBoxStyle:

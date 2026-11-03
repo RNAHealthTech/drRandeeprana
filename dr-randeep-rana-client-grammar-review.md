@@ -335,7 +335,7 @@ Every genuine change implemented in the codebase is documented below with its ex
     ```
   - **After:**
     ```tsx
-    Former Assistant Professor at GIPMER and former Associate Consultant at Sir Ganga Ram Hospital (ILGPS). Offering state-of-the-art diagnostic evaluations and advanced therapeutic endoscopic interventions.
+    Former Assistant Professor Max Smart Super Speciality Hospital and former Associate Consultant at Sir Ganga Ram Hospital . Offering state-of-the-art diagnostic evaluations and advanced therapeutic endoscopic interventions.
     ```
 
 - **Page/Section:** `src/components/Footer.tsx` — Bio Snippet

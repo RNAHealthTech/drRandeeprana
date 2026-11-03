@@ -21,7 +21,7 @@ import {
 export const metadata: Metadata = {
   title: "About Dr. Randeep Rana — Consultant Gastroenterologist Saket",
   description:
-    "Comprehensive Profile & Curriculum Vitae of Dr. Randeep Rana — MBBS (Gold Medalist), MD (Dr. RMLH), DM & Advanced GI Endoscopist (AIIMS Delhi). Consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket.",
+    "Comprehensive Profile & Curriculum Vitae of Dr. Randeep Rana — MBBS (Gold Medalist), MD (Internal Medicine), DM & Advanced GI Endoscopist (AIIMS Delhi). Consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket.",
 };
 
 export default function AboutPage() {
@@ -39,7 +39,7 @@ export default function AboutPage() {
     {
       course: "MD (Internal Medicine)",
       duration: "May 2015 to May 2018",
-      institute: "ABVIMS & Dr Ram Manohar Lohia Hospital (Dr RMLH), New Delhi",
+      institute: "ABVIMS & Dr Ram Manohar Lohia Hospital, New Delhi",
     },
     {
       course: "MBBS",
@@ -174,7 +174,7 @@ export default function AboutPage() {
       <PageHeader
         badge="About Dr. Randeep Rana"
         title="Consultant Gastroenterologist & Advanced Endoscopist"
-        subtitle="MBBS (Gold Medalist), MD (Dr. RMLH), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi) at Max Smart Super Speciality Hospital, Saket, New Delhi."
+        subtitle="MBBS (Gold Medalist), MD (Internal Medicine), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi) at Max Smart Super Speciality Hospital, Saket, New Delhi."
         breadcrumbs={[{ label: "About" }]}
         bgImage="/images/dr-randeep-rana-scrubs-front.jpg"
       />
@@ -188,8 +188,8 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-8 space-y-2 text-xs sm:text-sm text-slate-700 font-normal">
               <p><strong className="text-[#00843D]">Current Position:</strong> Consultant Gastroenterologist, Max Smart Super Speciality Hospital, Saket, New Delhi, India</p>
-              <p><strong className="text-[#00843D]">Previous Positions:</strong> Former Assistant Professor (GIPMER) | Former Associate Consultant (Sir Ganga Ram Hospital ILGPS)</p>
-              <p><strong className="text-[#00843D]">Editorial Fellow:</strong> Indian Journal of Gastroenterology (IJG) | <strong className="text-[#00843D]">DMC Registration:</strong> 82691</p>
+              <p><strong className="text-[#00843D]">Previous Positions:</strong> Former Assistant Professor (GB Pant Hospital) | Former Associate Consultant (Sir Ganga Ram Hospital )</p>
+              <p><strong className="text-[#00843D]">Editorial Fellowship:</strong> Awarded Editorial Fellowship by Indian Journal of Gastroenterology under the aegis of Indian Society of Gastroenterology at the prestigious Congress of World Gastroenterology  <strong className="text-[#00843D]"></strong> </p>
             </div>
 
             <div className="lg:col-span-4 bg-white p-5 rounded-md border border-slate-200 text-xs text-slate-700 space-y-1.5 font-normal">
@@ -240,7 +240,7 @@ export default function AboutPage() {
       {/* SECTION 1: EDUCATION & CLINICAL TRAINING */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-          
+
           {/* Education Table */}
           <div className="space-y-6">
             <div className="flex items-center gap-3">
@@ -313,7 +313,7 @@ export default function AboutPage() {
       {/* SECTION 2: CONFERENCE PRESENTATIONS (INTERNATIONAL & NATIONAL) */}
       <section className="py-16 bg-[#F4F7F9]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-          
+
           <div className="space-y-3">
             <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-md bg-[#EBF5F2] text-[#002C47] text-xs font-bold uppercase tracking-widest">
               <Trophy className="w-4 h-4 text-[#6CB29D]" />
@@ -410,7 +410,7 @@ export default function AboutPage() {
       {/* SECTION 3: AWARDS, MEMBERSHIPS & EXTRACURRICULARS */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-          
+
           {/* Awards & Honours */}
           <div className="space-y-6">
             <div className="space-y-2">

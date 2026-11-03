@@ -91,7 +91,7 @@ export default function About() {
     },
     {
       degree: "MD (Internal Medicine)",
-      institution: "ABVIMS & Dr Ram Manohar Lohia Hospital (Dr RMLH), New Delhi",
+      institution: "ABVIMS & Dr Ram Manohar Lohia Hospital, New Delhi",
       year: "2015 – 2018",
       desc: "Comprehensive residency in internal medicine, ICU critical care, and multi-system emergency management.",
     },
@@ -157,8 +157,8 @@ export default function About() {
       year: "2017",
     },
     {
-      title: "Editorial Fellow",
-      org: "Indian Journal of Gastroenterology (IJG)",
+      title: "Awarded Editorial Fellowship",
+      org: "Indian Journal of Gastroenterology under the aegis of ISG at the Congress of World Gastroenterology",
       year: "2026",
     },
   ];

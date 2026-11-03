@@ -15,12 +15,19 @@ export const metadata: Metadata = {
   title: "Gastroenterology Services | Conditions, Diagnostics & Symptoms — Dr. Randeep Rana",
   description:
     "Explore comprehensive GI, liver, and pancreatic conditions, state-of-the-art diagnostic suites, and rapid symptom triage with Dr. Randeep Rana at Max Smart Super Speciality Hospital, Saket, New Delhi.",
+  keywords: [
+    "Chronic liver disease",
+    "Gastroenterologist Saket",
+    "Hepatologist Delhi",
+    "Advanced GI Endoscopist",
+    "Max Smart Hospital",
+  ],
 };
 
 export default function ServicesPage() {
   const pillars = [
     {
-      title: "Compassionate Education",
+      title: "Compassionate Patient Care",
       desc: "Dr. Rana ensures every patient clearly understands their condition, diagnostic reports, treatment options, and recovery roadmap.",
       icon: Users,
     },

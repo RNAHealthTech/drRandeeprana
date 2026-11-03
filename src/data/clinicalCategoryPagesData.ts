@@ -462,7 +462,7 @@ export const CATEGORY_PAGES_MAP: Record<string, CategoryPageData> = {
     description:
       "Expert tertiary care for Acute & Chronic Pancreatitis, Pancreatic Cysts, Pseudocysts, and Obstructive Biliary Diseases with Dr. Randeep Rana.",
     stats: [
-      { label: "Advanced ERCP", sub: "CBD Stone & Biliary Stenting", color: "#00843D" },
+      { label: "Advanced ERCP", sub: "CBD Stones, Stenting & Malignancy", color: "#00843D" },
       { label: "Linear EUS", sub: "High-Resolution Pancreatic Imaging", color: "#0078BF" },
       { label: "LAMS Protocol", sub: "Cystogastrostomy Pseudocyst Drainage", color: "#D97706" },
       { label: "PERT Therapy", sub: "Pancreatic Enzyme Optimization", color: "#0D9488" },

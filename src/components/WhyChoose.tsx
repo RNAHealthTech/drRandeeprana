@@ -233,11 +233,10 @@ export default function WhyChoose() {
               key={dotIdx}
               onClick={() => setCurrentIndex(dotIdx)}
               aria-label={`Go to slide ${dotIdx + 1}`}
-              className={`h-2 rounded-full transition-all duration-300 ${
-                currentIndex === dotIdx
-                  ? "w-8 bg-[#00843D]"
-                  : "w-2 bg-slate-300 hover:bg-slate-400"
-              }`}
+              className={`h-2 rounded-full transition-all duration-300 ${currentIndex === dotIdx
+                ? "w-8 bg-[#00843D]"
+                : "w-2 bg-slate-300 hover:bg-slate-400"
+                }`}
             />
           ))}
         </div>
@@ -263,7 +262,7 @@ export default function WhyChoose() {
               Max Smart Super Speciality Hospital, Saket, New Delhi
             </h3>
             <p className="text-slate-600 text-xs sm:text-sm font-light leading-relaxed">
-              Former Assistant Professor at GIPMER and former Associate Consultant at Sir Ganga Ram Hospital (ILGPS). Offering state-of-the-art diagnostic evaluations and advanced therapeutic endoscopic interventions.
+              Former Assistant Professor at Max Smart Super Speciality Hospital and former Associate Consultant at Sir Ganga Ram Hospital . Offering state-of-the-art diagnostic evaluations and advanced therapeutic endoscopic interventions.
             </p>
           </div>
           <a
