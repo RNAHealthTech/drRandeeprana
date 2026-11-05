@@ -39,7 +39,7 @@ export function getClinicalDetails(
 
   if (sectionId === "diagnostics") {
     defaultType = "CLINICAL PROCEDURE";
-    defaultSubtitle = `Minimally invasive diagnostic & therapeutic endoscopy protocol at Max Smart Saket.`;
+    defaultSubtitle = `Minimally invasive diagnostic & therapeutic endoscopist protocol at Max Smart Saket.`;
   } else if (sectionId === "symptoms") {
     defaultType = "SYMPTOM EVALUATION";
     defaultSubtitle = `Comprehensive triage & diagnostic evaluation roadmap by Dr. Randeep Rana.`;
@@ -62,7 +62,7 @@ export function getClinicalDetails(
   ];
 
   const availableDiagnostics = item.availableDiagnostics || [
-    { name: "High Definition White Light Endoscopy", iconName: "Camera" },
+    { name: "High Definition White Light Endoscopist", iconName: "Camera" },
     { name: "FibroScan (Liver Assessment)", iconName: "Activity" },
     { name: "High Resolution non-Invasive Esophageal Manometry", iconName: "Layers" },
     { name: "Endoscopic Ultrasound (EUS)", iconName: "Stethoscope" },
@@ -135,7 +135,7 @@ export const CONDITIONS_DATA: MegaMenuSection = {
             "AIIMS fellowship trained gastroenterology care"
           ],
           availableDiagnostics: [
-            { name: "UGI Endoscopy (Variceal Screen)", iconName: "Camera" },
+            { name: "UGI Endoscopist (Variceal Screen)", iconName: "Camera" },
             { name: "FibroScan Elastography", iconName: "Activity" },
             { name: "Ascitic Fluid Analysis", iconName: "Layers" },
             { name: "Doppler Ultrasound", iconName: "HeartPulse" }
@@ -196,7 +196,7 @@ export const CONDITIONS_DATA: MegaMenuSection = {
           protocolSubtitle: "Precision reflux tracking and mucosal healing protocols",
           clinicalSummary: "Gastroesophageal Reflux Disease (GERD) occurs when stomach acid repeatedly flows back into the esophagus, causing heartburn, regurgitation, and tissue injury.",
           clinicalOverview: [
-            "Evaluated using Japanese HD video endoscopy with Narrow Band Imaging (NBI) and 24-Hour pH / impedance monitoring to distinguish acid from non-acid reflux.",
+            "Evaluated using Japanese HD video endoscopist with Narrow Band Imaging (NBI) and 24-Hour pH / impedance monitoring to distinguish acid from non-acid reflux.",
             "Treatment includes targeted acid suppression, mucosal protectants, hiatal hernia evaluation, and lifestyle optimization."
           ]
         },
@@ -206,14 +206,14 @@ export const CONDITIONS_DATA: MegaMenuSection = {
           typeTag: "CLINICAL CONDITION",
           clinicalSummary: "Helicobacter pylori bacterial infection causing chronic gastritis, peptic ulcer disease, and increased risk of gastric malignancies.",
           clinicalOverview: [
-            "Diagnosed via rapid stool antigen, carbon-14/13 urea breath test, or rapid urease biopsy during endoscopy. Treated with evidence-based eradication therapy."
+            "Diagnosed via rapid stool antigen, carbon-14/13 urea breath test, or rapid urease biopsy during endoscopist. Treated with evidence-based eradication therapy."
           ]
         },
         {
           name: "Achalasia Cardia",
           desc: "Endoscopic POEM myotomy procedure",
           typeTag: "CLINICAL CONDITION",
-          protocolSubtitle: "Third Space Endoscopy & POEM Protocol",
+          protocolSubtitle: "Third Space Endoscopist & POEM Protocol",
           clinicalSummary: "A motility disorder where the lower esophageal sphincter fails to relax, causing severe difficulty swallowing, regurgitation, and weight loss.",
           clinicalOverview: [
             "POEM (Peroral Endoscopic Myotomy) is an advanced endoscopic procedure performed entirely through an endoscope to divide tight esophageal circular muscles.",
@@ -224,7 +224,7 @@ export const CONDITIONS_DATA: MegaMenuSection = {
           name: "Gastric Cancer & Early Polyps",
           desc: "Narrow Band Imaging & resection",
           typeTag: "CLINICAL CONDITION",
-          clinicalSummary: "Early pre-cancerous polyps and mucosal neoplasms of the stomach detected through high-magnification endoscopy.",
+          clinicalSummary: "Early pre-cancerous polyps and mucosal neoplasms of the stomach detected through high-magnification endoscopist.",
           clinicalOverview: [
             "Early detection allows organ-preserving resection via Endoscopic Submucosal Dissection (ESD) and EMR in eligible early neoplastic lesions."
           ]
@@ -295,11 +295,11 @@ export const CONDITIONS_DATA: MegaMenuSection = {
         },
         {
           name: "Small Bowel Disorders",
-          desc: "Capsule endoscopy & enteroscopy",
+          desc: "Capsule endoscopist & enteroscopy",
           typeTag: "CLINICAL CONDITION",
-          clinicalSummary: "Obscure GI bleeding, ulcers, and polyps in the deep small intestine beyond standard endoscopy reach.",
+          clinicalSummary: "Obscure GI bleeding, ulcers, and polyps in the deep small intestine beyond standard endoscopist reach.",
           clinicalOverview: [
-            "Evaluated using swallowable wireless PillCam Capsule Endoscopy and Double Balloon Enteroscopy for deep diagnostic and therapeutic access."
+            "Evaluated using swallowable wireless PillCam Capsule Endoscopist and Double Balloon Enteroscopy for deep diagnostic and therapeutic access."
           ]
         },
       ],
@@ -406,12 +406,12 @@ export const DIAGNOSTICS_DATA: MegaMenuSection = {
           ]
         },
         {
-          name: "Capsule Endoscopy",
+          name: "Capsule Endoscopist",
           desc: "Pill camera imaging of the entire small bowel",
           typeTag: "CLINICAL PROCEDURE",
           clinicalSummary: "A miniature vitamin-pill sized wireless camera swallowed by the patient to capture high-definition images of the entire small intestine.",
           clinicalOverview: [
-            "Provides comprehensive visualization of areas unreachable by standard endoscopy, crucial for obscure GI bleeding, Crohn's disease, and unexplained polyps."
+            "Provides comprehensive visualization of areas unreachable by standard endoscopist, crucial for obscure GI bleeding, Crohn's disease, and unexplained polyps."
           ]
         },
         {
@@ -432,7 +432,7 @@ export const DIAGNOSTICS_DATA: MegaMenuSection = {
       iconColor: "#9333EA",
       items: [
         {
-          name: "UGI Endoscopy (Gastroscopy)",
+          name: "UGI Endoscopist (Gastroscopy)",
           desc: "HD Narrow Band Imaging under gentle sedation",
           typeTag: "CLINICAL PROCEDURE",
           clinicalSummary: "High-definition endoscopic examination of the esophagus, stomach, and duodenum under comfortable conscious sedation.",
@@ -454,7 +454,7 @@ export const DIAGNOSTICS_DATA: MegaMenuSection = {
           desc: "Bile duct stones, stenting & pancreaticobiliary malignancy",
           typeTag: "CLINICAL PROCEDURE",
           protocolSubtitle: "Therapeutic fluoroscopy for biliary disorders & pancreaticobiliary malignancy",
-          clinicalSummary: "An advanced specialized endoscopic procedure combining high-definition endoscopy and X-ray fluoroscopy to treat bile duct conditions, strictures, and pancreaticobiliary malignancy.",
+          clinicalSummary: "An advanced specialized endoscopic procedure combining high-definition endoscopist and X-ray fluoroscopy to treat bile duct conditions, strictures, and pancreaticobiliary malignancy.",
           clinicalOverview: [
             "Used for removing bile duct stones (choledocholithiasis), relieving obstructive jaundice in benign and pancreaticobiliary malignancy cases, taking biliary brush cytology biopsies, and placing plastic or self-expanding metal stents (SEMS).",
             "Provides an effective minimally invasive endoscopic approach for biliary drainage in pancreaticobiliary malignancy and ductal disorders, avoiding high-risk open surgical procedures."
@@ -470,7 +470,7 @@ export const DIAGNOSTICS_DATA: MegaMenuSection = {
           name: "POEM (Peroral Endoscopic Myotomy)",
           desc: "Endoscopic intervention for Achalasia Cardia",
           typeTag: "CLINICAL PROCEDURE",
-          clinicalSummary: "Cutting-edge Third Space Endoscopy technique for treating Achalasia Cardia and severe esophageal spastic motility disorders.",
+          clinicalSummary: "Cutting-edge Third Space Endoscopist technique for treating Achalasia Cardia and severe esophageal spastic motility disorders.",
           clinicalOverview: [
             "A submucosal tunnel is created within the esophageal wall to cut the tight muscle fibers, performed completely through the mouth without any skin incisions."
           ]
@@ -488,7 +488,7 @@ export const DIAGNOSTICS_DATA: MegaMenuSection = {
           name: "Endoscopic Ultrasound (EUS)",
           desc: "Submucosal & pancreatic lesion imaging",
           typeTag: "CLINICAL PROCEDURE",
-          clinicalSummary: "Combines endoscopy and high-frequency ultrasound to obtain detailed images and tissue samples of the pancreas, bile ducts, and GI wall layers.",
+          clinicalSummary: "Combines endoscopist and high-frequency ultrasound to obtain detailed images and tissue samples of the pancreas, bile ducts, and GI wall layers.",
           clinicalOverview: [
             "Enables EUS-guided fine needle biopsy (FNB), cyst drainage (cystogastrostomy), and celiac plexus neurolysis for intractable pancreatic pain."
           ]
@@ -580,7 +580,7 @@ export const SYMPTOMS_DATA: MegaMenuSection = {
           clinicalSummary: "A burning discomfort in the upper abdomen, retrosternal chest, or throat, frequently accompanied by acid regurgitation, sour burps, or nighttime coughing.",
           clinicalOverview: [
             "Chronic acidity should never be ignored as untreated acid exposure can cause erosive esophagitis, strictures, or Barrett’s esophagus.",
-            "Dr. Randeep Rana conducts thorough assessments using Japanese HD endoscopy and pH testing to diagnose hiatal hernias, H. pylori, or motility issues."
+            "Dr. Randeep Rana conducts thorough assessments using Japanese HD endoscopist and pH testing to diagnose hiatal hernias, H. pylori, or motility issues."
           ],
           keyBenefits: [
             "Targeted medical management and diagnostic evaluation",
@@ -589,7 +589,7 @@ export const SYMPTOMS_DATA: MegaMenuSection = {
             "Personalized diet & lifestyle modification guidance"
           ],
           availableDiagnostics: [
-            { name: "High Definition White Light Endoscopy", iconName: "Camera" },
+            { name: "High Definition White Light Endoscopist", iconName: "Camera" },
             { name: "High Resolution non-Invasive Esophageal Manometry", iconName: "Layers" },
             { name: "H. Pylori Breath Test", iconName: "Activity" },
             { name: "Ultrasound Abdomen", iconName: "Stethoscope" }
@@ -646,7 +646,7 @@ export const SYMPTOMS_DATA: MegaMenuSection = {
           typeTag: "SYMPTOM EVALUATION",
           clinicalSummary: "Emergency condition manifested as vomiting blood (hematemesis), coffee-ground emesis, or passing jet-black tarry stools (melena).",
           clinicalOverview: [
-            "Requires immediate hospital stabilization and urgent emergency therapeutic endoscopy to stop bleeding from peptic ulcers, Mallory-Weiss tears, or esophageal varices."
+            "Requires immediate hospital stabilization and urgent emergency therapeutic endoscopist to stop bleeding from peptic ulcers, Mallory-Weiss tears, or esophageal varices."
           ]
         },
       ],

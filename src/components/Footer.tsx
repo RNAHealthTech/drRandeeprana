@@ -21,7 +21,7 @@ export default function Footer() {
             </Link>
 
             <p className="text-xs text-slate-600 font-light leading-relaxed mt-2 mb-4">
-              Consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket, New Delhi. Former Assistant Professor at GIPMER. DM (Gastroenterology) and Fellowship in Advanced GI Endoscopy from AIIMS, New Delhi.
+              Consultant Gastroenterologist, Hepatologist and Advanced Endoscopist at Max Smart Super Speciality Hospital, Saket, New Delhi. Former Assistant Professor at GB Pant Hospital, New Delhi. DM (Gastroenterology) and Fellowship in Advanced GI Endoscopist from AIIMS, New Delhi.
             </p>
 
             <div className="flex flex-col space-y-2 text-xs text-slate-700 font-normal">
@@ -56,8 +56,8 @@ export default function Footer() {
             <h4 className="text-xs font-bold text-[#002C47] uppercase tracking-widest">Key Services</h4>
             <ul className="space-y-2 text-xs font-light text-slate-600">
               <li><Link href="/services" className="hover:text-[#0078BF]">Pancreatico-Biliary Sciences & ERCP</Link></li>
-              <li><Link href="/services" className="hover:text-[#0078BF]">Advanced Endoscopy & EUS</Link></li>
-              <li><Link href="/services" className="hover:text-[#0078BF]">Third Space Endoscopy (POEM, ESD, STER)</Link></li>
+              <li><Link href="/services" className="hover:text-[#0078BF]">Advanced Endoscopist & EUS</Link></li>
+              <li><Link href="/services" className="hover:text-[#0078BF]">Third Space Endoscopist (POEM, ESD, STER)</Link></li>
               <li><Link href="/services" className="hover:text-[#0078BF]">Early GI Cancer & EFTR (FTRD)</Link></li>
               <li><Link href="/services" className="hover:text-[#0078BF]">Inflammatory Bowel Diseases (IBD)</Link></li>
               <li><Link href="/services" className="hover:text-[#0078BF]">Portal Hypertension & Liver Cirrhosis</Link></li>

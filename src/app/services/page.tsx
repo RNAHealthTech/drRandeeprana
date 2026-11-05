@@ -65,7 +65,7 @@ export default function ServicesPage() {
             <div className="relative rounded-2xl overflow-hidden border border-[#DDE6ED] h-60 sm:h-72 group shadow-xs">
               <img
                 src="/images/services-eus-ercp-suite.jpg"
-                alt="State-of-the-art Advanced EUS and ERCP Endoscopy Suite"
+                alt="State-of-the-art Advanced EUS and ERCP Endoscopist Suite"
                 className="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-500"
                 loading="eager"
               />

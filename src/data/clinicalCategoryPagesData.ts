@@ -91,7 +91,7 @@ export const CATEGORY_PAGES_MAP: Record<string, CategoryPageData> = {
         diagnostics: [
           "Transient Elastography (FibroScan) kPa stiffness quantification",
           "Diagnostic abdominal paracentesis (fluid analysis for infection / SBP)",
-          "Upper GI Screening Endoscopy for esophageal and gastric varices",
+          "Upper GI Screening Endoscopist for esophageal and gastric varices",
           "Multiphasic contrast CT / MRI abdomen to monitor for hepatocellular carcinoma",
         ],
         treatment: [
@@ -218,9 +218,9 @@ export const CATEGORY_PAGES_MAP: Record<string, CategoryPageData> = {
     title: "Stomach & Esophagus",
     titleAccent: "Conditions",
     description:
-      "Advanced diagnostics and incisionless Third Space Endoscopy for Acid Reflux (GERD), Peptic Ulcers, Achalasia Cardia, and Early Gastric Polyps with Dr. Randeep Rana.",
+      "Advanced diagnostics and incisionless Third Space Endoscopist for Acid Reflux (GERD), Peptic Ulcers, Achalasia Cardia, and Early Gastric Polyps with Dr. Randeep Rana.",
     stats: [
-      { label: "HD Endoscopy", sub: "Japanese Narrow Band Imaging (NBI)", color: "#00843D" },
+      { label: "HD Endoscopist", sub: "Japanese Narrow Band Imaging (NBI)", color: "#00843D" },
       { label: "Motility Lab", sub: "24-hr pH & High-Res Manometry", color: "#0078BF" },
       { label: "Incisionless", sub: "POEM Surgery for Achalasia", color: "#D97706" },
       { label: "Organ-Preserving", sub: "ESD & EMR Early Cancer Resection", color: "#0D9488" },
@@ -241,7 +241,7 @@ export const CATEGORY_PAGES_MAP: Record<string, CategoryPageData> = {
           "Difficulty or discomfort when swallowing solid food",
         ],
         diagnostics: [
-          "Japanese HD Video Endoscopy with Narrow Band Imaging (NBI)",
+          "Japanese HD Video Endoscopist with Narrow Band Imaging (NBI)",
           "24-Hour ambulatory pH-impedance monitoring for true acid exposure",
           "High-Resolution Esophageal Manometry to evaluate sphincter function",
           "Barium swallow study for hiatal hernia assessment",
@@ -296,10 +296,10 @@ export const CATEGORY_PAGES_MAP: Record<string, CategoryPageData> = {
         diagnostics: [
           "High-Resolution Esophageal Manometry (Eckardt score quantification)",
           "Timed Barium Swallow showing classic 'bird's beak' tapering",
-          "Upper GI Endoscopy to rule out pseudoachalasia or esophageal strictures",
+          "Upper GI Endoscopist to rule out pseudoachalasia or esophageal strictures",
         ],
         treatment: [
-          "POEM (Peroral Endoscopic Myotomy) — Incisionless Third Space Endoscopy",
+          "POEM (Peroral Endoscopic Myotomy) — Incisionless Third Space Endoscopist",
           "Pneumatic balloon dilation for selective non-surgical candidates",
           "Endoscopic Botulinum toxin injection for temporary symptom control",
         ],
@@ -319,7 +319,7 @@ export const CATEGORY_PAGES_MAP: Record<string, CategoryPageData> = {
           "Persistent upper abdominal discomfort and early satiety",
         ],
         diagnostics: [
-          "High-Magnification Narrow Band Imaging (NBI) endoscopy",
+          "High-Magnification Narrow Band Imaging (NBI) endoscopist",
           "Targeted micro-biopsy for histopathology and HER2/PD-L1 profiling",
           "Endoscopic Ultrasound (EUS) for precise submucosal depth assessment",
         ],
@@ -416,7 +416,7 @@ export const CATEGORY_PAGES_MAP: Record<string, CategoryPageData> = {
         ],
         diagnostics: [
           "Serum Tissue Transglutaminase (anti-tTG IgA) and total serum IgA",
-          "Upper GI Endoscopy with multiple duodenal biopsies (Marsh histological grading)",
+          "Upper GI Endoscopist with multiple duodenal biopsies (Marsh histological grading)",
           "HLA-DQ2 / HLA-DQ8 genetic typing when serology is ambiguous",
         ],
         treatment: [

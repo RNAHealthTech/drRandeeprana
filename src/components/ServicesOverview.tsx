@@ -58,7 +58,7 @@ export default function ServicesOverview() {
               Specialized Gastroenterology &amp; Liver Services
             </h2>
             <p className="text-slate-600 text-sm sm:text-base font-light leading-relaxed">
-              Advanced interventional endoscopy facilities and evidence-based clinical care.
+              Advanced interventional endoscopist facilities and evidence-based clinical care.
             </p>
           </div>
 

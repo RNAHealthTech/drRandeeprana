@@ -30,16 +30,16 @@ export default function Expertise() {
     },
     {
       icon: Activity,
-      title: "Advanced Endoscopy (EUS / ERCP)",
+      title: "Advanced Endoscopist (EUS / ERCP)",
       category: "Advanced Procedures",
       description: "Diagnostic & therapeutic endosonography including plastic/LAMS cystogastrostomy, pancreatic stenting, necrosectomy, and vascular pseudoaneurysm embolization.",
       symptoms: ["Pancreatic cyst", "Strictures", "Biliary obstruction", "Fluid collection"],
     },
     {
       icon: Zap,
-      title: "Third Space Endoscopy (POEM, ESD, STER)",
+      title: "Third Space Endoscopist (POEM, ESD, STER)",
       category: "Interventional Specialization",
-      description: "Submucosal endoscopy procedures including Peroral Endoscopic Myotomy (POEM) for achalasia, ESD and Submucosal Tunneling Endoscopic Resection (STER).",
+      description: "Submucosal endoscopist procedures including Peroral Endoscopic Myotomy (POEM) for achalasia, ESD and Submucosal Tunneling Endoscopic Resection (STER).",
       symptoms: ["Achalasia cardia", "Submucosal tumor", "Difficulty swallowing", "GI lesions"],
     },
     {

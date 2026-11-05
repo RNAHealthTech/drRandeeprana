@@ -35,7 +35,7 @@ export default function WhyChoose() {
     {
       icon: Cpu,
       tag: "Advanced Tech",
-      title: "Modern Endoscopy Infrastructure",
+      title: "Modern Endoscopist Infrastructure",
       description:
         "Utilizing high-definition narrow-band imaging (NBI) endoscopes and CO2 insufflation at Max Smart Saket to enhance visualization and patient comfort.",
       highlight: "HD-NBI & CO₂ Insufflation",
