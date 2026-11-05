@@ -36,8 +36,8 @@ export default function Treatments() {
     },
     {
       icon: Zap,
-      title: "Third Space Endoscopist (POEM, ESD, STER)",
-      tag: "Submucosal Endoscopist",
+      title: "Third Space Endoscopy (POEM, ESD, STER)",
+      tag: "Submucosal Endoscopy",
       duration: "45 - 90 Mins",
       anesthesia: "General Anesthesia / MAC",
       description: "Peroral Endoscopic Myotomy (POEM) for Achalasia Cardia, Endoscopic Submucosal Dissection (ESD), and STER for submucosal tumors.",
@@ -63,7 +63,7 @@ export default function Treatments() {
     },
     {
       icon: Stethoscope,
-      title: "Diagnostic & Therapeutic Endoscopist / Colonoscopy",
+      title: "Diagnostic & Therapeutic Endoscopy / Colonoscopy",
       tag: "Routine & Emergency GI",
       duration: "15 - 30 Mins",
       anesthesia: "Monitored Conscious Sedation",
@@ -85,7 +85,7 @@ export default function Treatments() {
             <span className="text-[#6CB29D] italic">Interventional Care</span>
           </h2>
           <p className="text-slate-600 text-base sm:text-lg leading-relaxed font-light">
-            State-of-the-art procedures performed in modern, accredited endoscopist suites at Max Smart Super Speciality Hospital, Saket.
+            State-of-the-art procedures performed in modern, accredited endoscopy suites at Max Smart Super Speciality Hospital, Saket.
           </p>
         </div>
 

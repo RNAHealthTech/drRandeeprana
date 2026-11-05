@@ -16,13 +16,13 @@ export default function MediaPage() {
   const societalRoles = [
     { role: "Life Member", organization: "Indian Society of Gastroenterology (ISG)" },
     { role: "Life Member", organization: "Indian Pancreas Club (IPC)" },
-    { role: "Life Member", organization: "Society of Gastrointestinal Endoscopist of India (SGEI)" },
+    { role: "Life Member", organization: "Society of Gastrointestinal Endoscopy of India (SGEI)" },
     { role: "Life Member", organization: "Colitis & Crohn’s Foundation - India (CCFI)" },
     { role: "Member", organization: "European Association for the Study of the Liver (EASL)" },
-    { role: "Member", organization: "American Society for Gastrointestinal Endoscopist (ASGE)" },
-    { role: "Member", organization: "European Society of Gastrointestinal Endoscopist (ESGE)" },
+    { role: "Member", organization: "American Society for Gastrointestinal Endoscopy (ASGE)" },
+    { role: "Member", organization: "European Society of Gastrointestinal Endoscopy (ESGE)" },
     { role: "Member", organization: "International Association of Pancreatology (IAP)" },
-    { role: "Member", organization: "World Endoscopist Organization (WEO)" },
+    { role: "Member", organization: "World Endoscopy Organization (WEO)" },
     { role: "Member", organization: "International Liver Cancer Association (ILCA)" },
     { role: "Awarded Editorial Fellowship", organization: "Indian Journal of Gastroenterology (IJG) under the aegis of ISG at the Congress of World Gastroenterology" },
   ];
@@ -173,7 +173,7 @@ export default function MediaPage() {
                 <div>
                   <h3 className="text-xl font-serif font-bold text-[#002C47]">Session Chairperson & Academic Lead</h3>
                   <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed mt-2">
-                    Presiding as Chairperson and Delegate at GBPGCON, guiding expert discussions on clinical gastroenterology & therapeutic endoscopist.
+                    Presiding as Chairperson and Delegate at GBPGCON, guiding expert discussions on clinical gastroenterology & therapeutic endoscopy.
                   </p>
                 </div>
               </div>

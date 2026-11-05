@@ -39,9 +39,9 @@ const PRESS_ITEMS: PressItem[] = [
     date: "15 October 2026",
     tag: "National Hindi Daily",
     headlineOriginal: "जब पैंक्रियाटाइटिस में दवाएं काफी नहीं होतीं, तब एडवांस्ड एंडोस्कोपी से मिल सकता है इलाज",
-    headlineEnglish: "When Medications Are Not Enough for Pancreatitis, Advanced Endoscopist Provides Minimally Invasive Relief",
+    headlineEnglish: "When Medications Are Not Enough for Pancreatitis, Advanced Endoscopy Provides Minimally Invasive Relief",
     summary:
-      "Featured health advisory in Dainik Bhaskar (Delhi NCR / Noida Edition) by Dr. Randeep Rana (Max Smart Super Speciality Hospital, Saket) explaining how modern interventional endoscopist (EUS-guided cystogastrostomy) drains infected pancreatic fluid collections safely without requiring major open surgery.",
+      "Featured health advisory in Dainik Bhaskar (Delhi NCR / Noida Edition) by Dr. Randeep Rana (Max Smart Super Speciality Hospital, Saket) explaining how modern interventional endoscopy (EUS-guided cystogastrostomy) drains infected pancreatic fluid collections safely without requiring major open surgery.",
     keyPoints: [
       "Published in India's leading Hindi daily (Dainik Bhaskar)",
       "Minimally invasive cystogastrostomy performed through natural GI tract",
@@ -58,7 +58,7 @@ const PRESS_ITEMS: PressItem[] = [
     date: "14 October 2026",
     tag: "Leading Punjabi Daily",
     headlineOriginal: "ਜਦੋਂ ਪੈਨਕ੍ਰਿਏਟਾਇਟਸ ਲਈ ਦਵਾਈਆਂ ਕਾਫ਼ੀ ਨਹੀਂ ਹੁੰਦੀਆਂ, ਤਾਂ ਐਡਵਾਂਸਡ ਐਂਡੋਸਕੋਪੀ ਇਲਾਜ ਪ੍ਰਦਾਨ ਕਰ ਸਕਦੀ ਹੈ",
-    headlineEnglish: "Advanced Therapeutic Endoscopist Provides Safe Intervention for Severe Pancreatic Conditions",
+    headlineEnglish: "Advanced Therapeutic Endoscopy Provides Safe Intervention for Severe Pancreatic Conditions",
     summary:
       "Prominent editorial coverage in Punjab's historic daily newspaper highlighting Dr. Rana's clinical protocols in therapeutic endosonography, organ-preserving procedures, and distinguishing acute pancreatitis from routine acidity.",
     keyPoints: [
@@ -77,7 +77,7 @@ const PRESS_ITEMS: PressItem[] = [
     date: "13 October 2026",
     tag: "National Hindi Daily",
     headlineOriginal: "जब पैंक्रियाटाइटिस में दवाएं काफी नहीं होतीं, तब एडवांस्ड एंडोस्कोपी से मिल सकता है इलाज",
-    headlineEnglish: "Minimally Invasive Endoscopist for Severe Pancreatitis Complications",
+    headlineEnglish: "Minimally Invasive Endoscopy for Severe Pancreatitis Complications",
     summary:
       "Featured healthcare column by Dr. Randeep Rana explaining internal drainage and necrosectomy for acute necrotizing pancreatitis, avoiding high-risk surgical explorations.",
     keyPoints: [
@@ -96,7 +96,7 @@ const PRESS_ITEMS: PressItem[] = [
     date: "14 October 2026",
     tag: "Daily Newspaper Feature",
     headlineOriginal: "ਜਦੋਂ ਪੈਨਕ੍ਰਿਏਟਾਇਟਸ ਲਈ ਦਵਾਈਆਂ ਕਾਫ਼ੀ ਨਹੀਂ ਹੁੰਦੀਆਂ, ਤਾਂ ਐਡਵਾਂਸਡ ਐਂਡੋਸਕੋਪੀ ਇਲਾਜ ਪ੍ਰਦਾਨ ਕਰ ਸਕਦੀ ਹੈ",
-    headlineEnglish: "Advanced Therapeutic Endoscopist Offers Non-Surgical Solutions for Severe Pancreatitis",
+    headlineEnglish: "Advanced Therapeutic Endoscopy Offers Non-Surgical Solutions for Severe Pancreatitis",
     summary:
       "Dr. Randeep Rana outlines modern interventional endoscopic protocols that safely clear necrotic tissue and fluid accumulations in acute pancreatitis, eliminating high-risk open surgeries for eligible patients.",
     keyPoints: [
@@ -115,11 +115,11 @@ const PRESS_ITEMS: PressItem[] = [
     date: "16 October 2026",
     tag: "Print Media Feature",
     headlineOriginal: "ਐਡਵਾਂਸਡ ਐਂਡੋਸਕੋਪੀ ਅਤੇ EUS ਰਾਹੀਂ ਪੈਨਕ੍ਰੀਆਟਾਇਟਸ ਦਾ ਸਟੀਕ ਇਲਾਜ",
-    headlineEnglish: "Precision Treatment of Pancreatitis via Advanced Endoscopist & Endosonography (EUS)",
+    headlineEnglish: "Precision Treatment of Pancreatitis via Advanced Endoscopy & Endosonography (EUS)",
     summary:
       "Comprehensive clinical interview detailing how endoscopic ultrasound eliminates exploratory surgeries in pancreatic fluid collections, supporting faster recovery and minimal hospital stay.",
     keyPoints: [
-      "Full-page editorial showcase on advanced therapeutic endoscopist",
+      "Full-page editorial showcase on advanced therapeutic endoscopy",
       "Tissue-sparing procedures with reduced infection risk compared to surgery",
       "Expert commentary from former Assistant Professor at GB Pant Hospital",
       "Public health awareness on early warning signs of GI emergencies",

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   const educationTable = [
     {
-      course: "Fellowship in Advanced GI Endoscopist",
+      course: "Fellowship in Advanced GI Endoscopy",
       duration: "July 2023 to July 2024",
       institute: "All India Institute of Medical Sciences (AIIMS), New Delhi",
     },
@@ -65,7 +65,7 @@ export default function AboutPage() {
       institution: "GB Pant Institute of Postgraduate Medical Education and Research (GIPMER), New Delhi",
     },
     {
-      position: "Fellow – Advanced GI Endoscopist",
+      position: "Fellow – Advanced GI Endoscopy",
       duration: "July 2023 – July 2024",
       institution: "All India Institute of Medical Sciences (AIIMS), New Delhi",
     },
@@ -97,7 +97,7 @@ export default function AboutPage() {
     {
       sn: "01",
       title: "All India Rank 1",
-      detail: "Entrance Examination, Fellowship in Advanced GI Endoscopist, AIIMS New Delhi (2023)",
+      detail: "Entrance Examination, Fellowship in Advanced GI Endoscopy, AIIMS New Delhi (2023)",
       badge: "National Rank 1",
       category: "Academic Rank",
     },
@@ -125,7 +125,7 @@ export default function AboutPage() {
     {
       sn: "05",
       title: "Advanced Certification in Full-Thickness Resection Device (FTRD)",
-      detail: "Hands-on Advanced Interventional Endoscopist Workshop by OVESCO (Germany) at AIIMS New Delhi (2025)",
+      detail: "Hands-on Advanced Interventional Endoscopy Workshop by OVESCO (Germany) at AIIMS New Delhi (2025)",
       badge: "Advanced Endoscopist",
       category: "Certification",
     },
@@ -145,7 +145,7 @@ export default function AboutPage() {
     },
     {
       sn: "08",
-      title: "National Faculty for Premier GI & Endoscopist Conferences",
+      title: "National Faculty for Premier GI & Endoscopy Conferences",
       detail: "ENDOCON (2025 Jaipur), India EUS Summit (2025 New Delhi), GI Confluence (2024), GBPGCON (2025), Clinics in Hepato-Biliary Diseases (2025)",
       badge: "Faculty",
       category: "Faculty & Speaking",
@@ -173,8 +173,8 @@ export default function AboutPage() {
     <div className="bg-white text-[#1C2936]">
       <PageHeader
         badge="About Dr. Randeep Rana"
-        title="Consultant Gastroenterologist , Hepatologist & Advanced Endoscopist"
-        subtitle="MBBS (Gold Medalist), MD (Internal Medicine), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopist (AIIMS Delhi) at Max Smart Super Speciality Hospital, Saket, New Delhi."
+        title="Consultant Gastroenterologist, Hepatologist & Advanced Endoscopist"
+        subtitle="MBBS (Gold Medalist), MD (Internal Medicine), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi) at Max Smart Super Speciality Hospital, Saket, New Delhi."
         breadcrumbs={[{ label: "About" }]}
         bgImage="/images/dr-randeep-rana-scrubs-front.jpg"
       />
@@ -187,7 +187,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-8 space-y-2 text-xs sm:text-sm text-slate-700 font-normal">
-              <p><strong className="text-[#00843D]">Current Position:</strong> Consultant Gastroenterologist, Max Smart Super Speciality Hospital, Saket, New Delhi, India</p>
+              <p><strong className="text-[#00843D]">Current Position:</strong> Consultant Gastroenterologist, Hepatologist and Advanced Endoscopist, Max Smart Super Speciality Hospital, Saket, New Delhi, India</p>
               <p><strong className="text-[#00843D]">Previous Positions:</strong> Former Assistant Professor (GB Pant Hospital) | Former Associate Consultant (Sir Ganga Ram Hospital )</p>
               <p><strong className="text-[#00843D]">Editorial Fellowship:</strong> Awarded Editorial Fellowship by Indian Journal of Gastroenterology under the aegis of Indian Society of Gastroenterology at the prestigious Congress of World Gastroenterology  <strong className="text-[#00843D]"></strong> </p>
             </div>
@@ -222,8 +222,8 @@ export default function AboutPage() {
               "Pancreatico-Biliary Sciences",
               "Inflammatory Bowel Diseases (IBD)",
               "Portal Hypertension",
-              "Advanced Endoscopist - EUS / ERCP",
-              "Third Space Endoscopist - POEM, ESD / STER",
+              "Advanced Endoscopy - EUS / ERCP",
+              "Third Space Endoscopy - POEM, ESD / STER",
               "Early GI Cancer & EFTR (FTRD)",
             ].map((interest, idx) => (
               <span
@@ -457,10 +457,10 @@ export default function AboutPage() {
             </h2>
             <div className="p-6 rounded-md bg-[#EBF5F2] border border-[#6CB29D]/30 text-[#1C2936] space-y-4">
               <p className="text-xs sm:text-sm text-slate-700">
-                <strong className="text-[#00843D]">Life Member:</strong> Indian Society of Gastroenterology (ISG), Indian Pancreas Club (IPC), Society of Gastrointestinal Endoscopist of India (SGEI), Colitis and Crohn's Foundation (India)
+                <strong className="text-[#00843D]">Life Member:</strong> Indian Society of Gastroenterology (ISG), Indian Pancreas Club (IPC), Society of Gastrointestinal Endoscopy of India (SGEI), Colitis and Crohn's Foundation (India)
               </p>
               <p className="text-xs sm:text-sm text-slate-700">
-                <strong className="text-[#00843D]">Member:</strong> European Association for the Study of the Liver (EASL), American Society of Gastrointestinal Endoscopist (ASGE), European Society of Gastrointestinal Endoscopist (ESGE), International Association of Pancreatology (IAP), World Endoscopist Organization (WEO), International Liver Cancer Association (ILCA)
+                <strong className="text-[#00843D]">Member:</strong> European Association for the Study of the Liver (EASL), American Society of Gastrointestinal Endoscopy (ASGE), European Society of Gastrointestinal Endoscopy (ESGE), International Association of Pancreatology (IAP), World Endoscopy Organization (WEO), International Liver Cancer Association (ILCA)
               </p>
             </div>
           </div>

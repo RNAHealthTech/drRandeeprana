@@ -8,7 +8,7 @@ import { Clock, ArrowRight, User } from "lucide-react";
 export const metadata: Metadata = {
   title: "Patient Education Blog | Digestive Health Articles by Dr. Randeep Rana",
   description:
-    "Read expert patient education articles by Dr. Randeep Rana on pancreatitis, liver disease, fatty liver, cirrhosis, advanced endoscopist, and more. Evidence-based information for your digestive health.",
+    "Read expert patient education articles by Dr. Randeep Rana on pancreatitis, liver disease, fatty liver, cirrhosis, advanced endoscopy, and more. Evidence-based information for your digestive health.",
 };
 
 export interface BlogPost {
@@ -29,7 +29,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "understanding-pancreatitis-causes-symptoms-treatment",
     title: "Understanding Pancreatitis — Causes, Symptoms, and Advanced Treatment Options",
-    category: "Pancreatology & Endoscopist",
+    category: "Pancreatology & Endoscopy",
     date: "August 2026",
     readTime: "6 min read",
     excerpt:
@@ -49,7 +49,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Advanced Endoscopic Interventions",
-        text: "For complications arising from severe acute pancreatitis, such as pancreatic fluid collections, advanced therapeutic endoscopist is now the preferred treatment. Procedures like Endoscopic Ultrasound (EUS)-guided cystogastrostomy allow physicians to drain these collections from inside the stomach without open surgery. Dr. Rana's state-of-the-art review on this topic, published in the Indian Journal of Gastroenterology, highlights how these minimally invasive techniques reduce recovery time and improve patient outcomes.",
+        text: "For complications arising from severe acute pancreatitis, such as pancreatic fluid collections, advanced therapeutic endoscopy is now the preferred treatment. Procedures like Endoscopic Ultrasound (EUS)-guided cystogastrostomy allow physicians to drain these collections from inside the stomach without open surgery. Dr. Rana's state-of-the-art review on this topic, published in the Indian Journal of Gastroenterology, highlights how these minimally invasive techniques reduce recovery time and improve patient outcomes.",
       },
       {
         heading: "Chronic Pancreatitis Pain Management",
@@ -95,21 +95,21 @@ export const blogPosts: BlogPost[] = [
     ],
   },
   {
-    slug: "demystifying-advanced-endoscopist-eus-ercp",
-    title: "Demystifying Advanced Endoscopist — What to Expect During EUS and ERCP",
-    category: "Advanced Endoscopist",
+    slug: "demystifying-advanced-endoscopy-eus-ercp",
+    title: "Demystifying Advanced Endoscopy — What to Expect During EUS and ERCP",
+    category: "Advanced Endoscopy",
     date: "July 2026",
     readTime: "5 min read",
     excerpt:
       "A complete guide to Endoscopic Ultrasound (EUS) and ERCP: how monitored sedation works, key diagnostic uses, and minimally invasive options.",
     contentSections: [
       {
-        heading: "Beyond Standard Endoscopist",
-        text: "Endoscopist has evolved far beyond simple visual inspection. Advanced procedures like Endoscopic Ultrasound (EUS) and Endoscopic Retrograde Cholangiopancreatography (ERCP) are critical tools enabling precise diagnosis and minimally invasive treatment of complex GI, liver, and pancreatic conditions.",
+        heading: "Beyond Standard Endoscopy",
+        text: "Endoscopy has evolved far beyond simple visual inspection. Advanced procedures like Endoscopic Ultrasound (EUS) and Endoscopic Retrograde Cholangiopancreatography (ERCP) are critical tools enabling precise diagnosis and minimally invasive treatment of complex GI, liver, and pancreatic conditions.",
       },
       {
         heading: "What to Expect During Endoscopic Ultrasound (EUS)",
-        text: "EUS combines endoscopist with high-frequency ultrasound to produce detailed images of the digestive tract and surrounding organs. It is used to evaluate pancreatic cysts, tumors, and bile duct stones, perform fine-needle aspiration (FNA) tissue sampling, and drain fluid collections under monitored conscious sedation.",
+        text: "EUS combines endoscopy with high-frequency ultrasound to produce detailed images of the digestive tract and surrounding organs. It is used to evaluate pancreatic cysts, tumors, and bile duct stones, perform fine-needle aspiration (FNA) tissue sampling, and drain fluid collections under monitored conscious sedation.",
       },
       {
         heading: "Understanding ERCP Interventions",
@@ -121,7 +121,7 @@ export const blogPosts: BlogPost[] = [
       },
     ],
     keyTakeaways: [
-      "EUS combines ultrasound and endoscopist for accurate pancreatic tissue sampling (FNA).",
+      "EUS combines ultrasound and endoscopy for accurate pancreatic tissue sampling (FNA).",
       "ERCP extracts bile duct stones and places stents without open surgical incisions.",
       "All advanced procedures are performed under monitored conscious sedation to support patient comfort.",
     ],

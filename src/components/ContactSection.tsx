@@ -187,7 +187,7 @@ ${formData.message ? `Message: ${formData.message}` : ""}`;
                   >
                     <option value="Acidity / GERD">Acidity / GERD / Heartburn</option>
                     <option value="Fatty Liver">Fatty Liver & Liver Disease</option>
-                    <option value="Gastroscopy / Colonoscopy">Diagnostic Endoscopist / Colonoscopy</option>
+                    <option value="Gastroscopy / Colonoscopy">Diagnostic Endoscopy / Colonoscopy</option>
                     <option value="IBS / Abdominal Pain">IBS / Stomach Pain / Bloating</option>
                     <option value="ERCP / Jaundice">ERCP / Bile Duct Stones / Jaundice</option>
                     <option value="Pancreatitis Care">Acute / Chronic Pancreatitis Care</option>

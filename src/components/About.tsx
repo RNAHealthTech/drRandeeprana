@@ -37,8 +37,8 @@ export default function About() {
     {
       image: "/images/dr-randeep-rana-scrubs-front.jpg",
       tag: "Advanced Interventions",
-      title: "Interventional Endoscopist & EUS / ERCP Suite",
-      desc: "Minimally invasive third space endoscopist, stone clearance, and organ-preserving care.",
+      title: "Interventional Endoscopy & EUS / ERCP Suite",
+      desc: "Minimally invasive third space endoscopy, stone clearance, and organ-preserving care.",
     },
     {
       image: "/images/poster-award-best-oral-clinical-science.jpg",
@@ -78,10 +78,10 @@ export default function About() {
 
   const educationTimeline = [
     {
-      degree: "Fellowship in Advanced GI Endoscopist",
+      degree: "Fellowship in Advanced GI Endoscopy",
       institution: "All India Institute of Medical Sciences (AIIMS), New Delhi",
       year: "2023 – 2024",
-      desc: "Super-specialized fellowship in Advanced GI Endoscopist, Linear EUS, ERCP, POEM, and Third Space interventions.",
+      desc: "Super-specialized fellowship in Advanced GI Endoscopy, Linear EUS, ERCP, POEM, and Third Space interventions.",
     },
     {
       degree: "DM (Gastroenterology)",
@@ -108,7 +108,7 @@ export default function About() {
       role: "Consultant – Gastroenterologist, Hepatologist and Advanced Endoscopist",
       inst: "Max Smart Super Speciality Hospital, Saket, New Delhi",
       year: "Current",
-      desc: "Consultant practice in advanced therapeutic endoscopist, hepatology OPD, and pancreatico-biliary sciences.",
+      desc: "Consultant practice in advanced therapeutic endoscopy, hepatology OPD, and pancreatico-biliary sciences.",
     },
     {
       role: "Assistant Professor – Gastroenterology",
@@ -126,7 +126,7 @@ export default function About() {
       role: "Senior Resident (DM)",
       inst: "AIIMS New Delhi",
       year: "2020 – 2023",
-      desc: "High-volume advanced endoscopist, EUS tissue acquisition, and academic clinical trials.",
+      desc: "High-volume advanced endoscopy, EUS tissue acquisition, and academic clinical trials.",
     },
   ];
 
@@ -138,7 +138,7 @@ export default function About() {
     },
     {
       title: "All India Rank 1",
-      org: "AIIMS Advanced GI Endoscopist Fellowship Entrance",
+      org: "AIIMS Advanced GI Endoscopy Fellowship Entrance",
       year: "2023",
     },
     {
@@ -333,7 +333,7 @@ export default function About() {
                 <span>Consultant-Led GI &amp; Hepatology Leadership</span>
               </h3>
               <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed">
-                <strong className="text-[#002C47] font-semibold">Dr. Randeep Rana</strong> is a consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket. He completed his MBBS (Gold Medalist), MD in Internal Medicine, and DM in Gastroenterology from AIIMS Delhi, followed by a Fellowship in Advanced GI Endoscopist from AIIMS Delhi. He is a former Assistant Professor at GB Pant Hospital, New Delhi.
+                <strong className="text-[#002C47] font-semibold">Dr. Randeep Rana</strong> is a consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket. He completed his MBBS (Gold Medalist), MD in Internal Medicine, and DM in Gastroenterology from AIIMS Delhi, followed by a Fellowship in Advanced GI Endoscopy from AIIMS Delhi. He is a former Assistant Professor at GB Pant Hospital, New Delhi.
               </p>
             </div>
           </div>
@@ -359,7 +359,7 @@ export default function About() {
                 </div>
                 <h4 className="text-lg font-serif font-bold text-[#002C47]">Our Vision</h4>
                 <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed">
-                  To be a trusted benchmark in gastroenterology and therapeutic endoscopist, delivering cutting-edge, minimally invasive care, ethical medical practice, and superior patient outcomes.
+                  To be a trusted benchmark in gastroenterology and therapeutic endoscopy, delivering cutting-edge, minimally invasive care, ethical medical practice, and superior patient outcomes.
                 </p>
               </div>
             </div>

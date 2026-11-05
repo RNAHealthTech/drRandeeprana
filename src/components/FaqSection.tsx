@@ -14,10 +14,10 @@ export default function FaqSection() {
     },
     {
       q: "What are Dr. Randeep Rana's educational qualifications?",
-      a: "Dr. Randeep Rana holds an MBBS (Gold Medalist), an MD in Internal Medicine (Dr. RML Hospital New Delhi), a DM in Gastroenterology (AIIMS New Delhi), and a fellowship in Advanced GI Endoscopist (AIIMS New Delhi).",
+      a: "Dr. Randeep Rana holds an MBBS (Gold Medalist), an MD in Internal Medicine (Dr. RML Hospital New Delhi), a DM in Gastroenterology (AIIMS New Delhi), and a fellowship in Advanced GI Endoscopy (AIIMS New Delhi).",
     },
     {
-      q: "Is an Endoscopist or Colonoscopy procedure painful?",
+      q: "Is an Endoscopy or Colonoscopy procedure painful?",
       a: "Diagnostic and therapeutic endoscopic procedures (Gastroscopy and Colonoscopy) are typically performed under monitored conscious sedation. This protocol helps keep patients relaxed and comfortable throughout the procedure with minimal discomfort.",
     },
     {
@@ -58,11 +58,11 @@ export default function FaqSection() {
     },
     {
       q: "Can I consult Dr. Randeep Rana for a second medical opinion?",
-      a: "Absolutely. Dr. Rana routinely provides second opinions on complex GI diagnoses, liver biopsy reports, surgical recommendations, and difficult endoscopist cases.",
+      a: "Absolutely. Dr. Rana routinely provides second opinions on complex GI diagnoses, liver biopsy reports, surgical recommendations, and difficult endoscopy cases.",
     },
     {
-      q: "Are emergency endoscopic services available at Max Smart Hospital?",
-      a: "Yes, 24x7 emergency gastroenterology and acute GI bleeding / foreign body removal endoscopist services are available at Max Smart Super Speciality Hospital, Saket.",
+      q: "Are emergency endoscopic services available at Max Smart Super Speciality Hospital?",
+      a: "Yes, 24x7 emergency gastroenterology and acute GI bleeding / foreign body removal endoscopy services are available at Max Smart Super Speciality Hospital, Saket.",
     },
     {
       q: "How can I book an appointment with Dr. Randeep Rana?",
@@ -82,7 +82,7 @@ export default function FaqSection() {
             Frequently Asked <span className="text-[#6CB29D] italic">Questions</span>
           </h2>
           <p className="text-slate-600 text-base sm:text-lg leading-relaxed font-light">
-            Get answers to common queries regarding gastrointestinal health, endoscopist procedures, and OPD consultations.
+            Get answers to common queries regarding gastrointestinal health, endoscopy procedures, and OPD consultations.
           </p>
         </div>
 

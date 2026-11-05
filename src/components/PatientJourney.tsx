@@ -22,7 +22,7 @@ export default function PatientJourney() {
       number: "03",
       icon: Search,
       title: "Accurate Diagnosis",
-      description: "Undergo high-definition endoscopist, FibroScan, or blood markers if needed for precise disease identification.",
+      description: "Undergo high-definition endoscopy, FibroScan, or blood markers if needed for precise disease identification.",
     },
     {
       number: "04",
@@ -111,7 +111,7 @@ export default function PatientJourney() {
               Endoscopic Care & Monitored Recovery
             </h3>
             <p className="text-slate-600 text-xs sm:text-sm font-light leading-relaxed">
-              Diagnostic and therapeutic endoscopist procedures are performed in accredited hospital suites under monitored conscious sedation. Following dedicated observation in the recovery area, day-care patients are discharged once clinically stable.
+              Diagnostic and therapeutic endoscopies are performed in accredited hospital suites under monitored conscious sedation. Following dedicated observation in the recovery area, day-care patients are discharged once clinically stable.
             </p>
             <div className="flex flex-wrap gap-4 pt-2 text-xs font-semibold text-[#002C47]">
               <span className="flex items-center gap-1.5 bg-[#F4F7F9] px-3 py-1.5 rounded-md border border-slate-200">

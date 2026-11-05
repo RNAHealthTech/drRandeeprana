@@ -98,7 +98,7 @@ export default function GalleryPage() {
       title: "Interventional Gastroenterologist — Max Healthcare",
       category: "Clinical Practice",
       image: "/images/dr-randeep-rana-scrubs-front.jpg",
-      description: "Dr. Randeep Rana in Max Healthcare scrubs specializing in EUS, ERCP & Third Space Endoscopist.",
+      description: "Dr. Randeep Rana in Max Healthcare scrubs specializing in EUS, ERCP & Third Space Endoscopy.",
       icon: Stethoscope,
       objectPosition: "object-top",
     },

@@ -35,7 +35,7 @@ export default function WhyChoose() {
     {
       icon: Cpu,
       tag: "Advanced Tech",
-      title: "Modern Endoscopist Infrastructure",
+      title: "Modern Endoscopy Infrastructure",
       description:
         "Utilizing high-definition narrow-band imaging (NBI) endoscopes and CO2 insufflation at Max Smart Saket to enhance visualization and patient comfort.",
       highlight: "HD-NBI & CO₂ Insufflation",
@@ -140,7 +140,7 @@ export default function WhyChoose() {
               <span className="text-[#00843D] italic">Dr. Randeep Rana?</span>
             </h2>
             <p className="text-slate-600 text-sm sm:text-base leading-relaxed font-light">
-              Delivering global-standard gastroenterology, hepatology, and advanced endoscopist care with clinical precision, cutting-edge technology, and genuine human empathy.
+              Delivering global-standard gastroenterology, hepatology, and advanced endoscopy care with clinical precision, cutting-edge technology, and genuine human empathy.
             </p>
           </div>
 
