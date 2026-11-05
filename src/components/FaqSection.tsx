@@ -10,11 +10,11 @@ export default function FaqSection() {
   const faqs = [
     {
       q: "Where does Dr. Randeep Rana practice in New Delhi?",
-      a: "Dr. Randeep Rana is a consultant gastroenterologist practicing at Max Smart Super Speciality Hospital, Saket, New Delhi. He is a former Assistant Professor at GB Pant Institute (GIPMER). You can book an OPD consultation directly through this website or by calling +91 96431 63941.",
+      a: "Dr. Randeep Rana is a consultant gastroenterologist practicing at Max Smart Super Speciality Hospital, Saket, New Delhi. He is a former Assistant Professor at GB Pant Hospital, New Delhi. You can book an OPD consultation directly through this website or by calling +91 96431 63941.",
     },
     {
       q: "What are Dr. Randeep Rana's educational qualifications?",
-      a: "Dr. Randeep Rana holds an MBBS (Gold Medalist), an MD in Internal Medicine (ABVIMS & Dr. RML Hospital New Delhi), a DM in Gastroenterology (AIIMS New Delhi), and a fellowship in Advanced GI Endoscopist (AIIMS New Delhi).",
+      a: "Dr. Randeep Rana holds an MBBS (Gold Medalist), an MD in Internal Medicine (Dr. RML Hospital New Delhi), a DM in Gastroenterology (AIIMS New Delhi), and a fellowship in Advanced GI Endoscopist (AIIMS New Delhi).",
     },
     {
       q: "Is an Endoscopist or Colonoscopy procedure painful?",

@@ -262,7 +262,7 @@ export default function WhyChoose() {
               Max Smart Super Speciality Hospital, Saket, New Delhi
             </h3>
             <p className="text-slate-600 text-xs sm:text-sm font-light leading-relaxed">
-              Former Assistant Professor at Max Smart Super Speciality Hospital and former Associate Consultant at Sir Ganga Ram Hospital . Offering state-of-the-art diagnostic evaluations and advanced therapeutic endoscopic interventions.
+              Consultant Gastroenterologist at Max Smart Super Speciality Hospital. Offering state-of-the-art diagnostic evaluations and advanced therapeutic endoscopic interventions.
             </p>
           </div>
           <a

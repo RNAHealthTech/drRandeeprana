@@ -57,7 +57,7 @@ const jsonLd = {
     },
     {
       "@type": "EducationalOrganization",
-      name: "ABVIMS & Dr Ram Manohar Lohia Hospital, New Delhi",
+      name: "Dr. RML Hospital, New Delhi",
     },
     {
       "@type": "EducationalOrganization",

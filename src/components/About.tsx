@@ -91,7 +91,7 @@ export default function About() {
     },
     {
       degree: "MD (Internal Medicine)",
-      institution: "ABVIMS & Dr Ram Manohar Lohia Hospital, New Delhi",
+      institution: "Dr. RML Hospital, New Delhi",
       year: "2015 – 2018",
       desc: "Comprehensive residency in internal medicine, ICU critical care, and multi-system emergency management.",
     },

@@ -39,7 +39,7 @@ export default function AboutPage() {
     {
       course: "MD (Internal Medicine)",
       duration: "May 2015 to May 2018",
-      institute: "ABVIMS & Dr Ram Manohar Lohia Hospital, New Delhi",
+      institute: "Dr. RML Hospital, New Delhi",
     },
     {
       course: "MBBS",
@@ -82,7 +82,7 @@ export default function AboutPage() {
     {
       position: "Senior Resident (Internal Medicine)",
       duration: "2018",
-      institution: "ABVIMS & Dr Ram Manohar Lohia Hospital, New Delhi",
+      institution: "Dr. RML Hospital, New Delhi",
     },
     {
       position: "Medical Internship",
@@ -173,7 +173,7 @@ export default function AboutPage() {
     <div className="bg-white text-[#1C2936]">
       <PageHeader
         badge="About Dr. Randeep Rana"
-        title="Consultant Gastroenterologist & Advanced Endoscopist"
+        title="Consultant Gastroenterologist , Hepatologist & Advanced Endoscopist"
         subtitle="MBBS (Gold Medalist), MD (Internal Medicine), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopist (AIIMS Delhi) at Max Smart Super Speciality Hospital, Saket, New Delhi."
         breadcrumbs={[{ label: "About" }]}
         bgImage="/images/dr-randeep-rana-scrubs-front.jpg"
