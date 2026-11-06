@@ -16,7 +16,7 @@ export default function ContactPage() {
       <PageHeader
         badge="OPD Consultation & Booking"
         title="Schedule Your OPD Appointment"
-        subtitle="Consultant Gastroenterologist, Hepatologist, and Advanced Endoscopist at Max Smart Saket and former Assistant Professor at GB Pant Hospital, New Delhi."
+        subtitle="Consultant Gastroenterologist, Hepatologist, and Advanced Endoscopist at Max Smart Super Speciality Hospital, Saket, and former Assistant Professor at GB Pant Hospital, New Delhi."
         breadcrumbs={[{ label: "Contact & Booking" }]}
         bgImage="/images/dr-randeep-rana-max-whitecoat.jpg"
       />

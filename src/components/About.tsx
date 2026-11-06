@@ -201,7 +201,7 @@ export default function About() {
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#002C47] tracking-tight">
             Excellence in Gastroenterology &amp; <br className="hidden sm:inline" />
-            <span className="text-[#00843D] italic">Advanced Endoscopist Care</span>
+            <span className="text-[#00843D] italic">Advanced Endoscopic Care</span>
           </h2>
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed font-light">
             Combining academic rigor from AIIMS New Delhi and Dr. RML Hospital with compassionate, patient-centered care at Max Smart Super Speciality Hospital, Saket.

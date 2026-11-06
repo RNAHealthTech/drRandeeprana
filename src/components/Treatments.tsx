@@ -1,7 +1,8 @@
 "use client";
 
-import React from "react";
-import { motion } from "framer-motion";
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 import {
   Stethoscope,
   Search,
@@ -12,9 +13,13 @@ import {
   Clock,
   Heart,
   SquarePen,
+  X,
+  FileText,
+  CheckCircle2,
 } from "lucide-react";
 
 export default function Treatments() {
+  const [pancreatitisModalOpen, setPancreatitisModalOpen] = useState(false);
   const treatments = [
     {
       icon: Activity,
@@ -170,33 +175,214 @@ export default function Treatments() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
               {/* Insight 1: Endoscopic Pancreatitis Review */}
-              <div className="bg-white p-6 rounded-md border border-[#DDE6ED] space-y-3">
-                <span className="text-[11px] font-bold text-[#00843D] uppercase tracking-wider">
-                  Indian Journal of Gastroenterology
-                </span>
-                <h4 className="text-base font-serif font-bold text-[#002C47] leading-snug">
-                  Endoscopic Interventions for Managing Pancreatic Fluid Collections
-                </h4>
-                <p className="text-xs text-slate-600 font-light leading-relaxed">
-                  Dr. Rana&apos;s state-of-the-art review highlights EUS-guided cystogastrostomy as a minimally invasive alternative to traditional surgery for draining pancreatic pseudocysts and walled-off necrosis.
-                </p>
+              <div className="bg-white p-6 rounded-md border border-[#DDE6ED] space-y-4 flex flex-col justify-between hover:border-[#00843D]/50 transition-all shadow-xs">
+                <div className="space-y-3">
+                  <span className="text-[11px] font-bold text-[#00843D] uppercase tracking-wider flex items-center gap-1.5">
+                    <FileText className="w-3.5 h-3.5" />
+                    Indian Journal of Gastroenterology
+                  </span>
+                  <h4 className="text-base font-serif font-bold text-[#002C47] leading-snug">
+                    Endoscopic Interventions for Managing Pancreatic Fluid Collections
+                  </h4>
+                  <p className="text-xs text-slate-600 font-light leading-relaxed">
+                    Dr. Rana&apos;s state-of-the-art review highlights EUS-guided cystogastrostomy as a minimally invasive alternative to traditional surgery for draining pancreatic pseudocysts and walled-off necrosis.
+                  </p>
+                </div>
+                <div className="pt-2">
+                  <Link
+                    href="/blog/understanding-pancreatitis-causes-symptoms-treatment"
+                    className="inline-flex items-center gap-1.5 text-xs font-bold text-[#00843D] hover:text-[#006EB6] transition-colors uppercase tracking-wider"
+                  >
+                    <span>Read Clinical Review</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </Link>
+                </div>
               </div>
 
-              {/* Insight 2: Simvastatin Cirrhosis Trial */}
-              <div className="bg-white p-6 rounded-md border border-[#DDE6ED] space-y-3">
-                <span className="text-[11px] font-bold text-[#00843D] uppercase tracking-wider">
-                  Am J Gastroenterol & JAMA
-                </span>
-                <h4 className="text-base font-serif font-bold text-[#002C47] leading-snug">
-                  Simvastatin Addition Improves Long-Term Survival in Cirrhosis
-                </h4>
-                <p className="text-xs text-slate-600 font-light leading-relaxed">
-                  A landmark randomized controlled trial exploring novel statin and rifaximin therapy to reduce portal hypertension, lower variceal re-bleeding risk, and improve long-term survival in decompensated cirrhosis.
-                </p>
+              {/* Insight 2: When Pancreatitis Needs More Than Medicines */}
+              <div className="bg-white p-6 rounded-md border border-[#DDE6ED] space-y-4 flex flex-col justify-between hover:border-[#00843D]/50 transition-all shadow-xs">
+                <div className="space-y-3">
+                  <span className="text-[11px] font-bold text-[#00843D] uppercase tracking-wider flex items-center gap-1.5">
+                    <FileText className="w-3.5 h-3.5" />
+                    Featured Editorial &amp; Clinical Breakthrough
+                  </span>
+                  <h4 className="text-base font-serif font-bold text-[#002C47] leading-snug">
+                    When Pancreatitis Needs More Than Medicines: How Modern and Advanced Endoscopy Is Changing the Game
+                  </h4>
+                  <p className="text-xs text-slate-600 font-light leading-relaxed">
+                    Acute pancreatitis complications like infected necrosis and fluid collections once required major open surgery. Dr. Rana details how modern EUS-guided drainage and direct endoscopic necrosectomy safely resolve severe disease through natural orifices.
+                  </p>
+                </div>
+                <div className="pt-2 flex flex-wrap items-center gap-3">
+                  <button
+                    onClick={() => setPancreatitisModalOpen(true)}
+                    className="inline-flex items-center gap-1.5 text-xs font-bold text-[#00843D] hover:text-[#006EB6] transition-colors uppercase tracking-wider cursor-pointer"
+                  >
+                    <span>Read Full Article</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </button>
+                  <span className="text-slate-300">|</span>
+                  <Link
+                    href="/blog/when-pancreatitis-needs-more-than-medicines-advanced-endoscopy"
+                    className="text-xs text-slate-500 hover:text-[#0078BF] transition-colors"
+                  >
+                    View in Blog &rarr;
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
+        {/* Full-Text Reading Modal for Pancreatitis Article */}
+        <AnimatePresence>
+          {pancreatitisModalOpen && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="fixed inset-0 z-[9999] bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-3 sm:p-6 overflow-y-auto"
+              onClick={() => setPancreatitisModalOpen(false)}
+            >
+              <motion.div
+                initial={{ opacity: 0, scale: 0.95, y: 20 }}
+                animate={{ opacity: 1, scale: 1, y: 0 }}
+                exit={{ opacity: 0, scale: 0.95, y: 20 }}
+                transition={{ duration: 0.25 }}
+                className="relative w-full max-w-3xl bg-white rounded-2xl shadow-2xl border border-slate-200 overflow-hidden my-auto max-h-[90vh] flex flex-col"
+                onClick={(e) => e.stopPropagation()}
+              >
+                {/* Modal Header */}
+                <div className="sticky top-0 z-10 bg-white border-b border-slate-200 px-6 py-4 flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                    <span className="px-2.5 py-1 rounded-full bg-[#EBF5F2] text-[#00843D] text-[10px] font-bold uppercase tracking-wider">
+                      Featured Clinical Article
+                    </span>
+                    <span className="text-xs text-slate-400 font-light hidden sm:inline">•</span>
+                    <span className="text-xs text-slate-500 font-medium hidden sm:inline">
+                      Indian Journal of Gastroenterology
+                    </span>
+                  </div>
+                  <button
+                    onClick={() => setPancreatitisModalOpen(false)}
+                    className="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center justify-center transition-colors cursor-pointer"
+                    aria-label="Close modal"
+                  >
+                    <X className="w-4 h-4" />
+                  </button>
+                </div>
+
+                {/* Modal Scrollable Body */}
+                <div className="p-6 sm:p-8 overflow-y-auto space-y-6 text-[#1C2936]">
+                  {/* Article Title & Doctor Header */}
+                  <div className="space-y-3 pb-4 border-b border-slate-100">
+                    <h2 className="text-xl sm:text-2xl font-serif font-bold text-[#002C47] leading-tight">
+                      When Pancreatitis Needs More Than Medicines: How Modern and Advanced Endoscopy Is Changing the Game
+                    </h2>
+                    <div className="flex flex-wrap items-center gap-3 text-xs text-slate-600">
+                      <span className="font-semibold text-[#00843D]">Dr. Randeep Rana</span>
+                      <span>•</span>
+                      <span>MD, DM (AIIMS New Delhi)</span>
+                      <span>•</span>
+                      <span>Consultant Gastroenterologist &amp; Advanced Endoscopist</span>
+                    </div>
+                  </div>
+
+                  {/* Section 1: Intro */}
+                  <div className="space-y-3 text-xs sm:text-sm text-slate-700 leading-relaxed font-light">
+                    <p>
+                      Acute pancreatitis can begin with something as simple as severe abdominal pain and vomiting. For many patients, the inflammation settles with medicines, fluids and supportive care. But in some, pancreatitis may take a more complicated course leading to the formation of collections around the pancreas containing fluid, infected material or even dead pancreatic tissue. This is where treatment has changed dramatically over the last decade. From the perspective of an advanced endoscopist, one of the most remarkable developments in gastroenterology has been the ability to treat these complications from inside the gastrointestinal tract often without open surgery.
+                    </p>
+                  </div>
+
+                  {/* Section 2: Evolution of management */}
+                  <div className="space-y-3 pt-2">
+                    <h3 className="text-base sm:text-lg font-serif font-bold text-[#002C47]">
+                      Evolution of management from major surgery to a minimally invasive endoscopic approach
+                    </h3>
+                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-light">
+                      Traditionally, infected pancreatic necrosis often meant major surgery, with considerable physiological stress for an already critically ill patient. Today, the approach is very different. Today, doctors increasingly follow a “minimally invasive” approach.
+                    </p>
+                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-light">
+                      With advances in endoscopic ultrasound (EUS) and therapeutic endoscopy, Instead of opening the abdomen, specialists can often reach the pancreatic collection through the stomach or intestine using an endoscope, a flexible instrument passed through the mouth. EUS allows the endoscopist to see the pancreatic collection, assess its contents and identify blood vessels before creating a controlled opening between the collection and the stomach or intestine. A specially designed lumen-apposing metal stent (LAMS) can then be placed to create a wide drainage pathway. For collections containing substantial amounts of dead tissue, drainage may not be enough. For collections containing a substantial amount of dead tissue, the endoscope can be passed through the opening to remove the necrotic material. This procedure, called direct endoscopic necrosectomy, which can many a times avoid the need for major open surgery. In practical terms, this means that the illness which once required a large open surgical operation can now be manged through natural orifice i.e. mouth by creating a small opening through stomach or duodenum, but, importantly in selected patients and in expert hands.
+                    </p>
+                  </div>
+
+                  {/* Section 3: Timing Matters */}
+                  <div className="space-y-3 pt-2">
+                    <h3 className="text-base sm:text-lg font-serif font-bold text-[#002C47]">
+                      Timing Matters: The Right Procedure at the Right Time
+                    </h3>
+                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-light">
+                      But, despite such an advancement, it is important to learn one of the most important lessons in managing pancreatic collections is that the right procedure at the wrong time can be the wrong procedure. Modern treatment is not simply about intervening earlier. Timing matters. When possible, intervention is generally delayed until the collection develops a mature wall, often around three to four weeks after the onset of pancreatitis. During this period, patients are carefully supported with nutrition, antibiotics when infection is suspected, and close monitoring. This expectant management makes subsequent drainage and removal of necrotic material safer and more effective. But, exceptions can always be there. Patients with suspected infected pancreatic necrosis who deteriorate despite appropriate medical treatment may require drainage earlier. Thus, advanced endoscopy is not simply about having sophisticated equipment. It is about knowing when to intervene, where to intervene and how much intervention is actually required.
+                    </p>
+                  </div>
+
+                  {/* Section 4: One Size Does Not Fit All */}
+                  <div className="space-y-3 pt-2">
+                    <h3 className="text-base sm:text-lg font-serif font-bold text-[#002C47]">
+                      One Size Does Not Fit All: The Step-Up Strategy
+                    </h3>
+                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-light">
+                      At the same time, it is important to know that One size does not fit all. Every pancreatic collection is different. Some are predominantly fluid-filled and can be treated with drainage alone. Others contain extensive solid necrotic material and may require repeated endoscopic necrosectomy sessions. Also, the location of the pancreatic collection matters and guides the management. Collections lying close to the stomach or duodenum are particularly suitable for endoscopic drainage. Collections extending into more distant may require percutaneous drainage or a combination of radiological, endoscopic or minimally invasive surgical approaches. This is why management increasingly follows a step-up strategy—starting with the least invasive effective treatment and escalating only when necessary.
+                    </p>
+                  </div>
+
+                  {/* Section 5: The Evolving Role */}
+                  <div className="space-y-3 pt-2">
+                    <h3 className="text-base sm:text-lg font-serif font-bold text-[#002C47]">
+                      The Evolving Role of the Advanced Endoscopist
+                    </h3>
+                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-light">
+                      The endoscopist is no longer just meant to diagnose illness, while modern therapeutic endoscopy has fundamentally changed the role of the gastroenterologist. An advanced endoscopist today may use EUS not only to diagnose disease but also to perform complex interventions which may include draining pancreatic collections, accessing difficult anatomical spaces and removing infected necrotic tissue and drastically change patient outcomes.
+                    </p>
+                  </div>
+
+                  {/* Section 6: Technology & Outcomes */}
+                  <div className="space-y-3 pt-2">
+                    <h3 className="text-base sm:text-lg font-serif font-bold text-[#002C47]">
+                      Technology and Multidisciplinary Collaboration
+                    </h3>
+                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-light">
+                      But technology alone does not determine the outcome. These procedures require careful patient selection, detailed imaging assessment, expertise in EUS and therapeutic endoscopy, and close coordination with gastroenterologists, radiologists, surgeons, intensivists and other specialists. The real advance is not that surgery has disappeared. It is that we now have more ways to treat complex pancreatic disease and can choose the least invasive approach that is appropriate for an individual patient.
+                    </p>
+                  </div>
+
+                  {/* Section 7: Message for Patients */}
+                  <div className="p-5 rounded-xl bg-[#EBF5F2] border border-[#6CB29D]/30 space-y-3">
+                    <h3 className="text-base font-serif font-bold text-[#002C47] flex items-center gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-[#00843D] shrink-0" />
+                      <span>The Message for Patients and Families</span>
+                    </h3>
+                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-light">
+                      The message for patients and families is very simple and important. Severe or persistent abdominal pain, fever, vomiting or deterioration following pancreatitis should not be ignored. Pancreatic collections are complex conditions, and their management is best undertaken in centres with expertise in advanced endoscopy, interventional radiology and pancreatic surgery. For patients and families, this represents a major shift: when pancreatitis becomes complicated, the question is no longer simply “Does the patient need surgery?” It is now increasingly, “If this problem can be treated safely through advanced endoscopy?”
+                    </p>
+                    <p className="text-xs sm:text-sm font-semibold text-[#002C47] pt-1">
+                      And many a times, the answer nowadays lies not through an incision, but through an endoscope and a skillful endoscopist.
+                    </p>
+                  </div>
+
+                  {/* Footer CTAs */}
+                  <div className="pt-4 flex flex-wrap items-center justify-between gap-4 border-t border-slate-200">
+                    <a
+                      href="/contact"
+                      className="inline-flex items-center gap-2 bg-[#00843D] hover:bg-[#006EB6] text-white text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded-md transition-colors"
+                    >
+                      <span>Book Consultation With Dr. Rana</span>
+                      <ArrowRight className="w-4 h-4" />
+                    </a>
+                    <Link
+                      href="/blog/when-pancreatitis-needs-more-than-medicines-advanced-endoscopy"
+                      className="text-xs font-semibold text-[#0078BF] hover:underline"
+                    >
+                      Open In Dedicated Blog Page &rarr;
+                    </Link>
+                  </div>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
     </section>
   );

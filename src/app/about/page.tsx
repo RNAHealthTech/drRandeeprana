@@ -21,7 +21,7 @@ import {
 export const metadata: Metadata = {
   title: "About Dr. Randeep Rana — Consultant Gastroenterologist Saket",
   description:
-    "Comprehensive Profile & Curriculum Vitae of Dr. Randeep Rana — MBBS (Gold Medalist), MD (Internal Medicine), DM & Advanced GI Endoscopist (AIIMS Delhi). Consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket.",
+    "Comprehensive Profile & Curriculum Vitae of Dr. Randeep Rana — MBBS (Gold Medalist), MD (Internal Medicine), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi). Consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket, New Delhi.",
 };
 
 export default function AboutPage() {

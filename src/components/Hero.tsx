@@ -20,7 +20,7 @@ export default function Hero() {
       title: "Our Provider Profile",
       icon: UserCheck,
       badge: "AIIMS Alumnus",
-      description: "Dr. Randeep Rana — MBBS, MD (Internal Medicine), DM (Gastroenterology) & Advanced Endoscopist (AIIMS New Delhi).",
+      description: "Dr. Randeep Rana — MBBS, MD (Internal Medicine), DM (Gastroenterology, AIIMS Delhi) & Fellowship in Advanced GI Endoscopy (AIIMS Delhi).",
       linkText: "View Qualifications",
       href: "/about",
       iconBoxStyle:
@@ -102,7 +102,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-slate-600 text-xs sm:text-base lg:text-lg font-normal leading-relaxed max-w-2xl mx-auto lg:mx-0"
             >
-              Consultant Gastroenterologist, Hepatologist, and Advanced Endoscopist at Max Smart Saket and former Assistant Professor at GB Pant Hospital, New Delhi.
+              Consultant Gastroenterologist, Hepatologist, and Advanced Endoscopist at Max Smart Super Speciality Hospital, Saket, and former Assistant Professor at GB Pant Hospital, New Delhi.
             </motion.p>
 
             {/* Hero Responsive Action Buttons */}
