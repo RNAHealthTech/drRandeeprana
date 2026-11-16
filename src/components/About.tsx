@@ -31,7 +31,7 @@ export default function About() {
     {
       image: "/images/dr-randeep-rana-whitecoat.jpg",
       tag: "Clinical Excellence",
-      title: "Consultant Gastroenterologist & Liver OPD",
+      title: "Consultant Gastroenterologist, Hepatologist, and Advanced Endoscopist",
       desc: "Patient-centered evaluations at Max Smart Super Speciality Hospital, Saket, New Delhi.",
     },
     {
@@ -330,7 +330,7 @@ export default function About() {
             <div className="space-y-3 pt-2">
               <h3 className="text-xl font-serif font-bold text-[#002C47] flex items-center gap-2.5">
                 <Stethoscope className="w-5 h-5 text-[#00843D]" />
-                <span>Consultant-Led GI &amp; Hepatology Leadership</span>
+                <span>Hepatology &amp; GI Leadership</span>
               </h3>
               <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed">
                 <strong className="text-[#002C47] font-semibold">Dr. Randeep Rana</strong> is a consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket. He completed his MBBS (Gold Medalist), MD in Internal Medicine, and DM in Gastroenterology from AIIMS Delhi, followed by a Fellowship in Advanced GI Endoscopy from AIIMS Delhi. He is a former Assistant Professor at GB Pant Hospital, New Delhi.
