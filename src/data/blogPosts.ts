@@ -1,0 +1,222 @@
+export interface BlogPost {
+  slug: string;
+  title: string;
+  category: string;
+  date: string;
+  readTime: string;
+  excerpt: string;
+  contentSections: {
+    heading: string;
+    text: string;
+  }[];
+  keyTakeaways: string[];
+}
+
+export const blogPosts: BlogPost[] = [
+  {
+    slug: "when-pancreatitis-needs-more-than-medicines-advanced-endoscopy",
+    title: "When Pancreatitis Needs More Than Medicines: How Modern and Advanced Endoscopy Is Changing the Game",
+    category: "Pancreatology & Advanced Endoscopy",
+    date: "November 2026",
+    readTime: "7 min read",
+    excerpt:
+      "From major open surgery to minimally invasive EUS-guided cystogastrostomy and direct endoscopic necrosectomy—how natural-orifice endotherapy is revolutionizing the management of severe pancreatitis complications.",
+    contentSections: [
+      {
+        heading: "When Pancreatitis Needs More Than Medicines",
+        text: "Acute pancreatitis can begin with something as simple as severe abdominal pain and vomiting. For many patients, the inflammation settles with medicines, fluids and supportive care. But in some, pancreatitis may take a more complicated course leading to the formation of collections around the pancreas containing fluid, infected material or even dead pancreatic tissue. This is where treatment has changed dramatically over the last decade. From the perspective of an advanced endoscopist, one of the most remarkable developments in gastroenterology has been the ability to treat these complications from inside the gastrointestinal tract often without open surgery.",
+      },
+      {
+        heading: "Evolution of Management from Major Surgery to a Minimally Invasive Endoscopic Approach",
+        text: "Traditionally, infected pancreatic necrosis often meant major surgery, with considerable physiological stress for an already critically ill patient. Today, the approach is very different. Today, doctors increasingly follow a “minimally invasive” approach.\n\nWith advances in endoscopic ultrasound (EUS) and therapeutic endoscopy, instead of opening the abdomen, specialists can often reach the pancreatic collection through the stomach or intestine using an endoscope, a flexible instrument passed through the mouth. EUS allows the endoscopist to see the pancreatic collection, assess its contents and identify blood vessels before creating a controlled opening between the collection and the stomach or intestine. A specially designed lumen-apposing metal stent (LAMS) can then be placed to create a wide drainage pathway.\n\nFor collections containing substantial amounts of dead tissue, drainage may not be enough. The endoscope can be passed through the opening to remove the necrotic material. This procedure, called direct endoscopic necrosectomy, which can many a times avoid the need for major open surgery. In practical terms, this means that the illness which once required a large open surgical operation can now be managed through natural orifice i.e. mouth by creating a small opening through stomach or duodenum, but, importantly in selected patients and in expert hands.",
+      },
+      {
+        heading: "Timing Matters — The Right Procedure at the Right Time",
+        text: "But, despite such an advancement, it is important to learn one of the most important lessons in managing pancreatic collections is that the right procedure at the wrong time can be the wrong procedure. Modern treatment is not simply about intervening earlier. Timing matters.\n\nWhen possible, intervention is generally delayed until the collection develops a mature wall, often around three to four weeks after the onset of pancreatitis. During this period, patients are carefully supported with nutrition, antibiotics when infection is suspected, and close monitoring. This expectant management makes subsequent drainage and removal of necrotic material safer and more effective. But, exceptions can always be there. Patients with suspected infected pancreatic necrosis who deteriorate despite appropriate medical treatment may require drainage earlier. Thus, advanced endoscopy is not simply about having sophisticated equipment. It is about knowing when to intervene, where to intervene and how much intervention is actually required.",
+      },
+      {
+        heading: "One Size Does Not Fit All — The Step-Up Strategy",
+        text: "At the same time, it is important to know that one size does not fit all. Every pancreatic collection is different. Some are predominantly fluid-filled and can be treated with drainage alone. Others contain extensive solid necrotic material and may require repeated endoscopic necrosectomy sessions. Also, the location of the pancreatic collection matters and guides the management. Collections lying close to the stomach or duodenum are particularly suitable for endoscopic drainage. Collections extending into more distant may require percutaneous drainage or a combination of radiological, endoscopic or minimally invasive surgical approaches. This is why management increasingly follows a step-up strategy—starting with the least invasive effective treatment and escalating only when necessary.",
+      },
+      {
+        heading: "The Evolving Role of the Advanced Endoscopist",
+        text: "The endoscopist is no longer just meant to diagnose illness, while modern therapeutic endoscopy has fundamentally changed the role of the gastroenterologist. An advanced endoscopist today may use EUS not only to diagnose disease but also to perform complex interventions which may include draining pancreatic collections, accessing difficult anatomical spaces and removing infected necrotic tissue and drastically change patient outcomes.",
+      },
+      {
+        heading: "Technology Alone Does Not Determine the Outcome",
+        text: "But technology alone does not determine the outcome. These procedures require careful patient selection, detailed imaging assessment, expertise in EUS and therapeutic endoscopy, and close coordination with gastroenterologists, radiologists, surgeons, intensivists and other specialists. The real advance is not that surgery has disappeared. It is that we now have more ways to treat complex pancreatic disease and can choose the least invasive approach that is appropriate for an individual patient.",
+      },
+      {
+        heading: "The Message for Patients and Families",
+        text: "The message for patients and families is very simple and important. Severe or persistent abdominal pain, fever, vomiting or deterioration following pancreatitis should not be ignored. Pancreatic collections are complex conditions, and their management is best undertaken in centres with expertise in advanced endoscopy, interventional radiology and pancreatic surgery.\n\nFor patients and families, this represents a major shift: when pancreatitis becomes complicated, the question is no longer simply “Does the patient need surgery?” It is now increasingly, “If this problem can be treated safely through advanced endoscopy?”\n\nAnd many a times, the answer nowadays lies not through an incision, but through an endoscope and a skillful endoscopist.",
+      },
+    ],
+    keyTakeaways: [
+      "Minimally invasive EUS-guided drainage and necrosectomy through the mouth/stomach often eliminate the need for open surgery.",
+      "Timing is critical: waiting 3 to 4 weeks allows collections to form a mature wall, making intervention significantly safer.",
+      "Step-up strategy starts with the least invasive treatment before escalating to direct necrosectomy if solid debris remains.",
+      "Complicated pancreatitis requires evaluation in high-volume centres equipped with advanced endoscopy, interventional radiology, and surgical expertise.",
+    ],
+  },
+  {
+    slug: "understanding-pancreatitis-causes-symptoms-treatment",
+    title: "Understanding Pancreatitis — Causes, Symptoms, and Advanced Treatment Options",
+    category: "Pancreatology & Endoscopy",
+    date: "August 2026",
+    readTime: "6 min read",
+    excerpt:
+      "Recognize acute vs. chronic pancreatitis symptoms, virus-related superinfections, and how EUS-guided cystogastrostomy offers a minimally invasive alternative to surgery for pancreatic fluid collections.",
+    contentSections: [
+      {
+        heading: "What is Pancreatitis?",
+        text: "The pancreas is a vital organ situated behind the stomach, playing a crucial role in digestion and blood sugar regulation. When the pancreas becomes inflamed, the condition is known as pancreatitis. This can be a sudden, severe attack known as acute pancreatitis, or a long-lasting condition known as chronic pancreatitis. Understanding the causes, recognizing the symptoms, and knowing the treatment options can significantly impact patient outcomes.",
+      },
+      {
+        heading: "Common Causes & Viral Triggers",
+        text: "The most common causes of pancreatitis include gallstones that block the pancreatic duct and heavy alcohol consumption. Other contributing factors include high triglyceride levels, certain medications, autoimmune conditions, genetic predispositions, and abdominal trauma. In some cases, viral infections can also trigger acute pancreatitis, as documented in recent prospective research on virus-related acute pancreatitis and SARS-CoV-2 superinfection.",
+      },
+      {
+        heading: "Recognizing Key Symptoms & Complications",
+        text: "Patients with pancreatitis often experience severe upper abdominal pain that may radiate to the back, typically worsening after eating. Nausea, vomiting, fever, and a rapid pulse are also common symptoms. In severe cases, complications such as pancreatic fluid collections (pseudocysts), walled-off necrosis, and multi-organ failure can develop, requiring immediate medical intervention.",
+      },
+      {
+        heading: "Advanced Endoscopic Interventions",
+        text: "For complications arising from severe acute pancreatitis, such as pancreatic fluid collections, advanced therapeutic endoscopy is now the preferred treatment. Procedures like Endoscopic Ultrasound (EUS)-guided cystogastrostomy allow physicians to drain these collections from inside the stomach without open surgery. Dr. Rana's state-of-the-art review on this topic, published in the Indian Journal of Gastroenterology, highlights how these minimally invasive techniques reduce recovery time and improve patient outcomes.",
+      },
+      {
+        heading: "Chronic Pancreatitis Pain Management",
+        text: "For chronic pancreatitis, management focuses on pain relief, nutritional support, and managing complications like diabetes and exocrine pancreatic insufficiency (EPI). Dr. Rana's research on adjunctive incremental pregabalin therapy, published in the Journal of Clinical Gastroenterology, has demonstrated improved pain relief for chronic pancreatitis patients, helping them achieve a far better quality of life.",
+      },
+    ],
+    keyTakeaways: [
+      "EUS-guided cystogastrostomy replaces open surgery for pancreatic pseudocysts & necrosis.",
+      "Adjunctive pregabalin therapy offers evidence-based neuropathic pain relief in chronic pancreatitis.",
+      "Early hospitalization and pancreatic rest prevent severe multi-organ failure in acute attacks.",
+    ],
+  },
+  {
+    slug: "managing-fatty-liver-disease-and-cirrhosis",
+    title: "The Silent Threat — Managing Fatty Liver Disease and Cirrhosis",
+    category: "Hepatology & Liver Care",
+    date: "August 2026",
+    readTime: "7 min read",
+    excerpt:
+      "Explore non-alcoholic fatty liver disease (NAFLD), cirrhosis complications like variceal bleeding, and breakthrough clinical trials on simvastatin and intravenous iron therapy.",
+    contentSections: [
+      {
+        heading: "The Progression of Non-Alcoholic Fatty Liver Disease",
+        text: "Non-Alcoholic Fatty Liver Disease (NAFLD) occurs when excess fat builds up in liver cells of people who drink little to no alcohol. It is closely linked to obesity, type 2 diabetes, metabolic syndrome, and high cholesterol. While often asymptomatic in early stages, NAFLD can progress to Non-Alcoholic Steatohepatitis (NASH), leading to inflammation, liver scarring, and eventually cirrhosis. Even non-overweight individuals can develop 'lean NAFLD,' requiring specialized clinical management.",
+      },
+      {
+        heading: "Cirrhosis, Portal Hypertension & Variceal Bleeding",
+        text: "Cirrhosis is the late stage of scarring (fibrosis) of the liver. A major complication is portal hypertension — increased pressure in the portal vein carrying blood to the liver. This leads to varices (enlarged veins) in the esophagus or stomach, which are prone to sudden, life-threatening bleeding. Other complications include ascites (abdominal fluid) and hepatic encephalopathy.",
+      },
+      {
+        heading: "Breakthrough Statin & Combination Therapies",
+        text: "Managing cirrhosis requires an evidence-based approach. Dr. Rana's clinical research explored the combination of simvastatin and rifaximin for decompensated cirrhosis patients, published in JAMA, aimed at reducing systemic inflammation and portal hypertension. Furthermore, his landmark trial in The American Journal of Gastroenterology demonstrated that adding simvastatin to standard care after variceal bleeding significantly improves long-term survival.",
+      },
+      {
+        heading: "Optimizing Recovery After Variceal Bleeding",
+        text: "For patients recovering from variceal bleeding, managing iron deficiency anemia is critical. Dr. Rana's trial comparing intravenous ferric carboxymaltose versus oral iron therapy for iron deficiency anemia after variceal bleed in cirrhosis patients (published in AJG) provides crucial guidance for accelerating patient recovery.",
+      },
+    ],
+    keyTakeaways: [
+      "Simvastatin addition to standard care improves long-term survival after variceal bleeding.",
+      "Lean NAFLD can occur without obesity and requires early FibroScan screening.",
+      "IV Ferric Carboxymaltose outperforms oral iron for post-bleeding anemia in cirrhosis.",
+    ],
+  },
+  {
+    slug: "demystifying-advanced-endoscopy-eus-ercp",
+    title: "Demystifying Advanced Endoscopy — What to Expect During EUS and ERCP",
+    category: "Advanced Endoscopy",
+    date: "July 2026",
+    readTime: "5 min read",
+    excerpt:
+      "A complete guide to Endoscopic Ultrasound (EUS) and ERCP: how monitored sedation works, key diagnostic uses, and minimally invasive options.",
+    contentSections: [
+      {
+        heading: "Beyond Standard Endoscopy",
+        text: "Endoscopy has evolved far beyond simple visual inspection. Advanced procedures like Endoscopic Ultrasound (EUS) and Endoscopic Retrograde Cholangiopancreatography (ERCP) are critical tools enabling precise diagnosis and minimally invasive treatment of complex GI, liver, and pancreatic conditions.",
+      },
+      {
+        heading: "What to Expect During Endoscopic Ultrasound (EUS)",
+        text: "EUS combines endoscopy with high-frequency ultrasound to produce detailed images of the digestive tract and surrounding organs. It is used to evaluate pancreatic cysts, tumors, and bile duct stones, perform fine-needle aspiration (FNA) tissue sampling, and drain fluid collections under monitored conscious sedation.",
+      },
+      {
+        heading: "Understanding ERCP Interventions",
+        text: "ERCP is a specialized technique used to examine and treat bile duct and pancreatic duct disorders. It is primarily used to extract gallstones blocking the bile duct, place plastic or metal stents to relieve jaundice, and sample strictures.",
+      },
+      {
+        heading: "Safety, Sedation & AIIMS Training",
+        text: "Both EUS and ERCP are performed with high safety standards under monitored sedation. They typically result in shorter hospital stays, reduced discomfort, and faster recovery compared to open surgery.",
+      },
+    ],
+    keyTakeaways: [
+      "EUS combines ultrasound and endoscopy for accurate pancreatic tissue sampling (FNA).",
+      "ERCP extracts bile duct stones and places stents without open surgical incisions.",
+      "All advanced procedures are performed under monitored conscious sedation to support patient comfort.",
+    ],
+  },
+  {
+    slug: "living-with-chronic-pancreatitis-pain-and-nutrition",
+    title: "Living with Chronic Pancreatitis — A Patient's Guide to Pain Management and Nutrition",
+    category: "Pancreatology",
+    date: "July 2026",
+    readTime: "6 min read",
+    excerpt:
+      "Manage chronic abdominal pain with pregabalin therapy, prevent enzyme malabsorption with PERT, and control Type 3c diabetes.",
+    contentSections: [
+      {
+        heading: "Understanding Chronic Pancreatitis",
+        text: "Chronic pancreatitis is a progressive inflammatory disease leading to permanent structural damage and loss of endocrine and exocrine pancreatic function. Patients face chronic pain, malnutrition, and diabetes, requiring coordinated care.",
+      },
+      {
+        heading: "Innovative Pain Management Protocols",
+        text: "The hallmark symptom is severe abdominal pain. Traditional pain management includes lifestyle changes, enzyme replacement, and analgesics. Dr. Rana's double-blind RCT published in the Journal of Clinical Gastroenterology demonstrated that adjunctive incremental pregabalin therapy provides significant neuropathic pain relief for chronic pancreatitis patients.",
+      },
+      {
+        heading: "Nutritional Management & Enzyme Replacement (PERT)",
+        text: "Exocrine pancreatic insufficiency (EPI) occurs when the pancreas cannot produce enough digestive enzymes, leading to fat malabsorption, steatorrhea, and vitamin deficiencies. Pancreatic Enzyme Replacement Therapy (PERT) taken with meals is essential alongside fat-soluble vitamin supplementation.",
+      },
+      {
+        heading: "Managing Pancreatogenic (Type 3c) Diabetes",
+        text: "Loss of insulin-producing beta cells puts patients at risk for Type 3c diabetes, requiring careful glycemic monitoring and specialized insulin regimens.",
+      },
+    ],
+    keyTakeaways: [
+      "Incremental pregabalin therapy provides effective relief for neuropathic pancreatitis pain.",
+      "Pancreatic Enzyme Replacement Therapy (PERT) is crucial for nutrient absorption.",
+      "Type 3c diabetes requires tailored management due to concurrent loss of glucagon and insulin.",
+    ],
+  },
+  {
+    slug: "when-to-see-a-gastroenterologist-warning-signs",
+    title: "When to See a Gastroenterologist — Warning Signs You Should Not Ignore",
+    category: "General GI & Prevention",
+    date: "June 2026",
+    readTime: "5 min read",
+    excerpt:
+      "Learn the critical red-flag digestive symptoms — blood in stool, jaundice, unexplained weight loss, and dysphagia — that require timely consultation.",
+    contentSections: [
+      {
+        heading: "Why Early Evaluation Matters",
+        text: "While many minor digestive issues resolve with simple lifestyle tweaks, certain warning signs warrant an immediate visit to a gastroenterologist. Ignoring red-flag symptoms can lead to disease progression or delayed diagnosis of serious conditions.",
+      },
+      {
+        heading: "Red-Flag Symptoms You Should Never Ignore",
+        text: "Consult a specialist if you experience: persistent abdominal pain, blood in stool (bright red or dark tarry stool), unexplained weight loss, chronic heartburn or difficulty swallowing (dysphagia), persistent bowel habit changes lasting over 2 weeks, or jaundice (yellow skin/eyes).",
+      },
+      {
+        heading: "Colorectal Cancer Screening & Prevention",
+        text: "Colorectal cancer is highly preventable when precancerous polyps are removed early during colonoscopy. Dr. Rana recommends routine colonoscopy screening for adults starting at age 45, or earlier if family history of GI cancer or IBD is present.",
+      },
+    ],
+    keyTakeaways: [
+      "Blood in stool and unexplained weight loss require urgent endoscopic investigation.",
+      "Colonoscopy screening starting at age 45 prevents colorectal cancer through polyp removal.",
+      "Early specialist consultation prevents irreversible liver scarring and chronic complications.",
+    ],
+  },
+];
+

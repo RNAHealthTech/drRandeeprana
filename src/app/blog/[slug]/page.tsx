@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageHeader from "@/components/PageHeader";
 import CtaBanner from "@/components/CtaBanner";
-import { blogPosts } from "../page";
+import { blogPosts } from "@/data/blogPosts";
 import { CheckCircle2, ArrowLeft, BookOpen, SquarePen } from "lucide-react";
 
 interface Props {
