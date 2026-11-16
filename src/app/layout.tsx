@@ -5,6 +5,7 @@ import FloatingWidgets from "@/components/FloatingWidgets";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://drrandeepanagastro.com"),
   title: "Dr. Randeep Rana | Consultant Gastroenterologist Saket New Delhi",
   description:
     "Dr. Randeep Rana — MBBS, MD (Internal Medicine), DM (Gastroenterology, AIIMS Delhi), Fellowship in Advanced GI Endoscopy (AIIMS Delhi). Consultant gastroenterologist at Max Smart Super Speciality Hospital, Saket, New Delhi.",
