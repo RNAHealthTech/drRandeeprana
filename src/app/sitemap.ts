@@ -6,7 +6,7 @@ import path from "path";
 import { blogPosts } from "@/data/blogPosts";
 import { CATEGORY_PAGES_MAP } from "@/data/clinicalCategoryPagesData";
 
-const BASE_URL = "https://drrandeepanagastro.com";
+const BASE_URL = "https://drrandeepranagastro.com";
 
 const appDir = path.join(process.cwd(), "src", "app");
 
