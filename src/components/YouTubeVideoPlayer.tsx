@@ -8,6 +8,7 @@ interface YouTubeVideoPlayerProps {
   title: string;
   channelName?: string;
   className?: string;
+  isShort?: boolean;
 }
 
 export default function YouTubeVideoPlayer({
@@ -15,6 +16,7 @@ export default function YouTubeVideoPlayer({
   title,
   channelName = "The Lallantop • Sehat",
   className = "",
+  isShort = false,
 }: YouTubeVideoPlayerProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [thumbSrc, setThumbSrc] = useState(
@@ -52,7 +54,7 @@ export default function YouTubeVideoPlayer({
               {channelName}
             </span>
             <span className="px-2 py-0.5 rounded bg-black/70 text-white/90 text-[11px] font-medium backdrop-blur-sm">
-              YouTube
+              {isShort ? "YouTube Shorts" : "YouTube"}
             </span>
           </div>
 

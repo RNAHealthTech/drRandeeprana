@@ -278,44 +278,90 @@ export default function MediaPage() {
       <section className="py-20 bg-[#F4F7F9]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
           <div className="text-center max-w-3xl mx-auto space-y-4">
-            <span className="px-4 py-1.5 rounded-md bg-white border border-[#DDE6ED] text-[#002C47] text-xs font-bold uppercase tracking-widest">
-              National Media Feature • The Lallantop
+            <span className="px-4 py-1.5 rounded-md bg-white border border-[#DDE6ED] text-[#00843D] text-xs font-bold uppercase tracking-widest">
+              Digital Health Series &amp; Clinical Videos
             </span>
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#002C47]">
-              Featured Health Interview & Expert Discussion
+              Featured Health Interviews &amp; Clinical Discussions
             </h2>
             <p className="text-slate-600 text-sm sm:text-base font-light leading-relaxed">
-              Dr. Randeep Rana featured on India&apos;s leading digital news and health series <strong>The Lallantop (&quot;Sehat&quot;)</strong>, explaining non-alcoholic fatty liver disease (NAFLD / MASLD), risk factors in non-drinkers, FibroScan assessment, and lifestyle protocols.
+              Dr. Randeep Rana shares evidence-based patient education, warning symptoms, and clinical insights through official hospital features and premier health programs.
             </p>
           </div>
 
-          {/* Featured Video Player Showcase */}
-          <div className="max-w-4xl mx-auto bg-white rounded-md border border-[#DDE6ED] p-6 sm:p-8 shadow-sm space-y-6">
-            <YouTubeVideoPlayer
-              videoId="7Swj422FPj0"
-              title="Alcohol को हाथ भी नहीं लगाते, फिर Fatty Liver क्यों हुआ? डॉक्टर से वजह सुन लीजिए — Dr. Randeep Rana"
-              channelName="The Lallantop • Sehat"
-            />
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-4 border-t border-slate-100">
-              <div className="space-y-1">
-                <span className="inline-block text-[11px] font-bold uppercase tracking-wider text-[#00843D] bg-[#EBF5F2] px-2.5 py-0.5 rounded">
-                  The Lallantop • Sehat Health Series
-                </span>
-                <h3 className="font-serif font-bold text-[#002C47] text-base sm:text-lg">
-                  Alcohol को हाथ भी नहीं लगाते, फिर Fatty Liver क्यों हुआ? डॉक्टर से वजह सुन लीजिए
-                </h3>
-                <p className="text-xs text-slate-500 font-light">
-                  Expert Talk by Dr. Randeep Rana (Consultant Gastroenterologist & Liver Specialist, Max Smart Super Speciality Hospital)
-                </p>
+          {/* Two-Column Featured Video Player Grid */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            {/* Video 1: Max Healthcare Acute Pancreatitis Shorts */}
+            <div className="bg-white rounded-md border border-[#DDE6ED] p-6 sm:p-7 shadow-sm space-y-5 flex flex-col justify-between hover:border-[#00843D]/50 transition-all">
+              <div className="space-y-4">
+                <YouTubeVideoPlayer
+                  videoId="EWxhIaRUsAM"
+                  title="Acute Pancreatitis: Could Your Abdominal Pain Be a Warning Sign? — Dr. Randeep Rana"
+                  channelName="Max Healthcare • Official"
+                  isShort={true}
+                />
+                <div className="space-y-2 pt-2">
+                  <div className="flex items-center gap-2">
+                    <span className="inline-block text-[11px] font-bold uppercase tracking-wider text-[#00843D] bg-[#EBF5F2] px-2.5 py-0.5 rounded">
+                      Max Healthcare • Clinical Shorts
+                    </span>
+                    <span className="text-[11px] text-slate-500 font-medium">Pancreatology</span>
+                  </div>
+                  <h3 className="font-serif font-bold text-[#002C47] text-base sm:text-lg leading-snug">
+                    Acute Pancreatitis: Could Your Abdominal Pain Be a Warning Sign?
+                  </h3>
+                  <p className="text-xs text-slate-600 font-light leading-relaxed">
+                    Dr. Randeep Rana explains how severe upper abdominal pain radiating to the back can indicate acute pancreatitis, and why timely clinical evaluation prevents complications.
+                  </p>
+                </div>
               </div>
-              <a
-                href="https://www.youtube.com/watch?v=7Swj422FPj0"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-md bg-[#002C47] hover:bg-[#6CB29D] text-white transition-colors text-xs font-bold shrink-0 self-start sm:self-auto"
-              >
-                Watch on YouTube <ExternalLink className="w-3.5 h-3.5" />
-              </a>
+              <div className="pt-4 border-t border-slate-100 flex items-center justify-between gap-3">
+                <span className="text-xs font-semibold text-[#002C47]">Max Smart Super Speciality Hospital</span>
+                <a
+                  href="https://www.youtube.com/shorts/EWxhIaRUsAM"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-md bg-[#002C47] hover:bg-[#00843D] text-white transition-colors text-xs font-bold shrink-0"
+                >
+                  Watch on YouTube <ExternalLink className="w-3.5 h-3.5" />
+                </a>
+              </div>
+            </div>
+
+            {/* Video 2: The Lallantop Sehat Feature */}
+            <div className="bg-white rounded-md border border-[#DDE6ED] p-6 sm:p-7 shadow-sm space-y-5 flex flex-col justify-between hover:border-[#00843D]/50 transition-all">
+              <div className="space-y-4">
+                <YouTubeVideoPlayer
+                  videoId="7Swj422FPj0"
+                  title="Alcohol को हाथ भी नहीं लगाते, फिर Fatty Liver क्यों हुआ? डॉक्टर से वजह सुन लीजिए — Dr. Randeep Rana"
+                  channelName="The Lallantop • Sehat"
+                />
+                <div className="space-y-2 pt-2">
+                  <div className="flex items-center gap-2">
+                    <span className="inline-block text-[11px] font-bold uppercase tracking-wider text-[#00843D] bg-[#EBF5F2] px-2.5 py-0.5 rounded">
+                      The Lallantop • Sehat Series
+                    </span>
+                    <span className="text-[11px] text-slate-500 font-medium">Hepatology</span>
+                  </div>
+                  <h3 className="font-serif font-bold text-[#002C47] text-base sm:text-lg leading-snug">
+                    Alcohol को हाथ भी नहीं लगाते, फिर Fatty Liver क्यों हुआ?
+                  </h3>
+                  <p className="text-xs text-slate-600 font-light leading-relaxed">
+                    National health interview with Dr. Randeep Rana on non-alcoholic fatty liver disease (NAFLD/MASLD), risk factors in non-drinkers, and FibroScan screening.
+                  </p>
+                </div>
+              </div>
+              <div className="pt-4 border-t border-slate-100 flex items-center justify-between gap-3">
+                <span className="text-xs font-semibold text-[#002C47]">AIIMS &amp; Dr. RML Alumnus</span>
+                <a
+                  href="https://www.youtube.com/watch?v=7Swj422FPj0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-md bg-[#002C47] hover:bg-[#00843D] text-white transition-colors text-xs font-bold shrink-0"
+                >
+                  Watch on YouTube <ExternalLink className="w-3.5 h-3.5" />
+                </a>
+              </div>
             </div>
           </div>
 

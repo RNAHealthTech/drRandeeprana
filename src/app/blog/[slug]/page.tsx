@@ -5,7 +5,8 @@ import { notFound } from "next/navigation";
 import PageHeader from "@/components/PageHeader";
 import CtaBanner from "@/components/CtaBanner";
 import { blogPosts } from "@/data/blogPosts";
-import { CheckCircle2, ArrowLeft, BookOpen, SquarePen } from "lucide-react";
+import { CheckCircle2, ArrowLeft, BookOpen, SquarePen, ExternalLink, Play } from "lucide-react";
+import YouTubeVideoPlayer from "@/components/YouTubeVideoPlayer";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -92,6 +93,83 @@ export default async function BlogPostDetailPage({ params }: Props) {
               ))
             ) : (
               <p>{post.excerpt}</p>
+            )}
+
+            {/* Contextual Video Feature */}
+            {(post.slug === "when-pancreatitis-needs-more-than-medicines-advanced-endoscopy" ||
+              post.slug === "understanding-pancreatitis-causes-symptoms-treatment") && (
+              <div className="pt-2">
+                <div className="p-6 sm:p-7 rounded-md bg-[#F8FAFC] border border-[#DDE6ED] space-y-4">
+                  <div className="flex items-center justify-between flex-wrap gap-2">
+                    <span className="text-[11px] font-bold uppercase tracking-wider text-[#00843D] bg-[#EBF5F2] px-2.5 py-0.5 rounded flex items-center gap-1.5">
+                      <Play className="w-3 h-3 fill-current" /> Official Clinical Video • Max Healthcare
+                    </span>
+                    <a
+                      href="https://www.youtube.com/shorts/EWxhIaRUsAM"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs font-semibold text-[#0078BF] hover:underline inline-flex items-center gap-1"
+                    >
+                      Watch on YouTube Shorts <ExternalLink className="w-3.5 h-3.5" />
+                    </a>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+                    <div className="md:col-span-7 space-y-2">
+                      <h3 className="font-serif font-bold text-[#002C47] text-base sm:text-lg">
+                        Acute Pancreatitis: Could Your Abdominal Pain Be a Warning Sign?
+                      </h3>
+                      <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed">
+                        In this clinical feature by Max Healthcare, Dr. Randeep Rana highlights key warning signs of pancreatitis and explains when sudden abdominal pain radiating to the back requires immediate evaluation.
+                      </p>
+                    </div>
+                    <div className="md:col-span-5">
+                      <YouTubeVideoPlayer
+                        videoId="EWxhIaRUsAM"
+                        title="Acute Pancreatitis: Could Your Abdominal Pain Be a Warning Sign? — Dr. Randeep Rana"
+                        channelName="Max Healthcare"
+                        isShort={true}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {post.slug === "managing-fatty-liver-disease-and-cirrhosis" && (
+              <div className="pt-2">
+                <div className="p-6 sm:p-7 rounded-md bg-[#F8FAFC] border border-[#DDE6ED] space-y-4">
+                  <div className="flex items-center justify-between flex-wrap gap-2">
+                    <span className="text-[11px] font-bold uppercase tracking-wider text-[#00843D] bg-[#EBF5F2] px-2.5 py-0.5 rounded flex items-center gap-1.5">
+                      <Play className="w-3 h-3 fill-current" /> Educational Video • The Lallantop
+                    </span>
+                    <a
+                      href="https://www.youtube.com/watch?v=7Swj422FPj0"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs font-semibold text-[#0078BF] hover:underline inline-flex items-center gap-1"
+                    >
+                      Watch on YouTube <ExternalLink className="w-3.5 h-3.5" />
+                    </a>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+                    <div className="md:col-span-7 space-y-2">
+                      <h3 className="font-serif font-bold text-[#002C47] text-base sm:text-lg">
+                        Alcohol को हाथ भी नहीं लगाते, फिर Fatty Liver क्यों हुआ?
+                      </h3>
+                      <p className="text-xs sm:text-sm text-slate-600 font-light leading-relaxed">
+                        Watch Dr. Randeep Rana discuss non-alcoholic fatty liver disease (NAFLD / MASLD), risk factors in non-drinkers, FibroScan assessment, and lifestyle protocols.
+                      </p>
+                    </div>
+                    <div className="md:col-span-5">
+                      <YouTubeVideoPlayer
+                        videoId="7Swj422FPj0"
+                        title="Alcohol को हाथ भी नहीं लगाते, फिर Fatty Liver क्यों हुआ? — Dr. Randeep Rana"
+                        channelName="The Lallantop • Sehat"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             )}
 
             {/* Key Takeaways Box */}

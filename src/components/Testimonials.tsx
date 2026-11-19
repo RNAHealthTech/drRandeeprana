@@ -1,11 +1,44 @@
 "use client";
 
-import React from "react";
-import { motion } from "framer-motion";
-import { Play, CheckCircle2, ExternalLink, ShieldCheck, HeartPulse, Search, AlertCircle } from "lucide-react";
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Play, CheckCircle2, ExternalLink, ShieldCheck, HeartPulse, Search, AlertCircle, Sparkles } from "lucide-react";
 import YouTubeVideoPlayer from "@/components/YouTubeVideoPlayer";
 
 export default function Testimonials() {
+  const [activeVideo, setActiveVideo] = useState(0);
+
+  const featuredVideos = [
+    {
+      id: "EWxhIaRUsAM",
+      tag: "Max Healthcare • Clinical Health Shorts",
+      title: "Acute Pancreatitis: Could Your Abdominal Pain Be a Warning Sign?",
+      description:
+        "Watch Dr. Randeep Rana explain how severe upper abdominal pain that radiates to the back can be an early indicator of acute pancreatitis, requiring prompt clinical evaluation rather than treating it like simple acidity.",
+      channel: "Max Healthcare • Official",
+      url: "https://www.youtube.com/shorts/EWxhIaRUsAM",
+      tabLabel: "Acute Pancreatitis Warning Signs",
+      doctorRole: "Dr. Randeep Rana, DM (AIIMS)",
+      isShort: true,
+      buttonLabel: "Watch on YouTube Shorts",
+    },
+    {
+      id: "7Swj422FPj0",
+      tag: "Educational Media Feature • The Lallantop",
+      title: "“Alcohol को हाथ भी नहीं लगाते, फिर Fatty Liver क्यों हुआ?”",
+      description:
+        "Watch Dr. Randeep Rana on digital health feature The Lallantop (“Sehat”) discuss non-alcoholic fatty liver disease (NAFLD / MASLD), early symptoms, FibroScan assessment, and evidence-based lifestyle management.",
+      channel: "The Lallantop • Sehat",
+      url: "https://www.youtube.com/watch?v=7Swj422FPj0",
+      tabLabel: "Fatty Liver in Non-Drinkers",
+      doctorRole: "Dr. Randeep Rana, DM (AIIMS)",
+      isShort: false,
+      buttonLabel: "Watch Educational Interview on YouTube",
+    },
+  ];
+
+  const currentVideo = featuredVideos[activeVideo];
+
   const educationalGuides = [
     {
       title: "GERD & Acid Reflux Guidance",
@@ -58,49 +91,70 @@ export default function Testimonials() {
           </p>
         </div>
 
+        {/* Video Selector Tabs */}
+        <div className="flex flex-wrap items-center justify-center gap-3 mb-6">
+          {featuredVideos.map((vid, idx) => (
+            <button
+              key={vid.id}
+              type="button"
+              onClick={() => setActiveVideo(idx)}
+              className={`px-4 py-2 rounded-full text-xs font-bold transition-all flex items-center gap-2 cursor-pointer shadow-2xs ${
+                activeVideo === idx
+                  ? "bg-[#002C47] text-white shadow-xs"
+                  : "bg-white text-slate-700 border border-slate-200 hover:border-[#00843D] hover:text-[#00843D]"
+              }`}
+            >
+              <Play className={`w-3.5 h-3.5 ${activeVideo === idx ? "text-[#6CB29D] fill-[#6CB29D]" : "text-slate-400"}`} />
+              <span>{vid.tabLabel}</span>
+            </button>
+          ))}
+        </div>
+
         {/* Video Feature Banner */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          key={currentVideo.id}
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4 }}
           className="mb-16 bg-[#EBF5F2] border border-[#DDE6ED] rounded-md p-6 sm:p-10 text-[#1C2936] grid grid-cols-1 lg:grid-cols-12 gap-8 items-center"
         >
           <div className="lg:col-span-6 space-y-4">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-white border border-slate-200 text-xs font-bold uppercase text-[#00843D]">
-              <Play className="w-3.5 h-3.5 fill-current" /> Educational Media Feature • The Lallantop
+              <Play className="w-3.5 h-3.5 fill-current" /> {currentVideo.tag}
             </div>
             <h3 className="text-2xl sm:text-3xl font-serif font-bold text-[#002C47] leading-snug">
-              &ldquo;Alcohol को हाथ भी नहीं लगाते, फिर Fatty Liver क्यों हुआ?&rdquo;
+              {currentVideo.title}
             </h3>
             <p className="text-slate-600 text-sm font-light leading-relaxed">
-              Watch <strong>Dr. Randeep Rana</strong> on digital health feature <em>The Lallantop (&quot;Sehat&quot;)</em> discuss non-alcoholic fatty liver disease (NAFLD / MASLD), early symptoms, FibroScan assessment, and evidence-based lifestyle management.
+              {currentVideo.description}
             </p>
             <div className="flex flex-wrap items-center gap-4 text-xs font-semibold pt-1 text-slate-600">
               <span className="flex items-center gap-1">
-                <CheckCircle2 className="w-4 h-4 text-[#6CB29D]" /> Dr. Randeep Rana, DM (AIIMS)
+                <CheckCircle2 className="w-4 h-4 text-[#6CB29D]" /> {currentVideo.doctorRole}
               </span>
               <span>•</span>
               <span className="flex items-center gap-1 text-[#00843D]">
-                DMC Reg. No. 82691
+                Max Smart Super Speciality Hospital, Saket
               </span>
             </div>
             <div className="pt-2">
               <a
-                href="https://www.youtube.com/watch?v=7Swj422FPj0"
+                href={currentVideo.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 text-xs font-bold text-[#00843D] hover:text-[#002C47] transition-colors"
               >
-                Watch Educational Interview on YouTube <ExternalLink className="w-3.5 h-3.5" />
+                {currentVideo.buttonLabel} <ExternalLink className="w-3.5 h-3.5" />
               </a>
             </div>
           </div>
 
           <div className="lg:col-span-6">
             <YouTubeVideoPlayer
-              videoId="7Swj422FPj0"
-              title="Alcohol को हाथ भी नहीं लगाते, फिर Fatty Liver क्यों हुआ? डॉक्टर से वजह सुन लीजिए — Dr. Randeep Rana"
-              channelName="The Lallantop • Sehat"
+              videoId={currentVideo.id}
+              title={currentVideo.title}
+              channelName={currentVideo.channel}
+              isShort={currentVideo.isShort}
             />
           </div>
         </motion.div>
